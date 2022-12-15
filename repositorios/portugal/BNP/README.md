@@ -1,6 +1,12 @@
-# Biblioteca Nacional Digital de Portugal no *OpenDataBNPortugal.pt*
+# Biblioteca Nacional Digital de Portugal
 
-## Dados baixados em 2022-12-12 no formato CSV
+Link: [https://bndigital.bnportugal.gov.pt/](https://bndigital.bnportugal.gov.pt/)
+
+Link para coleção de periódicos: [https://bndigital.bnportugal.gov.pt/project/periodicos/](https://bndigital.bnportugal.gov.pt/project/periodicos/)
+
+## *OpenDataBNPortugal.pt*
+
+Dados baixados em 2022-12-12 no formato CSV
 
 - [Conjunto total de registos bibliográficos das coleções digitalizadas da BNP](bnd.csv)
 - [Conjunto de registos bibliográficos das obras digitalizadas em domínio público ](bndlivre.csv)

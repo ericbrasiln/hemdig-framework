@@ -2,11 +2,11 @@
 
 Neste diretório estão os arquivos referentes ao mapeamento de repositórios e interfaces gráficas de jornais históricos digitalizados que serão utilizados no projeto.
 
-## Brasil
+## [Brasil](brasil/)
 
 - [Hemeroteca Digital Brasileira](http://memoria.bn.br/hdb/) da Biblioteca Nacional.
 
-## Portugal
+## [Portugal](portuga/)
 
 - [Biblioteca Nacional Digital](https://bndigital.bnportugal.gov.pt/project/periodicos/)
    - [OpenData BNPortugal](https://opendata.bnportugal.gov.pt/)
