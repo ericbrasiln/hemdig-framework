@@ -91,7 +91,7 @@ Segundo as autoras, esses critérios:
 - Limite por título de periódico
 - Limite por local de publicação
 - Limite por temática (metadados)
-- Lilmte por segmentos / zonas do periódico
+- Limite por segmentos / zonas do periódico
 - Limite por categoria de artigo
 - LImite por extensão do artigo
 - Limite por titular do arquivo / biblioteca
@@ -158,16 +158,16 @@ Segundo as autoras, esses critérios:
 - Por pessoa
 - Por organização
 - Por lugar mencionado no texto
-- por período de tempo
+- Por período de tempo
 - Por tópico
 - Por tag manual
-- por local de publicação
-- por editor
-- por extensão do artigo
-- pelo nível de segmentação
-- por idioma
-- por licença / acessibilidade
-- pela data de publicação online
+- Por local de publicação
+- Por editor
+- Por extensão do artigo
+- Pelo nível de segmentação
+- Por idioma
+- Por licença / acessibilidade
+- Pela data de publicação online
 
 
 ## 4. Generosidade ou Como eu descubro
@@ -176,7 +176,7 @@ Segundo as autoras, esses critérios:
 
 ### Propriedades
 
-#### Opções de busca
+#### Opções de pesquisa
 
 - Query autocomplete
 - Sugestão de query
