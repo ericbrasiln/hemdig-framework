@@ -9,7 +9,7 @@ Segue lista de lições já publicadas no Programming Historian que referenciam 
 2. [Introdução e instalação do Python](https://programminghistorian.org/pt/licoes/introducao-instalacao-python), William J. Turkel e Adam Crymble.
 3. [Instalação de Módulos Python com pip](https://programminghistorian.org/pt/licoes/instalacao-modulos-python-pip), Fred Gibbs.
 4. [Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks), Quinn Dombrowski, Tassie Gniady e David Kloster.
-   - **PROPOR TRADUÇÃO**
+   - **TRADUÇÃO EM ANDAMENTO** Ver [aqui](https://github.com/programminghistorian/ph-submissions/issues/431).
 5. [Introduction to the Windows Command Line with PowerShell](https://programminghistorian.org/en/lessons/intro-to-powershell), Ted Dawson.
   - **PROPOR TRADUÇÃO**
 
@@ -26,5 +26,6 @@ Segue lista de lições já publicadas no Programming Historian que referenciam 
 3. [Cleaning OCR’d text with Regular Expressions](https://programminghistorian.org/en/lessons/cleaning-ocrd-text-with-regular-expressions), Laura Turner O'Hara.
 4. [Understanding Regular Expressions](https://programminghistorian.org/en/lessons/understanding-regular-expressions), Doug Knox.
 5. [OCR and Machine Translation](https://programminghistorian.org/en/lessons/OCR-and-Machine-Translation), Andrew Akhlaghi.
+   - **TRADUÇÃO EM ANDAMENTO** Ver [aqui](https://github.com/programminghistorian/ph-submissions/issues/371).
 6. [OCR with Google Vision API and Tesseract](https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract), Isabelle Gribomont.
 
