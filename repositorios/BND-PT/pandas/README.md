@@ -1,3 +1,3 @@
 # Análise dos dados com pandas
 
-Conjunto de jupyter notebooks.
+[Jupyter notebook](analise_bnp.ipynb) analisando os dados do BND-PT com pandas.
