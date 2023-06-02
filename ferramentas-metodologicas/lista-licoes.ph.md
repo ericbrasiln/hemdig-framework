@@ -11,7 +11,7 @@ Segue lista de lições já publicadas no Programming Historian que referenciam 
 4. [Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks), Quinn Dombrowski, Tassie Gniady e David Kloster.
    - **TRADUÇÃO EM ANDAMENTO** Ver [aqui](https://github.com/programminghistorian/ph-submissions/issues/431).
 5. [Introduction to the Windows Command Line with PowerShell](https://programminghistorian.org/en/lessons/intro-to-powershell), Ted Dawson.
-  - **PROPOR TRADUÇÃO**
+   - **PROPOR TRADUÇÃO**
 
 ## Gestão de Dados
 
