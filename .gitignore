@@ -1,6 +1,9 @@
 # ignore vscode settings
 .vscode/
 
+# ignore report files from 'ferramentas-metodologias/'
+ferramentas-metodologias/reports/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
