@@ -2,7 +2,7 @@
 .vscode/
 
 # ignore report files from 'ferramentas-metodologias/'
-ferramentas-metodologias/reports/
+ferramentas-metodologicas/relatorios/reports/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
