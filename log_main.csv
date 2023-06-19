@@ -1,0 +1,108 @@
+9b27a7a,Eric Brasil,2023-06-05,"Merge pull request #23 from ericbrasiln/22-fill-forms","Preenchimento dos formulários e análise dos respositórios"
+6456f25,Eric Brasil,2023-06-05,"Preenchimento do Formulário","Finalização para as três bibliotecas
+"
+50151b3,Eric Brasil,2023-06-05,"Finalização da limpeza dos dados","Criação de csv com os dados limpos
+"
+d6a3656,Eric Brasil,2023-06-04,"Limpeza da coluna datas e local","Lista de datas e início da limpeza dos dados sobre local.
+Reorganizaçãod as colunas do dataframe.
+Novo arquivo csv gerado.
+"
+4f0cd17,Eric Brasil,2023-06-04,"Raspador atualizado","COleta de título, data, links de pdfs, fichas históricas e quantidade de pdfs.
+"
+9b0cc82,Eric Brasil,2023-06-02,"Criação do scraper para Hemeroteca de Lisboa","Lista de todos os links para a ordem alfabética
+"
+d8a4726,Eric Brasil,2023-06-02,"Preenchimento do formulário geral","Dados sobre HDB e BND-PT
+"
+323aadc,Eric Brasil,2023-06-02,"Atualização da análise dos dados da HDB","Correção dos gráficos
+"
+b4a77a6,Eric Brasil,2023-06-01,"Atualização dos dados da HDB",""
+8a99849,Eric Brasil,2023-06-01,"Escopo da HDB","Análise geral do escopo da HDB.
+Criação de ipynb para analisar os dados.
+Documentação em md com tabelas e gráfico
+"
+b66efea,Eric Brasil,2023-05-31,"Merge pull request #21 from ericbrasiln/16-dados-bnp","Análise dos dados da BND-PT"
+a010960,Eric Brasil,2023-05-31,"Atualização do README.md",""
+4d18a63,Eric Brasil,2023-05-31,"Comparação dos gráficos","Inclusão da terceira parte da análise onde os gráficos gerados para o
+datase geral e domínio público foram comparados.
+"
+acc444e,Eric Brasil,2023-05-31,"Conclusão da análise geral com pandas","Análise do dataset referente aos dados em dom+inio público.
+"
+d659042,Eric Brasil,2023-05-31,"Atualização do README.md","Título e breve descrição.
+"
+b6440f2,Eric Brasil,2023-05-30,"Atualização do md",""
+9d09715,Eric Brasil,2023-05-30,"Avanço na análise dos periódicos",""
+ab9063e,Eric Brasil,2023-05-30,"Atualização da análise - dados gerais",""
+a90f814,Eric Brasil,2023-05-29,"Inclusão de link para Stackoverflow","Resposta sobre erro de enconding no pandas.
+"
+3ee7a4a,Eric Brasil,2023-05-29,"Criação do jupyter notebook","Leitura inicial dos dados
+"
+a4aa733,Eric Brasil,2023-05-27,"Atualizaçãoo do README.md da pesquisa",""
+8f6712c,Eric Brasil,2023-05-27,"Criação do diretório para dados da análise","Criação do repositório `pandas` e ficheiros README.md e ficheiro .py
+para limpar os dados brutos da BND-PT (ainda em branco).
+"
+3f53de6,Eric Brasil,2023-05-27,"Merge pull request #19 from ericbrasiln/forms-ava","Formulários de avaliação das interfaces"
+8bc3d77,Eric Brasil,2023-05-27,"Conclusão dos formulários","Formulários com critérios de avaliação das interfaces foi finalizado
+(versão em csv).
+Criação de versão csv do formulário de informações gerais das
+interfaces.
+Correções mínimas no documento explicativo dos critérios de avaliação.
+"
+b633f23,Eric Brasil,2023-05-26,"Exclusão de csv de teste.",""
+6bc638c,Eric Brasil,2023-05-26,"Docs para avaliação de UI e repositórios","Inclusão de ficheiro com tabela de dados gerais sobre as
+interfaces (repositorios/forms_ava/interfaces_geral.md).
+
+Inclusão de ficheiro detalhando os critério de avaliação empregados
+(repositorios/forms_ava/criterios_ava.md).
+
+Inclusão de modelo de formulário geral em ods e csv (primeira versão
+ainda em desenvolvimento).
+"
+384fedc,Eric Brasil,2023-05-26,"Merge pull request #17 from ericbrasiln/map-rep","Dados sobre repositórios e GUI"
+0672a50,Eric Brasil,2023-05-26,"Dados sobre repositórios e GUI","- Inclusão de README.md com as informações gerais e links para cada
+  repositório.
+- Inclusão dos ficheiros com dados brutos da BND-PT em formato csv.
+- Inclusão dos ficheiros com dados brutos da BND-BR em formato csv
+  referente aos periódicos incorporados à HDB nos anos de 2019 e 2020.
+"
+c7dfa4f,Eric Brasil,2023-05-26,"Merge pull request #15 from ericbrasiln/update23","Atualização geral da pesquisa para 2023"
+f2f15d3,Eric Brasil,2023-05-26,"Mudança de lugar dos ficheiros do impresso","Inseri os ficheiros referentes ao projeto impresso no novo diretório
+<repositorios>.
+"
+e9bd214,Eric Brasil,2023-05-26,"Atualização do cronograma","Nova estrutura da pesquisa para 2023 e atualização do README.md
+"
+77c3815,Eric Brasil,2023-05-26,"Criação do diretório referente aos repositórios","Inclusão de diretórios para os formulários de avaliação e diretório
+específico para o projeto impresso.
+Inclusão de diretórios para os formulários de avaliação e diretório
+específico para o projeto impresso.
+"
+f9e1e64,Eric Brasil,2022-11-04,"Merge pull request #10 from ericbrasiln/lev-bib-01","Levantamento bibliográfico"
+43a7c23,Eric Brasil,2022-11-04,"Atualização do README.md com dados sobre levantamento bibliográfico",""
+7dbadc1,Eric Brasil,2022-11-04,"Criação da pasta com levantamento no SCOPUS","- inclusão dos arquivos .ris e .csv
+- buscas para layout recognition; historical newspapers OCR e interfaces
+"
+4b4399c,Eric Brasil,2022-10-27,"Criação de pasta e readme para bibliografia",""
+65446ff,Eric Brasil,2022-10-27,"Atualização do cronograma: links e resumo",""
+70a5544,Eric Brasil,2022-10-27,"Merge pull request #8 from ericbrasiln/cronograma-01","Atualização do cronograma"
+983aa9b,Eric Brasil,2022-10-27,"Atualização do cronograma",""
+9828e29,Eric Brasil,2022-10-21,"Atualização do readme",""
+a0e7d7a,Eric Brasil,2022-10-21,"Inclusão da licença com extensão correta",""
+674138e,Eric Brasil,2022-10-21,"Correção do nome do arquivo License",""
+290c098,Eric Brasil,2022-10-21,"Merge pull request #7 from ericbrasiln/issue-template","Criação de  issue e PR templates"
+5f02e87,Eric Brasil,2022-10-21,"Criação do modelo para PR",""
+6afda03,Eric Brasil,2022-10-21,"Update issue templates",""
+61e1966,Eric Brasil,2022-10-21,"Merge pull request #6 from ericbrasiln/org-repo","Organização do repositório"
+fa21493,Eric Brasil,2022-10-21,"Criação de pasta relativa ao projeto impresso","- inclusão do NDA original e versão preenchia e assinada
+"
+e73a995,Eric Brasil,2022-10-21,"Pasta com documentos do projeto aprovado","- Projeto final assinado (2022-03)
+- Carta de motivação enviada para a FCSH assinada (2022-03)
+"
+e0de8f5,Eric Brasil,2022-10-21,"Inclusão do cronograma","Versão preliminar do cronograma.
+"
+c403312,Eric Brasil,2022-10-21,"Criação do arquivo com a licença","- Creative Commons Atribuição 4.0 Internacional
+"
+5fa7439,Eric Brasil,2022-10-21,"Atualizaçãdo do README.md","- Título
+- período
+- resumo
+- licença
+"
+2fb45af,Eric Brasil,2022-10-21,"Initial commit",""
