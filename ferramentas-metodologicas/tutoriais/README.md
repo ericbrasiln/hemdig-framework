@@ -6,6 +6,8 @@ As lições listadas abaixo são fundamentais para um bom aproveitamento do fram
 
 Portanto, o primeiro passo para o uso do FHemDig é a leitura e realização dessas lições.
 
+Os resumos foram retirados das próprias lições do site do PH.
+
 ## Conhecimento computacional básico
 
 1. [Introduction to the Bash Command Line](https://programminghistorian.org/en/lessons/intro-to-bash), Ian Milligan e James Baker.
@@ -30,3 +32,6 @@ Portanto, o primeiro passo para o uso do FHemDig é a leitura e realização des
    - **Resumo da lição**: "Nesta lição é apresentado o Markdown, uma sintaxe baseada em texto simples para formatação de documentos. É explicado porque ele é usado, como formatar ficheiros Markdown e como pré-visualizar documentos formatados em Markdown na web."
 3. [Autoria Sustentável em Texto Simples usando Pandoc e Markdown](https://programminghistorian.org/pt/licoes/autoria-sustentavel-texto-simples-pandoc-markdown), Dennis Tenen e Grant Wythoff.
    - **Resumo da lição**: "Neste tutorial, você aprenderá primeiro o básico do Markdown - uma sintaxe de marcação fácil de ler e escrever para texto simples - bem como Pandoc, uma ferramenta de linha de comando que converte texto simples em vários tipos de ficheiros formatados: PDF, docx, HTML, LaTeX, apresentação de slides e muito mais."
+4. [Git como ferramenta metodológica em projetos de História (parte 1)](), Eric Braissl.
+   - **Resumo da lição**: "A lição busca caracterizar sistemas de controle de versões, tendo o Git como exemplo, e analisar as possibilidades de seu uso para a pesquisa em História. Para tanto, pretende-se apresentar detalhadamente as principais funções e recursos do Git para o controle de versões localmente, desde a configuração inicial do programa até sua aplicação em um exemplo prático."
+   - **Lição original submetida para o PH em português**. Em breve, link para a lição original.
