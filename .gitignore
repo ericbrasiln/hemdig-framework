@@ -4,6 +4,9 @@
 # ignore report files from 'ferramentas-metodologias/'
 ferramentas-metodologicas/relatorios/reports/
 
+# ignore raw data file from hdb
+repositorios/BND-BR/data/exp_per_marcxml.xml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
