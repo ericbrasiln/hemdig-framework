@@ -15110,8 +15110,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="An%C3%A1lise-dos-dados-de-peri%C3%B3dicos-da-Hemerot%C3%A9ca-Digital-Brasileira-da-Biblioteca-Nacional">An&#225;lise dos dados de peri&#243;dicos da Hemerot&#233;ca Digital Brasileira da Biblioteca Nacional<a class="anchor-link" href="#An%C3%A1lise-dos-dados-de-peri%C3%B3dicos-da-Hemerot%C3%A9ca-Digital-Brasileira-da-Biblioteca-Nacional">&#182;</a></h1><p>Os dados foram disponibilizados para pesquisa pela equipe da BNDigital em formato xml. O arquivo foi exportado da base do sistema de periódicos digitalizados e se encontra no padrão MARCXML (MAchine-Readable Cataloging XML). O arquivo pode ser acessado <a href="/repositorios/BND-BR/data/exp_per_marcxml.xml">aqui</a>.</p>
+<h1 id="An%C3%A1lise-dos-dados-de-peri%C3%B3dicos-da-Hemerot%C3%A9ca-Digital-Brasileira-da-Biblioteca-Nacional">An&#225;lise dos dados de peri&#243;dicos da Hemerot&#233;ca Digital Brasileira da Biblioteca Nacional<a class="anchor-link" href="#An%C3%A1lise-dos-dados-de-peri%C3%B3dicos-da-Hemerot%C3%A9ca-Digital-Brasileira-da-Biblioteca-Nacional">&#182;</a></h1><p>Os dados foram disponibilizados para pesquisa pela equipe da BNDigital em formato xml. O arquivo foi exportado da base do sistema de periódicos digitalizados e se encontra no padrão MARCXML (MAchine-Readable Cataloging XML). O arquivo pode ser acessado <a href="/repositorios/BND-BR/data/exp_per_marcxml.xml">aqui</a>.[^1]</p>
 <p>Agradeço a Vinicius Pontes Martins do Setor de Gestão de Programas e Inovação (SGPI) da BNDigital pela disponibilização dos dados.</p>
+<p>[^1]: Atualmente o arquivo encontra-se ainda fora do repositório online, pois ainda aguardo confirmação de autorização para publicação.</p>
 
 </div>
 </div>
@@ -15175,7 +15176,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -15191,6 +15192,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>7685
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15271,13 +15293,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./data/complete_data.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">&#39;,&#39;</span><span class="p">,</span> <span class="n">quotechar</span><span class="o">=</span><span class="s1">&#39;&quot;&#39;</span><span class="p">,</span> <span class="n">quoting</span><span class="o">=</span><span class="n">csv</span><span class="o">.</span><span class="n">QUOTE_ALL</span><span class="p">)</span>
-    <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;subtitle&#39;</span><span class="p">,</span> <span class="s1">&#39;place&#39;</span><span class="p">,</span> <span class="s1">&#39;period&#39;</span><span class="p">,</span> <span class="s1">&#39;editor&#39;</span><span class="p">,</span> <span class="s1">&#39;periodicity&#39;</span><span class="p">,</span> <span class="s1">&#39;language&#39;</span><span class="p">])</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;subtitle&#39;</span><span class="p">,</span> <span class="s1">&#39;place&#39;</span><span class="p">,</span> <span class="s1">&#39;period&#39;</span><span class="p">,</span> <span class="s1">&#39;publisher&#39;</span><span class="p">,</span> <span class="s1">&#39;periodicity&#39;</span><span class="p">,</span> <span class="s1">&#39;language&#39;</span><span class="p">])</span>
     <span class="k">for</span> <span class="n">record</span> <span class="ow">in</span> <span class="n">root</span><span class="p">:</span>
         <span class="n">title</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;245&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
         <span class="n">subtitle</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;245&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
         <span class="n">place</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;260&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
         <span class="n">period</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;260&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">)</span>
-        <span class="n">editor</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;260&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
+        <span class="n">publisher</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;260&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
         <span class="n">periodicity</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;310&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
         <span class="n">language</span> <span class="o">=</span> <span class="n">find_value</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;546&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">title</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
@@ -15288,13 +15310,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
             <span class="n">place</span> <span class="o">=</span> <span class="n">place</span><span class="o">.</span><span class="n">text</span>
         <span class="k">if</span> <span class="n">period</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">period</span> <span class="o">=</span> <span class="n">period</span><span class="o">.</span><span class="n">text</span>
-        <span class="k">if</span> <span class="n">editor</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">editor</span> <span class="o">=</span> <span class="n">editor</span><span class="o">.</span><span class="n">text</span>
+        <span class="k">if</span> <span class="n">publisher</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">publisher</span> <span class="o">=</span> <span class="n">publisher</span><span class="o">.</span><span class="n">text</span>
         <span class="k">if</span> <span class="n">periodicity</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">periodicity</span> <span class="o">=</span> <span class="n">periodicity</span><span class="o">.</span><span class="n">text</span>
         <span class="k">if</span> <span class="n">language</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">language</span> <span class="o">=</span> <span class="n">language</span><span class="o">.</span><span class="n">text</span>
-        <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="n">title</span><span class="p">,</span> <span class="n">subtitle</span><span class="p">,</span> <span class="n">place</span><span class="p">,</span> <span class="n">period</span><span class="p">,</span> <span class="n">editor</span><span class="p">,</span> <span class="n">periodicity</span><span class="p">,</span> <span class="n">language</span><span class="p">])</span>
+        <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">([</span><span class="n">title</span><span class="p">,</span> <span class="n">subtitle</span><span class="p">,</span> <span class="n">place</span><span class="p">,</span> <span class="n">period</span><span class="p">,</span> <span class="n">publisher</span><span class="p">,</span> <span class="n">periodicity</span><span class="p">,</span> <span class="n">language</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -15425,7 +15447,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>subtitle</th>
       <th>place</th>
       <th>period</th>
-      <th>editor</th>
+      <th>publisher</th>
       <th>periodicity</th>
       <th>language</th>
     </tr>
@@ -15535,7 +15557,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;title&#39;, &#39;subtitle&#39;, &#39;place&#39;, &#39;period&#39;, &#39;editor&#39;, &#39;periodicity&#39;, &#39;language&#39;]</pre>
+<pre>[&#39;title&#39;,
+ &#39;subtitle&#39;,
+ &#39;place&#39;,
+ &#39;period&#39;,
+ &#39;publisher&#39;,
+ &#39;periodicity&#39;,
+ &#39;language&#39;]</pre>
 </div>
 
 </div>
@@ -15579,7 +15607,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 subtitle       3666
 place          7608
 period         7265
-editor         5675
+publisher      5675
 periodicity    5901
 language       6614
 dtype: int64</pre>
@@ -15794,7 +15822,7 @@ dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar dataframe com a contagem de idiomas</span>
-<span class="n">df_lang</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;language&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s1">&#39;Idioma&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">)</span>
+<span class="n">df_lang</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;language&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s1">&#39;Idioma&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
 <span class="n">df_lang</span>
 </pre></div>
 
@@ -15835,7 +15863,7 @@ dtype: int64</pre>
     <tr style="text-align: right;">
       <th></th>
       <th>Idioma</th>
-      <th>quantidade</th>
+      <th>Quantidade</th>
     </tr>
   </thead>
   <tbody>
@@ -15962,6 +15990,31 @@ Name: language, dtype: float64</pre>
 
 </div>
 
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar função para gerar gráfico de barras</span>
+<span class="k">def</span> <span class="nf">bar_chart</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">range_y</span><span class="p">):</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="n">title</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">color</span><span class="p">)</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">range_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="n">range_x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">range_x</span><span class="p">[</span><span class="mi">1</span><span class="p">]])</span>
+    <span class="k">if</span> <span class="n">range_y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="n">range_y</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">range_y</span><span class="p">[</span><span class="mi">1</span><span class="p">]])</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">fig</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15983,8 +16036,7 @@ Name: language, dtype: float64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar gráfico de barras com os dados de idiomas dos periódicos</span>
-<span class="n">fig1</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_lang</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Idioma&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;Idioma&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Idiomas dos periódicos&#39;</span><span class="p">)</span>
-<span class="n">fig1</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">fig1</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_lang</span><span class="p">,</span> <span class="s1">&#39;Idioma&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Idiomas dos periódicos&#39;</span><span class="p">,</span> <span class="s1">&#39;Idioma&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 <span class="n">fig1</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig1</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig1.png&#39;</span><span class="p">)</span>
@@ -16494,7 +16546,7 @@ Name: language, dtype: float64</pre>
 </div>
 </div>
 </div>
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -16504,8 +16556,22 @@ Name: language, dtype: float64</pre>
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># excluir registros menor que 1000</span>
 <span class="n">df_bdate</span> <span class="o">=</span> <span class="n">df_bdate</span><span class="p">[</span><span class="n">df_bdate</span><span class="p">[</span><span class="s1">&#39;Ano&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">999</span><span class="p">]</span>
+</pre></div>
 
-<span class="c1"># Criar scatter plot com os dados de datas de publicação com as datas de publicação no eixo Y</span>
+     </div>
+</div>
+</div>
+</div>
+
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Criar scatter plot com os dados de datas de publicação com as datas de publicação no eixo Y</span>
 <span class="n">fig2</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">df_bdate</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Ano&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Datas de início de publicação&#39;</span><span class="p">)</span>
 <span class="c1"># adcionar mais anos no eixo x</span>
 <span class="n">fig2</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">1500</span><span class="p">,</span> <span class="mi">2023</span><span class="p">])</span>
@@ -17194,13 +17260,9 @@ Name: language, dtype: float64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar um gráfico de barras com os dados de década de início de publicação</span>
-<span class="n">fig5</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_bdecade</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Década&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Décadas de início de publicação (com mais de 1 publicação)&#39;</span><span class="p">)</span>
+<span class="n">fig5</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_bdecade</span><span class="p">,</span> <span class="s1">&#39;Década&#39;</span><span class="p">,</span> <span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Décadas de início de publicação (com mais de 1 publicação)&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="p">[</span><span class="mi">1800</span><span class="p">,</span> <span class="mi">2023</span><span class="p">],</span> <span class="n">range_y</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1400</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig5</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
-<span class="c1"># limitar décadas no eixo x</span>
-<span class="n">fig5</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">1800</span><span class="p">,</span> <span class="mi">2023</span><span class="p">])</span>
-<span class="c1"># limitar eixo y entre 0 e 200</span>
-<span class="n">fig5</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1400</span><span class="p">])</span>
 <span class="n">fig5</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig5</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig5.png&#39;</span><span class="p">)</span>
@@ -17517,13 +17579,9 @@ Name: language, dtype: float64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar um gráfico de barras com os dados de década de término de publicação</span>
-<span class="n">fig6</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_edecade</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Década&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Décadas de término de publicação (com mais de 1 publicação)&#39;</span><span class="p">)</span>
+<span class="n">fig6</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_edecade</span><span class="p">,</span> <span class="s1">&#39;Década&#39;</span><span class="p">,</span> <span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Décadas de término de publicação (com mais de 1 publicação)&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="p">[</span><span class="mi">1800</span><span class="p">,</span> <span class="mi">2023</span><span class="p">],</span> <span class="n">range_y</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1400</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig6</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
-<span class="c1"># limitar décadas no eixo x</span>
-<span class="n">fig6</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">1800</span><span class="p">,</span> <span class="mi">2023</span><span class="p">])</span>
-<span class="c1"># limitar eixo y entre 0 e 200</span>
-<span class="n">fig6</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1400</span><span class="p">])</span>
 <span class="n">fig6</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig6</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig6.png&#39;</span><span class="p">)</span>
@@ -17563,17 +17621,13 @@ Name: language, dtype: float64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar um gráfico de barras com os dados de década de início e término de publicação</span>
-<span class="n">fig7</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_bdecade</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Década&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Décadas de início e término de publicação (com mais de 1 publicação)&#39;</span><span class="p">)</span>
+<span class="n">fig7</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_bdecade</span><span class="p">,</span> <span class="s1">&#39;Década&#39;</span><span class="p">,</span> <span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Décadas de início e término de publicação (com mais de 1 publicação)&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="p">[</span><span class="mi">1800</span><span class="p">,</span> <span class="mi">2023</span><span class="p">],</span> <span class="n">range_y</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2600</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="c1"># adicionar df_edecade ao gráfico</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">add_bar</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">df_edecade</span><span class="p">[</span><span class="s1">&#39;Década&#39;</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">df_edecade</span><span class="p">[</span><span class="s1">&#39;quantidade&#39;</span><span class="p">],</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Término de publicação&#39;</span><span class="p">)</span>
 <span class="c1"># adcionar texto nas barras de df_edecade</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
-<span class="c1"># limitar décadas no eixo x</span>
-<span class="n">fig7</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">1800</span><span class="p">,</span> <span class="mi">2023</span><span class="p">])</span>
-<span class="c1"># limitar eixo y entre 0 e 200</span>
-<span class="n">fig7</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2600</span><span class="p">])</span>
 <span class="c1"># mostrar legenda para df_bdecade</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">legend</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">yanchor</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">0.99</span><span class="p">,</span> <span class="n">xanchor</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mf">0.01</span><span class="p">))</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -17653,7 +17707,7 @@ Name: language, dtype: float64</pre>
 subtitle        2874
 place           5626
 period          5274
-editor          4155
+publisher       4155
 periodicity     4507
 language        5694
 start_year      5694
@@ -17762,7 +17816,7 @@ dtype: int64</pre>
       <th>subtitle</th>
       <th>place</th>
       <th>period</th>
-      <th>editor</th>
+      <th>publisher</th>
       <th>periodicity</th>
       <th>language</th>
       <th>start_year</th>
@@ -18138,11 +18192,9 @@ dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar gráfico</span>
-<span class="n">fig8</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_diff</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Periódicos com maiores diferenças entre início e fim da publicação&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;place&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig8</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1">#aumentar tamanho do gráfico</span>
-<span class="n">fig8</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig8</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_diff</span><span class="p">,</span> <span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;diff&#39;</span><span class="p">,</span> <span class="s1">&#39;Periódicos com maiores diferenças entre início e fim da publicação&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig8</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig8</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig8</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig8.png&#39;</span><span class="p">)</span>
@@ -18246,7 +18298,7 @@ Name: place, dtype: int64</pre>
 
 </div>
 
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -18258,12 +18310,23 @@ Name: place, dtype: int64</pre>
 <span class="n">df_diff_place</span> <span class="o">=</span> <span class="n">df_diff</span><span class="p">[</span><span class="n">df_diff</span><span class="p">[</span><span class="s1">&#39;diff&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">][</span><span class="s1">&#39;place&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s1">&#39;Local&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">)</span>
 <span class="c1"># organizar por quantidade</span>
 <span class="n">df_diff_place</span> <span class="o">=</span> <span class="n">df_diff_place</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="c1"># criar gráfico</span>
-<span class="n">fig9</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_diff_place</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Local&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Locais com maior número de publicações com mais de 10 anos de diferença entre início e fim da publicação&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Local&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig9</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig9</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar gráfico</span>
+<span class="n">fig9</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_diff_place</span><span class="p">,</span> <span class="s1">&#39;Local&#39;</span><span class="p">,</span> <span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Locais com maior número de publicações com mais de 10 anos de diferença entre início e fim da publicação&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 <span class="n">fig9</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig9</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig9.png&#39;</span><span class="p">)</span>
@@ -18747,7 +18810,7 @@ Name: place, Length: 672, dtype: int64</pre>
 subtitle        39
 place            0
 period          42
-editor          20
+publisher       20
 periodicity     50
 language        77
 start_year      77
@@ -18928,11 +18991,9 @@ dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar gráfico de barras com os 20 locais com mais registros</span>
-<span class="n">fig11</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_place</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">),</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cidades&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39; 20 Cidades com mais registros&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Cidades&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig11</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig11</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig11</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_place</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">),</span> <span class="s1">&#39;Cidades&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;20 Cidades com mais registros&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig11</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig11</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig11</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig11.png&#39;</span><span class="p">)</span>
@@ -19252,7 +19313,7 @@ dtype: int64</pre>
       <th>subtitle</th>
       <th>place</th>
       <th>period</th>
-      <th>editor</th>
+      <th>publisher</th>
       <th>periodicity</th>
       <th>language</th>
       <th>start_year</th>
@@ -19593,11 +19654,9 @@ dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># gráfico de barras com a quantidade de registros por estado</span>
-<span class="n">fig13</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_state</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Estado&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Quantidade de cidades por estado&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Estado&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig13</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig13</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig13</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_state</span><span class="p">,</span> <span class="s1">&#39;Estado&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade de cidades por estado&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig13</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig13</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig13</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig13.png&#39;</span><span class="p">)</span>
@@ -19628,115 +19687,6 @@ dtype: int64</pre>
 
 </div>
 
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># listar &#39;places&#39; do estado de MG</span>
-<span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Estado&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;MG&#39;</span><span class="p">][</span><span class="s1">&#39;place&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([&#39;Ouro Preto, MG&#39;, &#39;Alfenas, MG&#39;, &#39;Oliveira, MG&#39;, &#39;Sabará, MG&#39;,
-       &#39;Carmo [Serro, MG]&#39;, &#34;Estrela-d&#39;Alva [Estrela Dalva, MG]&#34;,
-       &#39;Bagagem, MG&#39;, &#39;Ponte Nova, MG&#39;, &#39;Brazópolis, MG&#39;,
-       &#39;Queluz de Minas [Conselheiro Lafaiete, MG]&#39;, &#39;Juiz de Fora, MG&#39;,
-       &#39;São João del Rei, MG&#39;, &#39;Belo Horizonte, MG&#39;, &#39;Cataguases, MG&#39;,
-       &#39;Sacramento, MG&#39;, &#39;Curvelo, MG&#39;, &#39;Mar de Espanha, MG&#39;,
-       &#39;Carangola, MG&#39;, &#39;Viçosa, MG&#39;, &#39;Guaranésia, MG&#39;,
-       &#39;Dores do Turvo, MG&#39;, &#39;Campo Bello [Campo Belo, MG]&#39;, &#39;Caldas, MG&#39;,
-       &#39;Campanha, MG&#39;, &#39;Rio Preto, MG&#39;, &#39;Boa Esperança, MG&#39;,
-       &#39;Baependi, MG&#39;, &#39;Divinopolis, MG&#39;, &#39;Diamantina, MG&#39;,
-       &#39;Teófilo Otoni, MG&#39;, &#39;Uberaba, MG&#39;, &#39;Jacutinga, MG&#39;,
-       &#39;Pouso Alegre, MG&#39;, &#39;Passos, MG&#39;, &#39;Rio Pomba, MG&#39;, &#39;Araxá, MG&#39;,
-       &#39;Barbacena, MG&#39;, &#39;São João Nepomuceno, MG&#39;, &#39;Leopoldina, MG&#39;,
-       &#39;Machado, MG&#39;, &#39;São Francisco, MG&#39;, &#39;Prados, MG&#39;, &#39;Pirapora, MG&#39;,
-       &#39;Januária, MG&#39;, &#39;Guanhães, MG&#39;, &#39;Formiga, MG&#39;, &#39;Manhuaçu, MG&#39;,
-       &#39;Minas Novas, MG&#39;, &#39;Ouro fino, MG&#39;,
-       &#39;Mar de Hespanha [Mar de Espanha, MG]&#39;, &#39;Montes Claros, MG&#39;,
-       &#39;Rio Novo, MG&#39;, &#39;Lambari, MG&#39;, &#39;Uberlândia, MG&#39;,
-       &#39;Conselheiro Lafaiete, MG&#39;, &#39;Monte Santo, MG&#39;,
-       &#39;Pitanguy [Pitangui, MG]&#39;, &#39;Guarará, MG&#39;, &#39;Alto Rio Doce, MG&#39;,
-       &#39;Muriaé, MG&#39;, &#39;Serro, MG&#39;, &#39;Congonhas do Campo, MG&#39;,
-       &#34;S. João D&#39;El-Rei [São João del Rei, MG]&#34;, &#39;Espinosa, MG&#39;,
-       &#39;Cassia, MG&#39;, &#39;Cabo Verde, MG&#39;, &#39;Raul Soares, MG&#39;, &#39;Itajubá, MG&#39;,
-       &#39;Paraguaçu, MG&#39;, &#39;Cachoeira do Campo [Ouro preto, MG]&#39;,
-       &#39;São João Evangelista, MG&#39;, &#39;São Sebastião do Paraiso, MG&#39;,
-       &#39;Poços de Caldas, MG&#39;, &#39;Rio Casca, MG&#39;, &#39;Abaeté, MG&#39;,
-       &#39;Matozinhos, MG&#39;, &#39;Além Paraíba, MG&#39;, &#39;Piumhi, MG&#39;,
-       &#39;Sete Lagoas, MG&#39;, &#39;Araguary [Araguari, MG]&#39;, &#39;Mariana, MG&#39;,
-       &#34;Sant&#39;Anna de S. João Acima [Itaúna, MG]&#34;, &#39;Poço Fundo, MG&#39;,
-       &#39;Aterrado, MG&#39;, &#39;Cidade do Pomba [Rio Pomba, MG]&#39;,
-       &#39;Santa Rita do Sapucaí, MG&#39;, &#39;Bom Despacho, MG&#39;, &#39;Araguari, MG&#39;,
-       &#39;Campos Gerais, MG&#39;, &#39;Cataguazes [Cataguases, MG]&#39;, &#39;Lavras, MG&#39;,
-       &#39;Patos de Minas, MG&#39;, &#39;Bomfim [Bonfim, MG]&#39;, &#39;Frutal, MG&#39;,
-       &#39;Patrocínio, MG&#39;, &#39;Caratinga, MG&#39;, &#39;Nanuque, MG&#39;,
-       &#39;Monte Carmelo, MG&#39;, &#39;Bicas, MG&#39;, &#39;Liberdade, MG&#39;, &#39;Varginha, MG&#39;,
-       &#39;Governador Valadares, MG&#39;, &#39;Guaxupé, MG&#39;, &#39;Três Pontas, MG&#39;,
-       &#39;Ipatinga, MG&#39;, &#39;Cidade de Minas [Belo Horizonte, MG]&#39;,
-       &#39;Itabira, MG&#39;, &#39;Pitangui, MG&#39;, &#39;Estrela do Sul, MG&#39;,
-       &#39;Carandaí, MG&#39;, &#39;Andradas, MG&#39;, &#39;Itaúna, MG&#39;, &#39;Ituiutaba, MG&#39;,
-       &#39;Jaguari, MG&#39;, &#39;Tiradentes, MG&#39;, &#39;Ubá, MG&#39;, &#39;Palma, MG&#39;,
-       &#39;Itabirito, MG&#39;, &#39;Paracatu, MG&#39;, &#39;Paraopeba, MG&#39;,
-       &#39;Porto Novo do Cunha, MG&#39;, &#39;Pouso Alto, MG&#39;,
-       &#39;Turvo [Dores do Turvo, MG]&#39;,
-       &#39;S. Gonçalo do Sapucahy [São Gonçalo do Sapucaí, MG]&#39;,
-       &#39;Janaúba, MG&#39;, &#39;Manhuassu [Manhuaçu, MG]&#39;, &#39;Araçuaí, MG&#39;,
-       &#39;Arcos, MG&#39;, &#39;Conselheiro Lafayette [Conselheiro Lafaiete, MG]&#39;,
-       &#39;Pains, MG&#39;, &#39;Recreio, MG&#39;, &#39;Santos Dumont, MG&#39;,
-       &#39;Três Corações, MG&#39;, &#39;Lagoa Dourada, MG&#39;, &#39;Manhumirim, MG&#39;,
-       &#39;Brumadinho, MG&#39;, &#39;Monte Carmello [Monte Carmelo, MG]&#39;,
-       &#39;Peçanha, MG&#39;, &#39;Nova Lima, MG&#39;, &#39;Abadia, MG&#39;, &#39;Alvinópolis, MG&#39;,
-       &#34;Sant&#39;Anna do Jacaré [Santana do Jacaré, MG]&#34;, &#39;Belo Vale, MG&#39;,
-       &#39;Bocaiúva, MG&#39;, &#39;Bom-Successo [Bom Sucesso, MG]&#39;, &#39;Caeté, MG&#39;,
-       &#39;Cambuquira, MG&#39;, &#39;Campo Belo, MG&#39;, &#39;Candeias, MG&#39;,
-       &#39;Carmo da Mata, MG&#39;, &#39;Carmo do Rio Claro, MG&#39;, &#39;Casa Grande, MG&#39;,
-       &#39;Santa Rita do Sapucahy [Santa Rita do Sapucaí, MG]&#39;,
-       &#39;Dois Córregos, MG&#39;, &#39;Cajuri, MG&#39;, &#39;Aiuruoca, MG&#39;, &#39;Cambuí, MG&#39;,
-       &#39;Lassance, MG&#39;, &#39;Guarani, MG&#39;, &#39;Ibiraci, MG&#39;,
-       &#39;Dores do Indaiá, MG&#39;, &#39;Bom Sucesso, MG&#39;,
-       &#39;Monte Alegre de Minas, MG&#39;, &#39;Eugenópolis, MG&#39;, &#39;Pirapetinga, MG&#39;,
-       &#39;Jaguary [Jaguari, MG]&#39;, &#39;Monte Alegre, MG&#39;,
-       &#39;Vila de Contagem [Contagem, MG]&#39;, &#39;Muzambinho, MG&#39;, &#39;Paraíso, MG&#39;,
-       &#39;Benfica, MG&#39;, &#39;São José do Rio das Mortes [Tiradentes, MG]&#39;,
-       &#39;Lima Duarte, MG&#39;, &#39;Campo Limpo [Três Corações, MG]&#39;,
-       &#39;Nova Era, MG&#39;, &#39;Nepomucemo, MG&#39;,
-       &#39;São José do Paraiso [Paraisópolis, MG]&#39;, &#39;Resende Costa, MG&#39;,
-       &#39;São Sebastião dos Correntes [Sabinópolis, MG]&#39;, &#39;Salinas, MG&#39;,
-       &#39;Fructal [Frutal, MG]&#39;, &#39;Santo Antonio dos Tiros [Tiros, MG]&#39;,
-       &#39;Perdões, MG&#39;, &#39;Ouro Branco, MG&#39;, &#39;Itapecerica, MG&#39;,
-       &#39;São Domingos do Prata, MG&#39;, &#39;São Gonçalo do Pará, MG&#39;,
-       &#39;Vila Pereira, MG&#39;, &#39;Pintangui, MG&#39;, &#39;Campestre, MG&#39;], dtype=object)</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -19757,15 +19707,15 @@ dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># colocar editor em minúsculo</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
 <span class="c1"># substituir Typografia e Tipografia por Typ.</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;typografia&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;typ.&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;typografia&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;typ.&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="c1"># substituir [s.n], s.n], [s.n por Não identificado</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\[s.n\]&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;s.n.\]&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\[s.n.&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;s.n.&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\[não identificado&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\[s.n\]&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;s.n.\]&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\[s.n.&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;s.n.&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\[não identificado&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;não identificado&#39;</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -19782,7 +19732,7 @@ dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># contar editor</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -19815,7 +19765,7 @@ diário de pernambuco                                      1
 typ. de j.a. dos não identificadoos cardoso e irmao       1
 typ. commercial, de a.j. da costa                         1
 typ. l. faria &amp; cia.                                      1
-Name: editor, Length: 2014, dtype: int64</pre>
+Name: publisher, Length: 2014, dtype: int64</pre>
 </div>
 
 </div>
@@ -19833,7 +19783,7 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar df com editor</span>
-<span class="n">df_editor</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;editor&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
+<span class="n">df_editor</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;publisher&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
 <span class="n">df_editor</span>
 </pre></div>
 
@@ -19954,11 +19904,9 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># gráfico de barras com os 20 editores com mais registros</span>
-<span class="n">fig14</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_editor</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">),</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39; 20 Editores com mais registros&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig14</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig14</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig14</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_editor</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">20</span><span class="p">),</span> <span class="s1">&#39;Editor/a&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;20 Editores com mais registros&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig14</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig14</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig14</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig14.png&#39;</span><span class="p">)</span>
@@ -19998,11 +19946,9 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar o mesmo gráfico mas sem o editor &#39;Não identificado&#39;</span>
-<span class="n">fig15</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_editor</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">21</span><span class="p">],</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39; 20 Editores com mais registros&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig15</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig15</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig15</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_editor</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">21</span><span class="p">],</span> <span class="s1">&#39;Editor/a&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;20 Editores com mais registros&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig15</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig15</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig15</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig15.png&#39;</span><span class="p">)</span>
@@ -20042,7 +19988,7 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># avaliar principais editores por estado</span>
-<span class="n">df_state_editor</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;Estado&#39;</span><span class="p">,</span> <span class="s1">&#39;editor&#39;</span><span class="p">])[</span><span class="s1">&#39;place&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">([</span><span class="s1">&#39;Estado&#39;</span><span class="p">,</span> <span class="s1">&#39;Editor/a&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
+<span class="n">df_state_editor</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;Estado&#39;</span><span class="p">,</span> <span class="s1">&#39;publisher&#39;</span><span class="p">])[</span><span class="s1">&#39;place&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">([</span><span class="s1">&#39;Estado&#39;</span><span class="p">,</span> <span class="s1">&#39;Editor/a&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
 <span class="c1"># remover editor &#39;Não identificado&#39;</span>
 <span class="n">df_state_editor</span> <span class="o">=</span> <span class="n">df_state_editor</span><span class="p">[</span><span class="n">df_state_editor</span><span class="p">[</span><span class="s1">&#39;Editor/a&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;não identificado&#39;</span><span class="p">]</span>
 <span class="n">df_state_editor</span>
@@ -20544,93 +20490,93 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_b5f40">
+<table id="T_5a18c">
   <thead>
     <tr>
-      <th id="T_b5f40_level0_col0" class="col_heading level0 col0" >Título</th>
-      <th id="T_b5f40_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_5a18c_level0_col0" class="col_heading level0 col0" >Título</th>
+      <th id="T_5a18c_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_b5f40_row0_col0" class="data row0 col0" >o progresso</td>
-      <td id="T_b5f40_row0_col1" class="data row0 col1" >37</td>
+      <td id="T_5a18c_row0_col0" class="data row0 col0" >o progresso</td>
+      <td id="T_5a18c_row0_col1" class="data row0 col1" >37</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row1_col0" class="data row1 col0" >o municipio</td>
-      <td id="T_b5f40_row1_col1" class="data row1 col1" >30</td>
+      <td id="T_5a18c_row1_col0" class="data row1 col0" >o municipio</td>
+      <td id="T_5a18c_row1_col1" class="data row1 col1" >30</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row2_col0" class="data row2 col0" >o democrata</td>
-      <td id="T_b5f40_row2_col1" class="data row2 col1" >25</td>
+      <td id="T_5a18c_row2_col0" class="data row2 col0" >o democrata</td>
+      <td id="T_5a18c_row2_col1" class="data row2 col1" >25</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row3_col0" class="data row3 col0" >o imparcial</td>
-      <td id="T_b5f40_row3_col1" class="data row3 col1" >22</td>
+      <td id="T_5a18c_row3_col0" class="data row3 col0" >o imparcial</td>
+      <td id="T_5a18c_row3_col1" class="data row3 col1" >22</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row4_col0" class="data row4 col0" >o commercio</td>
-      <td id="T_b5f40_row4_col1" class="data row4 col1" >21</td>
+      <td id="T_5a18c_row4_col0" class="data row4 col0" >o commercio</td>
+      <td id="T_5a18c_row4_col1" class="data row4 col1" >21</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row5_col0" class="data row5 col0" >o liberal</td>
-      <td id="T_b5f40_row5_col1" class="data row5 col1" >20</td>
+      <td id="T_5a18c_row5_col0" class="data row5 col0" >o liberal</td>
+      <td id="T_5a18c_row5_col1" class="data row5 col1" >20</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row6_col0" class="data row6 col0" >jornal do commercio</td>
-      <td id="T_b5f40_row6_col1" class="data row6 col1" >19</td>
+      <td id="T_5a18c_row6_col0" class="data row6 col0" >jornal do commercio</td>
+      <td id="T_5a18c_row6_col1" class="data row6 col1" >19</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row7_col0" class="data row7 col0" >o povo</td>
-      <td id="T_b5f40_row7_col1" class="data row7 col1" >18</td>
+      <td id="T_5a18c_row7_col0" class="data row7 col0" >o povo</td>
+      <td id="T_5a18c_row7_col1" class="data row7 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row8_col0" class="data row8 col0" >o popular</td>
-      <td id="T_b5f40_row8_col1" class="data row8 col1" >18</td>
+      <td id="T_5a18c_row8_col0" class="data row8 col0" >o popular</td>
+      <td id="T_5a18c_row8_col1" class="data row8 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row9_col0" class="data row9 col0" >a ordem</td>
-      <td id="T_b5f40_row9_col1" class="data row9 col1" >18</td>
+      <td id="T_5a18c_row9_col0" class="data row9 col0" >a ordem</td>
+      <td id="T_5a18c_row9_col1" class="data row9 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row10_col0" class="data row10 col0" >o constitucional</td>
-      <td id="T_b5f40_row10_col1" class="data row10 col1" >18</td>
+      <td id="T_5a18c_row10_col0" class="data row10 col0" >o constitucional</td>
+      <td id="T_5a18c_row10_col1" class="data row10 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row11_col0" class="data row11 col0" >o trabalho</td>
-      <td id="T_b5f40_row11_col1" class="data row11 col1" >18</td>
+      <td id="T_5a18c_row11_col0" class="data row11 col0" >o trabalho</td>
+      <td id="T_5a18c_row11_col1" class="data row11 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row12_col0" class="data row12 col0" >o conservador</td>
-      <td id="T_b5f40_row12_col1" class="data row12 col1" >17</td>
+      <td id="T_5a18c_row12_col0" class="data row12 col0" >o conservador</td>
+      <td id="T_5a18c_row12_col1" class="data row12 col1" >17</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row13_col0" class="data row13 col0" >o tempo</td>
-      <td id="T_b5f40_row13_col1" class="data row13 col1" >16</td>
+      <td id="T_5a18c_row13_col0" class="data row13 col0" >o tempo</td>
+      <td id="T_5a18c_row13_col1" class="data row13 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row14_col0" class="data row14 col0" >relatorios dos presidentes dos estados brasileiros : primeira republica</td>
-      <td id="T_b5f40_row14_col1" class="data row14 col1" >16</td>
+      <td id="T_5a18c_row14_col0" class="data row14 col0" >relatorios dos presidentes dos estados brasileiros : primeira republica</td>
+      <td id="T_5a18c_row14_col1" class="data row14 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row15_col0" class="data row15 col0" >a noticia</td>
-      <td id="T_b5f40_row15_col1" class="data row15 col1" >16</td>
+      <td id="T_5a18c_row15_col0" class="data row15 col0" >a noticia</td>
+      <td id="T_5a18c_row15_col1" class="data row15 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row16_col0" class="data row16 col0" >a verdade</td>
-      <td id="T_b5f40_row16_col1" class="data row16 col1" >15</td>
+      <td id="T_5a18c_row16_col0" class="data row16 col0" >a verdade</td>
+      <td id="T_5a18c_row16_col1" class="data row16 col1" >15</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row17_col0" class="data row17 col0" >a semana</td>
-      <td id="T_b5f40_row17_col1" class="data row17 col1" >14</td>
+      <td id="T_5a18c_row17_col0" class="data row17 col0" >a semana</td>
+      <td id="T_5a18c_row17_col1" class="data row17 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row18_col0" class="data row18 col0" >a luz</td>
-      <td id="T_b5f40_row18_col1" class="data row18 col1" >14</td>
+      <td id="T_5a18c_row18_col0" class="data row18 col0" >a luz</td>
+      <td id="T_5a18c_row18_col1" class="data row18 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_b5f40_row19_col0" class="data row19 col0" >jornal do povo</td>
-      <td id="T_b5f40_row19_col1" class="data row19 col1" >13</td>
+      <td id="T_5a18c_row19_col0" class="data row19 col0" >jornal do povo</td>
+      <td id="T_5a18c_row19_col1" class="data row19 col1" >13</td>
     </tr>
   </tbody>
 </table>
@@ -20653,7 +20599,6 @@ Name: editor, Length: 2014, dtype: int64</pre>
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ler a coluna título e, df_title e contar palavras únicas e a quantidade de vezes que aparecem</span>
 <span class="c1"># mostrar apenas palavras mais longas que 3 caracteres</span>
-<span class="c1"># mostrar apenas as 100 palavras mais frequentes </span>
 <span class="n">df_title_words</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;title&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">expand</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">stack</span><span class="p">()</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s1">&#39;Palavra&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">)</span>
 <span class="n">df_title_words</span> <span class="o">=</span> <span class="n">df_title_words</span><span class="p">[</span><span class="n">df_title_words</span><span class="p">[</span><span class="s1">&#39;Palavra&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">len</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">]</span>
 </pre></div>
@@ -20694,213 +20639,213 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_d5726">
+<table id="T_ffa45">
   <thead>
     <tr>
-      <th id="T_d5726_level0_col0" class="col_heading level0 col0" >Palavra</th>
-      <th id="T_d5726_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_ffa45_level0_col0" class="col_heading level0 col0" >Palavra</th>
+      <th id="T_ffa45_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_d5726_row0_col0" class="data row0 col0" >jornal</td>
-      <td id="T_d5726_row0_col1" class="data row0 col1" >396</td>
+      <td id="T_ffa45_row0_col0" class="data row0 col0" >jornal</td>
+      <td id="T_ffa45_row0_col1" class="data row0 col1" >396</td>
     </tr>
     <tr>
-      <td id="T_d5726_row1_col0" class="data row1 col0" >revista</td>
-      <td id="T_d5726_row1_col1" class="data row1 col1" >310</td>
+      <td id="T_ffa45_row1_col0" class="data row1 col0" >revista</td>
+      <td id="T_ffa45_row1_col1" class="data row1 col1" >310</td>
     </tr>
     <tr>
-      <td id="T_d5726_row2_col0" class="data row2 col0" >gazeta</td>
-      <td id="T_d5726_row2_col1" class="data row2 col1" >220</td>
+      <td id="T_ffa45_row2_col0" class="data row2 col0" >gazeta</td>
+      <td id="T_ffa45_row2_col1" class="data row2 col1" >220</td>
     </tr>
     <tr>
-      <td id="T_d5726_row3_col0" class="data row3 col0" >correio</td>
-      <td id="T_d5726_row3_col1" class="data row3 col1" >212</td>
+      <td id="T_ffa45_row3_col0" class="data row3 col0" >correio</td>
+      <td id="T_ffa45_row3_col1" class="data row3 col1" >212</td>
     </tr>
     <tr>
-      <td id="T_d5726_row4_col0" class="data row4 col0" >folha</td>
-      <td id="T_d5726_row4_col1" class="data row4 col1" >151</td>
+      <td id="T_ffa45_row4_col0" class="data row4 col0" >folha</td>
+      <td id="T_ffa45_row4_col1" class="data row4 col1" >151</td>
     </tr>
     <tr>
-      <td id="T_d5726_row5_col0" class="data row5 col0" >diario</td>
-      <td id="T_d5726_row5_col1" class="data row5 col1" >147</td>
+      <td id="T_ffa45_row5_col0" class="data row5 col0" >diario</td>
+      <td id="T_ffa45_row5_col1" class="data row5 col1" >147</td>
     </tr>
     <tr>
-      <td id="T_d5726_row6_col0" class="data row6 col0" >povo</td>
-      <td id="T_d5726_row6_col1" class="data row6 col1" >147</td>
+      <td id="T_ffa45_row6_col0" class="data row6 col0" >povo</td>
+      <td id="T_ffa45_row6_col1" class="data row6 col1" >147</td>
     </tr>
     <tr>
-      <td id="T_d5726_row7_col0" class="data row7 col0" >litterario</td>
-      <td id="T_d5726_row7_col1" class="data row7 col1" >138</td>
+      <td id="T_ffa45_row7_col0" class="data row7 col0" >litterario</td>
+      <td id="T_ffa45_row7_col1" class="data row7 col1" >138</td>
     </tr>
     <tr>
-      <td id="T_d5726_row8_col0" class="data row8 col0" >orgao</td>
-      <td id="T_d5726_row8_col1" class="data row8 col1" >104</td>
+      <td id="T_ffa45_row8_col0" class="data row8 col0" >orgao</td>
+      <td id="T_ffa45_row8_col1" class="data row8 col1" >104</td>
     </tr>
     <tr>
-      <td id="T_d5726_row9_col0" class="data row9 col0" >echo</td>
-      <td id="T_d5726_row9_col1" class="data row9 col1" >98</td>
+      <td id="T_ffa45_row9_col0" class="data row9 col0" >echo</td>
+      <td id="T_ffa45_row9_col1" class="data row9 col1" >98</td>
     </tr>
     <tr>
-      <td id="T_d5726_row10_col0" class="data row10 col0" >commercio</td>
-      <td id="T_d5726_row10_col1" class="data row10 col1" >97</td>
+      <td id="T_ffa45_row10_col0" class="data row10 col0" >commercio</td>
+      <td id="T_ffa45_row10_col1" class="data row10 col1" >97</td>
     </tr>
     <tr>
-      <td id="T_d5726_row11_col0" class="data row11 col0" >periodico</td>
-      <td id="T_d5726_row11_col1" class="data row11 col1" >96</td>
+      <td id="T_ffa45_row11_col0" class="data row11 col0" >periodico</td>
+      <td id="T_ffa45_row11_col1" class="data row11 col1" >96</td>
     </tr>
     <tr>
-      <td id="T_d5726_row12_col0" class="data row12 col0" >commercial</td>
-      <td id="T_d5726_row12_col1" class="data row12 col1" >90</td>
+      <td id="T_ffa45_row12_col0" class="data row12 col0" >commercial</td>
+      <td id="T_ffa45_row12_col1" class="data row12 col1" >90</td>
     </tr>
     <tr>
-      <td id="T_d5726_row13_col0" class="data row13 col0" >tribuna</td>
-      <td id="T_d5726_row13_col1" class="data row13 col1" >87</td>
+      <td id="T_ffa45_row13_col0" class="data row13 col0" >tribuna</td>
+      <td id="T_ffa45_row13_col1" class="data row13 col1" >87</td>
     </tr>
     <tr>
-      <td id="T_d5726_row14_col0" class="data row14 col0" >estado</td>
-      <td id="T_d5726_row14_col1" class="data row14 col1" >85</td>
+      <td id="T_ffa45_row14_col0" class="data row14 col0" >estado</td>
+      <td id="T_ffa45_row14_col1" class="data row14 col1" >85</td>
     </tr>
     <tr>
-      <td id="T_d5726_row15_col0" class="data row15 col0" >noticioso</td>
-      <td id="T_d5726_row15_col1" class="data row15 col1" >82</td>
+      <td id="T_ffa45_row15_col0" class="data row15 col0" >noticioso</td>
+      <td id="T_ffa45_row15_col1" class="data row15 col1" >82</td>
     </tr>
     <tr>
-      <td id="T_d5726_row16_col0" class="data row16 col0" >liberal</td>
-      <td id="T_d5726_row16_col1" class="data row16 col1" >81</td>
+      <td id="T_ffa45_row16_col0" class="data row16 col0" >liberal</td>
+      <td id="T_ffa45_row16_col1" class="data row16 col1" >81</td>
     </tr>
     <tr>
-      <td id="T_d5726_row17_col0" class="data row17 col0" >almanak</td>
-      <td id="T_d5726_row17_col1" class="data row17 col1" >69</td>
+      <td id="T_ffa45_row17_col0" class="data row17 col0" >almanak</td>
+      <td id="T_ffa45_row17_col1" class="data row17 col1" >69</td>
     </tr>
     <tr>
-      <td id="T_d5726_row18_col0" class="data row18 col0" >brazil</td>
-      <td id="T_d5726_row18_col1" class="data row18 col1" >67</td>
+      <td id="T_ffa45_row18_col0" class="data row18 col0" >brazil</td>
+      <td id="T_ffa45_row18_col1" class="data row18 col1" >67</td>
     </tr>
     <tr>
-      <td id="T_d5726_row19_col0" class="data row19 col0" >brasil</td>
-      <td id="T_d5726_row19_col1" class="data row19 col1" >64</td>
+      <td id="T_ffa45_row19_col0" class="data row19 col0" >brasil</td>
+      <td id="T_ffa45_row19_col1" class="data row19 col1" >64</td>
     </tr>
     <tr>
-      <td id="T_d5726_row20_col0" class="data row20 col0" >para</td>
-      <td id="T_d5726_row20_col1" class="data row20 col1" >64</td>
+      <td id="T_ffa45_row20_col0" class="data row20 col0" >para</td>
+      <td id="T_ffa45_row20_col1" class="data row20 col1" >64</td>
     </tr>
     <tr>
-      <td id="T_d5726_row21_col0" class="data row21 col0" >popular</td>
-      <td id="T_d5726_row21_col1" class="data row21 col1" >62</td>
+      <td id="T_ffa45_row21_col0" class="data row21 col0" >popular</td>
+      <td id="T_ffa45_row21_col1" class="data row21 col1" >62</td>
     </tr>
     <tr>
-      <td id="T_d5726_row22_col0" class="data row22 col0" >progresso</td>
-      <td id="T_d5726_row22_col1" class="data row22 col1" >62</td>
+      <td id="T_ffa45_row22_col0" class="data row22 col0" >progresso</td>
+      <td id="T_ffa45_row22_col1" class="data row22 col1" >62</td>
     </tr>
     <tr>
-      <td id="T_d5726_row23_col0" class="data row23 col0" >orgam</td>
-      <td id="T_d5726_row23_col1" class="data row23 col1" >60</td>
+      <td id="T_ffa45_row23_col0" class="data row23 col0" >orgam</td>
+      <td id="T_ffa45_row23_col1" class="data row23 col1" >60</td>
     </tr>
     <tr>
-      <td id="T_d5726_row24_col0" class="data row24 col0" >almanach</td>
-      <td id="T_d5726_row24_col1" class="data row24 col1" >60</td>
+      <td id="T_ffa45_row24_col0" class="data row24 col0" >almanach</td>
+      <td id="T_ffa45_row24_col1" class="data row24 col1" >60</td>
     </tr>
     <tr>
-      <td id="T_d5726_row25_col0" class="data row25 col0" >norte</td>
-      <td id="T_d5726_row25_col1" class="data row25 col1" >57</td>
+      <td id="T_ffa45_row25_col0" class="data row25 col0" >norte</td>
+      <td id="T_ffa45_row25_col1" class="data row25 col1" >57</td>
     </tr>
     <tr>
-      <td id="T_d5726_row26_col0" class="data row26 col0" >municipio</td>
-      <td id="T_d5726_row26_col1" class="data row26 col1" >56</td>
+      <td id="T_ffa45_row26_col0" class="data row26 col0" >municipio</td>
+      <td id="T_ffa45_row26_col1" class="data row26 col1" >56</td>
     </tr>
     <tr>
-      <td id="T_d5726_row27_col0" class="data row27 col0" >provincia</td>
-      <td id="T_d5726_row27_col1" class="data row27 col1" >54</td>
+      <td id="T_ffa45_row27_col0" class="data row27 col0" >provincia</td>
+      <td id="T_ffa45_row27_col1" class="data row27 col1" >54</td>
     </tr>
     <tr>
-      <td id="T_d5726_row28_col0" class="data row28 col0" >janeiro</td>
-      <td id="T_d5726_row28_col1" class="data row28 col1" >52</td>
+      <td id="T_ffa45_row28_col0" class="data row28 col0" >janeiro</td>
+      <td id="T_ffa45_row28_col1" class="data row28 col1" >52</td>
     </tr>
     <tr>
-      <td id="T_d5726_row29_col0" class="data row29 col0" >republica</td>
-      <td id="T_d5726_row29_col1" class="data row29 col1" >51</td>
+      <td id="T_ffa45_row29_col0" class="data row29 col0" >republica</td>
+      <td id="T_ffa45_row29_col1" class="data row29 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_d5726_row30_col0" class="data row30 col0" >boletim</td>
-      <td id="T_d5726_row30_col1" class="data row30 col1" >51</td>
+      <td id="T_ffa45_row30_col0" class="data row30 col0" >boletim</td>
+      <td id="T_ffa45_row30_col1" class="data row30 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_d5726_row31_col0" class="data row31 col0" >constitucional</td>
-      <td id="T_d5726_row31_col1" class="data row31 col1" >51</td>
+      <td id="T_ffa45_row31_col0" class="data row31 col0" >constitucional</td>
+      <td id="T_ffa45_row31_col1" class="data row31 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_d5726_row32_col0" class="data row32 col0" >mercantil</td>
-      <td id="T_d5726_row32_col1" class="data row32 col1" >50</td>
+      <td id="T_ffa45_row32_col0" class="data row32 col0" >mercantil</td>
+      <td id="T_ffa45_row32_col1" class="data row32 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_d5726_row33_col0" class="data row33 col0" >conservador</td>
-      <td id="T_d5726_row33_col1" class="data row33 col1" >50</td>
+      <td id="T_ffa45_row33_col0" class="data row33 col0" >conservador</td>
+      <td id="T_ffa45_row33_col1" class="data row33 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_d5726_row34_col0" class="data row34 col0" >cidade</td>
-      <td id="T_d5726_row34_col1" class="data row34 col1" >49</td>
+      <td id="T_ffa45_row34_col0" class="data row34 col0" >cidade</td>
+      <td id="T_ffa45_row34_col1" class="data row34 col1" >49</td>
     </tr>
     <tr>
-      <td id="T_d5726_row35_col0" class="data row35 col0" >nova</td>
-      <td id="T_d5726_row35_col1" class="data row35 col1" >49</td>
+      <td id="T_ffa45_row35_col0" class="data row35 col0" >nova</td>
+      <td id="T_ffa45_row35_col1" class="data row35 col1" >49</td>
     </tr>
     <tr>
-      <td id="T_d5726_row36_col0" class="data row36 col0" >nacional</td>
-      <td id="T_d5726_row36_col1" class="data row36 col1" >48</td>
+      <td id="T_ffa45_row36_col0" class="data row36 col0" >nacional</td>
+      <td id="T_ffa45_row36_col1" class="data row36 col1" >48</td>
     </tr>
     <tr>
-      <td id="T_d5726_row37_col0" class="data row37 col0" >tarde</td>
-      <td id="T_d5726_row37_col1" class="data row37 col1" >48</td>
+      <td id="T_ffa45_row37_col0" class="data row37 col0" >tarde</td>
+      <td id="T_ffa45_row37_col1" class="data row37 col1" >48</td>
     </tr>
     <tr>
-      <td id="T_d5726_row38_col0" class="data row38 col0" >minas</td>
-      <td id="T_d5726_row38_col1" class="data row38 col1" >47</td>
+      <td id="T_ffa45_row38_col0" class="data row38 col0" >minas</td>
+      <td id="T_ffa45_row38_col1" class="data row38 col1" >47</td>
     </tr>
     <tr>
-      <td id="T_d5726_row39_col0" class="data row39 col0" >interesses</td>
-      <td id="T_d5726_row39_col1" class="data row39 col1" >47</td>
+      <td id="T_ffa45_row39_col0" class="data row39 col0" >interesses</td>
+      <td id="T_ffa45_row39_col1" class="data row39 col1" >47</td>
     </tr>
     <tr>
-      <td id="T_d5726_row40_col0" class="data row40 col0" >fluminense</td>
-      <td id="T_d5726_row40_col1" class="data row40 col1" >45</td>
+      <td id="T_ffa45_row40_col0" class="data row40 col0" >fluminense</td>
+      <td id="T_ffa45_row40_col1" class="data row40 col1" >45</td>
     </tr>
     <tr>
-      <td id="T_d5726_row41_col0" class="data row41 col0" >semana</td>
-      <td id="T_d5726_row41_col1" class="data row41 col1" >44</td>
+      <td id="T_ffa45_row41_col0" class="data row41 col0" >semana</td>
+      <td id="T_ffa45_row41_col1" class="data row41 col1" >44</td>
     </tr>
     <tr>
-      <td id="T_d5726_row42_col0" class="data row42 col0" >litteraria</td>
-      <td id="T_d5726_row42_col1" class="data row42 col1" >43</td>
+      <td id="T_ffa45_row42_col0" class="data row42 col0" >litteraria</td>
+      <td id="T_ffa45_row42_col1" class="data row42 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_d5726_row43_col0" class="data row43 col0" >imparcial</td>
-      <td id="T_d5726_row43_col1" class="data row43 col1" >43</td>
+      <td id="T_ffa45_row43_col0" class="data row43 col0" >imparcial</td>
+      <td id="T_ffa45_row43_col1" class="data row43 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_d5726_row44_col0" class="data row44 col0" >liberdade</td>
-      <td id="T_d5726_row44_col1" class="data row44 col1" >43</td>
+      <td id="T_ffa45_row44_col0" class="data row44 col0" >liberdade</td>
+      <td id="T_ffa45_row44_col1" class="data row44 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_d5726_row45_col0" class="data row45 col0" >partido</td>
-      <td id="T_d5726_row45_col1" class="data row45 col1" >43</td>
+      <td id="T_ffa45_row45_col0" class="data row45 col0" >partido</td>
+      <td id="T_ffa45_row45_col1" class="data row45 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_d5726_row46_col0" class="data row46 col0" >recreativo</td>
-      <td id="T_d5726_row46_col1" class="data row46 col1" >42</td>
+      <td id="T_ffa45_row46_col0" class="data row46 col0" >recreativo</td>
+      <td id="T_ffa45_row46_col1" class="data row46 col1" >42</td>
     </tr>
     <tr>
-      <td id="T_d5726_row47_col0" class="data row47 col0" >verdade</td>
-      <td id="T_d5726_row47_col1" class="data row47 col1" >42</td>
+      <td id="T_ffa45_row47_col0" class="data row47 col0" >verdade</td>
+      <td id="T_ffa45_row47_col1" class="data row47 col1" >42</td>
     </tr>
     <tr>
-      <td id="T_d5726_row48_col0" class="data row48 col0" >official</td>
-      <td id="T_d5726_row48_col1" class="data row48 col1" >42</td>
+      <td id="T_ffa45_row48_col0" class="data row48 col0" >official</td>
+      <td id="T_ffa45_row48_col1" class="data row48 col1" >42</td>
     </tr>
     <tr>
-      <td id="T_d5726_row49_col0" class="data row49 col0" >critico</td>
-      <td id="T_d5726_row49_col1" class="data row49 col1" >41</td>
+      <td id="T_ffa45_row49_col0" class="data row49 col0" >critico</td>
+      <td id="T_ffa45_row49_col1" class="data row49 col1" >41</td>
     </tr>
   </tbody>
 </table>
@@ -20922,11 +20867,9 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># gráfico de barras com as 50 palavras mais frequentes</span>
-<span class="n">fig16</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_title_words</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Palavra&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;50 palavras mais frequentes&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Palavra&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig16</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig16</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig16</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_title_words</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span> <span class="s1">&#39;Palavra&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Títulos - 50 palavras mais frequentes&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig16</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig16</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig16</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig16.png&#39;</span><span class="p">)</span>
@@ -21110,93 +21053,93 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_c47b7">
+<table id="T_bae86">
   <thead>
     <tr>
-      <th id="T_c47b7_level0_col0" class="col_heading level0 col0" >Subtítulo</th>
-      <th id="T_c47b7_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_bae86_level0_col0" class="col_heading level0 col0" >Subtítulo</th>
+      <th id="T_bae86_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_c47b7_row0_col0" class="data row0 col0" >orgam republicano</td>
-      <td id="T_c47b7_row0_col1" class="data row0 col1" >22</td>
+      <td id="T_bae86_row0_col0" class="data row0 col0" >orgam republicano</td>
+      <td id="T_bae86_row0_col1" class="data row0 col1" >22</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row1_col0" class="data row1 col0" >orgam imparcial</td>
-      <td id="T_c47b7_row1_col1" class="data row1 col1" >17</td>
+      <td id="T_bae86_row1_col0" class="data row1 col0" >orgam imparcial</td>
+      <td id="T_bae86_row1_col1" class="data row1 col1" >17</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row2_col0" class="data row2 col0" >periodico litterario e recreativo</td>
-      <td id="T_c47b7_row2_col1" class="data row2 col1" >16</td>
+      <td id="T_bae86_row2_col0" class="data row2 col0" >periodico litterario e recreativo</td>
+      <td id="T_bae86_row2_col1" class="data row2 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row3_col0" class="data row3 col0" >periodico litterario e noticioso</td>
-      <td id="T_c47b7_row3_col1" class="data row3 col1" >14</td>
+      <td id="T_bae86_row3_col0" class="data row3 col0" >periodico litterario e noticioso</td>
+      <td id="T_bae86_row3_col1" class="data row3 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row4_col0" class="data row4 col0" >orgam do partido republicano</td>
-      <td id="T_c47b7_row4_col1" class="data row4 col1" >14</td>
+      <td id="T_bae86_row4_col0" class="data row4 col0" >orgam do partido republicano</td>
+      <td id="T_bae86_row4_col1" class="data row4 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row5_col0" class="data row5 col0" >periodico critico e litterario</td>
-      <td id="T_c47b7_row5_col1" class="data row5 col1" >13</td>
+      <td id="T_bae86_row5_col0" class="data row5 col0" >periodico critico e litterario</td>
+      <td id="T_bae86_row5_col1" class="data row5 col1" >13</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row6_col0" class="data row6 col0" >periodico scientifico e litterario</td>
-      <td id="T_c47b7_row6_col1" class="data row6 col1" >13</td>
+      <td id="T_bae86_row6_col0" class="data row6 col0" >periodico scientifico e litterario</td>
+      <td id="T_bae86_row6_col1" class="data row6 col1" >13</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row7_col0" class="data row7 col0" >semanario independente</td>
-      <td id="T_c47b7_row7_col1" class="data row7 col1" >13</td>
+      <td id="T_bae86_row7_col0" class="data row7 col0" >semanario independente</td>
+      <td id="T_bae86_row7_col1" class="data row7 col1" >13</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row8_col0" class="data row8 col0" >orgao do partido conservador</td>
-      <td id="T_c47b7_row8_col1" class="data row8 col1" >12</td>
+      <td id="T_bae86_row8_col0" class="data row8 col0" >orgao do partido conservador</td>
+      <td id="T_bae86_row8_col1" class="data row8 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row9_col0" class="data row9 col0" >jornal politico</td>
-      <td id="T_c47b7_row9_col1" class="data row9 col1" >12</td>
+      <td id="T_bae86_row9_col0" class="data row9 col0" >jornal politico</td>
+      <td id="T_bae86_row9_col1" class="data row9 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row10_col0" class="data row10 col0" >jornal politico e noticioso</td>
-      <td id="T_c47b7_row10_col1" class="data row10 col1" >12</td>
+      <td id="T_bae86_row10_col0" class="data row10 col0" >jornal politico e noticioso</td>
+      <td id="T_bae86_row10_col1" class="data row10 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row11_col0" class="data row11 col0" >orgao imparcial</td>
-      <td id="T_c47b7_row11_col1" class="data row11 col1" >12</td>
+      <td id="T_bae86_row11_col0" class="data row11 col0" >orgao imparcial</td>
+      <td id="T_bae86_row11_col1" class="data row11 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row12_col0" class="data row12 col0" >folha popular</td>
-      <td id="T_c47b7_row12_col1" class="data row12 col1" >10</td>
+      <td id="T_bae86_row12_col0" class="data row12 col0" >folha popular</td>
+      <td id="T_bae86_row12_col1" class="data row12 col1" >10</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row13_col0" class="data row13 col0" >jornal independente</td>
-      <td id="T_c47b7_row13_col1" class="data row13 col1" >10</td>
+      <td id="T_bae86_row13_col0" class="data row13 col0" >jornal independente</td>
+      <td id="T_bae86_row13_col1" class="data row13 col1" >10</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row14_col0" class="data row14 col0" >orgao do partido republicano</td>
-      <td id="T_c47b7_row14_col1" class="data row14 col1" >10</td>
+      <td id="T_bae86_row14_col0" class="data row14 col0" >orgao do partido republicano</td>
+      <td id="T_bae86_row14_col1" class="data row14 col1" >10</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row15_col0" class="data row15 col0" >orgam independente e noticioso</td>
-      <td id="T_c47b7_row15_col1" class="data row15 col1" >9</td>
+      <td id="T_bae86_row15_col0" class="data row15 col0" >orgam independente e noticioso</td>
+      <td id="T_bae86_row15_col1" class="data row15 col1" >9</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row16_col0" class="data row16 col0" >jornal politico, litterario e commercial</td>
-      <td id="T_c47b7_row16_col1" class="data row16 col1" >9</td>
+      <td id="T_bae86_row16_col0" class="data row16 col0" >jornal politico, litterario e commercial</td>
+      <td id="T_bae86_row16_col1" class="data row16 col1" >9</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row17_col0" class="data row17 col0" >jornal litterario</td>
-      <td id="T_c47b7_row17_col1" class="data row17 col1" >8</td>
+      <td id="T_bae86_row17_col0" class="data row17 col0" >jornal litterario</td>
+      <td id="T_bae86_row17_col1" class="data row17 col1" >8</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row18_col0" class="data row18 col0" >orgam independente</td>
-      <td id="T_c47b7_row18_col1" class="data row18 col1" >8</td>
+      <td id="T_bae86_row18_col0" class="data row18 col0" >orgam independente</td>
+      <td id="T_bae86_row18_col1" class="data row18 col1" >8</td>
     </tr>
     <tr>
-      <td id="T_c47b7_row19_col0" class="data row19 col0" >periodico critico e chistoso</td>
-      <td id="T_c47b7_row19_col1" class="data row19 col1" >8</td>
+      <td id="T_bae86_row19_col0" class="data row19 col0" >periodico critico e chistoso</td>
+      <td id="T_bae86_row19_col1" class="data row19 col1" >8</td>
     </tr>
   </tbody>
 </table>
@@ -21259,213 +21202,213 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_80475">
+<table id="T_4854b">
   <thead>
     <tr>
-      <th id="T_80475_level0_col0" class="col_heading level0 col0" >Palavra</th>
-      <th id="T_80475_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_4854b_level0_col0" class="col_heading level0 col0" >Palavra</th>
+      <th id="T_4854b_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_80475_row0_col0" class="data row0 col0" >jornal</td>
-      <td id="T_80475_row0_col1" class="data row0 col1" >609</td>
+      <td id="T_4854b_row0_col0" class="data row0 col0" >jornal</td>
+      <td id="T_4854b_row0_col1" class="data row0 col1" >609</td>
     </tr>
     <tr>
-      <td id="T_80475_row1_col0" class="data row1 col0" >noticioso</td>
-      <td id="T_80475_row1_col1" class="data row1 col1" >576</td>
+      <td id="T_4854b_row1_col0" class="data row1 col0" >noticioso</td>
+      <td id="T_4854b_row1_col1" class="data row1 col1" >576</td>
     </tr>
     <tr>
-      <td id="T_80475_row2_col0" class="data row2 col0" >litterario</td>
-      <td id="T_80475_row2_col1" class="data row2 col1" >524</td>
+      <td id="T_4854b_row2_col0" class="data row2 col0" >litterario</td>
+      <td id="T_4854b_row2_col1" class="data row2 col1" >524</td>
     </tr>
     <tr>
-      <td id="T_80475_row3_col0" class="data row3 col0" >orgam</td>
-      <td id="T_80475_row3_col1" class="data row3 col1" >502</td>
+      <td id="T_4854b_row3_col0" class="data row3 col0" >orgam</td>
+      <td id="T_4854b_row3_col1" class="data row3 col1" >502</td>
     </tr>
     <tr>
-      <td id="T_80475_row4_col0" class="data row4 col0" >orgao</td>
-      <td id="T_80475_row4_col1" class="data row4 col1" >483</td>
+      <td id="T_4854b_row4_col0" class="data row4 col0" >orgao</td>
+      <td id="T_4854b_row4_col1" class="data row4 col1" >483</td>
     </tr>
     <tr>
-      <td id="T_80475_row5_col0" class="data row5 col0" >periodico</td>
-      <td id="T_80475_row5_col1" class="data row5 col1" >481</td>
+      <td id="T_4854b_row5_col0" class="data row5 col0" >periodico</td>
+      <td id="T_4854b_row5_col1" class="data row5 col1" >481</td>
     </tr>
     <tr>
-      <td id="T_80475_row6_col0" class="data row6 col0" >orgão</td>
-      <td id="T_80475_row6_col1" class="data row6 col1" >309</td>
+      <td id="T_4854b_row6_col0" class="data row6 col0" >orgão</td>
+      <td id="T_4854b_row6_col1" class="data row6 col1" >309</td>
     </tr>
     <tr>
-      <td id="T_80475_row7_col0" class="data row7 col0" >interesses</td>
-      <td id="T_80475_row7_col1" class="data row7 col1" >246</td>
+      <td id="T_4854b_row7_col0" class="data row7 col0" >interesses</td>
+      <td id="T_4854b_row7_col1" class="data row7 col1" >246</td>
     </tr>
     <tr>
-      <td id="T_80475_row8_col0" class="data row8 col0" >critico</td>
-      <td id="T_80475_row8_col1" class="data row8 col1" >220</td>
+      <td id="T_4854b_row8_col0" class="data row8 col0" >critico</td>
+      <td id="T_4854b_row8_col1" class="data row8 col1" >220</td>
     </tr>
     <tr>
-      <td id="T_80475_row9_col0" class="data row9 col0" >folha</td>
-      <td id="T_80475_row9_col1" class="data row9 col1" >183</td>
+      <td id="T_4854b_row9_col0" class="data row9 col0" >folha</td>
+      <td id="T_4854b_row9_col1" class="data row9 col1" >183</td>
     </tr>
     <tr>
-      <td id="T_80475_row10_col0" class="data row10 col0" >revista</td>
-      <td id="T_80475_row10_col1" class="data row10 col1" >178</td>
+      <td id="T_4854b_row10_col0" class="data row10 col0" >revista</td>
+      <td id="T_4854b_row10_col1" class="data row10 col1" >178</td>
     </tr>
     <tr>
-      <td id="T_80475_row11_col0" class="data row11 col0" >commercial</td>
-      <td id="T_80475_row11_col1" class="data row11 col1" >176</td>
+      <td id="T_4854b_row11_col0" class="data row11 col0" >commercial</td>
+      <td id="T_4854b_row11_col1" class="data row11 col1" >176</td>
     </tr>
     <tr>
-      <td id="T_80475_row12_col0" class="data row12 col0" >semanario</td>
-      <td id="T_80475_row12_col1" class="data row12 col1" >174</td>
+      <td id="T_4854b_row12_col0" class="data row12 col0" >semanario</td>
+      <td id="T_4854b_row12_col1" class="data row12 col1" >174</td>
     </tr>
     <tr>
-      <td id="T_80475_row13_col0" class="data row13 col0" >litterario,</td>
-      <td id="T_80475_row13_col1" class="data row13 col1" >173</td>
+      <td id="T_4854b_row13_col0" class="data row13 col0" >litterario,</td>
+      <td id="T_4854b_row13_col1" class="data row13 col1" >173</td>
     </tr>
     <tr>
-      <td id="T_80475_row14_col0" class="data row14 col0" >partido</td>
-      <td id="T_80475_row14_col1" class="data row14 col1" >167</td>
+      <td id="T_4854b_row14_col0" class="data row14 col0" >partido</td>
+      <td id="T_4854b_row14_col1" class="data row14 col1" >167</td>
     </tr>
     <tr>
-      <td id="T_80475_row15_col0" class="data row15 col0" >republicano</td>
-      <td id="T_80475_row15_col1" class="data row15 col1" >159</td>
+      <td id="T_4854b_row15_col0" class="data row15 col0" >republicano</td>
+      <td id="T_4854b_row15_col1" class="data row15 col1" >159</td>
     </tr>
     <tr>
-      <td id="T_80475_row16_col0" class="data row16 col0" >politico</td>
-      <td id="T_80475_row16_col1" class="data row16 col1" >143</td>
+      <td id="T_4854b_row16_col0" class="data row16 col0" >politico</td>
+      <td id="T_4854b_row16_col1" class="data row16 col1" >143</td>
     </tr>
     <tr>
-      <td id="T_80475_row17_col0" class="data row17 col0" >politico,</td>
-      <td id="T_80475_row17_col1" class="data row17 col1" >139</td>
+      <td id="T_4854b_row17_col0" class="data row17 col0" >politico,</td>
+      <td id="T_4854b_row17_col1" class="data row17 col1" >139</td>
     </tr>
     <tr>
-      <td id="T_80475_row18_col0" class="data row18 col0" >dedicado</td>
-      <td id="T_80475_row18_col1" class="data row18 col1" >128</td>
+      <td id="T_4854b_row18_col0" class="data row18 col0" >dedicado</td>
+      <td id="T_4854b_row18_col1" class="data row18 col1" >128</td>
     </tr>
     <tr>
-      <td id="T_80475_row19_col0" class="data row19 col0" >recreativo</td>
-      <td id="T_80475_row19_col1" class="data row19 col1" >118</td>
+      <td id="T_4854b_row19_col0" class="data row19 col0" >recreativo</td>
+      <td id="T_4854b_row19_col1" class="data row19 col1" >118</td>
     </tr>
     <tr>
-      <td id="T_80475_row20_col0" class="data row20 col0" >independente</td>
-      <td id="T_80475_row20_col1" class="data row20 col1" >112</td>
+      <td id="T_4854b_row20_col0" class="data row20 col0" >independente</td>
+      <td id="T_4854b_row20_col1" class="data row20 col1" >112</td>
     </tr>
     <tr>
-      <td id="T_80475_row21_col0" class="data row21 col0" >critico,</td>
-      <td id="T_80475_row21_col1" class="data row21 col1" >98</td>
+      <td id="T_4854b_row21_col0" class="data row21 col0" >critico,</td>
+      <td id="T_4854b_row21_col1" class="data row21 col1" >98</td>
     </tr>
     <tr>
-      <td id="T_80475_row22_col0" class="data row22 col0" >humoristico</td>
-      <td id="T_80475_row22_col1" class="data row22 col1" >97</td>
+      <td id="T_4854b_row22_col0" class="data row22 col0" >humoristico</td>
+      <td id="T_4854b_row22_col1" class="data row22 col1" >97</td>
     </tr>
     <tr>
-      <td id="T_80475_row23_col0" class="data row23 col0" >litteraria</td>
-      <td id="T_80475_row23_col1" class="data row23 col1" >93</td>
+      <td id="T_4854b_row23_col0" class="data row23 col0" >litteraria</td>
+      <td id="T_4854b_row23_col1" class="data row23 col1" >93</td>
     </tr>
     <tr>
-      <td id="T_80475_row24_col0" class="data row24 col0" >imparcial</td>
-      <td id="T_80475_row24_col1" class="data row24 col1" >79</td>
+      <td id="T_4854b_row24_col0" class="data row24 col0" >imparcial</td>
+      <td id="T_4854b_row24_col1" class="data row24 col1" >79</td>
     </tr>
     <tr>
-      <td id="T_80475_row25_col0" class="data row25 col0" >noticioso,</td>
-      <td id="T_80475_row25_col1" class="data row25 col1" >75</td>
+      <td id="T_4854b_row25_col0" class="data row25 col0" >noticioso,</td>
+      <td id="T_4854b_row25_col1" class="data row25 col1" >75</td>
     </tr>
     <tr>
-      <td id="T_80475_row26_col0" class="data row26 col0" >mensal</td>
-      <td id="T_80475_row26_col1" class="data row26 col1" >63</td>
+      <td id="T_4854b_row26_col0" class="data row26 col0" >mensal</td>
+      <td id="T_4854b_row26_col1" class="data row26 col1" >63</td>
     </tr>
     <tr>
-      <td id="T_80475_row27_col0" class="data row27 col0" >commercial,</td>
-      <td id="T_80475_row27_col1" class="data row27 col1" >61</td>
+      <td id="T_4854b_row27_col0" class="data row27 col0" >commercial,</td>
+      <td id="T_4854b_row27_col1" class="data row27 col1" >61</td>
     </tr>
     <tr>
-      <td id="T_80475_row28_col0" class="data row28 col0" >municipio</td>
-      <td id="T_80475_row28_col1" class="data row28 col1" >60</td>
+      <td id="T_4854b_row28_col0" class="data row28 col0" >municipio</td>
+      <td id="T_4854b_row28_col1" class="data row28 col1" >60</td>
     </tr>
     <tr>
-      <td id="T_80475_row29_col0" class="data row29 col0" >commercio</td>
-      <td id="T_80475_row29_col1" class="data row29 col1" >59</td>
+      <td id="T_4854b_row29_col0" class="data row29 col0" >commercio</td>
+      <td id="T_4854b_row29_col1" class="data row29 col1" >59</td>
     </tr>
     <tr>
-      <td id="T_80475_row30_col0" class="data row30 col0" >scientifico</td>
-      <td id="T_80475_row30_col1" class="data row30 col1" >58</td>
+      <td id="T_4854b_row30_col0" class="data row30 col0" >scientifico</td>
+      <td id="T_4854b_row30_col1" class="data row30 col1" >58</td>
     </tr>
     <tr>
-      <td id="T_80475_row31_col0" class="data row31 col0" >sociedade</td>
-      <td id="T_80475_row31_col1" class="data row31 col1" >56</td>
+      <td id="T_4854b_row31_col0" class="data row31 col0" >sociedade</td>
+      <td id="T_4854b_row31_col1" class="data row31 col1" >56</td>
     </tr>
     <tr>
-      <td id="T_80475_row32_col0" class="data row32 col0" >propaganda</td>
-      <td id="T_80475_row32_col1" class="data row32 col1" >56</td>
+      <td id="T_4854b_row32_col0" class="data row32 col0" >propaganda</td>
+      <td id="T_4854b_row32_col1" class="data row32 col1" >56</td>
     </tr>
     <tr>
-      <td id="T_80475_row33_col0" class="data row33 col0" >povo</td>
-      <td id="T_80475_row33_col1" class="data row33 col1" >54</td>
+      <td id="T_4854b_row33_col0" class="data row33 col0" >povo</td>
+      <td id="T_4854b_row33_col1" class="data row33 col1" >54</td>
     </tr>
     <tr>
-      <td id="T_80475_row34_col0" class="data row34 col0" >para</td>
-      <td id="T_80475_row34_col1" class="data row34 col1" >52</td>
+      <td id="T_4854b_row34_col0" class="data row34 col0" >para</td>
+      <td id="T_4854b_row34_col1" class="data row34 col1" >52</td>
     </tr>
     <tr>
-      <td id="T_80475_row35_col0" class="data row35 col0" >noticiosa</td>
-      <td id="T_80475_row35_col1" class="data row35 col1" >51</td>
+      <td id="T_4854b_row35_col0" class="data row35 col0" >noticiosa</td>
+      <td id="T_4854b_row35_col1" class="data row35 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_80475_row36_col0" class="data row36 col0" >club</td>
-      <td id="T_80475_row36_col1" class="data row36 col1" >51</td>
+      <td id="T_4854b_row36_col0" class="data row36 col0" >club</td>
+      <td id="T_4854b_row36_col1" class="data row36 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_80475_row37_col0" class="data row37 col0" >semanal</td>
-      <td id="T_80475_row37_col1" class="data row37 col1" >51</td>
+      <td id="T_4854b_row37_col0" class="data row37 col0" >semanal</td>
+      <td id="T_4854b_row37_col1" class="data row37 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_80475_row38_col0" class="data row38 col0" >conservador</td>
-      <td id="T_80475_row38_col1" class="data row38 col1" >50</td>
+      <td id="T_4854b_row38_col0" class="data row38 col0" >conservador</td>
+      <td id="T_4854b_row38_col1" class="data row38 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_80475_row39_col0" class="data row39 col0" >hebdomadario</td>
-      <td id="T_80475_row39_col1" class="data row39 col1" >50</td>
+      <td id="T_4854b_row39_col0" class="data row39 col0" >hebdomadario</td>
+      <td id="T_4854b_row39_col1" class="data row39 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_80475_row40_col0" class="data row40 col0" >literario</td>
-      <td id="T_80475_row40_col1" class="data row40 col1" >49</td>
+      <td id="T_4854b_row40_col0" class="data row40 col0" >literario</td>
+      <td id="T_4854b_row40_col1" class="data row40 col1" >49</td>
     </tr>
     <tr>
-      <td id="T_80475_row41_col0" class="data row41 col0" >liberal</td>
-      <td id="T_80475_row41_col1" class="data row41 col1" >48</td>
+      <td id="T_4854b_row41_col0" class="data row41 col0" >liberal</td>
+      <td id="T_4854b_row41_col1" class="data row41 col1" >48</td>
     </tr>
     <tr>
-      <td id="T_80475_row42_col0" class="data row42 col0" >popular</td>
-      <td id="T_80475_row42_col1" class="data row42 col1" >46</td>
+      <td id="T_4854b_row42_col0" class="data row42 col0" >popular</td>
+      <td id="T_4854b_row42_col1" class="data row42 col1" >46</td>
     </tr>
     <tr>
-      <td id="T_80475_row43_col0" class="data row43 col0" >artes</td>
-      <td id="T_80475_row43_col1" class="data row43 col1" >44</td>
+      <td id="T_4854b_row43_col0" class="data row43 col0" >artes</td>
+      <td id="T_4854b_row43_col1" class="data row43 col1" >44</td>
     </tr>
     <tr>
-      <td id="T_80475_row44_col0" class="data row44 col0" >industria</td>
-      <td id="T_80475_row44_col1" class="data row44 col1" >43</td>
+      <td id="T_4854b_row44_col0" class="data row44 col0" >industria</td>
+      <td id="T_4854b_row44_col1" class="data row44 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_80475_row45_col0" class="data row45 col0" >illustrado</td>
-      <td id="T_80475_row45_col1" class="data row45 col1" >39</td>
+      <td id="T_4854b_row45_col0" class="data row45 col0" >illustrado</td>
+      <td id="T_4854b_row45_col1" class="data row45 col1" >39</td>
     </tr>
     <tr>
-      <td id="T_80475_row46_col0" class="data row46 col0" >official</td>
-      <td id="T_80475_row46_col1" class="data row46 col1" >38</td>
+      <td id="T_4854b_row46_col0" class="data row46 col0" >official</td>
+      <td id="T_4854b_row46_col1" class="data row46 col1" >38</td>
     </tr>
     <tr>
-      <td id="T_80475_row47_col0" class="data row47 col0" >politica,</td>
-      <td id="T_80475_row47_col1" class="data row47 col1" >38</td>
+      <td id="T_4854b_row47_col0" class="data row47 col0" >politica,</td>
+      <td id="T_4854b_row47_col1" class="data row47 col1" >38</td>
     </tr>
     <tr>
-      <td id="T_80475_row48_col0" class="data row48 col0" >estado</td>
-      <td id="T_80475_row48_col1" class="data row48 col1" >35</td>
+      <td id="T_4854b_row48_col0" class="data row48 col0" >estado</td>
+      <td id="T_4854b_row48_col1" class="data row48 col1" >35</td>
     </tr>
     <tr>
-      <td id="T_80475_row49_col0" class="data row49 col0" >lavoura</td>
-      <td id="T_80475_row49_col1" class="data row49 col1" >35</td>
+      <td id="T_4854b_row49_col0" class="data row49 col0" >lavoura</td>
+      <td id="T_4854b_row49_col1" class="data row49 col1" >35</td>
     </tr>
   </tbody>
 </table>
@@ -21487,11 +21430,9 @@ Name: editor, Length: 2014, dtype: int64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># gráfico de barras com as 50 palavras mais frequentes</span>
-<span class="n">fig17</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">df_subtitle_words</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Palavra&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;50 palavras mais frequentes&#39;</span><span class="p">,</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Palavra&#39;</span><span class="p">)</span>
-<span class="c1"># formatar eixo x</span>
-<span class="n">fig17</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickangle</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">tickfont</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">8</span><span class="p">))</span>
-<span class="c1"># aumentar tamanho do gráfico</span>
-<span class="n">fig17</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+<span class="n">fig17</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_subtitle_words</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span> <span class="s1">&#39;Palavra&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Subtítulos - 50 palavras mais frequentes&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="c1"># adcionar texto nas barras</span>
+<span class="n">fig17</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig17</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 <span class="c1"># salvar gráfico</span>
 <span class="n">fig17</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig17.png&#39;</span><span class="p">)</span>
@@ -21529,7 +21470,37 @@ Name: editor, Length: 2014, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Considera%C3%A7%C3%B5es-finais">Considera&#231;&#245;es finais<a class="anchor-link" href="#Considera%C3%A7%C3%B5es-finais">&#182;</a></h2><p>...</p>
+<h2 id="Dataframe-final">Dataframe final<a class="anchor-link" href="#Dataframe-final">&#182;</a></h2><p>Vamos criar um dataframe com as novas colunas e dados limpos criados ao longo desse notebook:</p>
+
+</div>
+</div>
+</div>
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># save df to csv</span>
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;./data/dataframe_hdb.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Considera%C3%A7%C3%B5es-finais">Considera&#231;&#245;es finais<a class="anchor-link" href="#Considera%C3%A7%C3%B5es-finais">&#182;</a></h2><p>Os dados da HDB abrem possibilidades de análise aprofundada de seu acervo, limitações e vieses, assim como permite um estudo da própria história da imprensa no Brasil. De maneira geral, percebemos que o acervo apresenta uma centralidade para periódicos publicados na cidade do Rio de Janeiro, entre os anos 1860 e 1920; periódicos majoritariamente publicados em língua portuguesa; com periodicidade variada, mas com destaque para periódicos semanais e mensais. Também podemos perceber que a vida da maioria dos periódicos foi bastante efêmera, com 5694 periódicos tendo apenas um ano de publicação registrado no acervo de um total de 7685. Isso corresponde a 74,1% dos periódicos. Apenas 1991 periódicos possuem mais de um ano de publicação registrado no acervo, o que corresponde a 25,9% do total.</p>
+<p>Muitas reflexões históricas importantes podem ser feitas a partir desses dados, assim como comparações com o acervo da Biblioteca Nacional Digital de Portugal.</p>
 
 </div>
 </div>
