@@ -1,3 +1,104 @@
+e9b2be7,Eric Brasil,2023-07-15,"Merge pull request #37 from ericbrasiln/30-scrapers","30 scrapers"
+a8abba9,Eric Brasil,2023-07-15,"Atualização do README.md dos scrapers",""
+a5d7d9d,Eric Brasil,2023-07-15,"Conclusão do código","scrapper_bndpt concluido e testado.
+"
+81766e6,Eric Brasil,2023-07-15,"Atualização do gitignore","Inclusão de ficheiros de resultado do scraper da bnd-pt em formato json
+"
+cabad9a,Eric Brasil,2023-07-13,"Primeira versão scraper_bnppt","Raspagem inicial da lista de resultados.
+"
+d972674,Eric Brasil,2023-07-13,"Merge pull request #36 from ericbrasiln/dados-hdb","Dados hdb"
+0697258,Eric Brasil,2023-07-13,"Revisão final","Revisão geral do noteboook.
+Inclusão de versão atualizada do html.
+dataframe final com dados limps.
+"
+1fe8a89,Eric Brasil,2023-07-13,"exclusão do arquivo xml","Aguardando informações sobre licença de uso pela BNDigital
+"
+86e787c,Eric Brasil,2023-07-13,"Inclusão de xml no .gitignore","Enquanto não há confirmação de licença para publicação do xml pela BNDigital, manter o arquivo no .gitignore.
+"
+2309568,Eric Brasil,2023-07-13,"Análise das décadas e palavras nos títulos","Gráficos e análise das palavras mais frequentes em títulos e subtítulos.
+Análise das décadas.
+criação de html
+"
+e7cd76e,Eric Brasil,2023-07-12,"Atualização cidades e editoras","criação de gráficos e html.
+"
+8398c1b,Eric Brasil,2023-07-12,"Atualização da análise dos dados da hdb","Análsie de local, datas, periodicidade.
+criação dos gráficos.
+"
+ecf9b8f,Eric Brasil,2023-07-11,"Atualização do notebook com análise HDB",""
+4145998,Eric Brasil,2023-07-10,"Inclusão de dados da HDB","Dados enviados pela HDB em formato xml.
+Início do tratamento e análise dos dados.
+"
+2606ce8,Eric Brasil,2023-07-10,"Atualização do Reademe",""
+dd777fe,Eric Brasil,2023-06-22,"Atualização do README.md",""
+775f1d9,Eric Brasil,2023-06-22,"Correções do scraper_hml","inclusão de dir com os dados e correção dos caminhos
+"
+f0868c3,Eric Brasil,2023-06-22,"Merge pull request #34 from ericbrasiln/29-tutoriais-ph","29 tutoriais ph"
+7af9788,Eric Brasil,2023-06-22,"Realocação do scrapper_hml","arquivo movido para diretório ferramentas_metodologicas.
+Atualização dos links nos demais arquivos.
+"
+fe9048e,Eric Brasil,2023-06-22,"Inclusão de lição sobre Git",""
+d9ef6d1,Eric Brasil,2023-06-20,"Atualização do doc sobe lições ph",""
+e7dd33a,Eric Brasil,2023-06-19,"Atualização do csv com log","csv com os dados do log a partir do branch main.
+
+Comando utilizado: `git log --pretty=format:'%h,%an,%as,"%s","%b"' > log_main.csv`
+"
+d39a483,Eric Brasil,2023-06-19,"Listagem de lições","Inclusão da lista de lições do README.md.
+"
+829a72a,Eric Brasil,2023-06-19,"atualização do gitignore","caminho correto para ignorar pasta de relatórios
+"
+eae5869,Eric Brasil,2023-06-19,"Merge pull request #28 from ericbrasiln:20-registros-met","Registros metetodológicos"
+44b80e4,Eric Brasil,2023-06-19,"Reestruturação do diretório","Nova estrutura padronizada e renomeação de ficheiros.
+"
+ff97393,Eric Brasil,2023-06-19,"Finalização do programa para relatórios",""
+568f166,Eric Brasil,2023-06-19,"Atualização do status das lições",""
+a2b179c,Eric Brasil,2023-06-19,"Atualização do ignore","Ignorar pasta de reports
+"
+a441f15,Eric Brasil,2023-06-19,"Merge branch 'main' into 20-registros-met","Atualização do branch 20-resgistros-met com os dados atuais do main.
+"
+999043d,Eric Brasil,2023-06-16,"Merge pull request #27 from ericbrasiln/26-interfaces","Análise das interfaces (método de revisão do projeto impresso)"
+de6710d,Eric Brasil,2023-06-16,"Atualização geral da estrutura","Padronização dos diretórios.
+Criação de gráficos em png.
+Criação de html dos nb.
+"
+7d4fc83,Eric Brasil,2023-06-16,"Análise com método Impresso Review","Inclusão de diretório com método Impresso Review.
+Notebooks, códigos e modelos.
+Realizei a conversão dos meus dados para o modelo.
+Adaptei os nbs e funções.
+Execução do modelo.
+Exportação dos gráficos em png e pdf e do nb em html.
+Atualização do nob interfaces_analise.ipynb.
+"
+3ec870b,Eric Brasil,2023-06-14,"Atualização da análise das interfaces","incorporação do texto de criterios_ava.md para o nb. excluir do md.
+"
+5ef5a50,Eric Brasil,2023-06-14,"Merge pull request #25 from ericbrasiln/24-doc_forms","Issue 24"
+c2019b4,Eric Brasil,2023-06-14,"Finalização do nb HML",""
+14bb84f,Eric Brasil,2023-06-14,"Atualização da análise HML",""
+b8bc27d,Eric Brasil,2023-06-14,"Atualização da análise das interfaces","atualização do readme e criação do nb para análise do formulário de availação das interfaces.
+"
+53fbc93,Eric Brasil,2023-06-14,"Atualização da estrutura","Renomeação da pasta dos formulários de avaliação.
+Atualizaçã0 dos links no README.md
+"
+c62f96d,Eric Brasil,2023-06-14,"início do nb da HML",""
+3287675,Eric Brasil,2023-06-14,"Finalização do nb BND-PT","Atualização do nb para  mesmo padrão da HDB;
+Exclusão da versão antiga do md.
+"
+65241c9,Eric Brasil,2023-06-14,"Pequenas correções no nb HDB",""
+30df258,Eric Brasil,2023-06-14,"Atualização do .gitignore","Pasta de configurações do vscode.
+"
+65b7e96,Eric Brasil,2023-06-13,"Renomeação das pastas","Padronização da estrutura e nomenclaturas de ficheiros.
+"
+053aa21,Eric Brasil,2023-06-13,"Atualização do README.md","Texto e links corretos
+"
+372d242,Eric Brasil,2023-06-13,"Finalização no notebook da HDB","Análise dos dados e documentação atualizada e reunida no notebook (esse será o notebook de referência para BND-PT e HML).
+"
+8954011,Eric Brasil,2023-06-05,"Criação do csv com log","csv com os dados do log a partir do branch main.
+
+Comando utilizado: `git log --pretty=format:'%h,%an,%as,"%s","%b"' > log_main.csv`
+"
+1c5c5d5,Eric Brasil,2023-06-05,"Pequena correção ortográfica",""
+d7bf19f,Eric Brasil,2023-06-05,"Criação de gráfico de barras para bnd-pt",""
+dbe5d69,Eric Brasil,2023-06-05,"Criação dos ficheiros","Ficheiros para documentar resultados de análises sobre bnd-pt e hem-lis
+"
 9b27a7a,Eric Brasil,2023-06-05,"Merge pull request #23 from ericbrasiln/22-fill-forms","Preenchimento dos formulários e análise dos respositórios"
 6456f25,Eric Brasil,2023-06-05,"Preenchimento do Formulário","Finalização para as três bibliotecas
 "
@@ -15,10 +116,15 @@ d8a4726,Eric Brasil,2023-06-02,"Preenchimento do formulário geral","Dados sobre
 "
 323aadc,Eric Brasil,2023-06-02,"Atualização da análise dos dados da HDB","Correção dos gráficos
 "
+9c8f741,Eric Brasil,2023-06-02,"Update lista-licoes.ph.md",""
 b4a77a6,Eric Brasil,2023-06-01,"Atualização dos dados da HDB",""
 8a99849,Eric Brasil,2023-06-01,"Escopo da HDB","Análise geral do escopo da HDB.
 Criação de ipynb para analisar os dados.
 Documentação em md com tabelas e gráfico
+"
+e9ea583,Eric Brasil,2023-05-31,"Criação do ipynb e atualização da documentação","Atualização de informações sobre as lições do ProgHist; atualização do
+README.md; criação de ipynb em branco para criação futura do código para
+suporte metodológico.
 "
 b66efea,Eric Brasil,2023-05-31,"Merge pull request #21 from ericbrasiln/16-dados-bnp","Análise dos dados da BND-PT"
 a010960,Eric Brasil,2023-05-31,"Atualização do README.md",""
@@ -32,6 +138,14 @@ d659042,Eric Brasil,2023-05-31,"Atualização do README.md","Título e breve des
 b6440f2,Eric Brasil,2023-05-30,"Atualização do md",""
 9d09715,Eric Brasil,2023-05-30,"Avanço na análise dos periódicos",""
 ab9063e,Eric Brasil,2023-05-30,"Atualização da análise - dados gerais",""
+40ec197,Eric Brasil,2023-05-29,"Criação de ficheiros iniciais","Criação do README.md.
+Criação e atualização da lista de lições do Prog Hist que serã
+utilizadas.
+
+Texto descritivo do commit (tem início após um linha em branco abaixo do título).
+Quantas linhas forem necessárias.
+Seja o mais detalhado possível.
+"
 a90f814,Eric Brasil,2023-05-29,"Inclusão de link para Stackoverflow","Resposta sobre erro de enconding no pandas.
 "
 3ee7a4a,Eric Brasil,2023-05-29,"Criação do jupyter notebook","Leitura inicial dos dados
