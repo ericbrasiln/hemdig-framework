@@ -18,4 +18,5 @@ Indicamos que, antes de começar a trabalhar com os programas e ferramentas list
    - **TRADUÇÃO EM ANDAMENTO** Ver [aqui](https://github.com/programminghistorian/ph-submissions/issues/371).
    - **Resumo da lição**: "Esta lição ensinará a converter imagens de textos em ficheiros textuais, bem como a traduzir estes ficheiros. A lição também ensinará a organizar e editar imagens para tornar mais fácil e precisa a conversão e tradução de pastas inteiras de ficheiros textuais. A lição conclui com uma discussão sobre as deficiências da tradução automática e como superá-las."
 6. [OCR with Google Vision API and Tesseract](https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract), Isabelle Gribomont.
+   - **TRADUÇÃO EM ANDAMENTO** Ver [aqui](https://github.com/programminghistorian/ph-submissions/issues/575).
    - **Resumo da lição**: "Google Vision and Tesseract are both popular and powerful OCR tools, but they each have their weaknesses. In this lesson, you will learn how to combine the two to make the most of their individual strengths and achieve even more accurate OCR results."
