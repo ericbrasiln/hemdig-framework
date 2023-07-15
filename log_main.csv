@@ -1,3 +1,49 @@
+e9b2be7,Eric Brasil,2023-07-15,"Merge pull request #37 from ericbrasiln/30-scrapers","30 scrapers"
+a8abba9,Eric Brasil,2023-07-15,"Atualização do README.md dos scrapers",""
+a5d7d9d,Eric Brasil,2023-07-15,"Conclusão do código","scrapper_bndpt concluido e testado.
+"
+81766e6,Eric Brasil,2023-07-15,"Atualização do gitignore","Inclusão de ficheiros de resultado do scraper da bnd-pt em formato json
+"
+cabad9a,Eric Brasil,2023-07-13,"Primeira versão scraper_bnppt","Raspagem inicial da lista de resultados.
+"
+d972674,Eric Brasil,2023-07-13,"Merge pull request #36 from ericbrasiln/dados-hdb","Dados hdb"
+0697258,Eric Brasil,2023-07-13,"Revisão final","Revisão geral do noteboook.
+Inclusão de versão atualizada do html.
+dataframe final com dados limps.
+"
+1fe8a89,Eric Brasil,2023-07-13,"exclusão do arquivo xml","Aguardando informações sobre licença de uso pela BNDigital
+"
+86e787c,Eric Brasil,2023-07-13,"Inclusão de xml no .gitignore","Enquanto não há confirmação de licença para publicação do xml pela BNDigital, manter o arquivo no .gitignore.
+"
+2309568,Eric Brasil,2023-07-13,"Análise das décadas e palavras nos títulos","Gráficos e análise das palavras mais frequentes em títulos e subtítulos.
+Análise das décadas.
+criação de html
+"
+e7cd76e,Eric Brasil,2023-07-12,"Atualização cidades e editoras","criação de gráficos e html.
+"
+8398c1b,Eric Brasil,2023-07-12,"Atualização da análise dos dados da hdb","Análsie de local, datas, periodicidade.
+criação dos gráficos.
+"
+ecf9b8f,Eric Brasil,2023-07-11,"Atualização do notebook com análise HDB",""
+4145998,Eric Brasil,2023-07-10,"Inclusão de dados da HDB","Dados enviados pela HDB em formato xml.
+Início do tratamento e análise dos dados.
+"
+2606ce8,Eric Brasil,2023-07-10,"Atualização do Reademe",""
+dd777fe,Eric Brasil,2023-06-22,"Atualização do README.md",""
+775f1d9,Eric Brasil,2023-06-22,"Correções do scraper_hml","inclusão de dir com os dados e correção dos caminhos
+"
+f0868c3,Eric Brasil,2023-06-22,"Merge pull request #34 from ericbrasiln/29-tutoriais-ph","29 tutoriais ph"
+7af9788,Eric Brasil,2023-06-22,"Realocação do scrapper_hml","arquivo movido para diretório ferramentas_metodologicas.
+Atualização dos links nos demais arquivos.
+"
+fe9048e,Eric Brasil,2023-06-22,"Inclusão de lição sobre Git",""
+d9ef6d1,Eric Brasil,2023-06-20,"Atualização do doc sobe lições ph",""
+e7dd33a,Eric Brasil,2023-06-19,"Atualização do csv com log","csv com os dados do log a partir do branch main.
+
+Comando utilizado: `git log --pretty=format:'%h,%an,%as,"%s","%b"' > log_main.csv`
+"
+d39a483,Eric Brasil,2023-06-19,"Listagem de lições","Inclusão da lista de lições do README.md.
+"
 829a72a,Eric Brasil,2023-06-19,"atualização do gitignore","caminho correto para ignorar pasta de relatórios
 "
 eae5869,Eric Brasil,2023-06-19,"Merge pull request #28 from ericbrasiln:20-registros-met","Registros metetodológicos"
