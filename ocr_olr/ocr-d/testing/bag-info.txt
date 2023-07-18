@@ -1,0 +1,6 @@
+Bag-Software-Agent: ocrd/core 1.0.0b19 (bagit.py 1.7.0, bagit_profile 1.3.0) [cmdline: "/home/dta/OCR-Koordination/OCR-D_Produktion/core/env/bin/ocrd zip bag -i ocrd_data_structur_wundt_grundriss_1896"]
+BagIt-Profile-Identifier: https://ocr-d.github.io/bagit-profile.json
+Bagging-Date: 2019-10-18 13:55:52.633487
+Ocrd-Identifier: ocrd_data_structur_wundt_grundriss_1896
+Ocrd-Manifestation-Depth: partial
+Payload-Oxum: 1837720.13

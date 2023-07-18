@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-SEG-BLOCK-DOCKER_0002">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.52.0</pc:Creator>
+        <pc:Created>2023-07-18T13:49:21.424419</pc:Created>
+        <pc:LastChange>2023-07-18T13:49:21.424419</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment-region">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="True" type="overwrite_segments"/>
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="region" type="textequiv_level"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.17.0 (tesseract 5.3.1-23-gbb88)" type="ocrd-tesserocr-segment-region"/>
+                <pc:Label value="2.52.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/OCR-D-IMG_0002.jpg" imageWidth="1995" imageHeight="3333">
+        <pc:AlternativeImage filename="OCR-D-SEG-BLOCK-DOCKER/OCR-D-SEG-BLOCK-DOCKER_0002.IMG-BIN.png" comments=",binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="6" regionRef="region0006"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+                <pc:RegionRefIndexed index="8" regionRef="region0008"/>
+                <pc:RegionRefIndexed index="9" regionRef="region0009"/>
+                <pc:RegionRefIndexed index="12" regionRef="region0012"/>
+                <pc:RegionRefIndexed index="14" regionRef="region0014"/>
+                <pc:RegionRefIndexed index="15" regionRef="region0015"/>
+                <pc:RegionRefIndexed index="16" regionRef="region0016"/>
+                <pc:RegionRefIndexed index="17" regionRef="region0017"/>
+                <pc:RegionRefIndexed index="18" regionRef="region0018"/>
+                <pc:RegionRefIndexed index="19" regionRef="region0019"/>
+                <pc:RegionRefIndexed index="20" regionRef="region0020"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="895,207 1079,207 1079,254 895,254"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="232,329 951,329 951,855 232,855"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="281,868 952,868 952,916 281,916"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="234,928 956,928 956,1759 234,1759"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0004" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="284,1772 993,1772 993,1821 284,1821"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0005" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="239,1837 955,1837 955,2667 239,2667"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0006" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="242,2724 959,2724 959,2883 242,2883"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0007" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="870,1591 992,1591 992,1627 870,1627"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0008" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="741,2073 995,2073 995,2119 741,2119"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0009" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="875,2266 995,2266 995,2299 875,2299"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0012" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="726,2349 996,2349 996,2411 726,2411"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0014" orientation="90.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1685,204 1734,204 1734,245 1685,245"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0015" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="987,327 1420,327 1420,365 987,365"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0016" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1023,387 1549,387 1549,495 1023,495"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0017" orientation="0.261127977046954" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="987,507 1354,507 1354,603 987,603"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0018" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1024,625 1743,625 1743,1446 1024,1446"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0019" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1028,1515 1749,1515 1749,2884 1028,2884"/>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0020" orientation="0.261127977046954" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1411,2912 1474,2912 1474,2945 1411,2945"/>
+        </pc:TextRegion>
+        <pc:SeparatorRegion id="region0010">
+            <pc:Coords points="985,328 996,328 996,1609 985,1609"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0011">
+            <pc:Coords points="991,1816 995,1816 995,2276 991,2276"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0013">
+            <pc:Coords points="992,2480 1001,2480 1001,2884 992,2884"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>
