@@ -2,10 +2,78 @@
 
 ## Instalação
 
-Explicar a instalação do OCR-D
+O OCR-D foi desenvolvido com base no Ubuntu 18.04 e atualmente funciona sem problemas no Ubuntu 22.04 (atual versão LTS). É possível instalá-lo em outras distribuições linux, mas pode ser necessário realizar algumas adaptações nos caminhos etc. Nesta pesquisa, em coerência com nossa perspectiva de ciência aberta, utilizamos o Pop!_OS 21.04, uma distribuição baseada no Ubuntu 21.04.
 
-### Virtual environment e Python 3.7
+Para usuários de Windows 10 em diante, há três possibilidades de utilizar o OCR-D:
 
+1. Executar as ferramentas do OCR-D em uma máquina virtual Linux[^vm]
+2. [Executar as ferramentas do OCR-D em um container Docker](https://ocr-d.de/en/setup#ocrd_all-via-docker)
+3. [Executar as ferramentas do OCR-D a partir do Windows Subsystem for Linux (WSL)](https://github.com/OCR-D/ocrd-website/wiki/OCR-D-on-Wi8ndows)
+
+[^vm]: Para instalar uma máquina virtual, recomendamos o [VirtualBox](https://www.virtualbox.org/). Para instalar o VirtualBox, siga as instruções do site oficial: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+
+Usuário de macOS podem utilizar o OCR-D, mas é preciso instalar software adicional, o que pode ser feito com o Homebrew. [Veja a documentação do OCR-D para mais informações](https://github.com/OCR-D/ocrd-website/wiki/OCR-D-on-macOS).
+
+O passo a passo da instalação a seguir foi baseado na documentação oficial do OCR-D: [https://ocr-d.de/en/setup](https://ocr-d.de/en/setup) e utilizada em um ambiente Linux (Pop!_OS 22.04).
+
+Vamos instalar o ocrd_all, que inclui todas as ferramentas.
+
+>The [`ocrd_all`](https://github.com/OCR-D/ocrd_all) project is an effort by the OCR-D community, now maintained by the OCR-D coordination team. It streamlines the native installation of OCR-D modules with a versatile Makefile approach. Besides allowing native installation of the full OCR-D stack (or any subset), it is also the base for the [`ocrd/all`](https://hub.docker.com/r/ocrd/all) Docker images available from DockerHub that contain the full stack (or certain subsets) of OCR-D modules ready for deployment. Technically, [`ocrd_all`](https://github.com/OCR-D/ocrd_all) is a Git repository that keeps all the necessary software as Git submodules at specific revisions. This way, the software tools are known to be at a stable version and guaranteed to be interoperable with one another. (https://ocr-d.de/en/setup#ocrd_all)
+
+### Python 3.7
+
+A [versão atual do OCR-D (v2.52.0)](https://github.com/OCR-D/core/releases/tag/v2.52.0) roda em Python 3.7. O OCR-D ainda não está totalmente compatível com versões mais recentes de Python. 
+
+Para instalar o python3.7 no Ubuntu 22.04, siga os passos abaixo:
+
+Primeiro adicione o repositório do deadsnakes:
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+```
+
+Em seguida, instale o python3.7:
+
+```bash
+sudo apt install python3.7
+```
+
+Lembre que caso haja mais de uma versão do Python instalada, é preciso especificar a versão que será utilizada. Para isso, sempre que for executar um comando, utilize o prefixo `python3.7`. Por exemplo, para instalar o gerencciados de pacotes pip e atualizá-lo no python3.7, utilize:
+
+```bash
+python3.7 -m pip install --upgrade pip
+```
+
+### Requisitos
+
+Para instalar o OCR-D, é preciso instalar alguns pacotes e bibliotecas. Para isso, execute os comandos abaixo:
+
+```bash
+sudo apt install make git parallel wget
+```
+
+Para um explicação e detalhamento dos requisitos, veja a [documentação do ocrd_all](https://github.com/OCR-D/ocrd_all#system-packages)
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/OCR-D/ocrd_all
+cd ocrd_all
+```
+
+### Instale o OCR-D
+
+```bash
+sudo make deps-ubuntu
+```
+
+### Ative o ambiente virtual
+
+```bash
+source venv/bin/activate
+```
 
 ## Criação do workspace
 

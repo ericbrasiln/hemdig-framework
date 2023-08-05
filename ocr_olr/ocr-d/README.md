@@ -8,7 +8,7 @@ Seu framework reúne uma série de ferramentas que contemplam todas as etapas de
 
 ![OCR-D Workflow](https://ocr-d.de/assets/Funktionsmodell.svg)
 
-Como ferramentas de OCR, o OCR-D possui processadores que utilizam o [Calamari](https://github.com/Calamari-OCR), o [Ocropus](https://github.com/ocropus) e o [Tesseract](https://github.com/tesseract-ocr/tesseract). Com isso permite grande flexibilidade na seleção de modelos e também no treinamento de modelos específicos.
+Como ferramentas de OCR, o OCR-D possui processadores que utilizam o [Calamari](https://github.com/Calamari-OCR), o [Ocropy](https://github.com/ocropus/ocropy) e o [Tesseract](https://github.com/tesseract-ocr/tesseract). Com isso permite grande flexibilidade na seleção de modelos e também no treinamento de modelos específicos.
 
 Buscando aplicar esse framework para jornais digitalizados em português, testamos uma série de ferramentas do OCR-D. Como jornais históricos apresentam uma série de desafios para seu tratamento digital e conversão para texto -- como a qualidade da digitalização, a presença de muitos ruídos, manchas, rasgos, layouts complexos em múltiplas colunas e variações de fontes entre outros tantos[^1] --, mesmo o OCR-D não é capaz de lidar de forma satisfatória com essas questões sem que haja um treinamento específico do modelo para um determinado conjunto de dados.
 
