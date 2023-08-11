@@ -12,6 +12,8 @@ Período de realização: **outubro de 2022 a outubro de 2023**
 - [Cronograma](https://github.com/ericbrasiln/hemdig-framework/blob/main/cronograma.md)
 - [Bibliografia](bibliografia/README.md)
 - [Análise dos repositórios e interfaces de usuário](repositorios/README.md)
+- [Ferramentas metodológicas](ferramentas-metodologicas/README.md)
+- [Ferramentas de reconhecimento ótico de caracteres](ocr_olr/README.md)
 
 ---
 
