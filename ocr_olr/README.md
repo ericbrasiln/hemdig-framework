@@ -1,20 +1,19 @@
 # Reconhecimento ótico de caracteres (OCR) e Reconhecimento ótico de layouts (OLR)
 
-Esse diretório organiza tutoriais, documentação e ferramentas para a eexcução de OCR e OLR em periódicos em língua portuguesa digitalizados.
+Esse diretório organiza tutoriais, documentação e ferramentas para a execução de OCR e OLR em periódicos em língua portuguesa digitalizados.
 
-## Tutoriais básicos
+Realizamos uma série de teste com diferentes ferramentas, desde CLI até GUI, e com diferentes níveis de complexidade. Também listamos uma série de lições do Programming Historian que são úteis para quem busca realizar OCR em jornais.
 
-Como preparação geral para o trabalho com OCR e OLR, recomendamos a leitura e prática dos tutoriais publicados pelo *Programming Historian*, listados [aqui](./tutoriais/ph.md)
+Buscamos avaliar ferramentas de código aberto e gratuitas. Mas ao final, também listamos uma série de opções proprietárias que podem ser úteis para quem busca realizar OCR em jornais.
 
-## Tutoriais específicos
+Esse capítulo, portanto, está dividido da seguinte forma:
 
-Atualmente, existem vários programas que realizam OCR e OLR. 
+- CLI: ferramentas de linha de comando, nomeadamente OCR-D e Kraken
+- GUI: ferramentas com interface gráfica de usuário, nomeadamente gImageReader
+- Lições do Programming Historian
 
-- [gImageReader](./tutoriais/gimagereader.md)
-- [Transkribus](./tutoriais/transkribus.md)
+Em cada um desses tópicos, apresentamos um conjuntos de tutoriais, documentação, testes e resultados obtidos.
 
-## OCR e OLR em massa
+Nosso objetivo, mas do que prover um passo-a-passo na utilização de cada ferramente, é apresentar as principais características, vantagens e desvantagens, e promover a reflexão crítica sobre seu uso.
 
-Para a execução de OCR e OLR em massa, recomendamos o uso de ferramentas mais complexas e que não possuem interface gráfica de usuário. Por isso demandam mais conhecimento computacional e de programação.
-
-[Listar: OCR-D, Layout Parser, OCRopus, Tesseract, Kraken, Calamari, etc.]
+Assim como todo esse framework, visamos subsidiar os pesquisadores com conhecimentos e material para elaborar consciente e criticamente seus fluxos de trabalho.
