@@ -1,3 +1,47 @@
+9b87957,Eric Brasil,2023-08-11,"Merge pull request #44 from ericbrasiln/42-ocr-com-gui","42 ocr com gui"
+5779059,Eric Brasil,2023-08-11,"Reorganização da estrutura do dir ocr_olr",""
+8f141c9,Eric Brasil,2023-08-11,"Atualização a partir da nova estrutura do repo",""
+8267ad2,Eric Brasil,2023-08-11,"Atualização com capítulos",""
+0278834,Eric Brasil,2023-08-11,"exclusão de dir de imgs e reestruturação dos dirs",""
+f5521ce,Eric Brasil,2023-08-11,"exclusão de imgs e atualização dos caminhos",""
+ae32a7c,Eric Brasil,2023-08-11,"Atualização da estrutura e caminho de imagens no nb",""
+df665a2,Eric Brasil,2023-08-11,"Finalização do nb sobre gimagereader.",""
+75049c1,Eric Brasil,2023-08-10,"Correções de sintaxe md",""
+f0164f9,Eric Brasil,2023-08-10,"inclusão das comparações de ocr do BE 1 e 2",""
+77b0a10,Eric Brasil,2023-08-10,"Criação de pasta geral de imagens dos ocrs",""
+496a7a7,Eric Brasil,2023-08-10,"diretórios com imagens e outputs do gIR",""
+b32e172,Eric Brasil,2023-08-10,"Atualização do nb sobre gIamgeReader.","Reorganização da estrutura das pastas. Avanço do tutorial até comparação
+dos resultados de layout e parte da comparação do resultado do OCR.
+"
+b7b2c00,Eric Brasil,2023-08-08,"instalação do gImageReader",""
+a766135,Eric Brasil,2023-08-07,"Exclusão dos ficheiros antigos sobre PH",""
+de62761,Eric Brasil,2023-08-07,"Criação dos notebooks para gIR e TR",""
+c76d723,Eric Brasil,2023-08-07,"Merge pull request #43 from ericbrasiln/18-ocr","18 ocr"
+965a203,Eric Brasil,2023-08-07,"Merge pull request #41 from ericbrasiln/ph-ocr","Finalização da documentação sobre tutoriais do PH"
+06ea86a,Eric Brasil,2023-08-07,"Finalização da documentação sobre tutoriais do PH",""
+ab33ebf,Eric Brasil,2023-08-07,"Exclusão do dir layoutparser","Após leitura inicial e avaliação da documentação, entendi que não seria possível tester o programa com a configuração atual do meu computador, pois o programa tem versões antigas do CUDA e não são compatíveis com a versão atual do meu GPU.
+"
+6e1d1b6,Eric Brasil,2023-08-07,"Criação da versão ipynb e html do ocrd_aval.md",""
+02d2bf0,Eric Brasil,2023-08-07,"Merge pull request #40 from ericbrasiln/kraken","Kraken"
+beb0bd6,Eric Brasil,2023-08-07,"finalização do nb sobre kraken",""
+8b3c3d7,Eric Brasil,2023-08-07,"resultado de ocr no boletim de eugenia",""
+4c4647f,Eric Brasil,2023-08-07,"Imagem de exemplo do boletim de eugenia",""
+eb3381f,Eric Brasil,2023-08-06,"Primeiros testes com kraken",""
+fe5d0ea,Eric Brasil,2023-08-05,"Infos sobre instalação do ocrd",""
+cc0e6bc,Eric Brasil,2023-08-04,"Informações sobre processadores de ocr",""
+6eda947,Eric Brasil,2023-08-04,"Merge pull request #39 from ericbrasiln/bnpd-scraper","Bnpd scraper"
+4afaa71,Eric Brasil,2023-08-04,"inclusão de versão html do ipynb",""
+7b9d6ad,Eric Brasil,2023-08-04,"Atualização do selenium","Não precisa mais webdriver-manager.
+Inclusão de novas opções para o driver.
+"
+f91fbad,Eric Brasil,2023-08-04,"Novos dados de testes e documentação do OCRD",""
+975c8b8,Eric Brasil,2023-08-04,"Exclusão de testes antigos com ocrd",""
+55bb37e,Eric Brasil,2023-08-04,"Exclusão de dir redundantes",""
+4050d34,Eric Brasil,2023-07-18,"Início de testes com OCR-D",""
+ea56aa9,Eric Brasil,2023-07-15,"Atualização links proghist",""
+225fee4,Eric Brasil,2023-07-15,"Merge branch 'main' into 18-ocr",""
+23b2e34,Eric Brasil,2023-07-15,"Atualização da plainlha de logs","Comando utilizado: `git log --pretty=format:'%h,%an,%as,"%s","%b"' > log_main.csv`
+"
 e9b2be7,Eric Brasil,2023-07-15,"Merge pull request #37 from ericbrasiln/30-scrapers","30 scrapers"
 a8abba9,Eric Brasil,2023-07-15,"Atualização do README.md dos scrapers",""
 a5d7d9d,Eric Brasil,2023-07-15,"Conclusão do código","scrapper_bndpt concluido e testado.
@@ -37,11 +81,17 @@ f0868c3,Eric Brasil,2023-06-22,"Merge pull request #34 from ericbrasiln/29-tutor
 Atualização dos links nos demais arquivos.
 "
 fe9048e,Eric Brasil,2023-06-22,"Inclusão de lição sobre Git",""
+8640548,Eric Brasil,2023-06-21,"Inclusão de dir para ocr/olr tools",""
+b0aa5f7,Eric Brasil,2023-06-20,"Atualização dos tutoriais ph","Inclusão dos resumos nas lições indicadas.
+Atualização do README.md
+"
 d9ef6d1,Eric Brasil,2023-06-20,"Atualização do doc sobe lições ph",""
 e7dd33a,Eric Brasil,2023-06-19,"Atualização do csv com log","csv com os dados do log a partir do branch main.
 
 Comando utilizado: `git log --pretty=format:'%h,%an,%as,"%s","%b"' > log_main.csv`
 "
+a32c808,Eric Brasil,2023-06-19,"Criação de ficheiros para tutoriais",""
+2d3a795,Eric Brasil,2023-06-19,"Merge branch 'main' into 18-ocr",""
 d39a483,Eric Brasil,2023-06-19,"Listagem de lições","Inclusão da lista de lições do README.md.
 "
 829a72a,Eric Brasil,2023-06-19,"atualização do gitignore","caminho correto para ignorar pasta de relatórios
@@ -161,6 +211,7 @@ Criação de versão csv do formulário de informações gerais das
 interfaces.
 Correções mínimas no documento explicativo dos critérios de avaliação.
 "
+f0486fe,Eric Brasil,2023-05-27,"Criação de diretório para OCR e OLR",""
 b633f23,Eric Brasil,2023-05-26,"Exclusão de csv de teste.",""
 6bc638c,Eric Brasil,2023-05-26,"Docs para avaliação de UI e repositórios","Inclusão de ficheiro com tabela de dados gerais sobre as
 interfaces (repositorios/forms_ava/interfaces_geral.md).
