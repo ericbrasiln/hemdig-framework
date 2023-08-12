@@ -15348,6 +15348,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># importar bibliotecas</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">plotly.io</span> <span class="k">as</span> <span class="nn">pio</span>
+<span class="n">pio</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s2">&quot;jupyterlab&quot;</span>
 </pre></div>
 
      </div>
@@ -16038,8 +16040,6 @@ Name: language, dtype: float64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar gráfico de barras com os dados de idiomas dos periódicos</span>
 <span class="n">fig1</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_lang</span><span class="p">,</span> <span class="s1">&#39;Idioma&#39;</span><span class="p">,</span> <span class="s1">&#39;Quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Idiomas dos periódicos&#39;</span><span class="p">,</span> <span class="s1">&#39;Idioma&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 <span class="n">fig1</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig1</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig1.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16576,8 +16576,6 @@ Name: language, dtype: float64</pre>
 <span class="c1"># adcionar mais anos no eixo x</span>
 <span class="n">fig2</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">1500</span><span class="p">,</span> <span class="mi">2023</span><span class="p">])</span>
 <span class="n">fig2</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig2</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig2.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16895,8 +16893,6 @@ Name: language, dtype: float64</pre>
 <span class="c1"># limitar eixo y a 200</span>
 <span class="n">fig3</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="nb">range</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="p">])</span>
 <span class="n">fig3</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig3</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig3.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16943,8 +16939,6 @@ Name: language, dtype: float64</pre>
 <span class="c1"># mostrar legenda para df_bdate</span>
 <span class="n">fig4</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">legend</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">yanchor</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">0.99</span><span class="p">,</span> <span class="n">xanchor</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mf">0.01</span><span class="p">))</span>
 <span class="n">fig4</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig4</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig4.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17264,8 +17258,6 @@ Name: language, dtype: float64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig5</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig5</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig5</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig5.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17583,8 +17575,6 @@ Name: language, dtype: float64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig6</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig6</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig6</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig6.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17631,8 +17621,6 @@ Name: language, dtype: float64</pre>
 <span class="c1"># mostrar legenda para df_bdecade</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">legend</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">yanchor</span><span class="o">=</span><span class="s2">&quot;top&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">0.99</span><span class="p">,</span> <span class="n">xanchor</span><span class="o">=</span><span class="s2">&quot;left&quot;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mf">0.01</span><span class="p">))</span>
 <span class="n">fig7</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig7</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig7.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18196,8 +18184,6 @@ dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig8</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig8</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig8</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig8.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18328,8 +18314,6 @@ Name: place, dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># criar gráfico</span>
 <span class="n">fig9</span> <span class="o">=</span> <span class="n">bar_chart</span><span class="p">(</span><span class="n">df_diff_place</span><span class="p">,</span> <span class="s1">&#39;Local&#39;</span><span class="p">,</span> <span class="s1">&#39;quantidade&#39;</span><span class="p">,</span> <span class="s1">&#39;Locais com maior número de publicações com mais de 10 anos de diferença entre início e fim da publicação&#39;</span><span class="p">,</span> <span class="n">range_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">range_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 <span class="n">fig9</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig9</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig9.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18659,8 +18643,6 @@ Name: periodicity, dtype: float64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># gráfico de pizza</span>
 <span class="n">fig10</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">df_periodicity</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;periodicity&#39;</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="n">df_periodicity</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Porcentagem de periodicidade&#39;</span><span class="p">)</span>
 <span class="n">fig10</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig10</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig10.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18995,8 +18977,6 @@ dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig11</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig11</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig11</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig11.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -19215,8 +19195,6 @@ dtype: int64</pre>
 <span class="c1"># valor absoluto no gráfico de pizza ao invés de porcentagem e acrescentar o caractere %</span>
 <span class="n">fig12</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">textinfo</span><span class="o">=</span><span class="s1">&#39;value&#39;</span><span class="p">,</span> <span class="n">textfont_size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{value:.2f}</span><span class="s1">%&#39;</span><span class="p">)</span>
 <span class="n">fig12</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig12</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig12.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -19658,8 +19636,6 @@ dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig13</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig13</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig13</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig13.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -19908,8 +19884,6 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig14</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig14</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig14</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig14.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -19950,8 +19924,6 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig15</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig15</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig15</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig15.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -20490,93 +20462,93 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_5a18c">
+<table id="T_11961">
   <thead>
     <tr>
-      <th id="T_5a18c_level0_col0" class="col_heading level0 col0" >Título</th>
-      <th id="T_5a18c_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_11961_level0_col0" class="col_heading level0 col0" >Título</th>
+      <th id="T_11961_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_5a18c_row0_col0" class="data row0 col0" >o progresso</td>
-      <td id="T_5a18c_row0_col1" class="data row0 col1" >37</td>
+      <td id="T_11961_row0_col0" class="data row0 col0" >o progresso</td>
+      <td id="T_11961_row0_col1" class="data row0 col1" >37</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row1_col0" class="data row1 col0" >o municipio</td>
-      <td id="T_5a18c_row1_col1" class="data row1 col1" >30</td>
+      <td id="T_11961_row1_col0" class="data row1 col0" >o municipio</td>
+      <td id="T_11961_row1_col1" class="data row1 col1" >30</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row2_col0" class="data row2 col0" >o democrata</td>
-      <td id="T_5a18c_row2_col1" class="data row2 col1" >25</td>
+      <td id="T_11961_row2_col0" class="data row2 col0" >o democrata</td>
+      <td id="T_11961_row2_col1" class="data row2 col1" >25</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row3_col0" class="data row3 col0" >o imparcial</td>
-      <td id="T_5a18c_row3_col1" class="data row3 col1" >22</td>
+      <td id="T_11961_row3_col0" class="data row3 col0" >o imparcial</td>
+      <td id="T_11961_row3_col1" class="data row3 col1" >22</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row4_col0" class="data row4 col0" >o commercio</td>
-      <td id="T_5a18c_row4_col1" class="data row4 col1" >21</td>
+      <td id="T_11961_row4_col0" class="data row4 col0" >o commercio</td>
+      <td id="T_11961_row4_col1" class="data row4 col1" >21</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row5_col0" class="data row5 col0" >o liberal</td>
-      <td id="T_5a18c_row5_col1" class="data row5 col1" >20</td>
+      <td id="T_11961_row5_col0" class="data row5 col0" >o liberal</td>
+      <td id="T_11961_row5_col1" class="data row5 col1" >20</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row6_col0" class="data row6 col0" >jornal do commercio</td>
-      <td id="T_5a18c_row6_col1" class="data row6 col1" >19</td>
+      <td id="T_11961_row6_col0" class="data row6 col0" >jornal do commercio</td>
+      <td id="T_11961_row6_col1" class="data row6 col1" >19</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row7_col0" class="data row7 col0" >o povo</td>
-      <td id="T_5a18c_row7_col1" class="data row7 col1" >18</td>
+      <td id="T_11961_row7_col0" class="data row7 col0" >o povo</td>
+      <td id="T_11961_row7_col1" class="data row7 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row8_col0" class="data row8 col0" >o popular</td>
-      <td id="T_5a18c_row8_col1" class="data row8 col1" >18</td>
+      <td id="T_11961_row8_col0" class="data row8 col0" >o popular</td>
+      <td id="T_11961_row8_col1" class="data row8 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row9_col0" class="data row9 col0" >a ordem</td>
-      <td id="T_5a18c_row9_col1" class="data row9 col1" >18</td>
+      <td id="T_11961_row9_col0" class="data row9 col0" >a ordem</td>
+      <td id="T_11961_row9_col1" class="data row9 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row10_col0" class="data row10 col0" >o constitucional</td>
-      <td id="T_5a18c_row10_col1" class="data row10 col1" >18</td>
+      <td id="T_11961_row10_col0" class="data row10 col0" >o constitucional</td>
+      <td id="T_11961_row10_col1" class="data row10 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row11_col0" class="data row11 col0" >o trabalho</td>
-      <td id="T_5a18c_row11_col1" class="data row11 col1" >18</td>
+      <td id="T_11961_row11_col0" class="data row11 col0" >o trabalho</td>
+      <td id="T_11961_row11_col1" class="data row11 col1" >18</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row12_col0" class="data row12 col0" >o conservador</td>
-      <td id="T_5a18c_row12_col1" class="data row12 col1" >17</td>
+      <td id="T_11961_row12_col0" class="data row12 col0" >o conservador</td>
+      <td id="T_11961_row12_col1" class="data row12 col1" >17</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row13_col0" class="data row13 col0" >o tempo</td>
-      <td id="T_5a18c_row13_col1" class="data row13 col1" >16</td>
+      <td id="T_11961_row13_col0" class="data row13 col0" >o tempo</td>
+      <td id="T_11961_row13_col1" class="data row13 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row14_col0" class="data row14 col0" >relatorios dos presidentes dos estados brasileiros : primeira republica</td>
-      <td id="T_5a18c_row14_col1" class="data row14 col1" >16</td>
+      <td id="T_11961_row14_col0" class="data row14 col0" >relatorios dos presidentes dos estados brasileiros : primeira republica</td>
+      <td id="T_11961_row14_col1" class="data row14 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row15_col0" class="data row15 col0" >a noticia</td>
-      <td id="T_5a18c_row15_col1" class="data row15 col1" >16</td>
+      <td id="T_11961_row15_col0" class="data row15 col0" >a noticia</td>
+      <td id="T_11961_row15_col1" class="data row15 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row16_col0" class="data row16 col0" >a verdade</td>
-      <td id="T_5a18c_row16_col1" class="data row16 col1" >15</td>
+      <td id="T_11961_row16_col0" class="data row16 col0" >a verdade</td>
+      <td id="T_11961_row16_col1" class="data row16 col1" >15</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row17_col0" class="data row17 col0" >a semana</td>
-      <td id="T_5a18c_row17_col1" class="data row17 col1" >14</td>
+      <td id="T_11961_row17_col0" class="data row17 col0" >a semana</td>
+      <td id="T_11961_row17_col1" class="data row17 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row18_col0" class="data row18 col0" >a luz</td>
-      <td id="T_5a18c_row18_col1" class="data row18 col1" >14</td>
+      <td id="T_11961_row18_col0" class="data row18 col0" >a luz</td>
+      <td id="T_11961_row18_col1" class="data row18 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_5a18c_row19_col0" class="data row19 col0" >jornal do povo</td>
-      <td id="T_5a18c_row19_col1" class="data row19 col1" >13</td>
+      <td id="T_11961_row19_col0" class="data row19 col0" >jornal do povo</td>
+      <td id="T_11961_row19_col1" class="data row19 col1" >13</td>
     </tr>
   </tbody>
 </table>
@@ -20639,213 +20611,213 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_ffa45">
+<table id="T_a9da3">
   <thead>
     <tr>
-      <th id="T_ffa45_level0_col0" class="col_heading level0 col0" >Palavra</th>
-      <th id="T_ffa45_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_a9da3_level0_col0" class="col_heading level0 col0" >Palavra</th>
+      <th id="T_a9da3_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_ffa45_row0_col0" class="data row0 col0" >jornal</td>
-      <td id="T_ffa45_row0_col1" class="data row0 col1" >396</td>
+      <td id="T_a9da3_row0_col0" class="data row0 col0" >jornal</td>
+      <td id="T_a9da3_row0_col1" class="data row0 col1" >396</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row1_col0" class="data row1 col0" >revista</td>
-      <td id="T_ffa45_row1_col1" class="data row1 col1" >310</td>
+      <td id="T_a9da3_row1_col0" class="data row1 col0" >revista</td>
+      <td id="T_a9da3_row1_col1" class="data row1 col1" >310</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row2_col0" class="data row2 col0" >gazeta</td>
-      <td id="T_ffa45_row2_col1" class="data row2 col1" >220</td>
+      <td id="T_a9da3_row2_col0" class="data row2 col0" >gazeta</td>
+      <td id="T_a9da3_row2_col1" class="data row2 col1" >220</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row3_col0" class="data row3 col0" >correio</td>
-      <td id="T_ffa45_row3_col1" class="data row3 col1" >212</td>
+      <td id="T_a9da3_row3_col0" class="data row3 col0" >correio</td>
+      <td id="T_a9da3_row3_col1" class="data row3 col1" >212</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row4_col0" class="data row4 col0" >folha</td>
-      <td id="T_ffa45_row4_col1" class="data row4 col1" >151</td>
+      <td id="T_a9da3_row4_col0" class="data row4 col0" >folha</td>
+      <td id="T_a9da3_row4_col1" class="data row4 col1" >151</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row5_col0" class="data row5 col0" >diario</td>
-      <td id="T_ffa45_row5_col1" class="data row5 col1" >147</td>
+      <td id="T_a9da3_row5_col0" class="data row5 col0" >diario</td>
+      <td id="T_a9da3_row5_col1" class="data row5 col1" >147</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row6_col0" class="data row6 col0" >povo</td>
-      <td id="T_ffa45_row6_col1" class="data row6 col1" >147</td>
+      <td id="T_a9da3_row6_col0" class="data row6 col0" >povo</td>
+      <td id="T_a9da3_row6_col1" class="data row6 col1" >147</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row7_col0" class="data row7 col0" >litterario</td>
-      <td id="T_ffa45_row7_col1" class="data row7 col1" >138</td>
+      <td id="T_a9da3_row7_col0" class="data row7 col0" >litterario</td>
+      <td id="T_a9da3_row7_col1" class="data row7 col1" >138</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row8_col0" class="data row8 col0" >orgao</td>
-      <td id="T_ffa45_row8_col1" class="data row8 col1" >104</td>
+      <td id="T_a9da3_row8_col0" class="data row8 col0" >orgao</td>
+      <td id="T_a9da3_row8_col1" class="data row8 col1" >104</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row9_col0" class="data row9 col0" >echo</td>
-      <td id="T_ffa45_row9_col1" class="data row9 col1" >98</td>
+      <td id="T_a9da3_row9_col0" class="data row9 col0" >echo</td>
+      <td id="T_a9da3_row9_col1" class="data row9 col1" >98</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row10_col0" class="data row10 col0" >commercio</td>
-      <td id="T_ffa45_row10_col1" class="data row10 col1" >97</td>
+      <td id="T_a9da3_row10_col0" class="data row10 col0" >commercio</td>
+      <td id="T_a9da3_row10_col1" class="data row10 col1" >97</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row11_col0" class="data row11 col0" >periodico</td>
-      <td id="T_ffa45_row11_col1" class="data row11 col1" >96</td>
+      <td id="T_a9da3_row11_col0" class="data row11 col0" >periodico</td>
+      <td id="T_a9da3_row11_col1" class="data row11 col1" >96</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row12_col0" class="data row12 col0" >commercial</td>
-      <td id="T_ffa45_row12_col1" class="data row12 col1" >90</td>
+      <td id="T_a9da3_row12_col0" class="data row12 col0" >commercial</td>
+      <td id="T_a9da3_row12_col1" class="data row12 col1" >90</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row13_col0" class="data row13 col0" >tribuna</td>
-      <td id="T_ffa45_row13_col1" class="data row13 col1" >87</td>
+      <td id="T_a9da3_row13_col0" class="data row13 col0" >tribuna</td>
+      <td id="T_a9da3_row13_col1" class="data row13 col1" >87</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row14_col0" class="data row14 col0" >estado</td>
-      <td id="T_ffa45_row14_col1" class="data row14 col1" >85</td>
+      <td id="T_a9da3_row14_col0" class="data row14 col0" >estado</td>
+      <td id="T_a9da3_row14_col1" class="data row14 col1" >85</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row15_col0" class="data row15 col0" >noticioso</td>
-      <td id="T_ffa45_row15_col1" class="data row15 col1" >82</td>
+      <td id="T_a9da3_row15_col0" class="data row15 col0" >noticioso</td>
+      <td id="T_a9da3_row15_col1" class="data row15 col1" >82</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row16_col0" class="data row16 col0" >liberal</td>
-      <td id="T_ffa45_row16_col1" class="data row16 col1" >81</td>
+      <td id="T_a9da3_row16_col0" class="data row16 col0" >liberal</td>
+      <td id="T_a9da3_row16_col1" class="data row16 col1" >81</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row17_col0" class="data row17 col0" >almanak</td>
-      <td id="T_ffa45_row17_col1" class="data row17 col1" >69</td>
+      <td id="T_a9da3_row17_col0" class="data row17 col0" >almanak</td>
+      <td id="T_a9da3_row17_col1" class="data row17 col1" >69</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row18_col0" class="data row18 col0" >brazil</td>
-      <td id="T_ffa45_row18_col1" class="data row18 col1" >67</td>
+      <td id="T_a9da3_row18_col0" class="data row18 col0" >brazil</td>
+      <td id="T_a9da3_row18_col1" class="data row18 col1" >67</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row19_col0" class="data row19 col0" >brasil</td>
-      <td id="T_ffa45_row19_col1" class="data row19 col1" >64</td>
+      <td id="T_a9da3_row19_col0" class="data row19 col0" >brasil</td>
+      <td id="T_a9da3_row19_col1" class="data row19 col1" >64</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row20_col0" class="data row20 col0" >para</td>
-      <td id="T_ffa45_row20_col1" class="data row20 col1" >64</td>
+      <td id="T_a9da3_row20_col0" class="data row20 col0" >para</td>
+      <td id="T_a9da3_row20_col1" class="data row20 col1" >64</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row21_col0" class="data row21 col0" >popular</td>
-      <td id="T_ffa45_row21_col1" class="data row21 col1" >62</td>
+      <td id="T_a9da3_row21_col0" class="data row21 col0" >popular</td>
+      <td id="T_a9da3_row21_col1" class="data row21 col1" >62</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row22_col0" class="data row22 col0" >progresso</td>
-      <td id="T_ffa45_row22_col1" class="data row22 col1" >62</td>
+      <td id="T_a9da3_row22_col0" class="data row22 col0" >progresso</td>
+      <td id="T_a9da3_row22_col1" class="data row22 col1" >62</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row23_col0" class="data row23 col0" >orgam</td>
-      <td id="T_ffa45_row23_col1" class="data row23 col1" >60</td>
+      <td id="T_a9da3_row23_col0" class="data row23 col0" >orgam</td>
+      <td id="T_a9da3_row23_col1" class="data row23 col1" >60</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row24_col0" class="data row24 col0" >almanach</td>
-      <td id="T_ffa45_row24_col1" class="data row24 col1" >60</td>
+      <td id="T_a9da3_row24_col0" class="data row24 col0" >almanach</td>
+      <td id="T_a9da3_row24_col1" class="data row24 col1" >60</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row25_col0" class="data row25 col0" >norte</td>
-      <td id="T_ffa45_row25_col1" class="data row25 col1" >57</td>
+      <td id="T_a9da3_row25_col0" class="data row25 col0" >norte</td>
+      <td id="T_a9da3_row25_col1" class="data row25 col1" >57</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row26_col0" class="data row26 col0" >municipio</td>
-      <td id="T_ffa45_row26_col1" class="data row26 col1" >56</td>
+      <td id="T_a9da3_row26_col0" class="data row26 col0" >municipio</td>
+      <td id="T_a9da3_row26_col1" class="data row26 col1" >56</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row27_col0" class="data row27 col0" >provincia</td>
-      <td id="T_ffa45_row27_col1" class="data row27 col1" >54</td>
+      <td id="T_a9da3_row27_col0" class="data row27 col0" >provincia</td>
+      <td id="T_a9da3_row27_col1" class="data row27 col1" >54</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row28_col0" class="data row28 col0" >janeiro</td>
-      <td id="T_ffa45_row28_col1" class="data row28 col1" >52</td>
+      <td id="T_a9da3_row28_col0" class="data row28 col0" >janeiro</td>
+      <td id="T_a9da3_row28_col1" class="data row28 col1" >52</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row29_col0" class="data row29 col0" >republica</td>
-      <td id="T_ffa45_row29_col1" class="data row29 col1" >51</td>
+      <td id="T_a9da3_row29_col0" class="data row29 col0" >republica</td>
+      <td id="T_a9da3_row29_col1" class="data row29 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row30_col0" class="data row30 col0" >boletim</td>
-      <td id="T_ffa45_row30_col1" class="data row30 col1" >51</td>
+      <td id="T_a9da3_row30_col0" class="data row30 col0" >boletim</td>
+      <td id="T_a9da3_row30_col1" class="data row30 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row31_col0" class="data row31 col0" >constitucional</td>
-      <td id="T_ffa45_row31_col1" class="data row31 col1" >51</td>
+      <td id="T_a9da3_row31_col0" class="data row31 col0" >constitucional</td>
+      <td id="T_a9da3_row31_col1" class="data row31 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row32_col0" class="data row32 col0" >mercantil</td>
-      <td id="T_ffa45_row32_col1" class="data row32 col1" >50</td>
+      <td id="T_a9da3_row32_col0" class="data row32 col0" >mercantil</td>
+      <td id="T_a9da3_row32_col1" class="data row32 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row33_col0" class="data row33 col0" >conservador</td>
-      <td id="T_ffa45_row33_col1" class="data row33 col1" >50</td>
+      <td id="T_a9da3_row33_col0" class="data row33 col0" >conservador</td>
+      <td id="T_a9da3_row33_col1" class="data row33 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row34_col0" class="data row34 col0" >cidade</td>
-      <td id="T_ffa45_row34_col1" class="data row34 col1" >49</td>
+      <td id="T_a9da3_row34_col0" class="data row34 col0" >cidade</td>
+      <td id="T_a9da3_row34_col1" class="data row34 col1" >49</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row35_col0" class="data row35 col0" >nova</td>
-      <td id="T_ffa45_row35_col1" class="data row35 col1" >49</td>
+      <td id="T_a9da3_row35_col0" class="data row35 col0" >nova</td>
+      <td id="T_a9da3_row35_col1" class="data row35 col1" >49</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row36_col0" class="data row36 col0" >nacional</td>
-      <td id="T_ffa45_row36_col1" class="data row36 col1" >48</td>
+      <td id="T_a9da3_row36_col0" class="data row36 col0" >nacional</td>
+      <td id="T_a9da3_row36_col1" class="data row36 col1" >48</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row37_col0" class="data row37 col0" >tarde</td>
-      <td id="T_ffa45_row37_col1" class="data row37 col1" >48</td>
+      <td id="T_a9da3_row37_col0" class="data row37 col0" >tarde</td>
+      <td id="T_a9da3_row37_col1" class="data row37 col1" >48</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row38_col0" class="data row38 col0" >minas</td>
-      <td id="T_ffa45_row38_col1" class="data row38 col1" >47</td>
+      <td id="T_a9da3_row38_col0" class="data row38 col0" >minas</td>
+      <td id="T_a9da3_row38_col1" class="data row38 col1" >47</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row39_col0" class="data row39 col0" >interesses</td>
-      <td id="T_ffa45_row39_col1" class="data row39 col1" >47</td>
+      <td id="T_a9da3_row39_col0" class="data row39 col0" >interesses</td>
+      <td id="T_a9da3_row39_col1" class="data row39 col1" >47</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row40_col0" class="data row40 col0" >fluminense</td>
-      <td id="T_ffa45_row40_col1" class="data row40 col1" >45</td>
+      <td id="T_a9da3_row40_col0" class="data row40 col0" >fluminense</td>
+      <td id="T_a9da3_row40_col1" class="data row40 col1" >45</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row41_col0" class="data row41 col0" >semana</td>
-      <td id="T_ffa45_row41_col1" class="data row41 col1" >44</td>
+      <td id="T_a9da3_row41_col0" class="data row41 col0" >semana</td>
+      <td id="T_a9da3_row41_col1" class="data row41 col1" >44</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row42_col0" class="data row42 col0" >litteraria</td>
-      <td id="T_ffa45_row42_col1" class="data row42 col1" >43</td>
+      <td id="T_a9da3_row42_col0" class="data row42 col0" >litteraria</td>
+      <td id="T_a9da3_row42_col1" class="data row42 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row43_col0" class="data row43 col0" >imparcial</td>
-      <td id="T_ffa45_row43_col1" class="data row43 col1" >43</td>
+      <td id="T_a9da3_row43_col0" class="data row43 col0" >imparcial</td>
+      <td id="T_a9da3_row43_col1" class="data row43 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row44_col0" class="data row44 col0" >liberdade</td>
-      <td id="T_ffa45_row44_col1" class="data row44 col1" >43</td>
+      <td id="T_a9da3_row44_col0" class="data row44 col0" >liberdade</td>
+      <td id="T_a9da3_row44_col1" class="data row44 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row45_col0" class="data row45 col0" >partido</td>
-      <td id="T_ffa45_row45_col1" class="data row45 col1" >43</td>
+      <td id="T_a9da3_row45_col0" class="data row45 col0" >partido</td>
+      <td id="T_a9da3_row45_col1" class="data row45 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row46_col0" class="data row46 col0" >recreativo</td>
-      <td id="T_ffa45_row46_col1" class="data row46 col1" >42</td>
+      <td id="T_a9da3_row46_col0" class="data row46 col0" >recreativo</td>
+      <td id="T_a9da3_row46_col1" class="data row46 col1" >42</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row47_col0" class="data row47 col0" >verdade</td>
-      <td id="T_ffa45_row47_col1" class="data row47 col1" >42</td>
+      <td id="T_a9da3_row47_col0" class="data row47 col0" >verdade</td>
+      <td id="T_a9da3_row47_col1" class="data row47 col1" >42</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row48_col0" class="data row48 col0" >official</td>
-      <td id="T_ffa45_row48_col1" class="data row48 col1" >42</td>
+      <td id="T_a9da3_row48_col0" class="data row48 col0" >official</td>
+      <td id="T_a9da3_row48_col1" class="data row48 col1" >42</td>
     </tr>
     <tr>
-      <td id="T_ffa45_row49_col0" class="data row49 col0" >critico</td>
-      <td id="T_ffa45_row49_col1" class="data row49 col1" >41</td>
+      <td id="T_a9da3_row49_col0" class="data row49 col0" >critico</td>
+      <td id="T_a9da3_row49_col1" class="data row49 col1" >41</td>
     </tr>
   </tbody>
 </table>
@@ -20871,8 +20843,6 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig16</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig16</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig16</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig16.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -21053,93 +21023,93 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_bae86">
+<table id="T_9e923">
   <thead>
     <tr>
-      <th id="T_bae86_level0_col0" class="col_heading level0 col0" >Subtítulo</th>
-      <th id="T_bae86_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_9e923_level0_col0" class="col_heading level0 col0" >Subtítulo</th>
+      <th id="T_9e923_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_bae86_row0_col0" class="data row0 col0" >orgam republicano</td>
-      <td id="T_bae86_row0_col1" class="data row0 col1" >22</td>
+      <td id="T_9e923_row0_col0" class="data row0 col0" >orgam republicano</td>
+      <td id="T_9e923_row0_col1" class="data row0 col1" >22</td>
     </tr>
     <tr>
-      <td id="T_bae86_row1_col0" class="data row1 col0" >orgam imparcial</td>
-      <td id="T_bae86_row1_col1" class="data row1 col1" >17</td>
+      <td id="T_9e923_row1_col0" class="data row1 col0" >orgam imparcial</td>
+      <td id="T_9e923_row1_col1" class="data row1 col1" >17</td>
     </tr>
     <tr>
-      <td id="T_bae86_row2_col0" class="data row2 col0" >periodico litterario e recreativo</td>
-      <td id="T_bae86_row2_col1" class="data row2 col1" >16</td>
+      <td id="T_9e923_row2_col0" class="data row2 col0" >periodico litterario e recreativo</td>
+      <td id="T_9e923_row2_col1" class="data row2 col1" >16</td>
     </tr>
     <tr>
-      <td id="T_bae86_row3_col0" class="data row3 col0" >periodico litterario e noticioso</td>
-      <td id="T_bae86_row3_col1" class="data row3 col1" >14</td>
+      <td id="T_9e923_row3_col0" class="data row3 col0" >periodico litterario e noticioso</td>
+      <td id="T_9e923_row3_col1" class="data row3 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_bae86_row4_col0" class="data row4 col0" >orgam do partido republicano</td>
-      <td id="T_bae86_row4_col1" class="data row4 col1" >14</td>
+      <td id="T_9e923_row4_col0" class="data row4 col0" >orgam do partido republicano</td>
+      <td id="T_9e923_row4_col1" class="data row4 col1" >14</td>
     </tr>
     <tr>
-      <td id="T_bae86_row5_col0" class="data row5 col0" >periodico critico e litterario</td>
-      <td id="T_bae86_row5_col1" class="data row5 col1" >13</td>
+      <td id="T_9e923_row5_col0" class="data row5 col0" >periodico critico e litterario</td>
+      <td id="T_9e923_row5_col1" class="data row5 col1" >13</td>
     </tr>
     <tr>
-      <td id="T_bae86_row6_col0" class="data row6 col0" >periodico scientifico e litterario</td>
-      <td id="T_bae86_row6_col1" class="data row6 col1" >13</td>
+      <td id="T_9e923_row6_col0" class="data row6 col0" >periodico scientifico e litterario</td>
+      <td id="T_9e923_row6_col1" class="data row6 col1" >13</td>
     </tr>
     <tr>
-      <td id="T_bae86_row7_col0" class="data row7 col0" >semanario independente</td>
-      <td id="T_bae86_row7_col1" class="data row7 col1" >13</td>
+      <td id="T_9e923_row7_col0" class="data row7 col0" >semanario independente</td>
+      <td id="T_9e923_row7_col1" class="data row7 col1" >13</td>
     </tr>
     <tr>
-      <td id="T_bae86_row8_col0" class="data row8 col0" >orgao do partido conservador</td>
-      <td id="T_bae86_row8_col1" class="data row8 col1" >12</td>
+      <td id="T_9e923_row8_col0" class="data row8 col0" >orgao do partido conservador</td>
+      <td id="T_9e923_row8_col1" class="data row8 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_bae86_row9_col0" class="data row9 col0" >jornal politico</td>
-      <td id="T_bae86_row9_col1" class="data row9 col1" >12</td>
+      <td id="T_9e923_row9_col0" class="data row9 col0" >jornal politico</td>
+      <td id="T_9e923_row9_col1" class="data row9 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_bae86_row10_col0" class="data row10 col0" >jornal politico e noticioso</td>
-      <td id="T_bae86_row10_col1" class="data row10 col1" >12</td>
+      <td id="T_9e923_row10_col0" class="data row10 col0" >jornal politico e noticioso</td>
+      <td id="T_9e923_row10_col1" class="data row10 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_bae86_row11_col0" class="data row11 col0" >orgao imparcial</td>
-      <td id="T_bae86_row11_col1" class="data row11 col1" >12</td>
+      <td id="T_9e923_row11_col0" class="data row11 col0" >orgao imparcial</td>
+      <td id="T_9e923_row11_col1" class="data row11 col1" >12</td>
     </tr>
     <tr>
-      <td id="T_bae86_row12_col0" class="data row12 col0" >folha popular</td>
-      <td id="T_bae86_row12_col1" class="data row12 col1" >10</td>
+      <td id="T_9e923_row12_col0" class="data row12 col0" >folha popular</td>
+      <td id="T_9e923_row12_col1" class="data row12 col1" >10</td>
     </tr>
     <tr>
-      <td id="T_bae86_row13_col0" class="data row13 col0" >jornal independente</td>
-      <td id="T_bae86_row13_col1" class="data row13 col1" >10</td>
+      <td id="T_9e923_row13_col0" class="data row13 col0" >jornal independente</td>
+      <td id="T_9e923_row13_col1" class="data row13 col1" >10</td>
     </tr>
     <tr>
-      <td id="T_bae86_row14_col0" class="data row14 col0" >orgao do partido republicano</td>
-      <td id="T_bae86_row14_col1" class="data row14 col1" >10</td>
+      <td id="T_9e923_row14_col0" class="data row14 col0" >orgao do partido republicano</td>
+      <td id="T_9e923_row14_col1" class="data row14 col1" >10</td>
     </tr>
     <tr>
-      <td id="T_bae86_row15_col0" class="data row15 col0" >orgam independente e noticioso</td>
-      <td id="T_bae86_row15_col1" class="data row15 col1" >9</td>
+      <td id="T_9e923_row15_col0" class="data row15 col0" >orgam independente e noticioso</td>
+      <td id="T_9e923_row15_col1" class="data row15 col1" >9</td>
     </tr>
     <tr>
-      <td id="T_bae86_row16_col0" class="data row16 col0" >jornal politico, litterario e commercial</td>
-      <td id="T_bae86_row16_col1" class="data row16 col1" >9</td>
+      <td id="T_9e923_row16_col0" class="data row16 col0" >jornal politico, litterario e commercial</td>
+      <td id="T_9e923_row16_col1" class="data row16 col1" >9</td>
     </tr>
     <tr>
-      <td id="T_bae86_row17_col0" class="data row17 col0" >jornal litterario</td>
-      <td id="T_bae86_row17_col1" class="data row17 col1" >8</td>
+      <td id="T_9e923_row17_col0" class="data row17 col0" >jornal litterario</td>
+      <td id="T_9e923_row17_col1" class="data row17 col1" >8</td>
     </tr>
     <tr>
-      <td id="T_bae86_row18_col0" class="data row18 col0" >orgam independente</td>
-      <td id="T_bae86_row18_col1" class="data row18 col1" >8</td>
+      <td id="T_9e923_row18_col0" class="data row18 col0" >orgam independente</td>
+      <td id="T_9e923_row18_col1" class="data row18 col1" >8</td>
     </tr>
     <tr>
-      <td id="T_bae86_row19_col0" class="data row19 col0" >periodico critico e chistoso</td>
-      <td id="T_bae86_row19_col1" class="data row19 col1" >8</td>
+      <td id="T_9e923_row19_col0" class="data row19 col0" >periodico critico e chistoso</td>
+      <td id="T_9e923_row19_col1" class="data row19 col1" >8</td>
     </tr>
   </tbody>
 </table>
@@ -21202,213 +21172,213 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 <style type="text/css">
 </style>
-<table id="T_4854b">
+<table id="T_dfa4e">
   <thead>
     <tr>
-      <th id="T_4854b_level0_col0" class="col_heading level0 col0" >Palavra</th>
-      <th id="T_4854b_level0_col1" class="col_heading level0 col1" >Quantidade</th>
+      <th id="T_dfa4e_level0_col0" class="col_heading level0 col0" >Palavra</th>
+      <th id="T_dfa4e_level0_col1" class="col_heading level0 col1" >Quantidade</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td id="T_4854b_row0_col0" class="data row0 col0" >jornal</td>
-      <td id="T_4854b_row0_col1" class="data row0 col1" >609</td>
+      <td id="T_dfa4e_row0_col0" class="data row0 col0" >jornal</td>
+      <td id="T_dfa4e_row0_col1" class="data row0 col1" >609</td>
     </tr>
     <tr>
-      <td id="T_4854b_row1_col0" class="data row1 col0" >noticioso</td>
-      <td id="T_4854b_row1_col1" class="data row1 col1" >576</td>
+      <td id="T_dfa4e_row1_col0" class="data row1 col0" >noticioso</td>
+      <td id="T_dfa4e_row1_col1" class="data row1 col1" >576</td>
     </tr>
     <tr>
-      <td id="T_4854b_row2_col0" class="data row2 col0" >litterario</td>
-      <td id="T_4854b_row2_col1" class="data row2 col1" >524</td>
+      <td id="T_dfa4e_row2_col0" class="data row2 col0" >litterario</td>
+      <td id="T_dfa4e_row2_col1" class="data row2 col1" >524</td>
     </tr>
     <tr>
-      <td id="T_4854b_row3_col0" class="data row3 col0" >orgam</td>
-      <td id="T_4854b_row3_col1" class="data row3 col1" >502</td>
+      <td id="T_dfa4e_row3_col0" class="data row3 col0" >orgam</td>
+      <td id="T_dfa4e_row3_col1" class="data row3 col1" >502</td>
     </tr>
     <tr>
-      <td id="T_4854b_row4_col0" class="data row4 col0" >orgao</td>
-      <td id="T_4854b_row4_col1" class="data row4 col1" >483</td>
+      <td id="T_dfa4e_row4_col0" class="data row4 col0" >orgao</td>
+      <td id="T_dfa4e_row4_col1" class="data row4 col1" >483</td>
     </tr>
     <tr>
-      <td id="T_4854b_row5_col0" class="data row5 col0" >periodico</td>
-      <td id="T_4854b_row5_col1" class="data row5 col1" >481</td>
+      <td id="T_dfa4e_row5_col0" class="data row5 col0" >periodico</td>
+      <td id="T_dfa4e_row5_col1" class="data row5 col1" >481</td>
     </tr>
     <tr>
-      <td id="T_4854b_row6_col0" class="data row6 col0" >orgão</td>
-      <td id="T_4854b_row6_col1" class="data row6 col1" >309</td>
+      <td id="T_dfa4e_row6_col0" class="data row6 col0" >orgão</td>
+      <td id="T_dfa4e_row6_col1" class="data row6 col1" >309</td>
     </tr>
     <tr>
-      <td id="T_4854b_row7_col0" class="data row7 col0" >interesses</td>
-      <td id="T_4854b_row7_col1" class="data row7 col1" >246</td>
+      <td id="T_dfa4e_row7_col0" class="data row7 col0" >interesses</td>
+      <td id="T_dfa4e_row7_col1" class="data row7 col1" >246</td>
     </tr>
     <tr>
-      <td id="T_4854b_row8_col0" class="data row8 col0" >critico</td>
-      <td id="T_4854b_row8_col1" class="data row8 col1" >220</td>
+      <td id="T_dfa4e_row8_col0" class="data row8 col0" >critico</td>
+      <td id="T_dfa4e_row8_col1" class="data row8 col1" >220</td>
     </tr>
     <tr>
-      <td id="T_4854b_row9_col0" class="data row9 col0" >folha</td>
-      <td id="T_4854b_row9_col1" class="data row9 col1" >183</td>
+      <td id="T_dfa4e_row9_col0" class="data row9 col0" >folha</td>
+      <td id="T_dfa4e_row9_col1" class="data row9 col1" >183</td>
     </tr>
     <tr>
-      <td id="T_4854b_row10_col0" class="data row10 col0" >revista</td>
-      <td id="T_4854b_row10_col1" class="data row10 col1" >178</td>
+      <td id="T_dfa4e_row10_col0" class="data row10 col0" >revista</td>
+      <td id="T_dfa4e_row10_col1" class="data row10 col1" >178</td>
     </tr>
     <tr>
-      <td id="T_4854b_row11_col0" class="data row11 col0" >commercial</td>
-      <td id="T_4854b_row11_col1" class="data row11 col1" >176</td>
+      <td id="T_dfa4e_row11_col0" class="data row11 col0" >commercial</td>
+      <td id="T_dfa4e_row11_col1" class="data row11 col1" >176</td>
     </tr>
     <tr>
-      <td id="T_4854b_row12_col0" class="data row12 col0" >semanario</td>
-      <td id="T_4854b_row12_col1" class="data row12 col1" >174</td>
+      <td id="T_dfa4e_row12_col0" class="data row12 col0" >semanario</td>
+      <td id="T_dfa4e_row12_col1" class="data row12 col1" >174</td>
     </tr>
     <tr>
-      <td id="T_4854b_row13_col0" class="data row13 col0" >litterario,</td>
-      <td id="T_4854b_row13_col1" class="data row13 col1" >173</td>
+      <td id="T_dfa4e_row13_col0" class="data row13 col0" >litterario,</td>
+      <td id="T_dfa4e_row13_col1" class="data row13 col1" >173</td>
     </tr>
     <tr>
-      <td id="T_4854b_row14_col0" class="data row14 col0" >partido</td>
-      <td id="T_4854b_row14_col1" class="data row14 col1" >167</td>
+      <td id="T_dfa4e_row14_col0" class="data row14 col0" >partido</td>
+      <td id="T_dfa4e_row14_col1" class="data row14 col1" >167</td>
     </tr>
     <tr>
-      <td id="T_4854b_row15_col0" class="data row15 col0" >republicano</td>
-      <td id="T_4854b_row15_col1" class="data row15 col1" >159</td>
+      <td id="T_dfa4e_row15_col0" class="data row15 col0" >republicano</td>
+      <td id="T_dfa4e_row15_col1" class="data row15 col1" >159</td>
     </tr>
     <tr>
-      <td id="T_4854b_row16_col0" class="data row16 col0" >politico</td>
-      <td id="T_4854b_row16_col1" class="data row16 col1" >143</td>
+      <td id="T_dfa4e_row16_col0" class="data row16 col0" >politico</td>
+      <td id="T_dfa4e_row16_col1" class="data row16 col1" >143</td>
     </tr>
     <tr>
-      <td id="T_4854b_row17_col0" class="data row17 col0" >politico,</td>
-      <td id="T_4854b_row17_col1" class="data row17 col1" >139</td>
+      <td id="T_dfa4e_row17_col0" class="data row17 col0" >politico,</td>
+      <td id="T_dfa4e_row17_col1" class="data row17 col1" >139</td>
     </tr>
     <tr>
-      <td id="T_4854b_row18_col0" class="data row18 col0" >dedicado</td>
-      <td id="T_4854b_row18_col1" class="data row18 col1" >128</td>
+      <td id="T_dfa4e_row18_col0" class="data row18 col0" >dedicado</td>
+      <td id="T_dfa4e_row18_col1" class="data row18 col1" >128</td>
     </tr>
     <tr>
-      <td id="T_4854b_row19_col0" class="data row19 col0" >recreativo</td>
-      <td id="T_4854b_row19_col1" class="data row19 col1" >118</td>
+      <td id="T_dfa4e_row19_col0" class="data row19 col0" >recreativo</td>
+      <td id="T_dfa4e_row19_col1" class="data row19 col1" >118</td>
     </tr>
     <tr>
-      <td id="T_4854b_row20_col0" class="data row20 col0" >independente</td>
-      <td id="T_4854b_row20_col1" class="data row20 col1" >112</td>
+      <td id="T_dfa4e_row20_col0" class="data row20 col0" >independente</td>
+      <td id="T_dfa4e_row20_col1" class="data row20 col1" >112</td>
     </tr>
     <tr>
-      <td id="T_4854b_row21_col0" class="data row21 col0" >critico,</td>
-      <td id="T_4854b_row21_col1" class="data row21 col1" >98</td>
+      <td id="T_dfa4e_row21_col0" class="data row21 col0" >critico,</td>
+      <td id="T_dfa4e_row21_col1" class="data row21 col1" >98</td>
     </tr>
     <tr>
-      <td id="T_4854b_row22_col0" class="data row22 col0" >humoristico</td>
-      <td id="T_4854b_row22_col1" class="data row22 col1" >97</td>
+      <td id="T_dfa4e_row22_col0" class="data row22 col0" >humoristico</td>
+      <td id="T_dfa4e_row22_col1" class="data row22 col1" >97</td>
     </tr>
     <tr>
-      <td id="T_4854b_row23_col0" class="data row23 col0" >litteraria</td>
-      <td id="T_4854b_row23_col1" class="data row23 col1" >93</td>
+      <td id="T_dfa4e_row23_col0" class="data row23 col0" >litteraria</td>
+      <td id="T_dfa4e_row23_col1" class="data row23 col1" >93</td>
     </tr>
     <tr>
-      <td id="T_4854b_row24_col0" class="data row24 col0" >imparcial</td>
-      <td id="T_4854b_row24_col1" class="data row24 col1" >79</td>
+      <td id="T_dfa4e_row24_col0" class="data row24 col0" >imparcial</td>
+      <td id="T_dfa4e_row24_col1" class="data row24 col1" >79</td>
     </tr>
     <tr>
-      <td id="T_4854b_row25_col0" class="data row25 col0" >noticioso,</td>
-      <td id="T_4854b_row25_col1" class="data row25 col1" >75</td>
+      <td id="T_dfa4e_row25_col0" class="data row25 col0" >noticioso,</td>
+      <td id="T_dfa4e_row25_col1" class="data row25 col1" >75</td>
     </tr>
     <tr>
-      <td id="T_4854b_row26_col0" class="data row26 col0" >mensal</td>
-      <td id="T_4854b_row26_col1" class="data row26 col1" >63</td>
+      <td id="T_dfa4e_row26_col0" class="data row26 col0" >mensal</td>
+      <td id="T_dfa4e_row26_col1" class="data row26 col1" >63</td>
     </tr>
     <tr>
-      <td id="T_4854b_row27_col0" class="data row27 col0" >commercial,</td>
-      <td id="T_4854b_row27_col1" class="data row27 col1" >61</td>
+      <td id="T_dfa4e_row27_col0" class="data row27 col0" >commercial,</td>
+      <td id="T_dfa4e_row27_col1" class="data row27 col1" >61</td>
     </tr>
     <tr>
-      <td id="T_4854b_row28_col0" class="data row28 col0" >municipio</td>
-      <td id="T_4854b_row28_col1" class="data row28 col1" >60</td>
+      <td id="T_dfa4e_row28_col0" class="data row28 col0" >municipio</td>
+      <td id="T_dfa4e_row28_col1" class="data row28 col1" >60</td>
     </tr>
     <tr>
-      <td id="T_4854b_row29_col0" class="data row29 col0" >commercio</td>
-      <td id="T_4854b_row29_col1" class="data row29 col1" >59</td>
+      <td id="T_dfa4e_row29_col0" class="data row29 col0" >commercio</td>
+      <td id="T_dfa4e_row29_col1" class="data row29 col1" >59</td>
     </tr>
     <tr>
-      <td id="T_4854b_row30_col0" class="data row30 col0" >scientifico</td>
-      <td id="T_4854b_row30_col1" class="data row30 col1" >58</td>
+      <td id="T_dfa4e_row30_col0" class="data row30 col0" >scientifico</td>
+      <td id="T_dfa4e_row30_col1" class="data row30 col1" >58</td>
     </tr>
     <tr>
-      <td id="T_4854b_row31_col0" class="data row31 col0" >sociedade</td>
-      <td id="T_4854b_row31_col1" class="data row31 col1" >56</td>
+      <td id="T_dfa4e_row31_col0" class="data row31 col0" >sociedade</td>
+      <td id="T_dfa4e_row31_col1" class="data row31 col1" >56</td>
     </tr>
     <tr>
-      <td id="T_4854b_row32_col0" class="data row32 col0" >propaganda</td>
-      <td id="T_4854b_row32_col1" class="data row32 col1" >56</td>
+      <td id="T_dfa4e_row32_col0" class="data row32 col0" >propaganda</td>
+      <td id="T_dfa4e_row32_col1" class="data row32 col1" >56</td>
     </tr>
     <tr>
-      <td id="T_4854b_row33_col0" class="data row33 col0" >povo</td>
-      <td id="T_4854b_row33_col1" class="data row33 col1" >54</td>
+      <td id="T_dfa4e_row33_col0" class="data row33 col0" >povo</td>
+      <td id="T_dfa4e_row33_col1" class="data row33 col1" >54</td>
     </tr>
     <tr>
-      <td id="T_4854b_row34_col0" class="data row34 col0" >para</td>
-      <td id="T_4854b_row34_col1" class="data row34 col1" >52</td>
+      <td id="T_dfa4e_row34_col0" class="data row34 col0" >para</td>
+      <td id="T_dfa4e_row34_col1" class="data row34 col1" >52</td>
     </tr>
     <tr>
-      <td id="T_4854b_row35_col0" class="data row35 col0" >noticiosa</td>
-      <td id="T_4854b_row35_col1" class="data row35 col1" >51</td>
+      <td id="T_dfa4e_row35_col0" class="data row35 col0" >noticiosa</td>
+      <td id="T_dfa4e_row35_col1" class="data row35 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_4854b_row36_col0" class="data row36 col0" >club</td>
-      <td id="T_4854b_row36_col1" class="data row36 col1" >51</td>
+      <td id="T_dfa4e_row36_col0" class="data row36 col0" >club</td>
+      <td id="T_dfa4e_row36_col1" class="data row36 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_4854b_row37_col0" class="data row37 col0" >semanal</td>
-      <td id="T_4854b_row37_col1" class="data row37 col1" >51</td>
+      <td id="T_dfa4e_row37_col0" class="data row37 col0" >semanal</td>
+      <td id="T_dfa4e_row37_col1" class="data row37 col1" >51</td>
     </tr>
     <tr>
-      <td id="T_4854b_row38_col0" class="data row38 col0" >conservador</td>
-      <td id="T_4854b_row38_col1" class="data row38 col1" >50</td>
+      <td id="T_dfa4e_row38_col0" class="data row38 col0" >conservador</td>
+      <td id="T_dfa4e_row38_col1" class="data row38 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_4854b_row39_col0" class="data row39 col0" >hebdomadario</td>
-      <td id="T_4854b_row39_col1" class="data row39 col1" >50</td>
+      <td id="T_dfa4e_row39_col0" class="data row39 col0" >hebdomadario</td>
+      <td id="T_dfa4e_row39_col1" class="data row39 col1" >50</td>
     </tr>
     <tr>
-      <td id="T_4854b_row40_col0" class="data row40 col0" >literario</td>
-      <td id="T_4854b_row40_col1" class="data row40 col1" >49</td>
+      <td id="T_dfa4e_row40_col0" class="data row40 col0" >literario</td>
+      <td id="T_dfa4e_row40_col1" class="data row40 col1" >49</td>
     </tr>
     <tr>
-      <td id="T_4854b_row41_col0" class="data row41 col0" >liberal</td>
-      <td id="T_4854b_row41_col1" class="data row41 col1" >48</td>
+      <td id="T_dfa4e_row41_col0" class="data row41 col0" >liberal</td>
+      <td id="T_dfa4e_row41_col1" class="data row41 col1" >48</td>
     </tr>
     <tr>
-      <td id="T_4854b_row42_col0" class="data row42 col0" >popular</td>
-      <td id="T_4854b_row42_col1" class="data row42 col1" >46</td>
+      <td id="T_dfa4e_row42_col0" class="data row42 col0" >popular</td>
+      <td id="T_dfa4e_row42_col1" class="data row42 col1" >46</td>
     </tr>
     <tr>
-      <td id="T_4854b_row43_col0" class="data row43 col0" >artes</td>
-      <td id="T_4854b_row43_col1" class="data row43 col1" >44</td>
+      <td id="T_dfa4e_row43_col0" class="data row43 col0" >artes</td>
+      <td id="T_dfa4e_row43_col1" class="data row43 col1" >44</td>
     </tr>
     <tr>
-      <td id="T_4854b_row44_col0" class="data row44 col0" >industria</td>
-      <td id="T_4854b_row44_col1" class="data row44 col1" >43</td>
+      <td id="T_dfa4e_row44_col0" class="data row44 col0" >industria</td>
+      <td id="T_dfa4e_row44_col1" class="data row44 col1" >43</td>
     </tr>
     <tr>
-      <td id="T_4854b_row45_col0" class="data row45 col0" >illustrado</td>
-      <td id="T_4854b_row45_col1" class="data row45 col1" >39</td>
+      <td id="T_dfa4e_row45_col0" class="data row45 col0" >illustrado</td>
+      <td id="T_dfa4e_row45_col1" class="data row45 col1" >39</td>
     </tr>
     <tr>
-      <td id="T_4854b_row46_col0" class="data row46 col0" >official</td>
-      <td id="T_4854b_row46_col1" class="data row46 col1" >38</td>
+      <td id="T_dfa4e_row46_col0" class="data row46 col0" >official</td>
+      <td id="T_dfa4e_row46_col1" class="data row46 col1" >38</td>
     </tr>
     <tr>
-      <td id="T_4854b_row47_col0" class="data row47 col0" >politica,</td>
-      <td id="T_4854b_row47_col1" class="data row47 col1" >38</td>
+      <td id="T_dfa4e_row47_col0" class="data row47 col0" >politica,</td>
+      <td id="T_dfa4e_row47_col1" class="data row47 col1" >38</td>
     </tr>
     <tr>
-      <td id="T_4854b_row48_col0" class="data row48 col0" >estado</td>
-      <td id="T_4854b_row48_col1" class="data row48 col1" >35</td>
+      <td id="T_dfa4e_row48_col0" class="data row48 col0" >estado</td>
+      <td id="T_dfa4e_row48_col1" class="data row48 col1" >35</td>
     </tr>
     <tr>
-      <td id="T_4854b_row49_col0" class="data row49 col0" >lavoura</td>
-      <td id="T_4854b_row49_col1" class="data row49 col1" >35</td>
+      <td id="T_dfa4e_row49_col0" class="data row49 col0" >lavoura</td>
+      <td id="T_dfa4e_row49_col1" class="data row49 col1" >35</td>
     </tr>
   </tbody>
 </table>
@@ -21434,8 +21404,6 @@ Name: publisher, Length: 2014, dtype: int64</pre>
 <span class="c1"># adcionar texto nas barras</span>
 <span class="n">fig17</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">texttemplate</span><span class="o">=</span><span class="s1">&#39;%</span><span class="si">{y}</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">textposition</span><span class="o">=</span><span class="s1">&#39;inside&#39;</span><span class="p">)</span>
 <span class="n">fig17</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="c1"># salvar gráfico</span>
-<span class="n">fig17</span><span class="o">.</span><span class="n">write_image</span><span class="p">(</span><span class="s1">&#39;./charts/fig17.png&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
