@@ -1,0 +1,14 @@
+format: jb-book
+root: index
+parts:
+  - caption: Apresentação da pesquisa
+    chapters:
+      - file: cronograma
+  - caption: 1ª etapa - Bibliografia
+    chapters:
+      - file: biblio
+      - file: bib_zotero
+  - caption: 2ª etapa - Repositórios
+    chapters:
+      - file: repos
+      - file: repositorios/BND-BR/complete_data
