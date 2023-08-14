@@ -1,0 +1,1 @@
+# Relatórios e documentação das buscas

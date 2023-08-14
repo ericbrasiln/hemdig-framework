@@ -1,0 +1,1 @@
+# Dados das interfaces

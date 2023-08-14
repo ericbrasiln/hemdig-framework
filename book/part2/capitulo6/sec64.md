@@ -1,0 +1,1 @@
+# Comparação entre as interfaces

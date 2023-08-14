@@ -1,0 +1,1 @@
+# Ferramentas proprietárias de OCR

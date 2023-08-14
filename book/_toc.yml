@@ -1,14 +1,94 @@
 format: jb-book
-root: index
+root: index.ipynb
 parts:
   - caption: Apresentação da pesquisa
     chapters:
-      - file: cronograma
-  - caption: 1ª etapa - Bibliografia
+      - file: pretext/intro
+      - file: pretext/estrutura
+      - file: pretext/pesquisa
+  - caption: 1ª fase - Planejamento e Preparação
     chapters:
-      - file: biblio
-      - file: bib_zotero
-  - caption: 2ª etapa - Repositórios
+      - file: part1/capitulo1/cap1
+        sections:
+          - file: part1/capitulo1/sec11
+          - file: part1/capitulo1/sec12
+      - file: part1/capitulo2/cap2
+        sections:
+          - file: part1/capitulo2/sec21
+      - file: part1/capitulo3/cap3
+        sections:
+          - file: part1/capitulo3/sec31
+          - file: part1/capitulo3/sec32
+          - file: part1/capitulo3/sec33
+          - file: part1/capitulo3/sec34
+  - caption: 2ª fase - Crítica dos Acervos
     chapters:
-      - file: repos
-      - file: repositorios/BND-BR/complete_data
+      - file: part2/capitulo4/cap4
+        sections:
+          - file: part2/capitulo4/sec41
+          - file: part2/capitulo4/sec42
+          - file: part2/capitulo4/sec43
+      - file: part2/capitulo5/cap5
+        sections:
+          - file: part2/capitulo5/sec51
+          - file: part2/capitulo5/sec52
+          - file: part2/capitulo5/sec53
+          - file: part2/capitulo5/sec54
+      - file: part2/capitulo6/cap6
+        sections:
+          - file: part2/capitulo6/sec61
+          - file: part2/capitulo6/sec62
+          - file: part2/capitulo6/sec63
+          - file: part2/capitulo6/sec64
+  - caption: 3ª fase - Coleta de dados
+    chapters:
+      - file: part3/capitulo7/cap7
+        sections:
+          - file: part3/capitulo7/sec71
+      - file: part3/capitulo8/cap8
+        sections:
+          - file: part3/capitulo8/sec81
+          - file: part3/capitulo8/sec82
+          - file: part3/capitulo8/sec83
+      - file: part3/capitulo9/cap9
+  - caption: 4ª fase - Tratamento dos dados
+    chapters:
+      - file: part4/capitulo10/cap10
+        sections:
+          - file: part4/capitulo10/sec101
+          - file: part4/capitulo10/sec102
+      - file: part4/capitulo11/cap11
+      - file: part4/capitulo12/cap12
+        sections:
+          - file: part4/capitulo12/sec121
+          - file: part4/capitulo12/sec122
+          - file: part4/capitulo12/sec123
+          - file: part4/capitulo12/sec124
+      - file: part4/capitulo13/cap13
+        sections:
+          - file: part4/capitulo13/sec131
+          - file: part4/capitulo13/sec132
+  - caption: 5ª Fase - Revisão, preservação e publicação
+    chapters:
+      - file: part5/capitulo14/cap14
+      - file: part5/capitulo15/cap15
+      - file: part5/capitulo16/cap16
+        sections:
+          - file: part5/capitulo16/sec161
+          - file: part5/capitulo16/sec162
+  - caption: Considerações Finais
+    chapters:
+      - file: postext/consideracoes_finais
+      - file: postext/biblio
+      - file: postext/links_uteis
+      - file: postext/contatos
+      - file: postext/agradecimentos
+  - caption: Apêndices
+    chapters:
+      - file: apendices/apendices
+        sections:
+          - file: apendices/apendiceA
+          - file: apendices/apendiceB
+          - file: apendices/apendiceC
+          - file: apendices/apendiceD
+          - file: apendices/apendiceE
