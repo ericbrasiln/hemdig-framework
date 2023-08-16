@@ -8,6 +8,7 @@ parts:
       - file: pretext/pesquisa
   - caption: 1ª fase - Planejamento e Preparação
     chapters:
+      - file: part1/part1-intro
       - file: part1/capitulo1/cap1
         sections:
           - file: part1/capitulo1/sec11
@@ -23,6 +24,7 @@ parts:
           - file: part1/capitulo3/sec34
   - caption: 2ª fase - Crítica dos Acervos
     chapters:
+      - file: part2/part2-intro
       - file: part2/capitulo4/cap4
         sections:
           - file: part2/capitulo4/sec41

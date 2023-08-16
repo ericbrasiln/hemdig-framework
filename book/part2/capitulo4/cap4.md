@@ -1,4 +1,4 @@
-# Os casos de estudo: HDB, BND-PT e HML
+# 4. Os casos de estudo: HDB, BND-PT e HML
 
 Nesse documento, estão listados e brevemente explicados, os repositórios e interfaces gráficas avaliados e selecionados para o projeto.
 
@@ -19,18 +19,3 @@ Buscando uma compreensão mais detalhada do escopo do acervo da HDB, realizei le
 Em relação à HML, não foi possível encontrar dados abertos disponibilizados pela interface. Portanto, desenvolvi um programa para coletar os dados relativos ao escopo do acervo da HML, como pode ser visto [aqui](). Com esse programa, foi possível gerar um documento `csv` com os seguintes dados, te todos os periódicos disponíveis na interface: título, anos, local, fichas históricas, quantidade de pdfs, lista de links de pdfs. A apresentação e análise desses dados pode ser vista [aqui](sec43).
 
 Por conseguinte, não foi possível realizar análises detalhadas de forma isonômica entre os três acervos. A ausência de uma política de dados abertos no padrão adotado pela BND-PT, por parte da HDB e da HML impõe limites à análise e à visualização dos dados. Ao mesmo tempo que explicita a necessidade urgente sobre o debate e implementação de políticas de dados abertos por parte das instituições responsáveis pelos acervos.
-
-
-## Avaliação crítica das Interfaces
-
-Realizei uma avaliação crítica de aspectos variados das interfaces gráficas de cada um dos acervos, a partir de metodologia de proposto por Ehrmann, Bunout e Düring[^1]. Foi desenvolvido um formulário amplo, com seis critérios de avaliação subdividido em 125 itens.
-
-O formulário foi aplicado a cada uma das interfaces, e os resultados foram organizados em formato `csv`.
-
-Os documentos relativos à avaliação de cada interface podem ser vistos a seguir:
-
-- [Documentação sobre a criação do formulário](/AVA_INTERFACES/criterios_ava.md)
-- [Formulário de avaliação](/AVA_INTERFACES/form_criterios.csv)
-- [Análise geral dos dados](/AVA_INTERFACES/interfaces_analise.ipynb)
-
-[^1]: Ehrmann, Maud, Estelle Bunout, e Marten Düring. “Historical Newspaper User Interfaces: A Review”. Em Libraries: Dialogue for Change. Athens, Greece, 2017. http://library.ifla.org/id/eprint/2578/.
