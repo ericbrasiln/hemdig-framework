@@ -44,6 +44,7 @@ parts:
           - file: part2/capitulo6/sec64
   - caption: 3ª fase - Coleta de dados
     chapters:
+      - file: part3/part3-intro
       - file: part3/capitulo7/cap7
         sections:
           - file: part3/capitulo7/sec71
@@ -55,6 +56,7 @@ parts:
       - file: part3/capitulo9/cap9
   - caption: 4ª fase - Tratamento dos dados
     chapters:
+      - file: part4/part4-intro
       - file: part4/capitulo10/cap10
         sections:
           - file: part4/capitulo10/sec101

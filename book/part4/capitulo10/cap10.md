@@ -1,1 +1,1 @@
-# Reconhecimento ótico de caracteres
+# 10. Reconhecimento ótico de caracteres

@@ -9,7 +9,7 @@ exclude_patterns            : [_build]
 #######################################################################################
 # Execution settings
 execute:
-  execute_notebooks: "off"
+  execute_notebooks: off
 
 #######################################################################################
 # Parse and render settings
