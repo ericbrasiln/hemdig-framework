@@ -16,11 +16,6 @@ parts:
         sections:
           - file: part1/capitulo2/sec21
       - file: part1/capitulo3/cap3
-        sections:
-          - file: part1/capitulo3/sec31
-          - file: part1/capitulo3/sec32
-          - file: part1/capitulo3/sec33
-          - file: part1/capitulo3/sec34
   - caption: 2ª fase - Crítica dos Acervos
     chapters:
       - file: part2/part2-intro
