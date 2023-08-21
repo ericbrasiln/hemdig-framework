@@ -5,7 +5,8 @@ author                      : <a href="https://ericbrasiln.github.io/">Eric Bras
 copyright                   : "2023"  # Copyright year to be placed in the footer
 logo                        : "logo.png"  # A path to the book logo
 exclude_patterns            : [_build]
-
+code_hide: 
+  - remove-input
 #######################################################################################
 # Execution settings
 execute:
