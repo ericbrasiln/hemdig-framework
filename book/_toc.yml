@@ -12,7 +12,6 @@ parts:
       - file: part1/capitulo1/cap1
         sections:
           - file: part1/capitulo1/sec11
-          - file: part1/capitulo1/sec12
       - file: part1/capitulo2/cap2
         sections:
           - file: part1/capitulo2/sec21
