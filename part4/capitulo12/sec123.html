@@ -1,0 +1,1184 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>12.3. OCR-D: Tutorial e testes &#8212; HemDig Framework</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css?v=6ad1a40c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js?v=351a2e83"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'part4/capitulo12/sec123';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="12.4. Recomendações e conclusões" href="sec124.html" />
+    <link rel="prev" title="12.2. Testanto o Kraken" href="sec122.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apresentação da pesquisa</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../pretext/intro.html">Introdução</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pretext/estrutura.html">Estrutura da pesquisa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pretext/pesquisa.html">Histórico, versionamento, repositório</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">1ª fase - Planejamento e Preparação</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../part1/part1-intro.html">Em que consiste a primeira fase?</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part1/capitulo1/cap1.html">1. Revisão da Literatura</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part1/capitulo1/sec11.html">1.1. Levantamento bibliográfico na base Scopus</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part1/capitulo2/cap2.html">2. Preparação técnica básica</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part1/capitulo2/sec21.html">2.1. Tutoriais do Programming Historian</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../part1/capitulo3/cap3.html">3. Planejamento da pesquisa</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2ª fase - Crítica dos Acervos</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../part2/part2-intro.html">Em que consiste a segunda fase?</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part2/capitulo4/cap4.html">4. Os casos de estudo: HDB, BND-PT e HML</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo4/sec41.html">4.1. Análise dos dados de periódicos da Hemeroteca Digital Brasileira da Biblioteca Nacional</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo4/sec42.html">4.2. Análise dos dados de periódicos da Biblioteca Nacional Digital de Portugal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo4/sec43.html">4.3. Análise dos dados de periódicos da Hemeroteca Municipal de Lisboa</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part2/capitulo5/cap5.html">5. Análise das interfaces gráficas</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo5/sec51.html">5.1. Critérios de avaliação das interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo5/sec52.html">Método de revisão <em>Impresso</em></a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part2/capitulo6/cap6.html">6. Um esforço comparativo</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul class="simple">
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3ª fase - Coleta de dados</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../part3/part3-intro.html">Em que consiste a terceira fase?</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part3/capitulo7/cap7.html">Relatórios e documentação das buscas</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part3/capitulo7/sec71.html">Relatórios Metodológicos para Pesquisa em Interfaces Gráficas de Periódicos Digitalizados</a></li>
+
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part3/capitulo8/cap8.html">8. Scrapers de dados</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part3/capitulo8/sec81.html">8.1 pyHDB - Coleta de metadados e acervos da HDB</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../part3/capitulo8/sec82.html">8.2. Scraper para a Biblioteca Digital de Portugal.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../part3/capitulo8/sec83.html">8.3. Scraper para o site da Hemeroteca Digital de Lisboa</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../part3/capitulo9/cap9.html">9. Organização dos datasets</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">4ª fase - Tratamento dos dados</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../part4-intro.html">Em que consiste a quarta fase?</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo10/cap10.html">10. Reconhecimento ótico de caracteres</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo10/sec101.html">10.1. Conceitos básicos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo10/sec102.html">10.2. Definição de estratégias: volume e qualidade dos dados</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../capitulo11/cap11.html">11. Lições do Programming Historian para Reconhecimento Ótico de Caracteres (OCR)</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="cap12.html">12. OCR com CLI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="sec121.html">12.1. Tesseract</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sec122.html">12.2. Testanto o Kraken</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">12.3. OCR-D: Tutorial e testes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sec124.html">12.4. Recomendações e conclusões</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo13/cap13.html">13.1. OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec131.html">13.1. Tutorial de uso do gImageReader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec132.html">13.2. Recomendações e conclusões</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">5ª Fase - Revisão, preservação e publicação</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../part5/part5-intro.html">Em que consiste a quinta fase?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../part5/capitulo14/cap14.html">Consolidação da documentação</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../part5/capitulo15/cap15.html">Revisão dos dados e metadados</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part5/capitulo16/cap16.html">Publicação dos dados</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../part5/capitulo16/sec161.html">Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../part5/capitulo16/sec162.html">Zenodo</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Considerações Finais</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../postext/consideracoes_finais.html">Considerações finais</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../postext/biblio.html">Bibliografia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../postext/links_uteis.html">Links Úteis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../postext/contatos.html">Contatos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../postext/agradecimentos.html">Agradecimentos</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Apêndices</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../apendices/apendices.html">Apêndices</a><input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-12"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceA.html">A. Glossário</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceB.html">B. Dados dos acervos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceC.html">C. Dados das interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceD.html">D. Ferramentas de análise de dados</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceE.html">E. Ferramentas proprietárias de OCR</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/ericbrasiln/hemdig-framework/main?urlpath=lab/tree/book/part4/capitulo12/sec123.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onBinder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/ericbrasiln/hemdig-framework" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/ericbrasiln/hemdig-framework/issues/new?title=Issue%20on%20page%20%2Fpart4/capitulo12/sec123.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/part4/capitulo12/sec123.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>12.3. OCR-D: Tutorial e testes</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instalacao">Instalação</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#python-3-7">Python 3.7</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#requisitos">Requisitos</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-o-repositorio">Clone o repositório</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instale-o-ocr-d">Instale o OCR-D</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ative-o-ambiente-virtual">Ative o ambiente virtual</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#criacao-do-workspace">Criação do workspace</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teste-01-o-paiz">Teste 01: <em>O Paiz</em></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#paginas-originais">Páginas originais</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-testado">Workflow testado</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conversao-para-tif">Conversão para tif</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessamento-com-ocrd">Preprocessamento com ocrd</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#normalizacao-da-imagem">Normalização da imagem</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binarizacao-nivel-de-pagina">Binarização (Nível de página)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reducao-de-ruido">Redução de ruído</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deskew">Deskew</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#segmentacao">Segmentação</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#resultados-da-segmentacao">Resultados da segmentação</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ocr">OCR</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#calamari">Calamari</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ocropy">Ocropy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#tesseract">Tesseract</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#comparacao">Comparação</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pagina-1">Página 1</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pagina-2">Página 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teste-02-boletim-de-eugenia">Teste 02: Boletim de Eugenia</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Páginas originais</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Workflow testado</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Resultados da segmentação</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">OCR</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Calamari</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Tesseract</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Comparação</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Página 1</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Página 2</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pagina-3">Página 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recomendacoes">Recomendações</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ocr-d-tutorial-e-testes">
+<h1>12.3. OCR-D: Tutorial e testes<a class="headerlink" href="#ocr-d-tutorial-e-testes" title="Permalink to this heading">#</a></h1>
+<p>O OCR-D foi desenvolvido com base no Ubuntu 18.04 e atualmente funciona sem problemas no Ubuntu 22.04 (atual versão LTS). É possível instalá-lo em outras distribuições linux, mas pode ser necessário realizar algumas adaptações nos caminhos etc. Nesta pesquisa, em coerência com nossa perspectiva de ciência aberta, utilizamos o Pop!_OS 21.04, uma distribuição baseada no Ubuntu 21.04.</p>
+<p>Para usuários de Windows 10 em diante, há três possibilidades de utilizar o OCR-D:</p>
+<ol class="arabic simple">
+<li><p>Executar as ferramentas do OCR-D em uma máquina virtual Linux<a class="footnote-reference brackets" href="#vm" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p></li>
+<li><p><a class="reference external" href="https://ocr-d.de/en/setup#ocrd_all-via-docker">Executar as ferramentas do OCR-D em um container Docker</a></p></li>
+<li><p><a class="reference external" href="https://github.com/OCR-D/ocrd-website/wiki/OCR-D-on-Wi8ndows">Executar as ferramentas do OCR-D a partir do Windows Subsystem for Linux (WSL)</a></p></li>
+</ol>
+<section id="instalacao">
+<h2>Instalação<a class="headerlink" href="#instalacao" title="Permalink to this heading">#</a></h2>
+<p>Usuário de macOS podem utilizar o OCR-D, mas é preciso instalar software adicional, o que pode ser feito com o Homebrew. <a class="reference external" href="https://github.com/OCR-D/ocrd-website/wiki/OCR-D-on-macOS">Veja a documentação do OCR-D para mais informações</a>.</p>
+<p>O passo a passo da instalação a seguir foi baseado na documentação oficial do OCR-D: <a class="reference external" href="https://ocr-d.de/en/setup">https://ocr-d.de/en/setup</a> e utilizada em um ambiente Linux (Pop!_OS 22.04).</p>
+<p>Vamos instalar o ocrd_all, que inclui todas as ferramentas.</p>
+<blockquote>
+<div><p>The <a class="reference external" href="https://github.com/OCR-D/ocrd_all"><code class="docutils literal notranslate"><span class="pre">ocrd_all</span></code></a> project is an effort by the OCR-D community, now maintained by the OCR-D coordination team. It streamlines the native installation of OCR-D modules with a versatile Makefile approach. Besides allowing native installation of the full OCR-D stack (or any subset), it is also the base for the <a class="reference external" href="https://hub.docker.com/r/ocrd/all"><code class="docutils literal notranslate"><span class="pre">ocrd/all</span></code></a> Docker images available from DockerHub that contain the full stack (or certain subsets) of OCR-D modules ready for deployment. Technically, <a class="reference external" href="https://github.com/OCR-D/ocrd_all"><code class="docutils literal notranslate"><span class="pre">ocrd_all</span></code></a> is a Git repository that keeps all the necessary software as Git submodules at specific revisions. This way, the software tools are known to be at a stable version and guaranteed to be interoperable with one another. (<a class="reference external" href="https://ocr-d.de/en/setup#ocrd_all">https://ocr-d.de/en/setup#ocrd_all</a>)</p>
+</div></blockquote>
+<section id="python-3-7">
+<h3>Python 3.7<a class="headerlink" href="#python-3-7" title="Permalink to this heading">#</a></h3>
+<p>A <a class="reference external" href="https://github.com/OCR-D/core/releases/tag/v2.52.0">versão atual do OCR-D (v2.52.0)</a> roda em Python 3.7. O OCR-D ainda não está totalmente compatível com versões mais recentes de Python.</p>
+<p>Para instalar o python3.7 no Ubuntu 22.04, siga os passos abaixo:</p>
+<p>Primeiro adicione o repositório do deadsnakes:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>add-apt-repository<span class="w"> </span>ppa:deadsnakes/ppa
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+</pre></div>
+</div>
+<p>Em seguida, instale o python3.7:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>python3.7
+</pre></div>
+</div>
+<p>Lembre que caso haja mais de uma versão do Python instalada, é preciso especificar a versão que será utilizada. Para isso, sempre que for executar um comando, utilize o prefixo <code class="docutils literal notranslate"><span class="pre">python3.7</span></code>. Por exemplo, para instalar o gerencciados de pacotes pip e atualizá-lo no python3.7, utilize:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3.7<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
+</pre></div>
+</div>
+</section>
+<section id="requisitos">
+<h3>Requisitos<a class="headerlink" href="#requisitos" title="Permalink to this heading">#</a></h3>
+<p>Para instalar o OCR-D, é preciso instalar alguns pacotes e bibliotecas. Para isso, execute os comandos abaixo:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>make<span class="w"> </span>git<span class="w"> </span>parallel<span class="w"> </span>wget
+</pre></div>
+</div>
+<p>Para um explicação e detalhamento dos requisitos, veja a <a class="reference external" href="https://github.com/OCR-D/ocrd_all#system-packages">documentação do ocrd_all</a></p>
+</section>
+<section id="clone-o-repositorio">
+<h3>Clone o repositório<a class="headerlink" href="#clone-o-repositorio" title="Permalink to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/OCR-D/ocrd_all
+<span class="nb">cd</span><span class="w"> </span>ocrd_all
+</pre></div>
+</div>
+</section>
+<section id="instale-o-ocr-d">
+<h3>Instale o OCR-D<a class="headerlink" href="#instale-o-ocr-d" title="Permalink to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>make<span class="w"> </span>deps-ubuntu
+</pre></div>
+</div>
+</section>
+<section id="ative-o-ambiente-virtual">
+<h3>Ative o ambiente virtual<a class="headerlink" href="#ative-o-ambiente-virtual" title="Permalink to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>venv/bin/activate
+</pre></div>
+</div>
+</section>
+</section>
+<section id="criacao-do-workspace">
+<h2>Criação do workspace<a class="headerlink" href="#criacao-do-workspace" title="Permalink to this heading">#</a></h2>
+<p>Após a instalação e ativação do ambiente virtual, precisamos criar um workspace. Com o comando abaixo, informamos ao OCR-D para criar um workspace a partir do diretório <code class="docutils literal notranslate"><span class="pre">./</span></code> (diretório atual e onde estão localizadas as imagens). Com isso, ele criará e configurará um arquivo <code class="docutils literal notranslate"><span class="pre">mets.xml</span></code> onde serão informadas todas os dados e etapas de processamento do workflow.</p>
+<p><code class="docutils literal notranslate"><span class="pre">ocrd-import</span> <span class="pre">--nonnum-ids</span> <span class="pre">--ignore</span> <span class="pre">--render</span> <span class="pre">300</span> <span class="pre">./</span></code></p>
+</section>
+<section id="teste-01-o-paiz">
+<h2>Teste 01: <em>O Paiz</em><a class="headerlink" href="#teste-01-o-paiz" title="Permalink to this heading">#</a></h2>
+<section id="paginas-originais">
+<h3>Páginas originais<a class="headerlink" href="#paginas-originais" title="Permalink to this heading">#</a></h3>
+<p>Vejamos as páginas originais que serão utilizadas para o teste:</p>
+<ol class="arabic simple">
+<li><p>O Paiz, 05 de maio de 1887, p.2.</p></li>
+</ol>
+<p><img alt="O Paiz, 05 de maio de 1887, p.2" src="imgs/178691_01_3912.jpg" /></p>
+<ol class="arabic simple" start="2">
+<li><p>O Paiz, 24 de março de 1900, p.2.</p></li>
+</ol>
+<p><img alt="O Paiz, 24 de março de 1900, p." src="imgs/178691_03_450.jpg" /></p>
+</section>
+<section id="workflow-testado">
+<h3>Workflow testado<a class="headerlink" href="#workflow-testado" title="Permalink to this heading">#</a></h3>
+<p>O OCR-D reúne uma ampla variedade de ferramentas que podem ser incluídas em um workflow. Para uma lista completa e suas definições, acesse o site do projeto: <a class="reference external" href="https://ocr-d.de/en/workflows">https://ocr-d.de/en/workflows</a>.</p>
+<p>Como primeira etapa, ainda como pre-processamento, vamos utilizar ferramentas de melhoria da imagem.</p>
+</section>
+<section id="conversao-para-tif">
+<h3>Conversão para tif<a class="headerlink" href="#conversao-para-tif" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-im6convert</span> <span class="pre">-I</span> <span class="pre">OCR-D-IMG</span> <span class="pre">-O</span> <span class="pre">OCR-D-ENH</span> <span class="pre">-P</span> <span class="pre">output-format</span> <span class="pre">image/tiff</span></code></p></li>
+</ul>
+</section>
+<section id="preprocessamento-com-ocrd">
+<h3>Preprocessamento com ocrd<a class="headerlink" href="#preprocessamento-com-ocrd" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-preprocess-image</span> <span class="pre">-I</span> <span class="pre">OCR-D-ENH</span> <span class="pre">-O</span> <span class="pre">OCR-D-PREP</span> <span class="pre">-P</span> <span class="pre">output_feature_added</span> <span class="pre">binarized</span> <span class="pre">-P</span> <span class="pre">command</span> <span class="pre">&quot;scribo-cli</span> <span class="pre">sauvola-ms-split</span> <span class="pre">&#64;INFILE</span> <span class="pre">&#64;OUTFILE</span> <span class="pre">--enable-negate-output&quot;</span></code></p></li>
+</ul>
+</section>
+<section id="normalizacao-da-imagem">
+<h3>Normalização da imagem<a class="headerlink" href="#normalizacao-da-imagem" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-skimage-normalize</span> <span class="pre">-I</span> <span class="pre">OCR-D-PREP</span> <span class="pre">-O</span> <span class="pre">OCR-D-NORM</span></code></p></li>
+</ul>
+<p>Podemos comparar recortes da imagem original com a imagem processada (convertida para tif e normalizada):</p>
+<p><strong>Imagem 01</strong></p>
+<p><img alt="Original 01" src="imgs/wf01_OCR-D-NORM_f178691_01_3912.IMG-NRM_ORIGINAL.png" /></p>
+<p><img alt="Processada 01" src="imgs/wf01_OCR-D-NORM_f178691_01_3912.IMG-NRM.png" /></p>
+<p><strong>Imagem 02</strong></p>
+<p><img alt="Original 02" src="imgs/wf01_OCR-D-NORM_f178691_03_450.IMG-NRM_ORIGINAL.png" /></p>
+<p><img alt="Processada 02" src="imgs/wf01_OCR-D-NORM_f178691_03_450.IMG-NRM.png" /></p>
+<p>Podemos notar que a diferença ainda é pequena.</p>
+</section>
+<section id="binarizacao-nivel-de-pagina">
+<h3>Binarização (Nível de página)<a class="headerlink" href="#binarizacao-nivel-de-pagina" title="Permalink to this heading">#</a></h3>
+<p>Agora, vamos binarizar as imagens e compará-las com as imagens originais.:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-olena-binarize</span> <span class="pre">-I</span> <span class="pre">OCR-D-NORM</span> <span class="pre">-O</span> <span class="pre">OCR-D-BIN</span></code></p></li>
+</ul>
+<p><strong>Imagem 01</strong></p>
+<p><img alt="Original 01" src="imgs/wf01_OCR-D-NORM_f178691_01_3912.IMG-NRM-BIN_ORIGINAL.png" /> <img alt="Processada 01" src="imgs/wf01_OCR-D-NORM_f178691_01_3912.IMG-NRM-BIN_sauvola-ms-split.png" /></p>
+<p><strong>Imagem 02</strong></p>
+<p><img alt="Original 02" src="imgs/wf01_OCR-D-NORM_f178691_03_450.IMG-NRM-BIN_ORIGINAL.png" /> <img alt="Processada 02" src="imgs/wf01_OCR-D-NORM_f178691_03_450.IMG-NRM-BIN_sauvola-ms-split.png" /></p>
+</section>
+<section id="reducao-de-ruido">
+<h3>Redução de ruído<a class="headerlink" href="#reducao-de-ruido" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-skimage-denoise</span> <span class="pre">-I</span> <span class="pre">OCR-D-BIN</span> <span class="pre">-O</span> <span class="pre">OCR-D-DENOISE</span></code></p></li>
+</ul>
+<p><strong>Imagem 01</strong></p>
+<p><img alt="Original 01" src="imgs/wf01_OCR-D-NORM_f178691_01_3912.IMG-NRM-BIN_ORIGINAL.png" /> <img alt="Processada 01" src="imgs/wf01_OCR-D-DENOISE_f178691_01_3912.IMG-DEN.png" /></p>
+<p><strong>Imagem 02</strong></p>
+<p><img alt="Original 02" src="imgs/wf01_OCR-D-NORM_f178691_03_450.IMG-NRM-BIN_ORIGINAL.png" /> <img alt="Processada 02" src="imgs/wf01_OCR-D-DENOISE_f178691_03_450.IMG-DEN.png" /></p>
+</section>
+<section id="deskew">
+<h3>Deskew<a class="headerlink" href="#deskew" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-deskew</span> <span class="pre">-I</span> <span class="pre">OCR-D-DENOISE</span> <span class="pre">-O</span> <span class="pre">OCR-D-DESKEW-PAGE</span> <span class="pre">-P</span> <span class="pre">operation_level</span> <span class="pre">page</span></code></p></li>
+</ul>
+<p><strong>Imagem 01</strong></p>
+<p><img alt="Original 01" src="imgs/wf01_OCR-D-NORM_f178691_01_3912.IMG-NRM_ORIGINAL.png" /> <img alt="Processada 01" src="imgs/wf01_OCR-D-DESKEW-PAGE_f178691_01_3912.IMG-DESKEW.png" /></p>
+<p><strong>Imagem 02</strong></p>
+<p><img alt="Original 02" src="imgs/wf01_OCR-D-NORM_f178691_03_450.IMG-NRM_ORIGINAL.png" /> <img alt="Processada 02" src="imgs/wf01_OCR-D-DESKEW-PAGE_f178691_03_450.IMG-DESKEW.png" /></p>
+</section>
+<section id="segmentacao">
+<h3>Segmentação<a class="headerlink" href="#segmentacao" title="Permalink to this heading">#</a></h3>
+<p>As etapas a seguir buscam segmentar a página em regiões e linhas. Para isso, vamos utilizar o <code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-segment</span></code> e o <code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-segment-region</span></code>.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-segment</span> <span class="pre">-I</span> <span class="pre">OCR-D-DESKEW-PAGE</span> <span class="pre">-O</span> <span class="pre">OCR-D-SEG</span> <span class="pre">-P</span> <span class="pre">find_tables</span> <span class="pre">false</span> <span class="pre">-P</span> <span class="pre">shrink_polygons</span> <span class="pre">true</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-segment-region</span> <span class="pre">-I</span> <span class="pre">OCR-D-DESKEW-PAGE</span> <span class="pre">-O</span> <span class="pre">OCR-D-SEG-REG</span> <span class="pre">-P</span> <span class="pre">find_tables</span> <span class="pre">false</span> <span class="pre">-P</span> <span class="pre">shrink_polygons</span> <span class="pre">true</span></code></p></li>
+</ul>
+<p>Em seguida binarizamos e recortamos as regiões.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-skimage-binarize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-REG</span> <span class="pre">-O</span> <span class="pre">OCR-D-BIN-REG</span> <span class="pre">-P</span> <span class="pre">level-of-operation</span> <span class="pre">region</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-cis-ocropy-clip</span> <span class="pre">-I</span> <span class="pre">OCR-D-BIN-REG</span> <span class="pre">-O</span> <span class="pre">OCR-D-CLIP-REG</span> <span class="pre">-P</span> <span class="pre">level-of-operation</span> <span class="pre">region</span></code></p></li>
+</ul>
+<p>E por fim, segmentamos as linhas.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-segment-line</span> <span class="pre">-I</span> <span class="pre">OCR-D-CLIP-REG</span> <span class="pre">-O</span> <span class="pre">OCR-D-SEG-LINE</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-segment-project</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-RESEG</span> <span class="pre">-P</span> <span class="pre">level-of-operation</span> <span class="pre">line</span></code></p></li>
+</ul>
+<section id="resultados-da-segmentacao">
+<h4>Resultados da segmentação<a class="headerlink" href="#resultados-da-segmentacao" title="Permalink to this heading">#</a></h4>
+<p>Os resultados variaram muito entre as duas páginas analisadas. A primeira página, de 1887, apresentou uma boa segmentação de regiões e linhas. Já a segunda página, de 1900, apresentou uma segmentação de regiões e linhas muito ruim. Isso implicará em resultados diferentes para cada página no processo de OCR realizado a seguir.</p>
+<p><img alt="segmentação de regiões de 1887" src="imgs/wf01_seg-reg_3912_2023-08-02_13-39-21.png" /></p>
+<p><img alt="segmentação de regiões de 1900" src="imgs/wf01_seg-reg_405_2023-08-02_13-44-33.png" /></p>
+</section>
+</section>
+<section id="ocr">
+<h3>OCR<a class="headerlink" href="#ocr" title="Permalink to this heading">#</a></h3>
+<section id="calamari">
+<h4>Calamari<a class="headerlink" href="#calamari" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-calamari-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR</span> <span class="pre">-P</span> <span class="pre">checkpoint_dir</span> <span class="pre">qurator-gt4histocr-1.0</span></code></p></li>
+</ul>
+<p>Vamos transformar o arquivo xml para texto para facilitar a visualização:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR</span> <span class="pre">-O</span> <span class="pre">OCR-D-ALTO</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+</ul>
+</section>
+<section id="ocropy">
+<h4>Ocropy<a class="headerlink" href="#ocropy" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-cis-ocropy-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR-OCRO</span> <span class="pre">-P</span> <span class="pre">model</span> <span class="pre">fraktur-jze.pyrnn.gz</span></code></p></li>
+</ul>
+<p>Vamos transformar o arquivo xml para texto para facilitar a visualização:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR-OCRO</span> <span class="pre">-O</span> <span class="pre">OCR-D-TXT-OCRO</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+</ul>
+<p>Os resultados são inutilizáveis.</p>
+</section>
+<section id="tesseract">
+<h4>Tesseract<a class="headerlink" href="#tesseract" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TESSDATA_PREFIX=$HOME/src/github/OCR-D/ocrd_all/venv/share/tessdata/</span></code></p></li>
+</ul>
+<p><strong>Modelo GT4HistOCR_50000000.997_191951</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR-TES</span> <span class="pre">-P</span> <span class="pre">model</span> <span class="pre">GT4HistOCR_50000000.997_191951</span></code></p></li>
+</ul>
+<p><strong>Modelo por</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR-TES-por</span> <span class="pre">-P</span> <span class="pre">model</span> <span class="pre">por</span></code></p></li>
+</ul>
+<p>Vamos transformar o arquivo xml para texto para facilitar a visualização:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR-TES</span> <span class="pre">-O</span> <span class="pre">OCR-D-TXT-TES</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR-TES-por</span> <span class="pre">-O</span> <span class="pre">OCR-D-TXT-TES-por</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+</ul>
+</section>
+<section id="comparacao">
+<h4>Comparação<a class="headerlink" href="#comparacao" title="Permalink to this heading">#</a></h4>
+<p>Melhores resultados obtidos com modelo <code class="docutils literal notranslate"><span class="pre">por</span></code> (português) do Tesseract.</p>
+<section id="pagina-1">
+<h5>Página 1<a class="headerlink" href="#pagina-1" title="Permalink to this heading">#</a></h5>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Região</p></th>
+<th class="head"><p>Original</p></th>
+<th class="head"><p>Calamari gt4histocr</p></th>
+<th class="head"><p>Ocropy franktur</p></th>
+<th class="head"><p>Tesseract GT4HistOCR</p></th>
+<th class="head"><p>Tesseract por</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0001</p></td>
+<td><p><img alt="região 0001" src="imgs/OCR-D-BIN-REG_f178691_01_3912.IMG-BIN_region0001.png" /></p></td>
+<td><p>Por deereto do 8 de Janeiro ultimo toneedeu-ss a patente de n. 4lö a Augusto Cambraia, portu ez, indus- XX XXX X X X.X XXX rocasso de su invenço, destiundo nbrienr pannos finos, morins e brins do nlgodo ulvojados.</p></td>
+<td><p>Fgx rfgcgxgf(0 Ig F Ig „Zggggggjg jgſfjpgeg 00V0l0U P6  ſ160l170 l0 v. 4iiö uſ, .uzsusko ümrnin, p0rku er, inctgr- ſ FF gFF’„g I ram0zz0 C0 z1u, sm,ggggſg, ſggsſzßgg Zg gg udr0ir Püu009 iuds. worſnz y hrſgg tz gIzggfIg gI,gsgſgg,</p></td>
+<td><p>Por deereto dsa8S de danoiro ultimo roncodau-gs R patente ds p. 4bon Augusto Lambraia, portu ez. indus— eibegeathee acke plee racasvo do sua invengſo. dostiũndo a abrięar pannos finos, morins e brins do agodão ulvojacdos.</p></td>
+<td><p>Por decreto de 8 de Janeiro ultimo conccdeu-se a patente de n. dhj q Augusto Cambrais, portu ez, indus- triol, residente nesta ci ade, para 0 rocesso de sua invenção, destinado q ubricar pannos finos, morins ce brins de alcodão alvejados,</p></td>
+</tr>
+<tr class="row-odd"><td><p>0002</p></td>
+<td><p><img alt="região 0002" src="imgs/OCR-D-BIN-REG_f178691_01_3912.IMG-BIN_region0002.png" /></p></td>
+<td><p>Em data ds 23 de Abril ultimo coneedeu-se garantin provisoria no Dr. uiIerme oté Teixeirn, brazileiro, modieo, morador nestu eidade. re resentndo elo seu proeurador o Club ndustrinl, undado estaelecido tumbem nesta idude, para transporte do lixo dus habitagöes publicas o pnrtieulares, denominado — earroga inodora.</p></td>
+<td><p>Sa ügfn, üg PI Zg h-l FF,jl-Z gggg- 9° 6 IIIIB09ki prorisorizna Mr lEui- lh0ra0 üoeé I’eiroiru, hxgzſlgſra, m0- Gi00emoruaruertg oſtnl-.rg rmzentnlo Cl0 üeu prouurncclor o Iuh nVuztrjnl. yCncfg g ggßgfhgjgggſfg jßzgjzz zgeggeg, gIüuu, gnru trunoporte üo liro lnz hm- 9Iydßor gudli.ns q pnrtieuluros, leuo- 9gjIüeg - (gzx0gg, jgggtSgzzg,</p></td>
+<td><p>Em data ds 23 de Abril ullimo con—gedeu-se garantia provisoria no Dr. Guiĩ-lermo dõęè Peixsirn,. Prazileiro, mo-dico, morador nosin <a class="reference external" href="http://eidade.re">eidade.re</a> rosentudoelo seu prorurndor o Glub ndustrial.undado s estaboelucido tambem nostaeiduda, parg transports do lixo dus ha-bitaeos publieas pnrticulares, deno-minado — carroęa inodora.</p></td>
+<td><p>Em data de 23 de Abril ultimo con-cedeu-se garantia provisoria no Dr. Gui-lherme José Teixeira, brazileiro, mo:dico, morador nesta cidade re resentidoelo seu procurador o Club ndustrial,undado 6 estabelecido tambem nestacidade, para transporte do lixo dus ha-bitações publicas 6 particulares, deno-minado — carroça inodora.</p></td>
+</tr>
+<tr class="row-even"><td><p>0003</p></td>
+<td><p><img alt="região 0003" src="imgs/OCR-D-BIN-REG_f178691_01_3912.IMG-BIN_region0003.png" /></p></td>
+<td><p>Contederam- e dous maxssdd licenga, com o veneimento d lei, a Frnneiseo Eduardo da Costa 0 Sd, enenrregudo da arads de Todos os dantos dn estra a de forro D. Pedro JJ, para tratar do su saude ondo lhe convier.</p></td>
+<td><p>0ü0kIIm:60 C0l6 k006s l ll0énzn, 00k01 0 1e210ſ00uk0 Iü. I0s, zg, ſ-‘xgſgggzjggg FC5“0  C  0hIi0  L kü, enenrreztuclo uuw urnlln üe Ioioz og Zgzzsgg Z„ zz.  f 6 lI9 , “Iüür0 1I, gmrz trntgr eſz gjgz, ggggcg ggſg IIg ccgſ,-</p></td>
+<td><p>Vonee deram- xe dous moxes ds licenęn, com o veneimento da lei, a Eraneisco Ecduardo, da. Cogta o Sũ, enoarrogudo da urada da Podos os Bantos da s- tru a ds forro D. Pedro II, para tratar do sun gncds onde Ine convier.</p></td>
+<td><p>Concederam-se dous mezes de licença, com o vencimento da lei, a Francisco Edurrdo da Costa e Si, encarregado da arada de Todos 08 Santos da es- tra a de forro D. Pedro II, para tratar do gua saude onde lhe convier.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pagina-2">
+<h5>Página 2<a class="headerlink" href="#pagina-2" title="Permalink to this heading">#</a></h5>
+<p>Os resultados da página 2 foram muito comprometidos impossibilitando mesmo a comparação entre blocos e texto.</p>
+<p>Exemplo de blocos:</p>
+<p><img alt="região 21" src="imgs/OCR-D-BIN-REG_f178691_03_450.IMG-BIN_region0021.png" /></p>
+<p><img alt="região 22" src="imgs/OCR-D-BIN-REG_f178691_03_450.IMG-BIN_region0022.png" /></p>
+<p><img alt="região 36" src="imgs/OCR-D-BIN-REG_f178691_03_450.IMG-BIN_region0036.png" /></p>
+<p>Isso se deve à qualidade da imagem original e da dificuldade de segmentação das regiões de texto, como podemos ver no tópico <span class="xref myst">Resultados da segmentação</span>.</p>
+<p>Abaixo temos uma tabela apresentando os resultados de cada método de OCR para a página 2. Podemos perceber que mesmo o Tesseract-por, modelo com melhor resultado na página 1, não conseguiu reconhecer textos compreensíveis.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Calamari gt4histocr</p></th>
+<th class="head"><p>Ocropy Frank</p></th>
+<th class="head"><p>Tesseract gt4histocr</p></th>
+<th class="head"><p>Tesseract por</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>boulevardt ouitvardi xtri \thert d fi lron 0 e aul \ss ehnna un bougo. oo e de \Aas pequen; lolport/o.\ \es Forsnuieſꝰ n lgse \⸗ \F i e i \i errciaerX:zr \huiſei ng ſdlũi ũ i eelei \r \l \F  na M \bi uh u b enipn : lc. ic.cri \kit \ſe e ſ   ſ uu uu o l \k qeu ul i ui s \il \ſc ci och.inn g i \e \ſẽẽſsi llu \h e rrl ſrt \ \ũut \hmr iꝗisif ies uiitcuti \ \ſſ \eiti uuapiseſ \ſitethlailitti iur i \i \ \root \ii \ſiuuieahsi \ſl</p></td>
+<td><p>„hhgzſz C0ßHsktlt ül \ \„, ggegg,…, —- – - ——– - — —— —-… … sezulnia GfG° \ \80 n08 l1ék006lV -r916lßllll  \Ig0W .k00skül  - W k0 llbid““ß \I0öékel0s lit0k 1. , - \Zmatg e nols \z jſtz, gzIry Gmal nfella… \ Ggſ,I„9II0 ſz0. -muuuuuuuhe</p></td>
+<td><p>boulovard Da bouięurd eIIor \rapoerda dir caron erie ue aqu \a edma vu dbouꝶ. Gonin1e de \mn peguene loae. orlne0. \ \Fed·s. rafeiet, lagee \Iee \Ieẽ Irinee t \eeeeude \Mu .iſ II \ \ \n erE I \een \Fne \ieen .4E ilais. \Bne ehet \ \ſaüca doiemnne er ini \ \Ie ſ ſMd .E \I Ie \ \icn \Ite ub.I \ \ \Fis t.d \eel⸗ \ee e \ \PE 2 — . en \Me i.</p></td>
+<td><p>\boulevards » 0º boutevards catar \à taberna da lis Caron em o ue equi \so chama ur botigo. Comp ago de \RO pequeus Joj porta:só, \ \pop”s, forsteuição n miisido: e 8 \coros,“ enterento pr pedido all, nó Me: \de altos“ ruliptitoãos predio» de cinoé \o ai \Ayumado pon DO APRE \ \ \Fase Pro or araras CR 0d</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+</section>
+<section id="teste-02-boletim-de-eugenia">
+<h2>Teste 02: Boletim de Eugenia<a class="headerlink" href="#teste-02-boletim-de-eugenia" title="Permalink to this heading">#</a></h2>
+<p>Após o teste com as duas páginas do jornal <em>O Paiz</em>, vamos aplicar o mesmo workflow e variados modelos de OCR em um conjunto de 48 páginas do jornal <em>Boletim de Eugenia</em> publicano no Rio de Janeiro.</p>
+<section id="id2">
+<h3>Páginas originais<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>Vejamos dois exemplos das páginas originais que serão utilizadas para o teste:</p>
+<ol class="arabic simple">
+<li><p>Boletim de Eugenia, janeiro de 1929, p.1.</p></li>
+</ol>
+<p><img alt="Boletim de Eugenia, janeiro de 1929, p.1." src="imgs/per159808_1929_00001.pdf_1.jpg" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Boletim de Eugenia, fevereiro de 1929, p.1.</p></li>
+</ol>
+<p><img alt="Boletim de Eugenia, fevereiro de 1929, p.1." src="imgs/per159808_1929_00002.pdf_0.jpg" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Boletim de Eugenia, abril de 1929, p.1.</p></li>
+</ol>
+<p><img alt="Boletim de Eugenia, abril de 1929, p.1" src="imgs/per159808_1929_00004.pdf_0.jpg" /></p>
+</section>
+<section id="id3">
+<h3>Workflow testado<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<p>Após iniciarmos o ambiente virtual e criarmos o workspace, vamos executar o workflow. Dessa vez vamos utilizar o <code class="docutils literal notranslate"><span class="pre">ocr-process</span></code> e passaremos todas as etapas de pre-processamento e segmentação, como visto no teste anterior com o jornal <em>O Paiz</em>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ocrd<span class="w"> </span>process<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;im6convert -I OCR-D-IMG -O OCR-D-ENH -P output-format image/tiff&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;preprocess-image -I OCR-D-ENH -O OCR-D-PREP -P output_feature_added binarized -P command &quot;scribo-cli sauvola-ms-split @INFILE @OUTFILE --enable-negate-output&quot;&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;skimage-normalize -I OCR-D-PREP -O OCR-D-NORM&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;olena-binarize -I OCR-D-NORM -O OCR-D-BIN&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;skimage-denoise -I OCR-D-BIN -O OCR-D-DENOISE&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;tesserocr-deskew -I OCR-D-DENOISE -O OCR-D-DESKEW-PAGE -P operation_level page&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;tesserocr-segment -I OCR-D-DESKEW-PAGE -O OCR-D-SEG -P find_tables false -P shrink_polygons true&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;tesserocr-segment-region -I OCR-D-DESKEW-PAGE -O OCR-D-SEG-REG -P find_tables false -P shrink_polygons true&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;skimage-binarize -I OCR-D-SEG-REG -O OCR-D-BIN-REG -P level-of-operation region&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;cis-ocropy-clip -I OCR-D-BIN-REG -O OCR-D-CLIP-REG -P level-of-operation region&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;tesserocr-segment-line -I OCR-D-CLIP-REG -O OCR-D-SEG-LINE&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="s1">&#39;segment-project -I OCR-D-SEG-LINE -O OCR-D-RESEG -P level-of-operation line&#39;</span>
+</pre></div>
+</div>
+</section>
+<section id="id4">
+<h3>Resultados da segmentação<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<p>explicar</p>
+<p><img alt="segmentação de regiões de primeira página da edição 1" src="imgs/wf02_OCR-D-SEG-REG_per159808_1929_00001_pdf_1_2023-08-04_14-09-24.png" /></p>
+<p><img alt="segmentação de regiões de primeira página da edição 2" src="imgs/wf02_OCR-D-SEG-REG_per159808_1929_00002_pdf_0_2023-08-04_14-33-22.png" /></p>
+<p><img alt="segmentação de regiões da primeira página da edição 4" src="imgs/wf02_OCR-D-SEG-REG_per159808_1929_00004_pdf_0_2023-08-04_14-13-11.png" /></p>
+</section>
+<section id="id5">
+<h3>OCR<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<section id="id6">
+<h4>Calamari<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-calamari-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR-CAL</span> <span class="pre">-P</span> <span class="pre">checkpoint_dir</span> <span class="pre">qurator-gt4histocr-1.0</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR-CAL</span> <span class="pre">-O</span> <span class="pre">OCR-D-TXT-CAL</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+</ul>
+</section>
+<section id="id7">
+<h4>Tesseract<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TESSDATA_PREFIX=$HOME/src/github/OCR-D/ocrd_all/venv/share/tessdata/</span></code></p></li>
+</ul>
+<p><strong>Modelo GT4HistOCR_50000000.997_191951</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR-TES-GT4</span> <span class="pre">-P</span> <span class="pre">model</span> <span class="pre">GT4HistOCR_50000000.997_191951</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR-TES-GT4</span> <span class="pre">-O</span> <span class="pre">OCR-D-TXT-TES-GT4</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+</ul>
+<p><strong>Modelo por</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-tesserocr-recognize</span> <span class="pre">-I</span> <span class="pre">OCR-D-SEG-LINE</span> <span class="pre">-O</span> <span class="pre">OCR-D-OCR-TES-por</span> <span class="pre">-P</span> <span class="pre">model</span> <span class="pre">por</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ocrd-fileformat-transform</span> <span class="pre">-I</span> <span class="pre">OCR-D-OCR-TES-por</span> <span class="pre">-O</span> <span class="pre">OCR-D-TXT-TES-por</span> <span class="pre">-P</span> <span class="pre">from-to</span> <span class="pre">&quot;page</span> <span class="pre">text&quot;</span></code></p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Comparação<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h4>
+<section id="id9">
+<h5>Página 1<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h5>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Região</p></th>
+<th class="head"><p>Original</p></th>
+<th class="head"><p>Calamari gt4histocr</p></th>
+<th class="head"><p>Tesseract GT4HistOCR</p></th>
+<th class="head"><p>Tesseract por</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0012</p></td>
+<td><p><img alt="região 0012" src="imgs/OCR-D-BIN-REG_per159808_1929_00001_pdf_1.IMG-BIN_region0012.png" /></p></td>
+<td><p>Tẽn os leitore o primeiro nu— mero cdh Boletim Eugenia. Ap- parece modesta nte:pequeno formato. poucas p nas. Promette pouco. Deseja, as, auxliar a campanha en prol a Eugcnia en— lre os elementos c tos entre os elementos que. em ra de mediunn cultura. desejum. ta hem, orientar. e 0 mqUclt s0 asllmpto Apresentara, para a ender a todos, pequenos artiſos cientrfieos, 30 lado de outros. de ples vulgari- aão. Tudo resum amente, tudo em lmguae’n Jimps e clara Depois da publictão dos An— naes de Euenia. e So Paulo. riã appprecee o aiz qualquer outra publicacão es cializada so bre esta sciencia. O oletim sera pois, a primeira dest genero, com caracter periodico. iado â liga de Hyiene Mental. cluira. cer lamente, no seu pſ0 mma, tudo quanto se referir a te ramo de intima connexão coi propositos da sciencia de Calto O Bcletin de genia’’ pre cede nesta Capital a ndacãc de um lnstituto rasileir e Eugenia. que tera logar. opp’tunamentc. oh os allspicts do tor deste e dos Professores E ani l.opes. . Porto- Carrero. Mu o de Cam pos e leitor Carrilho. a é tempo de po irmos uma gremiacae nacional e eugenis- tes. Aie bem pouco mpo seria difficil tal emprehen ento Os ugenistas brasileiros am em tão ſequeno numero, quenão chega- vam, talvez, a meia dria. De al— um tempo a esta pa os prose- lytos se multiplicaram omo por encanto Effeite, telv de algum milagre! Este oletim recebei, com s</p></td>
+<td><p>Tém os leitore o primeico nu— mero do Boletim Fugenia. Ap- parece modesta nte: pequenò formato. poucas p inas. Promette pouco. Nese)a. aß as… àAlxi iar 2 campanha eni prol a Fusenia en— tre os elementos c tos e entre os elementos que. em ra de mediuni cultura. desejm. ta hem, orientar. se sobhre mœinen so assumpto Apresentara. para aender a todos. pequenos artigos cientificos. 20 lado de outros. de ples vulgari- zacaão. Tuda resum amente, tucdo em linguagein mps e clara Depois da publieao dos An: nues de Euxenia. e São Paulo. ſã⸗ apparecen no zaiz qualquer tutra publicacäo es cializada so: bre esta scieneia. Q oletim serä, pois, a primeira dest genero. com caracter periodico. jado à liga de Hygiene Mental. cluira. cer. lamente,. no seu pr0 mma,. tudo quanto se referir a te ramo de intima connexão comn propositos da scieneia de Galto O Boletinn de cenia pre cede nesta Capital a ndacãc de um Instituto Brasileir e Fugenia. que terà lopar. opptunamiente. dob os auspicios de tor deste e dos Professores E ani l.opes. J. Porto-Carrero. Mu o de Cam pos e Heitor Carrilho. Jaà è tempo de pos irmos uma aggremiacãc nacional e vugenis— tes. Aiè bem pouco mpo Serta gifficil tal emprenen ento Os Lugenistas brasileiros cam em tão Pequeno numero. queaão chega-— val, talve2. a meia daia. De al- um tempo a esta Pa os prose⸗ lytos se multiplicaram omò por cnanto, Effeito. talv de algum milagre! Este Boletim recebej. com es:</p></td>
+<td><p>Tém os leitore o primeiro nu- mero do Boletim Eugenia. Ap- parece modesta nte: pequeno formato, poucas p inas. Promette pouco. Deseja, ap as, atxtiar a campanha em prol a Eugenia en- re os elementos C tos u entre os elementos que. em ra de mediuni cultura, desejam, ta bem, crentar- se sobre o mMemen so assumpto Apresentara. para aender a todos, pequenos artigos científicos, ao lado de outros, de — ples vulgari- «ação. Tudo resum amente, tudo em linguages cmpse clara Depois da publiccão dos An: naes de Eugenia, e São Paulo, não apparecei No vaz qualquer nutra publicação cs cializada so- bre esta sciencia. O oletim será, pois, 4 primeira dest genero, com caracter periodico. ado á Liga de Hygiene Mental, cluirá, cer lamente, no seu pro mma, tudo quanto se referir a te ramo dx intima connexão Com propositos da sciencia de Galto O “Boletim de  genia” pre cede nesta Capital a ndacãc di um Instituto Brasileir q Etvenia. que terá logar. opp-tunamente, sob os auspícios do tor deste e dos Professores E ani Lopes, J. Porto-Carrero, Mu 9 de Cam. pos e Heitor Carrilho. Já é tempo de pos irmos uma ngeremiação nacional e cugenis- tas. Até bem pouco mpo seria Cifficil tal emprehen ento Os Lugenistas brasileiros Gm em tão pequeno numero, quênão chega- vam, talvez, a meia dzia. De al- sum tempo a esta pa os prose- lytos se multiplicaram omo por encanto. Eficito, talv de algum milagre! Este Boletim recebe, com cs.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id10">
+<h5>Página 2<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h5>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Região</p></th>
+<th class="head"><p>Original</p></th>
+<th class="head"><p>Calamari gt4histocr</p></th>
+<th class="head"><p>Tesseract GT4HistOCR</p></th>
+<th class="head"><p>Tesseract por</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0007</p></td>
+<td><p><img alt="região 0007" src="imgs/OCR-D-BIN-REG_per159808_1929_00002_pdf_0.IMG-BIN_region0007.png" /></p></td>
+<td><p>lulilil hraileiro le lugenin</p></td>
+<td><p>ſnztitlltg hrasileirg de hugenin</p></td>
+<td><p>Instituto brasileiro de Eugenia</p></td>
+</tr>
+<tr class="row-odd"><td><p>0008</p></td>
+<td><p><img alt="região 0008" src="imgs/OCR-D-BIN-REG_per159808_1929_00002_pdf_0.IMG-BIN_region0008.png" /></p></td>
+<td><p>igeiro esboco — Fins do lnstituto O que é necessario faer</p></td>
+<td><p>Uigeiro esboco — Fins do Instituto - Oque è necessario fazer</p></td>
+<td><p>Ligeiro esboço — Fins do Instituto - O que é necessario fazer</p></td>
+</tr>
+<tr class="row-even"><td><p>0009</p></td>
+<td><p><img alt="região 0009" src="imgs/OCR-D-BIN-REG_per159808_1929_00002_pdf_0.IMG-BIN_region0009.png" /></p></td>
+<td><p>HL um urande corrente de intel— lectuaes inlens t onnesss, por julgul-os atsoutamente negativos. Coin po:tas lias de dſhlereta, e1s coii bre elle e mttzesUtai ks de nossas limens de lettemi art evidencia — atos igre e HIumberto de ampos. priieiro, e be ut em tom joceiso, diss numa ncro- landia- puklacaa no iario d ũo Paulo- de 1 de janeiro: s1ou conm  publico iue os t t gssss i or i pirolrerami, nſu irã ,et tn Ichr nemhht nem n1a, Acho ue toc otnens de talento teu- nidos em aseurblen fzem enipre bra de mm lzin de eretines A obr util e grande tem de ser indivi- dual. Neniuma Aademia de puetas geuiues eri pan de produzir A Odysse oiſg lnſerno ou us I,uzias nem se cncebem leis de Neton ou 11 e epler leseohern por vm Conresso e aahis. eunes, em tom ério, declar Anutilſit- tle destes jtnlamentos n ze . r- cisa por em releve,. Installi onress, as vidades fica satis- feitas. ſ rr se disperst, cimo lrade ds fſhhdd pel vento, na rn— Cons eIICCli tW iin etin esterihrztl—- N ari hemos de juzs th con- lrirnr o il es. Se n sahen ranees nhra s. sheem o esſimul en emuln emulnoo aſocaliznco de les, ordilik- des. rigas. ulo reunka vle eturnire pior nhgtinras hnrns de di us ̃0. Apreciame mais, porm, as coggi- taAes isoladns, os eslorqos lesen volilos no seio cle nquenos uthos oiio gu neeſs e olitartos uum tdeal Commum. n vez de congrsc pensa1s, or is em ſoriar um centr lrasileira d eitgenia que, ccm aaracter perma- nente, mantenh lor sagrad dos tiuess nlUnianqs entkiusiastas exjs- tentes entre no. jdẽn vein nd amalurecid ilesle alguns an- is, un tI n ronuuzssmos a cor porifical-t. antes de uma indispen-</p></td>
+<td><p>Ha uma Urande correute de intel— lectuaes intensu i congrex»dos. Por julgul-s asotutamente negativos. Com puas lias de dilierensa. eis comOsbre elles Se munitestatum urs de nossos Homens de letrixeu muir eidennia — Badtos Tigrer IIumberto ae Campos. primeito, xex bem que em tom joccdο. disse numa -Mero- landia- putiicada no -Diario dòe Suio lanlode 17 de janeiro: „Esiou conAa puhblic ue das Got gressos ijue por ahi firolieram, nũ vira a muncde nem bem nem mia. *cho que doze homens de grande talento teu— nidos em asSenihléa luzem senipre obra de umn duzia de cretin! A obrui utihe grande tem de ser indiri— dual. Nenhuma Academia de puetas geniues serin npa de produzir 2 (dyssea Oo inierno ou s LuzasS nem se eonecubvem a8leis de Newton u IsSde Fepler descoherlns per vm Conxresso de sahiosx. ) sexunda, em tom sério. declara A inutilida— de destes njuntamæntos ni Se a jere- cisa pör em reiev… InstaIIna o Congressn, as viidades fican satis— ſeitas. Ra ſeira se disnersus,. cmo krande deslIhid neta vento, na in— conscieucin dn su esteriſichitdee. Ne parlinimi-S de jiiazs tũs con— trarios aos CangressoE. OS quaes. se nũi sahenn Lrandes ideus, Erandes abrud. Sahem o estimulc. a emulacao. a ſocaliazaso de ideis. cordinirin-— des. … e hrigas. Fudo reunrda val]e semnre ſor umus« hrras de dis— Cussao. Apreciama mais, poréem, as catri-— tagũes isoladas, os esloręos desen volridos no seio de pequenos nuclvos omogęneis e soſidarros num rdeal COmmum. Unvez de congressa pensamas, por ise. em formar um centra brasileira d5 engenia que, cain caracter perma- nente. mantenhi fgo sagrada dos ſoues galtonianos entnusiistos exis- tentes eatre na. Esta idéa vein senda amauurecida desde aIguns an- nos. Sem e nos prinuazesSemmos a corporifical-. antes de uma indispen—</p></td>
+<td><p>Ha uma grande corrente de intel- lectuaes intensa aos congressos, por julgul-os absolutamente negativos. Com pouvos dias de dilferença, eis como sobre clles «e munitestaram aus de nossos homens de letras cin muor evidencia— Bastos Tigre cv Humberto de Campos. O primeiro, se bem que em tom joceso, disse numa «Macro- landia» publicada no «Diario de São Paulo» de 17 de janeiro : «Estou com o publico que dos Cor gressos que por ali prolmeram, nie virá «o mundo nem bem nem mai. Acho gue doze bomens de grando talento reu- nidos em assemblea fazem sempre obra de uma duzia de cretinos ! A obra util e grande tem de ser indivi- dual. Nenhuma Academia de poetas gentues seria capaz de produzir a Odyssea omo Inferno ow os Luziadas: nem se coticebem as leis de Nuwton ou as de Kepler descobertas por um Congresso de sabios2. O segundo, em tom sério, declara * «A inutilida- de destes ajuntamentos não se a pre visa pôr em relevo… Instalado o Congresso, as vaidades ficam satis- leitas. Poa feira se dispersa, como tronde destoalhadoa pelo vento, na n- consciencia da sus esterilidade. Nato partUlhamos de Juzos tãe con- trarios vos Congressos, dos quaes. se não sabem grandes ideas, grandes Abram. sahem o estimulo. a emulação, a focalização de ideas, cordialnia- des… « brigas. Tudo reunido vale sempre por aluimas horas de dis. CUSSÃO., Apreciamos mais, porem, as copi- tações isoladas, os esforços desen volridos no seio de penuenos nucleos homogveneos e solidarios uvum ideal commmuim. Envez de congresso pensamos, por isen, em formar um centro brasileiro d» eugenia que, com caracter perma- nente, mantenha o fogo sagrado dos poucos galtonianos entitusiantas exis- tentes entre nós, Iosta tdéa vem sendo amadurecida desde alguns an. nos, sem que nos propuzessemos a corporifical-a, antes de uma indispen-</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pagina-3">
+<h5>Página 3<a class="headerlink" href="#pagina-3" title="Permalink to this heading">#</a></h5>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Região</p></th>
+<th class="head"><p>Original</p></th>
+<th class="head"><p>Calamari gt4histocr</p></th>
+<th class="head"><p>Tesseract GT4HistOCR</p></th>
+<th class="head"><p>Tesseract por</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0001</p></td>
+<td><p><img alt="região 0001" src="imgs/OCR-D-BIN-REG_per159808_1929_00004_pdf_0.IMG-BIN_region0001.png" /></p></td>
+<td><p>IlMnMfitſiſiini</p></td>
+<td><p>ſſſſff.</p></td>
+<td><p>OST DEU ICN</p></td>
+</tr>
+<tr class="row-odd"><td><p>0003</p></td>
+<td><p><img alt="região 0003" src="imgs/OCR-D-BIN-REG_per159808_1929_00004_pdf_0.IMG-BIN_region0003.png" /></p></td>
+<td><p>E A0 em propngandn d0 t ittif— t ateri . piiii lnix Ptn! in ele ancitn utnail</p></td>
+<td><p>1211IIee om propnganda dgo FiiI Iαιαοi05 06 E7α ιi ſixA Hc5t! Z — Kin ie laneitrn ictnril</p></td>
+<td><p>- REM TRARENO) em propaganda do Frntituto Ebreasiteiro de E quente Eniao Postal 20 — Rio de Janciro  mennil</p></td>
+</tr>
+<tr class="row-even"><td><p>0004</p></td>
+<td><p><img alt="região 0004" src="imgs/OCR-D-BIN-REG_per159808_1929_00004_pdf_0.IMG-BIN_region0004.png" /></p></td>
+<td><p>A l. ENN A tem pur Jim coope— ra 0 al miezto pretesstvo dlos homens phsica, ſihſcu t mréral— iente sudios; pur z Itiuur al— latina do contingente ds iracos, do— entus e degenerrlos, — ceucorrendo, lesSe modo, aar insttuicãu de Uii ciecltle ma1s S, ma1s mral— Zali, u utima, Uutlz ſlitiidacſe eqtlihrila, tposl le n lnedos lortes bellos, eletuentos ile pa e trahnllio. — ‘. Aeſil. E(iNlCs is te tud i ſeuc1es under ocial control llat mn iiimprove or impair the racial qualltis oſ ſutute geuernttuns, etler pihsrcall or men- tally ne lugenies ociet- London.</p></td>
+<td><p>A ElFNia tem pt liu coope— rar ſiiraO auxęmento praoteSS1voO dos homens phxsica, ſisxehicue moral- mente sadios; puri diminuięo pau- latina do contingente dus iracos, do— entoed e degeneritos,. — cuncorrendo. desse modo. Pari canxtituieũo de uma Socicilitle mai8 sS, muis morali- zudi. em suuima. uui ſiiimuniditie equtlihrudu, roiipost de nairditos tortes e bellos, elementos de paz e de tralilli0. — . Aeti. EuciN1e8is te studx o ageuetes under social control hat max improve or impair the racia] qualities oſ futuce Feueratiauns. eitler ſhysicallx or men- tallv -The Fugenies Bocietx -l-ondon.</p></td>
+<td><p>A BEUGENTA tem por dim coope- far pira O aumento progressivo dos homens physica, psychica e moral mente sadios, para a dimumção pau- latina do contingente dos irácos, do- ecntes e degenerados, — concorreudo, desse modo, para a constituição de uma Soriedude mais sã, mais moral cuda, um sutmima, uma Aumantdade equilibrada, composta de ainividios lortes e bellos, elementos de paz e de trabalho. — 4 Acht. EVGENICS às the study ot agencies under social control that may improve or impair the racial qualities of future generations, estler physically or men- taily-—— The Bugenics Society - London.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+</section>
+<section id="recomendacoes">
+<h2>Recomendações<a class="headerlink" href="#recomendacoes" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Qualidade da digitalização afeta muito o resultado, impossibilitando a comparação entre blocos e texto.</p></li>
+<li><p>Realizar esse trabalho individualmente se torna inviável, pelo alto consumo de tempo, mas também pela demanda de conhecimento técnico, e de recursos computacionais.</p></li>
+<li><p>As ferramentas do OCR-D são muito valiosas para preprocessar as imagens, realizar a binarização, normalização, redução de ruídos, curvaturas e abaulamentos nas imagens.</p></li>
+<li><p>Ainda é marcante a dificuldade em reconhecimento do layout da página, e a segmentação de blocos de texto quando as imagens digitalizadas não apresentam uma qualidade elevada.</p></li>
+<li><p>Ainda assim notamos um resultado satisfatório quando combinamos digitalizações de páginas de boa qualidade, o OCR-D para preprocessar as imagens e o Tesseract para realizar o reconhecimento do layout e de texto com o modelo <code class="docutils literal notranslate"><span class="pre">por</span></code>.</p></li>
+<li><p>Entretanto, para resultados mais precisos, fica evidente a necessidade de treinar um modelo específico para o layout e texto.</p></li>
+<li><p>Para trabalhos cotidianos de pesquisa, onde historiadores lidam com algumas centenas de páginas de jornais digitalizados, acredito que seja mais proveitoso uma combinação entre OCR-D e o gImageReader<a class="footnote-reference brackets" href="#gimagereader" id="id11" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>. O OCR-D para realizar a binarização, normalização, redução de ruídos, curvaturas e abaulamentos nas imagens, e o gImageReader para realizar o reconhecimento do layout e de texto, assim como a revisão final do OCR.</p></li>
+</ul>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="vm" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Para instalar uma máquina virtual, recomendamos o <a class="reference external" href="https://www.virtualbox.org/">VirtualBox</a>. Para instalar o VirtualBox, siga as instruções do site oficial: <a class="reference external" href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></p>
+</aside>
+<aside class="footnote brackets" id="gimagereader" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id11">2</a><span class="fn-bracket">]</span></span>
+<p>Ver <span class="xref myst">avaliação neste mesmo livro</span>.</p>
+</aside>
+</aside>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./part4/capitulo12"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="sec122.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">12.2. Testanto o Kraken</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="sec124.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">12.4. Recomendações e conclusões</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instalacao">Instalação</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#python-3-7">Python 3.7</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#requisitos">Requisitos</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-o-repositorio">Clone o repositório</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instale-o-ocr-d">Instale o OCR-D</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ative-o-ambiente-virtual">Ative o ambiente virtual</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#criacao-do-workspace">Criação do workspace</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teste-01-o-paiz">Teste 01: <em>O Paiz</em></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#paginas-originais">Páginas originais</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#workflow-testado">Workflow testado</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conversao-para-tif">Conversão para tif</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessamento-com-ocrd">Preprocessamento com ocrd</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#normalizacao-da-imagem">Normalização da imagem</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#binarizacao-nivel-de-pagina">Binarização (Nível de página)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reducao-de-ruido">Redução de ruído</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deskew">Deskew</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#segmentacao">Segmentação</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#resultados-da-segmentacao">Resultados da segmentação</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ocr">OCR</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#calamari">Calamari</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ocropy">Ocropy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#tesseract">Tesseract</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#comparacao">Comparação</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pagina-1">Página 1</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pagina-2">Página 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teste-02-boletim-de-eugenia">Teste 02: Boletim de Eugenia</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Páginas originais</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Workflow testado</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Resultados da segmentação</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">OCR</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Calamari</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Tesseract</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Comparação</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Página 1</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Página 2</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pagina-3">Página 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recomendacoes">Recomendações</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <a href="https://ericbrasiln.github.io/">Eric Brasil</a>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>. </div>
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
