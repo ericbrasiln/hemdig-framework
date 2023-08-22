@@ -101,6 +101,42 @@ flowchart TB
     Metodológicos") -.-> B{{Metadados}}
 ```
 
-## Pendências
+## Quarta fase
 
-Fazer diagramas específicos para cada fase do framework.
+```mermaid
+---
+title: Quarta Fase
+---
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart TB
+    A{"`**Tratamento dos dados**`"}
+    A ---I>Tutoriais PH]
+    A --> B{{Definição de aboradegem}}
+    B -.-> D{{OCR com GUI}}
+    B -.-> C{{OCR com CLI}}
+    C --> E("Treinamento
+    de modelo") --> C
+    C --> F(Reconhecimento de Layout e de caracteres)
+    D --> F
+    D --> G(Correção Manual) --> D
+    F --- H["`Resultados
+    *hocr*
+    *ALTO*
+    *txt*`"]
+```
+
+## Quinta fase
+
+```mermaid
+---
+title: Quinta Fase
+---
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart TB
+    A{"`**Revisão e Publicação**`"}
+    A ---> B[(Preservação do Dataset)]
+    A ---> C((Documentação))
+    A ---> D[/Publicação/]
+```
