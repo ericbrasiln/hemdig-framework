@@ -50,7 +50,6 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
-    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js?v=36754332"></script>
@@ -61,6 +60,7 @@ const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js?v=afe5de03"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'part4/capitulo12/sec122';</script>
+    <link rel="icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="12.3. OCR-D: Tutorial e testes" href="sec123.html" />
@@ -140,8 +140,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../_static/logo-sm.svg" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/logo-sm.svg" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -570,7 +570,7 @@ document.write(`
 <h3>Teste 01: Boletim de Eugenia.<a class="headerlink" href="#teste-01-boletim-de-eugenia" title="Permalink to this heading">#</a></h3>
 <p>Buscando formas de comparar os resultados com o OCR-D, vamos utilizar uma página do Boletim de Eugenia para testar o Kraken. Essa página foi testado com o OCR-D e obtivemos os melhores resultados.</p>
 <p>A página original é a primeira da edição de fevereiro de 1929:</p>
-<p><img alt="Boletim de Eugenia, fevereiro de 1929, p. 1" src="part4/imgs/per159808_1929_00002.pdf_0.jpg" /></p>
+<p><img alt="Boletim de Eugenia, fevereiro de 1929, p. 1" src="../../_images/per159808_1929_00002.pdf_0.jpg" /></p>
 <p>O comando para o Kraken processá-la é o seguinte:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>kraken<span class="w"> </span>-i<span class="w"> </span>../imgs/per159808_1929_00002.pdf_0.jpg<span class="w"> </span>per159808_1929_00002.pdf_0.txt<span class="w"> </span>binarize<span class="w"> </span>segment<span class="w"> </span>ocr<span class="w"> </span>-m<span class="w"> </span>en_best.mlmodel
 </pre></div>
@@ -595,7 +595,7 @@ document.write(`
 <h2>Teste 02: O Paiz<a class="headerlink" href="#teste-02-o-paiz" title="Permalink to this heading">#</a></h2>
 <p>Vejamos o resultado em uma página com um layout ainda mais complexo, com oito colunas, como a página 2 do jornal <em>O Paiz</em> de 05 de maio de 1887.</p>
 <p>Abaixo, a imagem original:</p>
-<p><img alt="O Paiz" src="part4/imgs/178691_01_3912.jpg" /></p>
+<p><img alt="O Paiz" src="../../_images/178691_01_3912.jpg" /></p>
 <p>Executamos o comando para binarizar, segmentar e reconhecer o texto da imagem.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>kraken<span class="w"> </span>-i<span class="w"> </span>../imgs/178691_01_3912.jpg<span class="w"> </span>178691_01_3912.txt<span class="w"> </span>binarize<span class="w"> </span>segment<span class="w"> </span>ocr<span class="w"> </span>-m<span class="w"> </span>en_best.mlmodel
 </pre></div>

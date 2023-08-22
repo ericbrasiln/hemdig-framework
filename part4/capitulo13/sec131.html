@@ -50,7 +50,6 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
-    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../../_static/design-tabs.js?v=36754332"></script>
@@ -61,6 +60,7 @@ const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js?v=afe5de03"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'part4/capitulo13/sec131';</script>
+    <link rel="icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="13.2. Recomendações e conclusões" href="sec132.html" />
@@ -140,8 +140,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../_static/logo-sm.svg" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../_static/logo-sm.svg" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -515,7 +515,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="tutorial-de-uso-do-gimagereader">
 <h1>13.1. Tutorial de uso do gImageReader<a class="headerlink" href="#tutorial-de-uso-do-gimagereader" title="Permalink to this heading">#</a></h1>
-<p><img alt="gImageReader" src="part4/capitulo13/gimagereader.png" /></p>
+<p><img alt="gImageReader" src="../../_images/gimagereader.png" /></p>
 <p>O gImageReader é um programa front-end que aplica o tesseract-ocr para reconhecimento de caracteres em imagens e PDFs. Ele é uma interface gráfica criada com GTK/QT<a class="footnote-reference brackets" href="#gtk" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> por <a class="reference external" href="https://github.com/manisandro">Sandro Mani</a> com licença <a class="reference external" href="https://github.com/manisandro/gImageReader/blob/master/COPYING">GNU GPL v3</a>.</p>
 <p>Atualmente (<a class="reference external" href="https://github.com/manisandro/gImageReader/releases/tag/v3.4.1">versão 3.4.1</a>) o programa está disponível para Windows e Linux e 100% traduzido para 6 idiomas incluindo o português (brasileiro).</p>
 <p>O gImageReader possui características muito úteis para a pesquisa com jornais digitalizados. Segundo a documentação:</p>
@@ -572,14 +572,7 @@ osd
 <section id="windows-10">
 <h3>Windows 10<a class="headerlink" href="#windows-10" title="Permalink to this heading">#</a></h3>
 <p>O processo de instalação do gImageReader no Windows é simples, e um tutorial detalhada pode ser visto no vídeo abaixo:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">IFrame</span>
-
-<span class="n">IFrame</span><span class="p">(</span><span class="n">src</span><span class="o">=</span><span class="s1">&#39;https://www.youtube.com/embed/_7eqj01Hn0M&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">560</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">315</span><span class="p">,</span> <span class="n">frameborder</span><span class="o">=</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="n">allowfullscreen</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
+<div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output text_html">
         <iframe
@@ -601,16 +594,16 @@ osd
 <section id="resultados">
 <h2>Resultados<a class="headerlink" href="#resultados" title="Permalink to this heading">#</a></h2>
 <p>Inserimos no programa as 5 páginas de exemplo utilizadas anteriormente com OCR-D e Kraken. Também inserimos as versões das imagens que haviam sido pré-processadas com o OCR-D (binarização, normalização, redução de ruídos e de inclinação).</p>
-<p><img alt="input" src="part4/capitulo13/imgs/gir_01_2023-08-10_10-15-34.png" /></p>
+<p><img alt="input" src="../../_images/gir_01_2023-08-10_10-15-34.png" /></p>
 <section id="reconhecimento-de-layouts">
 <h3>Reconhecimento de layouts<a class="headerlink" href="#reconhecimento-de-layouts" title="Permalink to this heading">#</a></h3>
 <p>O reconhecimento foi realizado com a opção <em>hocr</em> e a saída foi salva como <code class="docutils literal notranslate"><span class="pre">gir_hocr_output.html</span></code> e pode ser acessado <span class="xref myst">aqui</span>. Também exportamos o resultado de cada página como um arquivo de texto, que podem ser acessados <span class="xref myst">aqui</span>.</p>
-<p><img alt="reconhecimento com a opção hocr" src="part4/capitulo13/imgs/gir_02_2023-08-10_10-42.png" /></p>
+<p><img alt="reconhecimento com a opção hocr" src="../../_images/gir_02_2023-08-10_10-42.png" /></p>
 <p>Podemos perceber que o resultado foi bastante positivo, mesmo na imagem sem o tratamento realizado pelas ferramentas do OCR-D. Os blocos de texto foram identificados satisfatoriamente, assim como parágrafos, linhas e palavras.</p>
-<p><img alt="bloco de texto" src="part4/capitulo13/imgs/gir_02_bl_2023-08-10_10-54.png" /></p>
-<p><img alt="parágrafo" src="part4/capitulo13/imgs/gir_02_pr_2023-08-10_10-55.png" /></p>
-<p><img alt="linha" src="part4/capitulo13/imgs/gir_02_li_2023-08-10_10-56.png" /></p>
-<p><img alt="palavra" src="part4/capitulo13/imgs/gir_02_wd_2023-08-10_10-57.png" /></p>
+<p><img alt="bloco de texto" src="../../_images/gir_02_bl_2023-08-10_10-54.png" /></p>
+<p><img alt="parágrafo" src="../../_images/gir_02_pr_2023-08-10_10-55.png" /></p>
+<p><img alt="linha" src="../../_images/gir_02_li_2023-08-10_10-56.png" /></p>
+<p><img alt="palavra" src="../../_images/gir_02_wd_2023-08-10_10-57.png" /></p>
 <p>Algumas sobreposições de blocos de texto foram identificadas, mas no geral as cinco páginas originais obtiveram resultados bons, e as imagens com processamento do OCR-D obtiveram resultados similares.</p>
 <p>Além do reconhecimento utilizando o método <em>hocr</em>, realizamos o reconhecimento de layout automático (recurso possível na opção de reconhecimento de texto simples).</p>
 <p>Ao analisarmos o resultado final, percebemos que os resultados foram semelhantes aos obtidos com o OCR-D. E que na comparação dos resultados do reconhecimento de layout automático entre as páginas originais e tratadas previamente pelo OCR-D, notamos que ou os resultados foram similares ou melhores com as imagens originais.</p>
@@ -618,28 +611,28 @@ osd
 </section>
 <section id="o-pais-p-1">
 <h3>O Pais, p.1<a class="headerlink" href="#o-pais-p-1" title="Permalink to this heading">#</a></h3>
-<p><img alt="layout O Paiz, p.1, original" src="part4/capitulo13/imgs/gir_layout_paiz01_or_2023-08-10_11-04-27.png" /></p>
-<p><img alt="layout O Paiz, p.1, tratada" src="part4/capitulo13/imgs/gir_layout_paiz01_ocr-d_2023-08-10%2011-06-30.png" /></p>
+<p><img alt="layout O Paiz, p.1, original" src="../../_images/gir_layout_paiz01_or_2023-08-10_11-04-27.png" /></p>
+<p><img alt="layout O Paiz, p.1, tratada" src="../ocr_olr/GUI-ex/gimagereader/imgs/gir_layout_paiz01_ocr-d_2023-08-10%2011-06-30.png" /></p>
 </section>
 <section id="o-pais-p-2">
 <h3>O Pais, p.2<a class="headerlink" href="#o-pais-p-2" title="Permalink to this heading">#</a></h3>
-<p><img alt="layout O Paiz, p.2, original" src="part4/capitulo13/imgs/gir_layout_paiz02_or_2023-08-10_11-08-00.png" /></p>
-<p><img alt="layout O Paiz, p.2, tratada" src="part4/capitulo13/imgs/gir_layout_paiz02_ocr-d_2023-08-10_11-09-03.png" /></p>
+<p><img alt="layout O Paiz, p.2, original" src="../../_images/gir_layout_paiz02_or_2023-08-10_11-08-00.png" /></p>
+<p><img alt="layout O Paiz, p.2, tratada" src="../../_images/gir_layout_paiz02_ocr-d_2023-08-10_11-09-03.png" /></p>
 </section>
 <section id="boletim-de-eugenia-p-1">
 <h3>Boletim de Eugenia, p.1<a class="headerlink" href="#boletim-de-eugenia-p-1" title="Permalink to this heading">#</a></h3>
-<p><img alt="Boletim de Eugenia, p.1, original" src="part4/capitulo13/imgs/gir_layout_be01_or_2023-08-10_11-09-54.png" /></p>
-<p><img alt="Boletim de Eugenia, p.1, tratada" src="part4/capitulo13/imgs/gir_layout_be01_ocr-d_2023-08-10_11-10-52.png" /></p>
+<p><img alt="Boletim de Eugenia, p.1, original" src="../../_images/gir_layout_be01_or_2023-08-10_11-09-54.png" /></p>
+<p><img alt="Boletim de Eugenia, p.1, tratada" src="../../_images/gir_layout_be01_ocr-d_2023-08-10_11-10-52.png" /></p>
 </section>
 <section id="boletim-de-eugenia-p-2">
 <h3>Boletim de Eugenia, p.2<a class="headerlink" href="#boletim-de-eugenia-p-2" title="Permalink to this heading">#</a></h3>
-<p><img alt="Boletim de Eugenia, p.2, original" src="part4/capitulo13/imgs/gir_layout_be02_or_2023-08-10_11-11-31.png" /></p>
-<p><img alt="Boletim de Eugenia, p.2, tratada" src="part4/capitulo13/imgs/gir_layout_be02_ocr-d_2023-08-10_11-12-11.png" /></p>
+<p><img alt="Boletim de Eugenia, p.2, original" src="../../_images/gir_layout_be02_or_2023-08-10_11-11-31.png" /></p>
+<p><img alt="Boletim de Eugenia, p.2, tratada" src="../../_images/gir_layout_be02_ocr-d_2023-08-10_11-12-11.png" /></p>
 </section>
 <section id="boletim-de-eugenia-p-3">
 <h3>Boletim de Eugenia, p.3<a class="headerlink" href="#boletim-de-eugenia-p-3" title="Permalink to this heading">#</a></h3>
-<p><img alt="Boletim de Eugenia, p.3, original" src="part4/capitulo13/imgs/gir_layout_be03_or_2023-08-10_11-12-50.png" /></p>
-<p><img alt="Boletim de Eugenia, p.3, tratada" src="part4/capitulo13/imgs/gir_layout_be03_ocr-d_2023-08-10_11-13-18.png" /></p>
+<p><img alt="Boletim de Eugenia, p.3, original" src="../../_images/gir_layout_be03_or_2023-08-10_11-12-50.png" /></p>
+<p><img alt="Boletim de Eugenia, p.3, tratada" src="../../_images/gir_layout_be03_ocr-d_2023-08-10_11-13-18.png" /></p>
 </section>
 <section id="reconhecimento-de-texto">
 <h3>Reconhecimento de texto<a class="headerlink" href="#reconhecimento-de-texto" title="Permalink to this heading">#</a></h3>
