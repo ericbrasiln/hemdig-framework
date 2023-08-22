@@ -1,4 +1,4 @@
-# Ferramentas proprietárias de OCR
+# E. Ferramentas proprietárias de OCR
 
 ABBY FineReader
 
