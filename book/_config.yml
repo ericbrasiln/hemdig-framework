@@ -3,7 +3,7 @@
 title                       : "HemDig Framework"
 author                      : <a href="https://ericbrasiln.github.io/">Eric Brasil</a>  # The author of the book
 copyright                   : "2023"  # Copyright year to be placed in the footer
-logo                        : "logo.png"  # A path to the book logo
+logo                        : "assets/images/logos/logo-sm.svg"  # A path to the book logo
 exclude_patterns            : [_build]
 code_hide: 
   - remove-input
@@ -32,7 +32,7 @@ parse:
 #######################################################################################
 # HTML-specific settings
 html:
-  favicon                   : ""  # A path to a favicon image
+  favicon                   : "assets/images/icon/favicon.ico"  # A path to a favicon image
   use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
   use_repository_button     : true  # Whether to add a link to your repository button
   use_issues_button         : true  # Whether to add an "open an issue" button
@@ -46,7 +46,7 @@ html:
   home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
-    hypothesis              : true  # Enable hypothesis for commenting
+    hypothesis              : false  # Enable hypothesis for commenting
 
 #######################################################################################
 # LaTeX-specific settings
