@@ -6,7 +6,12 @@ Após a busca, os dados foram exportados e inseridos no Zotero. Então foram org
 
 Esses dados foram inseridos na biblioteca pública de referências *História Digital*, criada por Ana Carolina Veloso, Priscila Silveira Valverde e Eric Brasil, e disponível em: https://www.zotero.org/groups/2216280/histria_digital. Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG FRAMEWORK** com os resultados da busca, organizados pelos parâmetros utilizados[^2].
 
-![print da biblioteca pública de referências História Digital](../../assets/images/print_bib_zot.png)
+```{figure} ../../assets/images/print_bib_zot.png
+:name: zot-01
+:align: center
+
+Print da biblioteca *História Digital* no Zotero.
+```
 
 Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis na pasta [`bibliografia/SCOPUS/`](https://github.com/ericbrasiln/hemdig-framework/tree/main/bibliografia/SCOPUS) do repositório da pesquisa.
 
