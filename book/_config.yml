@@ -1,6 +1,6 @@
 #######################################################################################
 # Book settings
-title                       : "HemDig Framework"
+title                       : "HEMDIG(pt) Framework"
 author                      : <a href="https://ericbrasiln.github.io/">Eric Brasil</a>  # The author of the book
 copyright                   : "2023"  # Copyright year to be placed in the footer
 logo                        : "assets/images/logos/logo-sm.svg"  # A path to the book logo
@@ -26,6 +26,7 @@ parse:
     - replacements
     - smartquotes
     - substitution
+    - tasklist
 
   myst_url_schemes          : [mailto, http, https]  # URI schemes that will be recognised as external URLs in Markdown links
 
@@ -43,16 +44,17 @@ html:
     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>.
     </div>  # Will be displayed underneath the footer.
   google_analytics_id       : ""  # A GA id that can be used to track book views.
-  home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis              : false  # Enable hypothesis for commenting
+  announcement              : "⚠️ Esta versão é apenas um esboço. Não deve ser citada nem utilizada. ⚠️" # A banner announcement at the top of the site.
 
 #######################################################################################
 # LaTeX-specific settings
 latex:
   latex_engine              : pdflatex  # one of 'pdflatex', 'xelatex' (recommended for unicode), 'luatex', 'platex', 'uplatex'
-  # use_jupyterbook_latex     : true # use sphinx-jupyterbook-latex for pdf builds as default
+  use_jupyterbook_latex     : true # use sphinx-jupyterbook-latex for pdf builds as default
   # latex_documents:
     # targetname: book.tex
 
@@ -75,6 +77,8 @@ repository:
 bibtex_bibfiles:
   - references.bib
 
+#######################################################################################
+# Advanced and power-user settings
 sphinx:
   config:
     html_js_files:
