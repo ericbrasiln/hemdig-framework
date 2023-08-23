@@ -7,6 +7,7 @@ logo                        : "assets/images/logos/logo-sm.svg"  # A path to the
 exclude_patterns            : [_build]
 code_hide: 
   - remove-input
+  - remove-output
 #######################################################################################
 # Execution settings
 execute:
