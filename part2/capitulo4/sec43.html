@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>4.3. Análise dos dados de periódicos da Hemeroteca Municipal de Lisboa &#8212; HemDig Framework</title>
+    <title>4.3. Análise dos dados de periódicos da Hemeroteca Municipal de Lisboa &#8212; HEMDIG(pt) Framework</title>
   
   
   
@@ -108,6 +108,12 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content">⚠️ Esta versão é apenas um esboço. Não deve ser citada nem utilizada. ⚠️</div>
+  </div>
+
   
     <nav class="bd-header navbar navbar-expand-lg bd-navbar">
     </nav>
@@ -147,6 +153,14 @@ const thebe_selector_output = ".output, .cell_output"
 </a></div>
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    HEMDIG(pt)
+                </a>
+            </li>
+        </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apresentação da pesquisa</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../pretext/intro.html">Introdução</a></li>
@@ -497,8 +511,14 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="analise-dos-dados-de-periodicos-da-hemeroteca-municipal-de-lisboa">
 <h1>4.3. Análise dos dados de periódicos da Hemeroteca Municipal de Lisboa<a class="headerlink" href="#analise-dos-dados-de-periodicos-da-hemeroteca-municipal-de-lisboa" title="Permalink to this heading">#</a></h1>
 <p>Nesse notebook, vamos limpar e apresentar os dados coletados na HML. Buscaremos compreender o escopo do acervo digitalizado e ao mesmo tempo apresentar suas características gerais.</p>
-<p>:warning: Os dados da HML são escassos, visto que seu sítio não apresenta uma política de dados abertos. Os dados apresentados e analisados aqui são fruto de uma coleta realizada pelo <span class="xref myst">scraper_hml</span> e representam um esforço da pesquisa, mas que não são suficientes para uma análise mais profunda, apresentando dados incompletos e insuficientes para uma análise mais profunda.</p>
-<p>:warning: Atualmente está em desenvolvimento uma nova verão da HML, e sua versão beta pode ser acessada <a class="reference external" href="https://hemerotecadigital.lisboa.pt/">aqui</a> . A nova versão apresenta uma interface mais moderna e intuitiva, com mais recursos de filtros e busca. No entanto, a nova versão ainda não foi oficialmente lançada e não contém todo o acervo digitalizado da HML. Portanto, a análise aqui apresentada se refere à versão atual da HML, que pode ser acessada <a class="reference external" href="http://hemerotecadigital.cm-lisboa.pt/">aqui</a>.</p>
+<div class="attention admonition">
+<p class="admonition-title">Atenção</p>
+<p>Os dados da HML são escassos, visto que seu sítio não apresenta uma política de dados abertos. Os dados apresentados e analisados aqui são fruto de uma coleta realizada pelo <span class="xref myst">scraper_hml</span> e representam um esforço da pesquisa, mas que não são suficientes para uma análise mais profunda, apresentando dados incompletos e insuficientes para uma análise mais profunda.</p>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Atenção</p>
+<p>Atualmente está em desenvolvimento uma nova verão da HML, e sua versão beta pode ser acessada <a class="reference external" href="https://hemerotecadigital.lisboa.pt/">aqui</a> . A nova versão apresenta uma interface mais moderna e intuitiva, com mais recursos de filtros e busca. No entanto, a nova versão ainda não foi oficialmente lançada e não contém todo o acervo digitalizado da HML. Portanto, a análise aqui apresentada se refere à versão atual da HML, que pode ser acessada <a class="reference external" href="http://hemerotecadigital.cm-lisboa.pt/">aqui</a>.</p>
+</div>
 <section id="coleta-de-dados">
 <h2>Coleta de dados<a class="headerlink" href="#coleta-de-dados" title="Permalink to this heading">#</a></h2>
 <p>Os dados foram coletados utilizando o <span class="xref myst">scraper_hml</span>, que é um scraper desenvolvido em Python utilizando a biblioteca <a class="reference external" href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a>. O scraper foi desenvolvido para coletar os dados de todos os periódicos disponíveis na HML, e os dados coletados foram salvos em um arquivo CSV.</p>
