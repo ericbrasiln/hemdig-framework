@@ -28,14 +28,7 @@ parts:
         sections:
           - file: part2/capitulo5/sec51
           - file: part2/capitulo5/sec52
-          - file: part2/capitulo5/sec53
-          - file: part2/capitulo5/sec54
       - file: part2/capitulo6/cap6
-        sections:
-          - file: part2/capitulo6/sec61
-          - file: part2/capitulo6/sec62
-          - file: part2/capitulo6/sec63
-          - file: part2/capitulo6/sec64
   - caption: 3ª fase - Coleta de dados
     chapters:
       - file: part3/part3-intro

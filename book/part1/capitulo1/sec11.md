@@ -17,7 +17,7 @@ Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada res
 
 Os ficheiros `.bib` e `.ris` pode ser importado diretamente no Zotero, enquanto o `.csv` pode ser aberto em programas de tratamento e visualização de dados tabulares, como o LibreOffice Calc e Excel, e organizado de acordo com as necessidades do pesquisador.
 
-Além da busca na base Scopus, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e podem ser acessados na pasta [`bibliografia/`](../../bibliografia) do repositório da pesquisa.
+Além da busca na base Scopus, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e podem ser acessados na pasta [`bibliografia/`](../../../data/bibliografia/) do repositório da pesquisa.
 
 ## Parâmetros utilizados no Scopus
 
