@@ -1,1 +1,1 @@
-# 13.1. OCR com GUI
+# 13. OCR com GUI
