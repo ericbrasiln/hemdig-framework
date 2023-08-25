@@ -1,3 +1,8 @@
+```{admonition} Atenção
+:class: danger
+Página em construção.
+```
+
 # 14. Consolidação da documentação
 
 Por todo esse percurso, temos reforçado a necessidade da prática de documentar todas as decisões e escolhas de forma clara e recorrente.

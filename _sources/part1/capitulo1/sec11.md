@@ -4,7 +4,7 @@ Inicialmente realizei levantamento bibliográfico na base Scopus[^1], buscando t
 
 Após a busca, os dados foram exportados e inseridos no Zotero. Então foram organizados e categorizados de acordo com os temas da busca. 
 
-Esses dados foram inseridos na biblioteca pública de referências *História Digital*, criada por Ana Carolina Veloso, Priscila Silveira Valverde e Eric Brasil, e disponível em: https://www.zotero.org/groups/2216280/histria_digital. Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG FRAMEWORK** com os resultados da busca, organizados pelos parâmetros utilizados[^2], conforme a {numref}`Figura {number}: {name} <zot-01>`.
+Esses dados foram inseridos na biblioteca pública de referências *História Digital*, criada por Ana Carolina Veloso, Priscila Silveira Valverde e Eric Brasil, e disponível em: https://www.zotero.org/groups/2216280/histria_digital. Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG(pt)** com os resultados da busca, organizados pelos parâmetros utilizados[^2], conforme a {numref}`Figura {number}: {name} <zot-01>`.
 
 ```{figure} ../../assets/images/print_bib_zot.png
 :name: zot-01
