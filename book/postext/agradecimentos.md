@@ -1,3 +1,8 @@
+```{admonition} Atenção
+:class: danger
+Página em construção.
+```
+
 # Agradecimentos
 
 Agradecer aos labs, ao proghist, Daniel, Leonardo, Joana.

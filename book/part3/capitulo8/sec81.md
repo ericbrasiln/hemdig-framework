@@ -1,3 +1,8 @@
+```{admonition} Atenção
+:class: danger
+Página em construção.
+```
+
 # 8.1 pyHDB - Coleta de metadados e acervos da HDB
 
 Ver [pyHDB](ericbrasiln.github.io/pyHDB)
