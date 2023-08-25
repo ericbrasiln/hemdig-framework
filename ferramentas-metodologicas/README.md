@@ -6,4 +6,4 @@ Foco principal é na documentação clara e concisa de todas as etapas da pesqui
 
 - [Tutoriais e lições do Programming Historian](./tutoriais/README.md)
 - [Relatórios Metodológicos para Pesquisa](./relatorios/README.md)
-- [Ferramentas de coleta de dados](./scraperas/README.md)
+- [Ferramentas de coleta de dados](./scrapers/README.md)
