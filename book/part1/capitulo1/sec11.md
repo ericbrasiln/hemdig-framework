@@ -1,4 +1,4 @@
-# 1.1. Levantamento bibliográfico na base Scopus
+# 1.1. Levantamento bibliográfico nas bases Scopus e Web of Science
 
 No exemplo utilizado aqui, realizei levantamento bibliográfico na base Scopus[^1] e Web of Science, buscando trabalhos específicos sobre reconhecimento de caracteres e layout, assim como trabalhos sobre jornais históricos e interfaces de usuário.
 
