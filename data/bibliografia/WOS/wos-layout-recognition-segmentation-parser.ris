@@ -1,0 +1,2594 @@
+TY  - CONF
+TI  - Making Europe's Historical Newspapers Searchable
+AU  - Neudecker, C.
+AU  - Antonacopoulos, A.
+T2  - 12th IAPR International Workshop on Document Analysis Systems, DAS 2016
+AB  - This paper provides a rare glimpse into the overall approach for the refinement, i.e. the enrichment of scanned historical newspapers with text and layout recognition, in the Europeana Newspapers project. Within three years, the project processed more than 10 million pages of historical newspapers from 12 national and major libraries to produce the largest open access and fully searchable text collection of digital historical newspapers in Europe. In this, a wide variety of legal, logistical, technical and other challenges were encountered. After introducing the background issues in newspaper digitization in Europe, the paper discusses the technical aspects of refinement in greater detail. It explains what decisions were taken in the design of the large-scale processing workflow to address these challenges, what were the results produced and what were identified as best practices. © 2016 IEEE.
+C3  - Proc. - IAPR Int. Workshop Doc. Anal. Syst., DAS
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/DAS.2016.83
+SP  - 405
+EP  - 410
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781509017928 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84979556437&doi=10.1109%2fDAS.2016.83&partnerID=40&md5=8f07aa6473046bc026f95a822340502c
+DB  - Scopus
+Y2  - 2016/04/11/
+L2  - https://ieeexplore.ieee.org/abstract/document/7490152?casa_token=CzzqyQTP5M8AAAAA:B_59bUIHZNePH7tD6xDjSWGV3vb_UAisj4piLTiDc1IjFEQkzc-jopJUCewxi5LGfDdvKoG2gam7
+KW  - Best practices
+KW  - Character recognition
+KW  - digital libraries
+KW  - Digital libraries
+KW  - Digitisation
+KW  - Electronic publishing
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - HEMDIG FRAMEWORK
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - large-scale digitisation
+KW  - Large-scale processing
+KW  - layout analysis
+KW  - Layout analysis
+KW  - newspapers
+KW  - Newsprint
+KW  - OCR
+KW  - OLR
+KW  - Open Access
+KW  - optical character recognition
+KW  - Optical character recognition
+KW  - SCOPUS
+KW  - Technical aspects
+KW  - Text collection
+ER  - 
+
+TY  - JOUR
+TI  - Layout Recognition of Multi-Kinds of Table-Form Documents
+AU  - Watanabe, T.
+AU  - Luo, Q.
+AU  - Sugie, N.
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+AB  - Many approaches have reported that knowledge-based layout recognition methods are very successful to classify the meaningful data from document images automatically. However, these approaches are applicable to only the same kind of documents because they are based on the paradigm that specifies the structure definition information in advance so as to be able to analyze a particular class of documents intelligently. In this paper, we propose a method to recognize the layout structures of multi-kinds of table-form document images. For this purpose, we introduce a classification tree to manage the relationships among different classes of layout structures. Our recognition system has two modes: layout knowledge acquisition and layout structure recognition. In the layout knowledge acquisition mode, table-form document images are distinguished according to this classification tree and then the structure description trees which specify the logical structures of table-form documents are generated automatically. While, in the layout structure recognition mode, individual item fields in the table-form document images are extracted and classified successfully by searching the classification tree and interpreting the structure description tree. © 1995 IEEE
+DA  - 1995///
+PY  - 1995
+DO  - 10.1109/34.385976
+VL  - 17
+IS  - 4
+SP  - 432
+EP  - 445
+J2  - IEEE Trans. Pattern Anal. Mach. Intell.
+LA  - English
+SN  - 01628828 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0029293805&doi=10.1109%2f34.385976&partnerID=40&md5=257ade263f09b1c8421e776680bbb8bc
+DB  - Scopus
+KW  - automatic acquisition of layout knowledge
+KW  - AUTOMATIC ACQUISITION OF LAYOUT KNOWLEDGE
+KW  - Automation
+KW  - classification tree
+KW  - Classification tree
+KW  - CLASSIFICATION TREE
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image understanding
+KW  - Knowledge acquisition
+KW  - Knowledge based systems
+KW  - Layout knowledge
+KW  - Layout recognition
+KW  - Layout structures
+KW  - Pattern recognition
+KW  - recognition of document classes
+KW  - RECOGNITION OF DOCUMENT CLASSES
+KW  - recognition of layout structures
+KW  - RECOGNITION OF LAYOUT STRUCTURES
+KW  - Recognition paradigm for multi-kinds of table-form documents
+KW  - RECOGNITION PARADIGM FOR MULTI-KINDS OF TABLE-FORM DOCUMENTS
+KW  - SCOPUS
+KW  - structure description tree
+KW  - Structure description tree
+KW  - STRUCTURE DESCRIPTION TREE
+KW  - Table form documents
+KW  - Trees (mathematics)
+ER  - 
+
+TY  - CONF
+TI  - FPGA-based high performance page layout segmentation
+AU  - Ratha, N.K.
+AU  - Jain, A.K.
+AU  - Rover, D.T.
+T2  - Proceedings of the 1996 6th Great Lakes Symposium on VLSI, GLSVLSI
+A4  - IEEE
+AB  - A page layout segmentation algorithm for locating text, background and halftone areas is presented. The algorithm has been implemented on Splash 2 - an FPGA-based array processor. The speed as determined by the Xilinx synthesis tools projects an application speed of 5 MHz. For documents of size 1.024 × 1.024 pixels, a significant speedup of two orders of magnitude compared to a SparcStation 20 has been achieved.
+C1  - Los Alamitos, CA, United States
+C3  - Proc IEEE Great Lakes Symp VLSI
+DA  - 1996///
+PY  - 1996
+SP  - 29
+EP  - 34
+LA  - English
+PB  - IEEE
+SN  - 10661395 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0029720295&partnerID=40&md5=645f1050465b1f83193aa0c7aa4732c1
+DB  - Scopus
+Y2  - 1996/03/22/
+KW  - Algorithms
+KW  - Character recognition
+KW  - Codes (symbols)
+KW  - Computer graphics
+KW  - Design
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image segmentation
+KW  - Page layout segmentation
+KW  - Program processors
+KW  - SCOPUS
+ER  - 
+
+TY  - JOUR
+TI  - A multilayer recognition method for understanding table-form documents
+AU  - Watanabe, T.
+AU  - Luo, Q.
+T2  - International Journal of Imaging Systems and Technology
+AB  - The items in documents are composed under the mutual relationship between geometrical layout structure and logical structure. Thus, currently used documents may be categorized roughly on the basis of the geometrical layout structure and logical structure. Table-form documents are strictly defined by the geometrical layout structure in comparison with the other documents. Since the item fields are, in general, surrounded with vertical and horizontal line segments, with a view to understanding table-form documents it is better to recognize these line segments first and then identify individual item fields on the basis of the recognition results. At least, in table-form documents the vertical and horizontal line segments take important roles in recognizing the layout structures. In this article, we address a multilayer recognition method for understanding table-form documents. Our recognition layers are composed hierarchically of four different recognition processes: document class recognition, layout recognition, item recognition, and character recognition. In addition, our recognition method is organized on the basis of the interaction paradigm that the lower-layer recognition process verifies objects interpreted in the upper-layer recognition process with its own knowledge and then decomposes the objects into more elementary and meaningful objects. Moreover, we discuss a knowledge representation method from the viewpoints of physical and logical representations, and syntactic and semantic information. We also show the knowledge that is useful in understanding table-form documents with respect to such a representation method. © 1996 John Wiley & Sons, inc.
+DA  - 1996///
+PY  - 1996
+DO  - 10.1002/(SICI)1098-1098(199624)7:4<279::AID-IMA3>3.0.CO;2-5
+VL  - 7
+IS  - 4
+SP  - 279
+EP  - 288
+J2  - Int J Imaging Syst Technol
+LA  - English
+SN  - 08999457 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0030392123&doi=10.1002%2f%28SICI%291098-1098%28199624%297%3a4%3c279%3a%3aAID-IMA3%3e3.0.CO%3b2-5&partnerID=40&md5=8b89af04d86c1fd0653fb2258cc000cc
+DB  - Scopus
+KW  - Character recognition
+KW  - Data processing
+KW  - Document class recognition
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image understanding
+KW  - Item recognition
+KW  - Layout recognition
+KW  - Multilayer recognition methods
+KW  - Object recognition
+KW  - Pattern recognition systems
+KW  - SCOPUS
+KW  - Table form documents
+ER  - 
+
+TY  - CONF
+TI  - The layout recognition and reconstruction of Chinese documents based on gabor filter
+AU  - Tian, X.-D.
+AU  - Guo, B.-L.
+T2  - Proceedings of 2002 International Conference on Machine Learning and Cybernetics
+A4  - Hebei University; IEEE systems, Man and Cybernetics technical Comm. on Cybernetics
+AB  - The layout recognition of Chinese documents is one of the most difficult pattern recognition problems, because it concerns a great number of classes and many variations. In this paper, an intelligent layout recognition and reconstruction system is put forward on the basis of the analysis of the present ways. The algorithms of the pivotal processing steps such as layout analysis and character font recognition are discussed. Especially, a 2-D Gabor filter is used in character font recognition to improve the adaptability to the Chinese document. Experiments have been made and some promising results have been drawn.
+C1  - Beijing
+C3  - Proc. of 2002 Internat. Conf. on Machine Learning and Cybernetics
+DA  - 2002///
+PY  - 2002
+VL  - 4
+SP  - 1707
+EP  - 1710
+LA  - English
+SN  - 0780375084 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0036929026&partnerID=40&md5=a6e02bfbe938e2dc41dca3235434b2e6
+DB  - Scopus
+Y2  - 2002/11/04/
+KW  - Algorithms
+KW  - Artificial intelligence
+KW  - Character font recognition
+KW  - Character recognition
+KW  - Chinese documents
+KW  - Digital filters
+KW  - digitalization of document
+KW  - Digitalization of document
+KW  - File organization
+KW  - font recognition
+KW  - Font recognition
+KW  - Gabor filter
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - IDENTIFICATION
+KW  - Image compression
+KW  - Image reconstruction
+KW  - layout analysis
+KW  - Layout analysis
+KW  - layout recognition
+KW  - Layout recognition
+KW  - SCOPUS
+KW  - Two dimensional
+ER  - 
+
+TY  - JOUR
+TI  - Viewpoint dependence in scene recognition
+AU  - Diwadkar, V.A.
+AU  - McNamara, T.P.
+T2  - Psychological Science
+AB  - Two experiments investigated the viewpoint dependence of spatial memories. In Experiment 1, participants learned the locations of objects on a desktop from a single perspective and then took part in a recognition test; test scenes included familiar and novel views of the layout. Recognition latency was a linear function of the angular distance between a test view and the study view. In Experiment 2, participants studied a layout from a single view and then learned to recognize the layout from three additional training views. A final recognition test showed that the study view and the training views were represented in memory, and that latency was a linear function of the angular distance to the nearest study or training view. These results indicate that interobject spatial relations are encoded in a viewpoint-dependent manner, and that recognition of novel views requires normalization to the most similar representation in memory. These findings parallel recent results in visual object recognition.
+DA  - 1997///
+PY  - 1997
+DO  - 10.1111/j.1467-9280.1997.tb00442.x
+VL  - 8
+IS  - 4
+SP  - 302
+EP  - 307
+J2  - Psychol. Sci.
+LA  - English
+SN  - 09567976 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0347351067&doi=10.1111%2fj.1467-9280.1997.tb00442.x&partnerID=40&md5=f5c905d8dafacbe15c3f36c641c5214f
+DB  - Scopus
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - MEMORY
+KW  - MENTAL ROTATION
+KW  - OBJECT RECOGNITION
+KW  - REPRESENTATION
+KW  - ROTATED OBJECTS
+KW  - SCOPUS
+KW  - VIEWS
+ER  - 
+
+TY  - CONF
+TI  - Intelligent hierarchical layout segmentation of document images on the basis of colour content
+AU  - Mighlani, D.
+AU  - Hennig, A.
+AU  - Sherkat, N.
+AU  - Whitrow, R.J.
+T2  - Proceedings of the 1997 IEEE TENCON Conference. Part 1 (of 2)
+A2  - Deriche M.
+A2  - Moody M.
+A2  - Bennamoun M.
+A4  - IEEE
+AB  - This paper proposes a general methodology for automatic layout segmentation of documents. We first use colour histograms for extracting dominant colours of an image. This information is then used to hierarchically segment documents into regions of interest represented as polygons. If a region of interest is a picture the algorithm intelligently refrains from segmenting it further, while coloured regions that contain text are sub-segmented. The method has been tested on 50 real life documents, such as office letters, brochures, and technical papers, scanned at 100×100 dpi resolution. Regions are detected with about 68% reliability. A critical analysis of the results is presented.
+C1  - Piscataway, NJ, United States
+C3  - IEEE Reg 10 Annu Int Conf Proc TENCON
+DA  - 1997///
+PY  - 1997
+VL  - 1
+SP  - 191
+EP  - 194
+LA  - English
+PB  - IEEE
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0031345878&partnerID=40&md5=7c771103f731fb57dda1fbbb72f158e9
+DB  - Scopus
+Y2  - 1997/12/02/
+KW  - Adaptive algorithms
+KW  - Automatic layout segmentation
+KW  - Color image processing
+KW  - Feature extraction
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image segmentation
+KW  - Intelligent hierarchical layout segmentation
+KW  - SCOPUS
+ER  - 
+
+TY  - CONF
+TI  - Guideline for specifying layout knowledge
+AU  - Watanabe, Toyohide
+T2  - Proceedings of the 1999 6th Annual Conference on Document Recognition and Retrieval VI
+A4  - IS and T; SPIE
+AB  - Until today, many layout recognition/analysis methods have been proposed, but the guideline for knowledge representation applicable to documents which should be analyzed newly is not always discussed directly. This paper addresses such a subject. Generally, the documents can be categorized into the appropriate document types on the basis of the features of layout structures. Then, the processing mechanisms are assessed with a view to establishing the criteria for selecting the knowledge representation means appropriate to the document types. First, we define the physical layout structure and logical layout structure in addition to the traditional concepts of layout structure and logical structure. Second, we define the document type on the basis of the relationship between the physical layout structure and logical layout structure. Third, we make the knowledge representation means and the processing mechanisms clear under the document types. Finally, we show a criterion or guideline for knowledge representation means and processing mechanisms with respect to the logical layout structure and physical layout structure. For this discussion, our basic view is derived from our document understanding methods which we have developed for several different documents.
+C1  - Bellingham
+C3  - Proc SPIE Int Soc Opt Eng
+DA  - 1999///
+PY  - 1999
+DO  - 10.1117/12.335813
+VL  - 3651
+SP  - 162
+EP  - 172
+LA  - English
+PB  - Society of Photo-Optical Instrumentation Engineers
+SN  - 0277786X (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0032629301&doi=10.1117%2f12.335813&partnerID=40&md5=dc21383b9e23e0c596cf3f5573201fa4
+DB  - Scopus
+Y2  - 1999/01/27/
+KW  - bottom-up
+KW  - Data structures
+KW  - document class
+KW  - document model
+KW  - document type
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image analysis
+KW  - Knowledge representation
+KW  - Layout knowledge representation
+KW  - Layout structure
+KW  - logical layout structure
+KW  - Mathematical models
+KW  - model-driven
+KW  - Optical character recognition
+KW  - physical layout structure
+KW  - RECOGNITION
+KW  - representation of layout knowledge
+KW  - SCOPUS
+KW  - TABLE-FORM DOCUMENTS
+KW  - top-down
+ER  - 
+
+TY  - JOUR
+TI  - Document analysis and recognition
+AU  - Watanabe, T.
+T2  - IEICE Transactions on Information and Systems
+AB  - SUMMARY The subject about document image understanding is to extract and classify individual data meaningfully from paper-based documents. Until today, many methods/approaches have been proposed with regard to recognition of various kinds of documents, various technical problems for extensions of OCR, and requirements for practical usages. Of course, though the technical research issues in the early stage are looked upon as complementary attacks for the traditional OCR which is dependent on character recognition techniques, the application ranges or related issues are widely investigated or should be established progressively. This paper addresses current topics about document image understanding from a technical point of view as a survey.
+DA  - 1999///
+PY  - 1999
+VL  - E82-D
+IS  - 3
+SP  - 601
+EP  - 610
+J2  - IEICE Trans Inf Syst
+LA  - English
+SN  - 09168532 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0033350174&partnerID=40&md5=0fe0408d0f13fb6fea99c186ea7c00c2
+DB  - Scopus
+KW  - bottom-up
+KW  - Bottom-up
+KW  - Character recognition techniques
+KW  - Data structures
+KW  - Database systems
+KW  - Document image understanding
+KW  - document model
+KW  - Document model
+KW  - document types
+KW  - Document types
+KW  - Feature extraction
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image analysis
+KW  - Image understanding
+KW  - Knowledge representation
+KW  - layout recognition
+KW  - Layout recognition
+KW  - layout structure
+KW  - Layout structure
+KW  - logical structure
+KW  - Logical structure
+KW  - Optical character recognition
+KW  - Paper based documents
+KW  - SCOPUS
+KW  - TABLE-FORM DOCUMENTS
+KW  - top-down
+KW  - Top-down
+ER  - 
+
+TY  - CONF
+TI  - Progressive classification scheme for document layout recognition
+AU  - Minguillon, Julia
+AU  - Pujol, Jaume
+AU  - Zeger, Kenneth
+T2  - Proceedings of the 1999 Mathematical Modeling, Bayesian Estimation, and Inverse Problems
+A4  - SPIE
+AB  - In this paper we present a progressive classification scheme for a document layout recognition system (background, text and images) using three stages. The first stage, preprocessing, extracts statistical information that may be used for background detection and removal. The second stage, a tree based classifier, uses a variable block size and a set of probabilistic rules to classify segmented blocks. When a block cannot be classified at a given block size because contains more than one class, it is split in four sub-blocks that are independently classified. The third stage, postprocessing, uses the label map generated in the second stage with a set of context rules to label unclassified blocks, trying also to solve some of the misclassification errors that may have been generated during the previous stage. The progressive scheme used in the second and third stages allows the user to stop the classification process at any block size, depending on his requirements. Experiments show that a progressive scheme combined with a set of postprocessing rules increases the percentage of correctly classified blocks and reduces the number of block computations.
+C1  - Bellingham, WA, United States
+C3  - Proc SPIE Int Soc Opt Eng
+DA  - 1999///
+PY  - 1999
+VL  - 3816
+SP  - 241
+EP  - 251
+LA  - English
+PB  - Society of Photo-Optical Instrumentation Engineers
+SN  - 0277786X (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-0033359405&partnerID=40&md5=094c3898ca3859bac8af0866375ef8ed
+DB  - Scopus
+Y2  - 1999/07/21/
+KW  - COMPRESSION
+KW  - document analysis
+KW  - Document analysis
+KW  - Document layout recognition
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image coding
+KW  - Image compression
+KW  - Image quality
+KW  - Information analysis
+KW  - Information retrieval systems
+KW  - Pattern recognition systems
+KW  - Probability
+KW  - Progressive classification tree
+KW  - progressive classification trees
+KW  - SCOPUS
+KW  - wavelet packets
+KW  - Wavelet packets
+ER  - 
+
+TY  - CONF
+TI  - A system for the automatic layout segmentation and classification of digital documents
+AU  - Cinque, L.
+AU  - Levialdi, S.
+AU  - Malizia, A.
+T2  - 12th International Conference on Image Analysis and Processing, ICIAP 2003
+AB  - Paper document recognition is fundamental for office automation becoming every day a more powerful tool in those fields where information is still on paper. Document recognition follows from data acquisition, from both journals and entire books, in order to transform them into digital objects. We present a new system for document recognition that follows the open source methodologies, XML description for document segmentation and classification, which turns out to be beneficial in terms of classification precision, and general-purpose availability. © 2003 IEEE.
+C1  - Mantova
+C3  - Proc. - Int. Conf. Image Anal. Process., ICIAP
+DA  - 2003///
+PY  - 2003
+DO  - 10.1109/ICIAP.2003.1234050
+SP  - 201
+EP  - 206
+LA  - English
+SN  - 0769519482 (ISBN); 9780769519487 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-57649152439&doi=10.1109%2fICIAP.2003.1234050&partnerID=40&md5=d82804346f8d2452921f12efafdabc82
+DB  - Scopus
+Y2  - 2003/09/17/
+KW  - Automatic layout
+KW  - Classification precision
+KW  - Digital Documents
+KW  - Digital Objects
+KW  - document analysis
+KW  - Document analysis
+KW  - Document Analysis
+KW  - Document recognition
+KW  - Document segmentation
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image analysis
+KW  - image processing and segmentation
+KW  - Image processing and segmentation
+KW  - Information retrieval systems
+KW  - Office automation
+KW  - Open systems
+KW  - Paper documents
+KW  - pattern recognition
+KW  - Pattern recognition
+KW  - Pattern Recognition
+KW  - SCOPUS
+ER  - 
+
+TY  - CONF
+TI  - A fundamental study of output translation from layout recognition and semantic understanding system for mathematical formulae
+AU  - Takiguchi, Y.
+AU  - Okada, M.
+AU  - Miyake, Y.
+T2  - 8th International Conference on Document Analysis and Recognition
+A4  - TC10 (Graph. Recog.) and TC11 (Read. Syst.) of the (IAPR)
+AB  - In this paper we propose an implementation method for an off-line layout recognition and semantic understanding system for mathematical formulae. This off-line system aims at higher order coding of mathematical formulae in scientific articles as an application in document analysis. The system has two intermediate output codes: a layout tree holding information of geometrical structure of the formula and character recognized code of the symbols, and a semantic tree holding information of semantics of symbols. From the structure tree and the semantic tree after layout recognition and semantic understanding, various useful output can be generated at the translating part. This paper mainly describes implementation techniques for LATEX source output for high quality typesetting and gnuplot script output for drawing a function as a method for visual representation. © 2005 IEEE.
+C1  - Seoul
+C3  - Proc. Int. Conf. Doc. Anal. Recognit.
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/ICDAR.2005.10
+VL  - 2005
+SP  - 745
+EP  - 749
+LA  - English
+SN  - 15205363 (ISSN); 0769524206 (ISBN); 9780769524207 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-33947360285&doi=10.1109%2fICDAR.2005.10&partnerID=40&md5=b469479340d8a26a56f00a6bd8986866
+DB  - Scopus
+Y2  - 2005/08/31/
+KW  - CHARACTER-RECOGNITION
+KW  - Computational geometry
+KW  - Encoding (symbols)
+KW  - Geometrical structure
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Layout recognition
+KW  - Mathematical formulae
+KW  - Pattern recognition
+KW  - SCOPUS
+KW  - Semantics
+KW  - Translation (languages)
+KW  - Visual representation
+ER  - 
+
+TY  - CONF
+TI  - Intelligent document processing
+AU  - Esposito, F.
+AU  - Ferilli, S.
+AU  - Basile, T.M.A.
+AU  - Di Mauro, N.
+T2  - 8th International Conference on Document Analysis and Recognition
+A4  - TC10 (Graph. Recog.) and TC11 (Read. Syst.) of the (IAPR)
+AB  - Digital repositories raise the need for an effective and efficient retrieval of the stored material. In this paper we propose the intensive application of intelligent techniques to the steps of document layout analysis, document image classification and understanding on digital documents. Specifically, the complex interrelation existing among layout components, that are fundamental to assign them the proper semantic role, suggest the exploitation of first-order representations in some learning steps. Results obtained in a prototypical system for scientific conference management prove that the proposed approach can be beneficial both for the layout recognition and for the selection of interesting components of the document, from which extracting the text for categorizing the document according to its topic. © 2005 IEEE.
+C1  - Seoul
+C3  - Proc. Int. Conf. Doc. Anal. Recognit.
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/ICDAR.2005.144
+VL  - 2005
+SP  - 1100
+EP  - 1104
+LA  - English
+SN  - 15205363 (ISSN); 0769524206 (ISBN); 9780769524207 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-33947413581&doi=10.1109%2fICDAR.2005.144&partnerID=40&md5=2593cd8304f09ed0c5cc62c147785ca2
+DB  - Scopus
+Y2  - 2005/08/31/
+KW  - Classification (of information)
+KW  - Data processing
+KW  - Digital documents
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Information management
+KW  - Information retrieval
+KW  - Intelligent agents
+KW  - Intelligent document processing
+KW  - Layout recognition
+KW  - SCOPUS
+KW  - Semantics
+ER  - 
+
+TY  - CONF
+TI  - Application of graph coloring in physical layout segmentation
+AU  - Gaceb, D.
+AU  - Eglin, V.
+AU  - Lebourgeois, F.
+AU  - Emptoz, H.
+T2  - Proceedings - International Conference on Pattern Recognition
+AB  - Every-day, the postal sorting systems diffuse several tons of mails. It is noted that the principal origin of mail rejection is related to the failure of address-block localization task, particularly, of the physical layout segmentation stage. The bottom-up and top-down segmentation methods bring different knowledge that should not be ignored when we need to increase the robustness. Hybrid methods combine the two strategies in order to take advantages of one strategy to the detriment of other. Starting from these remarks, our proposal makes use of a hybrid segmentation strategy more adapted to the postal mails. The high level stages are based on the hierarchical graphs coloring. Today, no other work in this context has make use of the powerfulness of this tool. The performance evaluation of our approach was tested on a corpus of 10000 envelope images. The processing times and the rejection rate were considerably reduced. © 2008 IEEE.
+C3  - Proc. Int. Conf. Pattern Recognit.
+DA  - 2008///
+PY  - 2008
+DO  - 10.1109/icpr.2008.4761641
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 10514651 (ISSN); 9781424421756 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-77957964928&doi=10.1109%2ficpr.2008.4761641&partnerID=40&md5=f0a1f0ef9c1d5ee90ffb19cf8787f87a
+DB  - Scopus
+KW  - Bottom-up and top-down
+KW  - Graph colorings
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Hierarchical graphs
+KW  - Hybrid segmentation
+KW  - Pattern recognition
+KW  - Physical layout
+KW  - Processing time
+KW  - Rejection rates
+KW  - SCOPUS
+KW  - Segmentation methods
+KW  - Software engineering
+ER  - 
+
+TY  - JOUR
+TI  - Vision-based urban navigation procedures for verbally instructed robots
+AU  - Kyriacou, T.
+AU  - Bugmann, G.
+AU  - Lauria, S.
+T2  - Robotics and Autonomous Systems
+AB  - When humans explain a task to be executed by a robot they decompose it into chunks of actions. These form a chain of search-and-act sensory-motor loops that exit when a condition is met. In this paper we investigate the nature of these chunks in an urban visual navigation context, and propose a method for implementing the corresponding robot primitives such as "take the nth turn right/left". These primitives make use of a "short-lived" internal map updated as the robot moves along. The recognition and localisation of intersections is done in the map using task-guided template matching. This approach takes advantage of the content of human instructions to save computation time and improve robustness. © 2004 Elsevier B.V. All rights reserved.
+DA  - 2005///
+PY  - 2005
+DO  - 10.1016/j.robot.2004.08.011
+VL  - 51
+IS  - 1
+SP  - 69
+EP  - 80
+J2  - Rob Autom Syst
+LA  - English
+SN  - 09218890 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-22544440593&doi=10.1016%2fj.robot.2004.08.011&partnerID=40&md5=48971da18919c7c3deb996cf3ad03fbc
+DB  - Scopus
+KW  - Computer vision
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Mobile robots
+KW  - Natural language processing systems
+KW  - NATURAL-LANGUAGE
+KW  - Navigation
+KW  - Pattern recognition
+KW  - road layout recognition
+KW  - Road layout recognition
+KW  - Robot learning
+KW  - robot primitives
+KW  - Robot primitives
+KW  - Robotics
+KW  - route instructions
+KW  - Route instructions
+KW  - SCOPUS
+KW  - SYSTEM
+KW  - template matching
+KW  - Template matching
+KW  - urban navigation
+KW  - Urban navigation
+KW  - Urban planning
+ER  - 
+
+TY  - CONF
+TI  - Mask cost analysis via write time estimation
+AU  - Zhang, Y.
+AU  - Gray, R.
+AU  - Chou, S.
+AU  - Rockwell, B.
+AU  - Xiao, G.
+AU  - Kamberian, H.
+AU  - Cottle, R.
+AU  - Wolleben, A.
+AU  - Progler, C.
+T2  - Design and Process Integration for Microelectronic Manufacturing III
+A2  - Liebmann L.W.
+A4  - SPIE
+AB  - Long write times have been an industry wide concern regarding rising mask costs. The purpose of this study is to develop a simple model that can predict mask write time precisely, without an e-beam writer. With a good understanding of the trade-offs between design complexity and write time, mask makers can work with mask designers more closely to simplify design and minimize mask cost. This work compared several basic models including calculations based on write area with a fixed e-beam shot size, a software estimation with a pre-set exposure, and a mask stage settling time. Our proposed model uses a completely different approach to examine the correlation between layout complexity (vertices count, total line edge, figure, etc.) through a CATS layout segmentation and actual write time. It is found that write time is a strong function of layout figure, vertex count and total line edge. Errors between actual write time and estimated write time from the new model reduced from 7% on average on the current production software to 3%. Additionally, the new model can operate independent of the writer type and without fractured data being transferred onto a writer. Also provided are a few case studies to evaluate the interaction between write time and basic shape/OPC (optical proximity correction). Using a simple design shape and a better data snapping strategy can reduce write time up to 10 fold for applications in nano-imprint template manufacturing. Several strategies to reduce mask cost are proposed.
+C1  - San Jose, CA
+C3  - Proc SPIE Int Soc Opt Eng
+DA  - 2005///
+PY  - 2005
+DO  - 10.1117/12.598884
+VL  - 5756
+SP  - 313
+EP  - 318
+LA  - English
+SN  - 0277786X (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-25144436352&doi=10.1117%2f12.598884&partnerID=40&md5=aa6606ca7f7be6a0869bd43f38cd27cc
+DB  - Scopus
+Y2  - 2005/03/03/
+KW  - CATS
+KW  - Cost benefit analysis
+KW  - Data acquisition
+KW  - design optimization
+KW  - Design optimization
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image segmentation
+KW  - mask write time
+KW  - Mask write time
+KW  - OPC
+KW  - Optical correlation
+KW  - Optical design
+KW  - Optical engineering
+KW  - Optical systems
+KW  - SCOPUS
+KW  - vertex
+KW  - Vertex
+ER  - 
+
+TY  - JOUR
+TI  - Statistical analysis and diagnosis methodology for RF circuits in LCP substrates
+AU  - Mukherjee, S.
+AU  - Swaminathan, M.
+AU  - Matoglu, E.
+T2  - IEEE Transactions on Microwave Theory and Techniques
+AB  - This paper presents the application of a fast and accurate layout-level statistical analysis methodology for the diagnosis of RF circuit layouts with embedded passives in liquid crystalline polymer substrates. The approach is based on layout-segmentation, lumped-element modeling, sensitivity analysis, and extraction of probability density function using convolution methods. The statistical analyses were utilized as a diagnosis tool to estimate distributed design parameter variations and yield of RF circuit layouts for a given measured performance. The results of statistical analysis and diagnosis were compared with measurement results of fabricated filters. Statistical methods were also applied for design space exploration to improve system performance, as well as estimation of yield and diagnosis of faults during batch fabrication. © 2005 IEEE.
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/TMTT.2005.855735
+VL  - 53
+IS  - 11
+SP  - 3621
+EP  - 3630
+J2  - IEEE Trans. Microwave Theory Tech.
+LA  - English
+SN  - 00189480 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-28144451013&doi=10.1109%2fTMTT.2005.855735&partnerID=40&md5=5c3447f342ee566ce6fbf235698cee71
+DB  - Scopus
+KW  - bandpass filter
+KW  - Bandpass filter
+KW  - Bandpass filters
+KW  - Frequency converter circuits
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Integrated circuit layout
+KW  - Liquid crystal polymers
+KW  - liquid crystalline polymer (LCP)
+KW  - Liquid crystalline polymer (LCP)
+KW  - Lumped-element modeling
+KW  - Mathematical models
+KW  - parametric yield
+KW  - Parametric yield
+KW  - Passive networks
+KW  - RF synthesis
+KW  - SCOPUS
+KW  - statistical diagnosis
+KW  - Statistical diagnosis
+KW  - Statistical methods
+KW  - Substrates
+ER  - 
+
+TY  - CONF
+TI  - Smart handouts: Personalized e-presentation documents
+AU  - Erol, B.
+AU  - Lee, D.-S.
+AU  - Hull, J.J.
+T2  - IEEE International Conference on Multimedia and Expo, ICME 2005
+AB  - A novel system is described that significantly enhances the usefulness of handwritten notes taken during a presentation by creating a multimedia document that includes scanned images of handouts, personal notes, and links to a multimedia recording of the presentation. Notes are linked to the e-presentation media with automatic content analysis without any special notes capture device. Layout segmentation and template matching automatically detects the presence of presentation handouts during scanning. Presentation-level and slide-level linking of handouts to e-media use text and image features from slides. Experimental results show 95% accuracy in linking of the scanned handouts to the e-presentation media. © 2005 IEEE.
+C1  - Amsterdam
+C3  - IEEE Int. Conf. Multimedia Expo
+DA  - 2005///
+PY  - 2005
+DO  - 10.1109/ICME.2005.1521451
+VL  - 2005
+SP  - 426
+EP  - 429
+LA  - English
+SN  - 0780393325 (ISBN); 9780780393325 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-33750549032&doi=10.1109%2fICME.2005.1521451&partnerID=40&md5=b7e1dd287b1d1186e944f524e731b581
+DB  - Scopus
+Y2  - 2005/07/06/
+KW  - Automatic content analysis
+KW  - Electronic document exchange
+KW  - Feature extraction
+KW  - Handouts
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image recording
+KW  - Multimedia documents
+KW  - Multimedia recording
+KW  - Multimedia systems
+KW  - Pattern matching
+KW  - SCOPUS
+KW  - Telecommunication links
+KW  - Text processing
+ER  - 
+
+TY  - CONF
+TI  - A study on character recognition error correction at higher level recognition step for mathematical formulae understanding
+AU  - Takiguchi, Y.
+AU  - Okada, M.
+AU  - Miyake, Y.
+T2  - 18th International Conference on Pattern Recognition, ICPR 2006
+AB  - In this paper we propose a method for correcting character recognition errors at the higher level recognition step in an understanding system for mathematical formulae. The system consists of two-level recognition steps: the low level recognition including character recognition, and the higher level recognition including layout recognition. We use the layout information recognized in the latter step to correct the character recognition errors by using two sources of information. One is based on some keywords such as mathematical function names, and the other is based on a cost tree and co-occurrence probabilities between symbols. The efficacy of the proposed method is verified by some experimental results, and the character recognition rate increased from 80.2% to 89.2%. © 2006 IEEE.
+C1  - Hong Kong
+C3  - Proc. Int. Conf. Pattern Recognit.
+DA  - 2006///
+PY  - 2006
+DO  - 10.1109/ICPR.2006.180
+VL  - 2
+SP  - 966
+EP  - 969
+LA  - English
+SN  - 10514651 (ISSN); 0769525210 (ISBN); 9780769525211 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-34047223470&doi=10.1109%2fICPR.2006.180&partnerID=40&md5=df4aafba3e70262bdd526b57f01ccf13
+DB  - Scopus
+Y2  - 2006/08/20/
+KW  - Character recognition
+KW  - Character recognition errors
+KW  - Computational efficiency
+KW  - Error correction
+KW  - Functions
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Information analysis
+KW  - Keywords
+KW  - Mathematical formulae
+KW  - Probability
+KW  - SCOPUS
+KW  - Trees (mathematics)
+ER  - 
+
+TY  - CONF
+TI  - Physical layout segmentation of mail application dedicated to automatic postal sorting system
+AU  - Gaceb, D.
+AU  - Eglin, V.
+AU  - Lebourgeois, F.
+AU  - Emptoz, H.
+T2  - 8th IAPR International Workshop on Document Analysis Systems, DAS 2008
+A4  - Osaka Prefecture University; International Association for Pattern Recognition, IAPR; Japan Society for the Promotion of Science; International Information Science Foundation; Hitachi, Ltd.; Hitachi Computer Peripherals Co., Ltd.
+AB  - Every-day, the postal sorting systems diffuse several tons of mails. It is noted that the principal origin of mail rejection is related to the failure of address-block localization task, particularly, of the physical layout segmentation stage. The bottom-up and top-down segmentation methods bring different knowledge that should not be ignored when we need to increase the robustness. Hybrid methods combine the two strategies in order to take advantages of one strategy to the detriment of other. Starting from these remarks, our proposal makes use of a hybrid segmentation strategy more adapted to the postal malls. The high level stages are based on the hierarchical graphs coloring, allowing managing through a pyramidal data organization, the complex rules leading the interpretation of the connected components decomposition of interest zones. Today, no other work in this context has make use of the powerfulness of this tool. The performance evaluation of our approach was tested on a corpus of 10000 envelope Images. The processing times and the rejection rate were considerably reduced. © 2008 IEEE.
+C1  - Nara
+C3  - DAS 2008 - Proc. IAPR Int. Workshop Document Anal. Syst.
+DA  - 2008///
+PY  - 2008
+DO  - 10.1109/DAS.2008.56
+SP  - 408
+EP  - 414
+LA  - English
+SN  - 9780769533377 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-57649210479&doi=10.1109%2fDAS.2008.56&partnerID=40&md5=18ee74d82acb5e9d7ca1b5cf2d05698d
+DB  - Scopus
+Y2  - 2008/09/16/
+KW  - Bottom-up
+KW  - Connected components
+KW  - Data organizations
+KW  - Electronic warfare
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Hierarchical graphs
+KW  - Hybrid methods
+KW  - Hybrid segmentations
+KW  - Intelligent vehicle highway systems
+KW  - Military electronic countermeasures
+KW  - Performance evaluations
+KW  - Processing times
+KW  - Rejection rates
+KW  - SCOPUS
+KW  - Segmentation methods
+KW  - Sorting
+KW  - Sorting systems
+KW  - Technical presentations
+KW  - Top downs
+ER  - 
+
+TY  - JOUR
+TI  - Towards an omnilingual word retrieval system for ancient manuscripts
+AU  - Leydier, Y.
+AU  - Ouji, A.
+AU  - LeBourgeois, F.
+AU  - Emptoz, H.
+T2  - Pattern Recognition
+AB  - In this article, we introduce the first method that allows the indexation of ancient manuscripts of any language and alphabet. We describe a word retrieval engine inspired by recent word-spotting advances on ancient manuscripts. Our approach does not need any layout segmentation and makes use of features fitted to any type of alphabet (Latin, Arabic, Chinese, etc.) and writing. The engine is tested on numerous documents and in several use-cases. © 2009 Elsevier Ltd. All rights reserved.
+DA  - 2009///
+PY  - 2009
+DO  - 10.1016/j.patcog.2009.01.026
+VL  - 42
+IS  - 9
+SP  - 2089
+EP  - 2105
+J2  - Pattern Recogn.
+LA  - English
+SN  - 00313203 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-67349245536&doi=10.1016%2fj.patcog.2009.01.026&partnerID=40&md5=3c60d67964c4e975c186bec41cf8500e
+DB  - Scopus
+KW  - Ancient documents
+KW  - Data mining
+KW  - Document indexing
+KW  - Engines
+KW  - GRADIENT
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Information retrieval
+KW  - Omnilingual
+KW  - SCOPUS
+KW  - Segmentation-free
+KW  - Word retrieval
+KW  - Word Spotting
+KW  - Word-spotting
+ER  - 
+
+TY  - CONF
+TI  - Advertisement detection in digitized press images
+AU  - Ouji, A.
+AU  - Leydier, Y.
+AU  - Lebourgeois, F.
+T2  - 2011 12th IEEE International Conference on Multimedia and Expo, ICME 2011
+A4  - IEEE Circuit and System Society; IEEE Communication Society; IEEE Computer Society; IEEE Signal Processing Society
+AB  - This paper presents the first method for detecting advertisements in digitized press. The system aims at locating and recognizing ads. A color segmentation approach which is robust against digitization noise is introduced. The color separation output is used to carry out layout segmentation in document pages and to compute visual features. Block classification results, given with a variety of magazine and newspaper pages, are presented and discussed. © 2011 IEEE.
+C1  - Barcelona
+C3  - Proc. - IEEE Int. Conf. Multimedia Expo
+DA  - 2011///
+PY  - 2011
+DO  - 10.1109/ICME.2011.6011890
+LA  - English
+PB  - IEEE Computer Society
+SN  - 19457871 (ISSN); 9781612843490 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-80155136740&doi=10.1109%2fICME.2011.6011890&partnerID=40&md5=7c6ceb0cc50fa7a46e01aaf31af00725
+DB  - Scopus
+Y2  - 2011/07/11/
+KW  - Advertisement detection
+KW  - Advertisement detections
+KW  - Block classification
+KW  - Color segmentation
+KW  - Color separation
+KW  - document image
+KW  - Document images
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image segmentation
+KW  - Presses (machine tools)
+KW  - SCOPUS
+KW  - segmentation
+KW  - SEGMENTATION
+KW  - Visual feature
+ER  - 
+
+TY  - CONF
+TI  - Old document image segmentation using the autocorrelation function and multiresolution analysis
+AU  - Mehri, M.
+AU  - Gomez-Krämer, P.
+AU  - Héroux, P.
+AU  - Mullot, R.
+T2  - Document Recognition and Retrieval XX
+A4  - The Society for Imaging Science and Technology (IS and T); The Society of Photo-Optical Instrumentation Engineers (SPIE); Qualcomm Inc.; Google Inc.
+AB  - Recent progress in the digitization of heterogeneous collections of ancient documents has rekindled new challenges in information retrieval in digital libraries and document layout analysis. Therefore, in order to control the quality of historical document image digitization and to meet the need of a characterization of their content using intermediate level metadata (between image and document structure), we propose a fast automatic layout segmentation of old document images based on five descriptors. Those descriptors, based on the autocorrelation function, are obtained by multiresolution analysis and used afterwards in a specific clustering method. The method proposed in this article has the advantage that it is performed without any hypothesis on the document structure, either about the document model (physical structure), or the typographical parameters (logical structure). It is also parameter-free since it automatically adapts to the image content. In this paper, firstly, we detail our proposal to characterize the content of old documents by extracting the autocorrelation features in the different areas of a page and at several resolutions. Then, we show that is possible to automatically find the homogeneous regions defined by similar indices of autocorrelation without knowledge about the number of clusters using adapted hierarchical ascendant classification and consensus clustering approaches. To assess our method, we apply our algorithm on 316 old document images, which encompass six centuries (1200-1900) of French history, in order to demonstrate the performance of our proposal in terms of segmentation and characterization of heterogeneous corpus content. Moreover, we define a new evaluation metric, the homogeneity measure, which aims at evaluating the segmentation and characterization accuracy of our methodology. We find a 85% of mean homogeneity accuracy. Those results help to represent a document by a hierarchy of layout structure and content, and to define one or more signatures for each page, on the basis of a hierarchical representation of homogeneous blocks and their topology. © 2013 SPIE-IS&T.
+C1  - Burlingame, CA
+C3  - Proc SPIE Int Soc Opt Eng
+DA  - 2013///
+PY  - 2013
+DO  - 10.1117/12.2002365
+VL  - 8658
+LA  - English
+SN  - 0277786X (ISSN); 9780819494313 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84875824773&doi=10.1117%2f12.2002365&partnerID=40&md5=345ff43ec8ee0d94a6fb96535dcc3db3
+DB  - Scopus
+Y2  - 2013/02/05/
+KW  - autocorrelation
+KW  - Autocorrelation
+KW  - Autocorrelation features
+KW  - Autocorrelation functions
+KW  - Characterization
+KW  - Cluster analysis
+KW  - consensus clustering
+KW  - Consensus clustering
+KW  - consensus clustering.
+KW  - Digital image storage
+KW  - Digital libraries
+KW  - directional rose
+KW  - Directional rose
+KW  - Document layout analysis
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Heterogeneous collections
+KW  - Hierarchical representation
+KW  - Image segmentation
+KW  - Metadata
+KW  - Multi-resolutions
+KW  - multiresolution
+KW  - Multiresolution analysis
+KW  - Optical character recognition
+KW  - Quality control
+KW  - Regression analysis
+KW  - SCOPUS
+KW  - Segmentation
+ER  - 
+
+TY  - CONF
+TI  - Document segmentation via oblique cuts
+AU  - Svendsen, J.
+AU  - Branzan-Albu, A.
+T2  - Document Recognition and Retrieval XX
+A4  - The Society for Imaging Science and Technology (IS and T); The Society of Photo-Optical Instrumentation Engineers (SPIE); Qualcomm Inc.; Google Inc.
+AB  - This paper presents a novel solution for the layout segmentation of graphical elements in Business Intelligence documents. We propose a generalization of the recursive X-Y cut algorithm, which allows for cutting along arbitrary oblique directions. An intermediate processing step consisting of line and solid region removal is also necessary due to presence of decorative elements. The output of the proposed segmentation is a hierarchical structure which allows for the identification of primitives in pie and bar charts. The algorithm was tested on a database composed of charts from business documents. Results are very promising. © 2013 SPIE-IS&T.
+C1  - Burlingame, CA
+C3  - Proc SPIE Int Soc Opt Eng
+DA  - 2013///
+PY  - 2013
+DO  - 10.1117/12.2003351
+VL  - 8658
+LA  - English
+SN  - 0277786X (ISSN); 9780819494313 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84875834336&doi=10.1117%2f12.2003351&partnerID=40&md5=c43481deebc1e3545cf418aece80359d
+DB  - Scopus
+Y2  - 2013/02/05/
+KW  - Algorithms
+KW  - Business documents
+KW  - Chart Recognition
+KW  - Document analysis
+KW  - Document Analysis and Recognition
+KW  - Document segmentation
+KW  - Document Segmentation
+KW  - Engineering
+KW  - Graphical elements
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Hierarchical structures
+KW  - Molecular physics
+KW  - Oblique direction
+KW  - Processing steps
+KW  - SCOPUS
+ER  - 
+
+TY  - CONF
+TI  - Text line extraction using DMLP classifiers for historical manuscripts
+AU  - Baechler, M.
+AU  - Liwicki, M.
+AU  - Ingold, R.
+T2  - 12th International Conference on Document Analysis and Recognition, ICDAR 2013
+A4  - Raytheon BBN Technologies; ABBYY; VisionObjects; Google; HITACHI
+AB  - This paper proposes a novel text line extraction method for historical documents. The method works in two steps. In the first step, layout analysis is performed to recognize the physical structure of a given document using a classification technique, more precisely the pixels of a coloured document image are classified into five classes: text-block, core-text-line, decoration, background, and periphery. This layout recognition is achieved by a cascade of two Dynamic Multilayer Perceptron (DMLP) classifiers and works without binarisation. In the second step, an algorithm takes the layout recognition results as an input, extracts the text lines, and groups them into blocks using the connected components approach. Finally, the algorithm refines the boundaries of the text lines using the binary image and the layout recognition results. Our system is evaluated on three historical manuscripts with a test set of 49 pages. The best obtained hit rate for text lines is 96.3%. © 2013 IEEE.
+C1  - Washington, DC
+C3  - Proc. Int. Conf. Doc. Anal. Recognit.
+DA  - 2013///
+PY  - 2013
+DO  - 10.1109/ICDAR.2013.206
+SP  - 1029
+EP  - 1033
+LA  - English
+SN  - 15205363 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84889582038&doi=10.1109%2fICDAR.2013.206&partnerID=40&md5=94165d512203b615e4110187deb9f5a3
+DB  - Scopus
+Y2  - 2013/08/25/
+KW  - Algorithms
+KW  - Character recognition
+KW  - Classification (of information)
+KW  - Classification technique
+KW  - Connected component
+KW  - Document images
+KW  - DOCUMENTS
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical documents
+KW  - History
+KW  - Information retrieval systems
+KW  - Layout analysis
+KW  - Multi layer perceptron
+KW  - Physical structures
+KW  - SCOPUS
+KW  - SEGMENTATION
+KW  - Text processing
+KW  - Text-line extractions
+ER  - 
+
+TY  - CONF
+TI  - A Pixel Labeling Approach for Historical Digitized Books
+AU  - Mehri, M.
+AU  - Heroux, P.
+AU  - Gomez-Kramer, P.
+AU  - Boucher, A.
+AU  - Mullot, R.
+T2  - 12th International Conference on Document Analysis and Recognition, ICDAR 2013
+A4  - Raytheon BBN Technologies; ABBYY; VisionObjects; Google; HITACHI
+AB  - In the context of historical collection conservation and worldwide diffusion, this paper presents an automatic approach of historical book page layout segmentation. In this article, we propose to search the homogeneous regions from the content of historical digitized books with little a priori knowledge by extracting and analyzing texture features. The novelty of this work lies in the unsupervised clustering of the extracted texture descriptors to find homogeneous regions, i.e. graphic and textual regions, by performing the clustering approach on an entire book instead of processing each page individually. We propose firstly to characterize the content of an entire book by extracting the texture information of each page, as our goal is to compare and index the content of digitized books. The extraction of texture features, computed without any hypothesis on the document structure, is based on two non-parametric tools: the autocorrelation function and multiresolution analysis. Secondly, we perform an unsupervised clustering approach on the extracted features in order to classify automatically the homogeneous regions of book pages. The clustering results are assessed by internal and external accuracy measures. The overall results are quite satisfying. Such analysis would help to construct a computer-aided categorization tool of pages. © 2013 IEEE.
+C1  - Washington, DC
+C3  - Proc. Int. Conf. Doc. Anal. Recognit.
+DA  - 2013///
+PY  - 2013
+DO  - 10.1109/ICDAR.2013.167
+SP  - 817
+EP  - 821
+LA  - English
+SN  - 15205363 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84889588853&doi=10.1109%2fICDAR.2013.167&partnerID=40&md5=7f0fa5416d9c0dbafb2cc28b47468f60
+DB  - Scopus
+Y2  - 2013/08/25/
+KW  - autocorrelation
+KW  - Autocorrelation
+KW  - Cluster analysis
+KW  - Clustering accuracy
+KW  - clustering accuracy metrics
+KW  - Clustering algorithms
+KW  - Computer aided analysis
+KW  - consensus clustering
+KW  - Consensus clustering
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical books
+KW  - homogeneity
+KW  - multiresolution
+KW  - Multiresolution
+KW  - pixel labeling
+KW  - Pixel labeling
+KW  - Pixels
+KW  - SCOPUS
+KW  - texture
+KW  - TEXTURE
+KW  - Textures
+KW  - Tools
+ER  - 
+
+TY  - CONF
+TI  - Area detection technology for air conditioner
+AU  - Komatsu, Y.
+AU  - Hamada, K.
+AU  - Nukaga, N.
+AU  - Kagehiro, T.
+AU  - Ueda, Y.
+AU  - Matsubara, E.
+AU  - Jinno, N.
+T2  - 54th Annual Conference of the Society of Instrument and Control Engineers of Japan, SICE 2015
+AB  - We developed room layout detection technology for air conditioners. This technology uses an image camera that is equipped with the air conditioners. The technology controls the direction of the wind and their air capacity. It has been installed in commercial products as a 'layout search.'. © 2015 The Society of Instrument and Control Engineers-SICE.
+C3  - Annu. Conf. Soc. Instr. Control Eng. Japan, SICE
+DA  - 2015///
+PY  - 2015
+DO  - 10.1109/SICE.2015.7285402
+SP  - 1094
+EP  - 1100
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9784907764487 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84960158187&doi=10.1109%2fSICE.2015.7285402&partnerID=40&md5=6228e69bab9578dd02804f70f8a46e82
+DB  - Scopus
+Y2  - 2015/07/28/
+KW  - Air capacity
+KW  - Air conditioner
+KW  - Air conditioning
+KW  - Area detection
+KW  - Camera
+KW  - Cameras
+KW  - Commercial products
+KW  - Detection technology
+KW  - Domestic appliances
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Layout recognition
+KW  - Partition recognition
+KW  - SCOPUS
+KW  - Technology use
+ER  - 
+
+TY  - JOUR
+TI  - Extracting 3D Layout From a Single Image Using Global Image Structures
+AU  - Lou, Z.
+AU  - Gevers, T.
+AU  - Hu, N.
+T2  - IEEE Transactions on Image Processing
+AB  - Extracting the pixel-level 3D layout from a single image is important for different applications, such as object localization, image, and video categorization. Traditionally, the 3D layout is derived by solving a pixel-level classification problem. However, the image-level 3D structure can be very beneficial for extracting pixel-level 3D layout since it implies the way how pixels in the image are organized. In this paper, we propose an approach that first predicts the global image structure, and then we use the global structure for fine-grained pixel-level 3D layout extraction. In particular, image features are extracted based on multiple layout templates. We then learn a discriminative model for classifying the global layout at the image-level. Using latent variables, we implicitly model the sublevel semantics of the image, which enrich the expressiveness of our model. After the image-level structure is obtained, it is used as the prior knowledge to infer pixel-wise 3D layout. Experiments show that the results of our model outperform the state-of-the-art methods by 11.7% for 3D structure classification. Moreover, we show that employing the 3D structure prior information yields accurate 3D scene layout segmentation. © 1992-2012 IEEE.
+DA  - 2015///
+PY  - 2015
+DO  - 10.1109/TIP.2015.2431443
+VL  - 24
+IS  - 10
+SP  - 3098
+EP  - 3108
+J2  - IEEE Trans Image Process
+LA  - English
+SN  - 10577149 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84933056746&doi=10.1109%2fTIP.2015.2431443&partnerID=40&md5=f6fe8de073fdd311dd6584ddc9f0d0db
+DB  - Scopus
+KW  - 3D layout
+KW  - 3D layouts
+KW  - Discriminative models
+KW  - GRADIENTS
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image analysis
+KW  - Image processing
+KW  - Image Structures
+KW  - Object localization
+KW  - Pixels
+KW  - Prior information
+KW  - SCENE
+KW  - SCOPUS
+KW  - Semantics
+KW  - Stage classification
+KW  - State-of-the-art methods
+KW  - structural SVM
+KW  - Structural SVM
+KW  - Three dimensional computer graphics
+KW  - Video categorization
+ER  - 
+
+TY  - JOUR
+TI  - Arabic word descriptor for handwritten word indexing and lexicon reduction
+AU  - Chherawala, Y.
+AU  - Cheriet, M.
+T2  - Pattern Recognition
+AB  - Word recognition systems use a lexicon to guide the recognition process in order to improve the recognition rate. However, as the lexicon grows, the computation time increases. In this paper, we present the Arabic word descriptor (AWD) for Arabic word shape indexing and lexicon reduction in handwritten documents. It is formed in two stages. First, the structural descriptor (SD) is computed for each connected component (CC) of the word image. It describes the CC shape using the bag-of-words model, where each visual word represents a different local shape structure, extracted from the image with filters of different patterns and scales. Then, the AWD is formed by sorting and normalizing the SDs. This emphasizes the symbolic features of Arabic words, such as subwords and diacritics, without performing layout segmentation. In the context of lexicon reduction, the AWD is used to index a reference database. Given a query image, the reduced lexicon is obtained from the labels of the first entries in the indexed database. This framework has been tested on Arabic word databases. It has a low computational overhead, while providing a compact descriptor, with state-of-the-art results for lexicon reduction on the Ibn Sina and IFN/ENIT databases. © 2014 Elsevier Ltd.
+DA  - 2014///
+PY  - 2014
+DO  - 10.1016/j.patcog.2014.04.025
+VL  - 47
+IS  - 10
+SP  - 3477
+EP  - 3486
+J2  - Pattern Recogn.
+LA  - English
+SN  - 00313203 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84902372575&doi=10.1016%2fj.patcog.2014.04.025&partnerID=40&md5=98d011fd3855a5eb8f7b1fffe9394281
+DB  - Scopus
+KW  - Arabic handwritten documents
+KW  - Arabic word descriptor
+KW  - Database systems
+KW  - Descriptors
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Holistic representation
+KW  - Ibn Sina database
+KW  - IFN/ENIT
+KW  - Indexing (of information)
+KW  - Information retrieval
+KW  - Lexicon reduction
+KW  - Lexicon reductions
+KW  - Query processing
+KW  - RECOGNITION
+KW  - SCOPUS
+KW  - Shape indexing
+KW  - Vocabulary control
+ER  - 
+
+TY  - CONF
+TI  - A segmentation algorithm based on image projection for complex text layout
+AU  - Zhu, W.
+AU  - Chen, Q.
+AU  - Wei, C.
+AU  - Li, Z.
+T2  - 2nd International Conference on Materials Science, Resource and Environmental Engineering, MSREE 2017
+AB  - Segmentation algorithm is an important part of layout analysis, considering the efficiency advantage of the top-down approach and the particularity of the object, a breakdown of projection layout segmentation algorithm. Firstly, the algorithm will algorithm first partitions the text image, and divided into several columns, then for each column scanning projection, the text image is divided into several sub regions through multiple projection. The experimental results show that, this method inherits the projection itself and rapid calculation speed, but also can avoid the effect of arc image information page segmentation, and also can accurate segmentation of the text image layout is complex. © 2017 Author(s).
+C3  - AIP Conf. Proc.
+DA  - 2017///
+PY  - 2017
+DO  - 10.1063/1.5005199
+VL  - 1890
+LA  - English
+PB  - American Institute of Physics Inc.
+SN  - 0094243X (ISSN); 9780735415683 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85031097249&doi=10.1063%2f1.5005199&partnerID=40&md5=79e4d70dccc9cde0902e9bdd2c8cde29
+DB  - Scopus
+Y2  - 2017/10/27/
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - projection
+KW  - SCOPUS
+KW  - Text image
+KW  - Text layout segmentation
+KW  - top-down breakdown
+ER  - 
+
+TY  - CONF
+TI  - From Time to Space: Automatic Annotation of Unmarked Traffic Scene Based on Trajectory Data
+AU  - Ma, H.
+AU  - Wang, Y.
+AU  - Xiong, R.
+T2  - 2018 IEEE International Conference on Robotics and Biomimetics, ROBIO 2018
+A4  - et al.; Guangdong University of Technology; Guangzhou University; IEEE; IEEE Robotics and Automation Society (RAS); Shenzhen Han's Robot Co., Ltd.
+AB  - Research on autonomous driving is requiring more affordance information from the environment, which can be efficiently used by the subject vehicle. Road layout parsing is fundamentally important to this, and has attracted deserved attention on the urban road net where traffic signs are well established. However, for the unmarked traffic scenes, like campus and residence community, the large variation on individual surroundings leads to a reduced attention on public research and a lack of both available dataset and generic methods. To explore this issue, we present a novel automatic annotation method to analyze road semantics, which regards the prior trajectories of a vehicle as multi-dimensional space series and extends the traditional time series methods to the space domain to process the data. In order to achieve this, we first propose Incremental Dynamic Space Warping (IDSW) to synchronize space series and extract statistical road feature, then a Bayesian nonparametric method based on the Hierarchical Dirichlet Process-Hidden Markov Model (HDP-HMM) is introduced to generate road semantic sections without explicitly specifying the number of class. Experiment results demonstrate the proposed method can produce road semantics in different level and annotate not only the physical road position but also the vision observations: based on the extracted road modes, the method can annotate corresponding vision image with a positive class label and a rough distance to the road intersection. © 2018 IEEE.
+C3  - IEEE Int. Conf. Robot. Biomimetics, ROBIO
+DA  - 2018///
+PY  - 2018
+DO  - 10.1109/ROBIO.2018.8665110
+SP  - 1177
+EP  - 1182
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781728103761 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85064140224&doi=10.1109%2fROBIO.2018.8665110&partnerID=40&md5=61c385ca89ac80d162d6ac953a7ea228
+DB  - Scopus
+Y2  - 2018/12/12/
+KW  - Automatic annotation
+KW  - Autonomous driving
+KW  - Autonomous vehicles
+KW  - Biomimetics
+KW  - DRIVING BEHAVIOR
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Hidden Markov models
+KW  - Hierarchical dirichlet process hidden markov model (HDP HMM)
+KW  - Large dataset
+KW  - Multi-dimensional space
+KW  - Nonparametric methods
+KW  - Number of class
+KW  - PREDICTION
+KW  - Road intersections
+KW  - Roads and streets
+KW  - Robotics
+KW  - SCOPUS
+KW  - Semantics
+KW  - Time series method
+KW  - Traffic signs
+ER  - 
+
+TY  - CONF
+TI  - A unified framework for semantic matching of architectural floorplans
+AU  - Sharma, D.
+AU  - Chattopadhyay, C.
+AU  - Harit, G.
+T2  - 23rd International Conference on Pattern Recognition, ICPR 2016
+AB  - An automatic lookup tool, which matches and retrieves similar floorplans from a large repository of digitized architectural floorplans can prove to be of immense help for the architects while designing new projects. In this paper, we have proposed a framework for the matching and retrieval of similar architectural floorplans under the query by example paradigm. We propose a room layout segmentation and adjacent room detection algorithm to represent layouts as an undirected graph. We have also proposed a novel graph spectral embedding feature to uniquely represent the layout of the architectural floorplan. This helps in effective and efficient matching of the room layouts. Room semantics in terms of both the room structures and room decor is used to retrieve similar floorplans from the repository. To match the semantic similarity between a pair of floorplans, we have proposed a two stage matching technique. We have validated the effectiveness of our proposed framework by performing experiments on publicly available floorplan dataset and achieved high retrieval accuracy. © 2016 IEEE.
+C3  - Proc. Int. Conf. Pattern Recognit.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/ICPR.2016.7899999
+VL  - 0
+SP  - 2422
+EP  - 2427
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 10514651 (ISSN); 9781509048472 (ISBN)
+DB  - Scopus
+Y2  - 2016/12/04/
+KW  - Detection algorithm
+KW  - Graph spectral
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - ISOMORPHISM
+KW  - Pattern recognition
+KW  - Query-by example
+KW  - RECOGNITION
+KW  - Retrieval accuracy
+KW  - SCOPUS
+KW  - Semantic matching
+KW  - Semantic similarity
+KW  - Semantics
+KW  - Undirected graph
+KW  - Unified framework
+ER  - 
+
+TY  - CONF
+TI  - Historical document digitization through layout analysis and deep content classification
+AU  - Corbelli, A.
+AU  - Baraldi, L.
+AU  - Grana, C.
+AU  - Cucchiara, R.
+T2  - 23rd International Conference on Pattern Recognition, ICPR 2016
+AB  - Document layout segmentation and recognition is an important task in the creation of digitized documents collections, especially when dealing with historical documents. This paper presents an hybrid approach to layout segmentation as well as a strategy to classify document regions, which is applied to the process of digitization of an historical encyclopedia. Our layout analysis method merges a classic top-down approach and a bottom-up classification process based on local geometrical features, while regions are classified by means of features extracted from a Convolutional Neural Network merged in a Random Forest classifier. Experiments are conducted on the first volume of the 'Enciclopedia Treccani', a large dataset containing 999 manually annotated pages from the historical Italian encyclopedia. © 2016 IEEE.
+C3  - Proc. Int. Conf. Pattern Recognit.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/ICPR.2016.7900272
+VL  - 0
+SP  - 4077
+EP  - 4082
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 10514651 (ISSN); 9781509048472 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85019108141&doi=10.1109%2fICPR.2016.7900272&partnerID=40&md5=b82347e3a1e032e014b5a885733962de
+DB  - Scopus
+Y2  - 2016/12/04/
+KW  - Classification process
+KW  - Content classification
+KW  - Convolutional neural network
+KW  - Decision trees
+KW  - Document layouts
+KW  - Geometrical features
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical documents
+KW  - History
+KW  - IMAGE CLASSIFICATION
+KW  - Information retrieval systems
+KW  - Neural networks
+KW  - Pattern recognition
+KW  - PERFORMANCE EVALUATION
+KW  - Random forest classifier
+KW  - SCOPUS
+KW  - SEGMENTATION
+KW  - Top down approaches
+ER  - 
+
+TY  - CONF
+TI  - Layered ground truth: Conveying structural and statistical information for document image analysis and evaluation
+AU  - Cote, M.
+AU  - Albu, A.B.
+T2  - 23rd International Conference on Pattern Recognition, ICPR 2016
+AB  - This paper addresses the problem of semantic overlap across document objects in the context of ground truth representation for document layout analysis. Document object categories often share primitives from a low-level perspective (e.g. regions inside bars in a bar chart resemble background), making it difficult to evaluate document layout segmentation methods based on pixel classification, as most datasets and ground truth models focus on document objects. We propose a novel ground truth model that utilizes structural and statistical pattern recognition concepts. Statistical pixel-based data derived from low-level elemental patterns are layered onto high-level structural object-based data. We also present evaluation metrics that take advantage of the layered ground truth model, allowing a contextual evaluation of pixel classification algorithms. We apply the proposed model to two recent pixel classification approaches, evaluated on business document images that exhibit a challenging mixture of textual, graphical, and pictorial elements through varied layouts. The proposed model allows to obtain very detailed, comprehensive, and intuitive information on the strengths and limitations of the evaluated approaches that would be impossible to obtain through other models. © 2016 IEEE.
+C3  - Proc. Int. Conf. Pattern Recognit.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/ICPR.2016.7900137
+VL  - 0
+SP  - 3258
+EP  - 3263
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 10514651 (ISSN); 9781509048472 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85019160635&doi=10.1109%2fICPR.2016.7900137&partnerID=40&md5=548726d07d4e9e14000e49c61ab1eb05
+DB  - Scopus
+Y2  - 2016/12/04/
+KW  - BENCHMARKING
+KW  - Classification (of information)
+KW  - Digital image storage
+KW  - document image dataset
+KW  - Document image dataset
+KW  - Document images
+KW  - document layout analysis
+KW  - Document layout analysis
+KW  - ground truth
+KW  - Ground truth
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image analysis
+KW  - image segmentation
+KW  - Image segmentation
+KW  - Information retrieval systems
+KW  - LAYOUT ANALYSIS
+KW  - PAGE SEGMENTATION
+KW  - Pattern recognition
+KW  - performance evaluation
+KW  - Performance evaluation
+KW  - PERFORMANCE EVALUATION
+KW  - Performance evaluations
+KW  - Pixels
+KW  - SCOPUS
+KW  - SEGMENTATION ALGORITHMS
+KW  - Semantics
+KW  - statistical pattern
+KW  - Statistical pattern
+KW  - Structural analysis
+KW  - structural pattern
+KW  - Structural pattern
+ER  - 
+
+TY  - CONF
+TI  - Watermarking for security issue of handwritten documents with fully convolutional networks
+AU  - Cu, V.L.
+AU  - Burie, J.-C.
+AU  - Ogier, J.-M.
+T2  - 16th International Conference on Frontiers in Handwriting Recognition, ICFHR 2018
+AB  - To prevent falsification of handwriting document images, the methods of forensic document examination are widely used to determine the origin and authenticity of a given document. In this paper, we propose an effective approach for security issue of handwriting documents in spatial domain by making use of watermarking technique. To begin with, the handwritten document is pre-processed by replacing gray level values holding high intensity with the mean value of document content. The document is then transformed into standard form to minimize geometric distortion. Next, fully convolutional networks (FCN) is leveraged to detect document's watermarking regions used for hiding secret information wherein an approach of FCN for document layout segmentation is adjusted to solve the problem of watermarking region detection. Lastly, the data hiding process is conducted by dividing gray level values of each connected object situated within watermarking regions into two sets for carrying one watermark bit. The experiments are performed on various handwritten documents, and our approach achieves high performance regarding such properties as imperceptibility and robustness against distortions caused by JPEG compression, geometric transformation and print-and-scan process. © 2018 IEEE.
+C3  - Proc. Int. Conf. Front. Handwrit. Recognit., ICFHR
+DA  - 2018///
+PY  - 2018
+DO  - 10.1109/ICFHR-2018.2018.00060
+VL  - 2018-August
+SP  - 303
+EP  - 308
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 21676445 (ISSN); 9781538658758 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85060059726&doi=10.1109%2fICFHR-2018.2018.00060&partnerID=40&md5=c713b12c2f1ed6f3b09b66712b181e21
+DB  - Scopus
+Y2  - 2018/08/05/
+KW  - Character recognition
+KW  - Convolution
+KW  - Convolutional networks
+KW  - Digital watermarking
+KW  - document analysis
+KW  - Document analysis
+KW  - Document examinations
+KW  - FCN
+KW  - Geometric transformations
+KW  - Handwriting documents
+KW  - Handwritten document
+KW  - handwritten document security
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image compression
+KW  - Mathematical transformations
+KW  - Network security
+KW  - Print and scan process
+KW  - SCOPUS
+KW  - watermarking
+KW  - Watermarking
+KW  - Watermarking algorithms
+KW  - watermarking regions
+ER  - 
+
+TY  - CONF
+TI  - Layout recognition attacks on split manufacturing
+AU  - Xu, W.
+AU  - Feng, L.
+AU  - Rajendran, J.J.V.
+AU  - Hu, J.
+T2  - 24th Asia and South Pacific Design Automation Conference, ASPDAC 2019
+A4  - ACM SIGDA; Cadence Design Systems, Inc.; CEDA; EIC; IEEE CAS; IPSJ
+AB  - One technique to prevent attacks from an untrusted foundry is split manufacturing, where only a part of the layout is sent to the untrusted high-end foundry, and the rest is manufactured at a trusted low-end foundry. The untrusted foundry has front-end-of-line (FEOL) layout and the original circuit netlist and attempts to identify critical components on the layout for Trojan insertion. Although defense methods for this scenario have been developed, the corresponding attack technique is not well explored. For instance, Boolean satisfiability (SAT) based bijective mapping attack is mentioned without detailed research. Hence, the defense methods are mostly evaluated with the k-security metric without actual attacks. We provide the first systematic study, to the best of our knowledge, on attack techniques in this scenario. Besides of implementing SAT-based bijective mapping attack, we develop a new attack technique based on structural pattern matching. Experimental comparison with bijective mapping attack shows that the new attack technique achieves about the same success rate with much faster speed for cases without the k-security defense, and has a much better success rate at the same runtime for cases with k-security defense. The results offer an alternative and practical interpretation for k-security in split manufacturing. © 2019 Association for Computing Machinery.
+C3  - Proc Asia South Pac Des Autom Conf
+DA  - 2019///
+PY  - 2019
+DO  - 10.1145/3287624.3287698
+SP  - 45
+EP  - 50
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781450360074 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85061118278&doi=10.1145%2f3287624.3287698&partnerID=40&md5=29af44051974fad487d442a8cee4505c
+DB  - Scopus
+Y2  - 2019/01/21/
+KW  - Bijective mapping
+KW  - Boolean satisfiability
+KW  - Computer aided design
+KW  - Critical component
+KW  - Experimental comparison
+KW  - Foundries
+KW  - Front end of lines
+KW  - Hardware security
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - layout recognition attack
+KW  - Layout recognition attack
+KW  - Malware
+KW  - Manufacture
+KW  - Mapping
+KW  - Network security
+KW  - Pattern matching
+KW  - Recognition attacks
+KW  - SCOPUS
+KW  - Security metrices
+KW  - split manufacturing
+KW  - Split manufacturing
+KW  - Structural pattern matching
+ER  - 
+
+TY  - JOUR
+TI  - An Extended Agent Communication Framework for Rapid Reconfiguration of Distributed Manufacturing Systems
+AU  - Park, J.W.
+AU  - Shin, M.
+AU  - Kim, D.Y.
+T2  - IEEE Transactions on Industrial Informatics
+AB  - For proactive responses to customer requirements and rapidly advancing technologies, current manufacturing systems are required to be increasingly adaptable and reconfigurable. We present a communication framework between the coordinator, workstation agents, and executors to facilitate the reconfiguration process of manufacturing systems. The message structure of interagent information exchange is extended for the initiation, self-layout recognition, and control program update phases of reconfiguration. To provide more autonomy to a manufacturing system and to synchronize the updated shop floor condition, a self-layout recognition mechanism was developed based on infrared communication that enables each workstation to identify directly linked workstations and share the identified information with other shop floor entities for automatic layout change detection. Furthermore, we propose a message-based reprogramming approach to quickly update, insert, or delete command lines in the existing control program for a specific device in a workstation. We demonstrate a reconfiguration process via the communication framework in a factory testbed consisting of nine main workstations in a laboratory environment. © 2018 IEEE.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1109/TII.2018.2883409
+VL  - 15
+IS  - 7
+SP  - 3845
+EP  - 3855
+J2  - IEEE Trans. Ind. Inf.
+LA  - English
+SN  - 15513203 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85057893926&doi=10.1109%2fTII.2018.2883409&partnerID=40&md5=c636e384d6fb5c2ac5c10d953ec8ae0c
+DB  - Scopus
+KW  - ADACOR
+KW  - Agent communication
+KW  - Agent communications
+KW  - Communication framework
+KW  - Computer aided manufacturing
+KW  - Computer workstations
+KW  - DESIGN
+KW  - Distributed manufacturing systems
+KW  - Floors
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - HOLONIC ARCHITECTURE
+KW  - IEC 61499
+KW  - IEC standards
+KW  - Information dissemination
+KW  - Manufacture
+KW  - Network protocols
+KW  - Rapidly advancing technology
+KW  - Reconfigurable manufacturing system
+KW  - reconfigurable manufacturing system (RMS)
+KW  - Reconfiguration process
+KW  - SCOPUS
+KW  - self-layout recognition
+ER  - 
+
+TY  - JOUR
+TI  - Segmentation and Recognition for Historical Tibetan Document Images
+AU  - Ma, L.
+AU  - Long, C.
+AU  - Duan, L.
+AU  - Zhang, X.
+AU  - Li, Y.
+AU  - Zhao, Q.
+T2  - IEEE Access
+AB  - As a shining pearl in traditional Tibetan culture, historical Tibetan documents have received extensive attention from historians, linguists and Buddhist scholars. These documents are converted into digital form using Tibetan document segmentation and recognition methods. The document digitization is of great significance for the research, protection and inheritance of Tibetan history. This paper proposes an overall segmentation and recognition framework for historical Tibetan document images. Firstly, the historical Tibetan document image is preprocessed to correct imbalanced illumination, tilt and noises, and is further transformed into the binarized image. Secondly, we propose a layout segmentation method based on block projection to segment Tibetan document images into texts, lines and frames. Thirdly, in order to solve the problems of touching strokes between text-lines and curvilinear text-lines, we present a text-line segmentation method based on graph model for historical Tibetan text-line segmentation. Lastly, we present a touching segmentation method to segment touching Tibetan character string, and then recognize Tibetan characters. Experimental results show our proposed methods on layout segmentation, text-line segmentation and touching character string segmentation, achieve the satisfactory performance. The proposed methods can also be applied to other fonts in Tibetan font family. © 2013 IEEE.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1109/ACCESS.2020.2975023
+VL  - 8
+SP  - 52641
+EP  - 52651
+J2  - IEEE Access
+LA  - English
+SN  - 21693536 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85082514305&doi=10.1109%2fACCESS.2020.2975023&partnerID=40&md5=e368df6705e144eff817b559dae4c422
+DB  - Scopus
+KW  - ALGORITHM
+KW  - block projection
+KW  - Character recognition
+KW  - Character strings
+KW  - Cultural differences
+KW  - DATABASE
+KW  - Document segmentation
+KW  - Handwriting recognition
+KW  - HANDWRITTEN
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical Tibetan document
+KW  - History
+KW  - Image recognition
+KW  - Image segmentation
+KW  - Layout
+KW  - LAYOUT ANALYSIS
+KW  - layout segmentation
+KW  - Licenses
+KW  - Recognition methods
+KW  - SCOPUS
+KW  - Segmentation methods
+KW  - Text line segmentation
+KW  - TEXT LINE SEGMENTATION
+KW  - text-line segmentation
+KW  - Tibetans
+KW  - Touching character
+KW  - touching character string segmentation
+ER  - 
+
+TY  - CONF
+TI  - EScriptorium: An open source platform for historical document analysis
+AU  - Kiessling, B.
+AU  - Tissot, R.
+AU  - Stokes, P.
+AU  - Ezra, D.S.B.
+T2  - 2nd International Workshop on Open Services and Tools for Document Analysis, ICDAR-OST 2019 - ICDAR 2019 Workshop
+AB  - We describe the new open source document analysis and annotation platform eScriptorium. It allows to upload document collections, transcribe and segment them manually or automatically with the help of the kraken OCR engine. © 2019 IEEE.
+C3  - Int. Conf. Doc. Anal. Recog. Workshops, ICDARW
+DA  - 2019///
+PY  - 2019
+DO  - 10.1109/ICDARW.2019.10032
+VL  - 2019-January
+SP  - 19
+EP  - 24
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85097789248&doi=10.1109%2fICDARW.2019.10032&partnerID=40&md5=7e977ada73d514fca0a6a3d9534c8eb3
+DB  - Scopus
+Y2  - 2019/09/21/
+KW  - document analysis
+KW  - Document analysis
+KW  - Document collection
+KW  - GUI
+KW  - handwritten text recognition
+KW  - Handwritten text recognition
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical documents
+KW  - Historical documents
+KW  - layout segmentation
+KW  - Layout segmentation
+KW  - OCR engines
+KW  - Open source platforms
+KW  - Open sources
+KW  - SCOPUS
+ER  - 
+
+TY  - CONF
+TI  - HInDoLA: A Unified Cloud-based Platform for Annotation, Visualization and Machine Learning-based Layout Analysis of Historical Manuscripts
+AU  - Trivedi, A.
+AU  - Sarvadevabhatla, R.K.
+T2  - 2nd International Workshop on Open Services and Tools for Document Analysis, ICDAR-OST 2019 - ICDAR 2019 Workshop
+AB  - Palm-leaf manuscripts are one of the oldest medium of inscription in many Asian countries. Especially, manuscripts from the Indian subcontinent form an important part of the world's literary and cultural heritage. Despite their significance, large-scale datasets for layout parsing and targeted annotation systems do not exist. Addressing this, we propose a web-based layout annotation and analytics system. Our system, called HInDoLA, features an intuitive annotation GUI, a graphical analytics dashboard and interfaces with machine-learning based intelligent modules on the backend. HInDoLA has successfully helped us create the first ever large-scale dataset for layout parsing of Indic palm-leaf manuscripts. These manuscripts, in turn, have been used to train and deploy deep-learning based modules for fully automatic and semi-automatic instance-level layout parsing. © 2019 IEEE.
+C3  - Int. Conf. Doc. Anal. Recog. Workshops, ICDARW
+DA  - 2019///
+PY  - 2019
+DO  - 10.1109/ICDARW.2019.10035
+VL  - 2019-January
+SP  - 31
+EP  - 35
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85114243327&doi=10.1109%2fICDARW.2019.10035&partnerID=40&md5=6c28f20834d46bafdab474998a0ddb03
+DB  - Scopus
+Y2  - 2019/09/21/
+KW  - Analytics systems
+KW  - Annotation systems
+KW  - Cloud based platforms
+KW  - Cultural heritages
+KW  - Deep learning
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historic preservation
+KW  - Indian subcontinents
+KW  - Intelligent modules
+KW  - Large dataset
+KW  - Large-scale dataset
+KW  - Large-scale datasets
+KW  - Learning systems
+KW  - SCOPUS
+ER  - 
+
+TY  - JOUR
+TI  - Pattern understanding and synthesis based on layout tree descriptor
+AU  - Zhang, X.
+AU  - Wang, J.
+AU  - Lu, G.
+AU  - Zhang, X.
+T2  - Visual Computer
+AB  - Synthesis from existing examples is a promising way to generate new patterns. However, pattern synthesis is challenging because it is difficult to understand and generate complex structures in patterns. In this paper, we propose an approach based on the layout tree descriptor (LTD) to understand and synthesize patterns from existing ones. The LTD is a binary tree that parametrically describes all primitives, layouts, their dependencies and hierarchies in a pattern. The LTD can be constructed automatically with proposed instance grouping, layout recognition, hyper-primitive matching and tree merging algorithms to realize pattern understanding. To meet specialists’ requirements for detailed modification and recombination of patterns, we designed LTD operations including add, remove, replace and grafting operations to allow users to get new patterns by simply adjusting the LTDs. For stylized synthesis, we gave the computing method of LTD similarity. Therefore, the styles of results and input can be compared and users can control generated serialized results by setting the input pattern weights. To meet user’s implicit preferences and provide novelty in creative design, we propose an evolutionary approach to creative synthesis. The system generates new patterns continuously based on LTD grafting, meanwhile user selection of preferred patterns will guide the direction of evolution. Experiments using the developed prototype system show that our approach can synthesize novel and complex patterns effectively, meeting different requirements in practice and providing plenty of digital textures for products. © 2019, Springer-Verlag GmbH Germany, part of Springer Nature.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/s00371-019-01723-5
+VL  - 36
+IS  - 6
+SP  - 1141
+EP  - 1155
+J2  - Visual Comput
+LA  - English
+SN  - 01782789 (ISSN)
+DB  - Scopus
+KW  - Binary trees
+KW  - DESIGN
+KW  - Design space exploration
+KW  - Design tool
+KW  - Design tools
+KW  - GraphicaL model
+KW  - Graphical models
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Layouts
+KW  - Patterns
+KW  - RELATIVE POSITIONS
+KW  - REPRESENTATION
+KW  - SCOPUS
+KW  - Synthesis
+KW  - Synthesis (chemical)
+KW  - SYSTEM
+KW  - TEXTILE
+KW  - Textures
+ER  - 
+
+TY  - JOUR
+TI  - Lima or cima? Structure recognition and OCR in building the corpus of the Austrian Alpine Club Journal
+AU  - Posch, C.
+AU  - Rampl, G.
+T2  - International Journal of Corpus Linguistics
+AB  - This paper outlines the construction of the corpus Alpenwort, a large, genre-based corpus of German texts on alpinism. We report on issues related to building the corpus from the Austrian Alpine Club Journal (1869–2010). First, a general description of our data and the project phases from digitization and annotation to publication is given. We focus on the most interesting challenges that the diverse layouts and the extensive use of Fraktur typefacing posed for optical layout recognition and optical character recognition (OCR) as well as post correction. The corrected data was lemmatized and annotated with part-of-speech information including named entities as well as TEI-conformant metadata. The resulting 19.9-million-word corpus is designed to be queried using CQPweb and Hyperbase and can be accessed freely online. Lastly, we give a short roadmap of current and future expansions and improvements as corpus data has been and is being enhanced in follow-up projects. © John Benjamins Publishing Company
+DA  - 2020///
+PY  - 2020
+DO  - 10.1075/ijcl.19094.pos
+VL  - 25
+IS  - 4
+SP  - 489
+EP  - 503
+J2  - Int. J. Corpus Linguist.
+LA  - English
+SN  - 13846655 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85097218873&doi=10.1075%2fijcl.19094.pos&partnerID=40&md5=e6d481b80d05c74c0a56e7a4d5e35f87
+DB  - Scopus
+KW  - alpinism
+KW  - Alpinism
+KW  - document structure recognition
+KW  - Document structure recognition
+KW  - German Fraktur typeface
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - OCR
+KW  - SCOPUS
+KW  - specialized corpora
+KW  - Specialized corpora
+ER  - 
+
+TY  - JOUR
+TI  - A modular factory testbed for the rapid reconfiguration of manufacturing systems
+AU  - Kim, D.-Y.
+AU  - Park, J.-W.
+AU  - Baek, S.
+AU  - Park, K.-B.
+AU  - Kim, H.-R.
+AU  - Park, J.-I.
+AU  - Kim, H.-S.
+AU  - Kim, B.-B.
+AU  - Oh, H.-Y.
+AU  - Namgung, K.
+AU  - Baek, W.
+T2  - Journal of Intelligent Manufacturing
+AB  - The recent manufacturing trend toward mass customization and further personalization of products requires factories to be smarter than ever before in order to: (1) quickly respond to customer requirements, (2) resiliently retool machinery and adjust operational parameters for unforeseen system failures and product quality problems, and (3) retrofit old systems with upcoming new technologies. Furthermore, product lifecycles are becoming shorter due to unbounded and unpredictable customer requirements, thereby requiring reconfigurable and versatile manufacturing systems that underpin the basic building blocks of smart factories. This study introduces a modular factory testbed, emphasizing transformability and modularity under a distributed shop-floor control architecture. The main technologies and methods, being developed and verified through the testbed, are presented from the four aspects of rapid factory transformation: self-layout recognition, rapid workstation and robot reprogramming, inter-layer information sharing, and configurable software for shop-floor monitoring. © 2019, Springer Science+Business Media, LLC, part of Springer Nature.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/s10845-019-01471-2
+VL  - 31
+IS  - 3
+SP  - 661
+EP  - 680
+J2  - J Intell Manuf
+LA  - English
+SN  - 09565515 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85064196111&doi=10.1007%2fs10845-019-01471-2&partnerID=40&md5=f6c59cffae8b6f225bd3e30900a2ac67
+DB  - Scopus
+KW  - ARCHITECTURE
+KW  - Basic building block
+KW  - Closed loop control systems
+KW  - Customer requirements
+KW  - DESIGN
+KW  - Distributed control
+KW  - Distributed parameter control systems
+KW  - Floors
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Information sharing
+KW  - INTEGRATION
+KW  - Life cycle
+KW  - Machinery
+KW  - Mass customization
+KW  - MODEL
+KW  - Operational parameters
+KW  - PLATFORM
+KW  - PRODUCT
+KW  - Product life cycles
+KW  - Quality control
+KW  - Reconfigurable
+KW  - RESOURCE
+KW  - ROBOT
+KW  - SCOPUS
+KW  - SMART
+KW  - Smart factory
+KW  - SUPPORT
+KW  - Systems engineering
+KW  - Testbed
+KW  - Testbeds
+ER  - 
+
+TY  - JOUR
+TI  - SCUT-AutoALP: A diverse benchmark dataset for automatic architectural layout parsing
+AU  - Liu, Y.
+AU  - Lai, Y.
+AU  - Chen, J.
+AU  - Liang, L.
+AU  - Deng, Q.
+T2  - IEICE Transactions on Information and Systems
+AB  - Computer aided design (CAD) technology is widely used for architectural design, but current CAD tools still require high-level design specifications from human. It would be significant to construct an intelligent CAD system allowing automatic architectural layout parsing (AutoALP), which generates candidate designs or predicts architectural attributes without much user intervention. To tackle these problems, many learning-based methods were proposed, and benchmark dataset become one of the essential elements for the data-driven AutoALP. This paper proposes a new dataset called SCUT-AutoALP for multi-paradigm applications. It contains two subsets: 1) Subset-I is for floor plan design containing 300 residential floor plan images with layout, boundary and attribute labels; 2) Subset-II is for urban plan design containing 302 campus plan images with layout, boundary and attribute labels. We analyzed the samples and labels statistically, and evaluated SCUT-AutoALP for different layout parsing tasks of floor plan/urban plan based on conditional generative adversarial networks (cGAN) models. The results verify the effectiveness and indicate the potential applications of SCUT-AutoALP. The dataset is available at https://github.com/designfuturelab702/SCUT-AutoALP-DatabaseRelease. © 2020 The Institute of Electronics, Information and Communication Engineers
+DA  - 2020///
+PY  - 2020
+DO  - 10.1587/transinf.2020EDL8076
+VL  - E103D
+IS  - 12
+SP  - 2725
+EP  - 2729
+J2  - IEICE Trans Inf Syst
+LA  - English
+SN  - 09168532 (ISSN)
+DB  - Scopus
+KW  - Adversarial networks
+KW  - Architectural attributes
+KW  - Benchmark datasets
+KW  - Computer aided design
+KW  - Essential elements
+KW  - floor plan
+KW  - Floor plan
+KW  - Floor plan designs
+KW  - Floors
+KW  - GAN
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - High-level design
+KW  - image parsing
+KW  - Image parsing
+KW  - Learning-based methods
+KW  - SCOPUS
+KW  - urban plan
+KW  - Urban plan
+KW  - User intervention
+ER  - 
+
+TY  - JOUR
+TI  - The design of tourism product CAD threedimensional modeling system using VR technology
+AU  - Deng, Y.
+AU  - Han, S.-Y.
+AU  - Li, J.
+AU  - Rong, J.
+AU  - Fan, W.
+AU  - Sun, T.
+T2  - PLoS ONE
+AB  - In view of the high homogeneity of tourism products all over the country, an attempt is made to design virtual visit tourism products with cultural experience background, which can reflect the characteristics of culture + tourism in different scenic spots, so that tourists can deeply experience the local culture. Combined with computer aided design (CAD), the virtual three-dimensional (3D) modeling system of scenic spots is designed, and VR real scene visit interactive tourism products suitable for different scenic spots are designed. 360° VR panoramic display technology is used for 360° VR panoramic video shooting and visiting system display production of Elephant Trunk Hill park scenery. A total of 157 images are collected and 720 cloud panoramic interactive H5 tool is selected to produce a display system suitable for 360° VR panoramic display of scenic spots. Meanwhile, based on single view RGB-D image, the latest convolutional neural network (CNN) algorithm and point cloud processing algorithm are used to design the indoor 3D scene reconstruction algorithm based on semantic understanding. Experiments show that the pixel accuracy and mean intersection over union of the indoor scene layout segmentation network segmentation results are 89.5% and 60.9%, respectively, that is, it has high accuracy. The VR real scene visit interactive tourism product can make tourists have a more immersive sense of interaction and experience before, during and after the tour. © 2020 Deng et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1371/journal.pone.0244205
+VL  - 15
+IS  - 12 December
+J2  - PLoS ONE
+LA  - English
+SN  - 19326203 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85098936481&doi=10.1371%2fjournal.pone.0244205&partnerID=40&md5=95aba59d73e143e3fbfac90b280e2958
+DB  - Scopus
+KW  - Article
+KW  - cloud computing
+KW  - computer aided design
+KW  - Computer-Aided Design
+KW  - controlled study
+KW  - convolutional neural network
+KW  - economics
+KW  - EXPERIENCE
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - human
+KW  - Humans
+KW  - image display
+KW  - marketing
+KW  - Marketing
+KW  - Neural Networks, Computer
+KW  - procedures
+KW  - product design
+KW  - reconstruction algorithm
+KW  - SCOPUS
+KW  - segmentation algorithm
+KW  - semantics
+KW  - technology
+KW  - three dimensional computer aided design
+KW  - tourism
+KW  - Tourism
+KW  - virtual reality
+KW  - Virtual Reality
+KW  - VIRTUAL-REALITY
+ER  - 
+
+TY  - CONF
+TI  - Magic layouts: Structural prior for component detection in user interface designs
+AU  - Manandhar, D.
+AU  - Jin, H.
+AU  - Collomosse, J.
+T2  - 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2021
+AB  - We present Magic Layouts; a method for parsing screenshots or hand-drawn sketches of user interface (UI) layouts. Our core contribution is to extend existing detectors to exploit a learned structural prior for UI designs, enabling robust detection of UI components; buttons, text boxes and similar. Specifically we learn a prior over mobile UI layouts, encoding common spatial co-occurrence relationships between different UI components. Conditioning region proposals using this prior leads to performance gains on UI layout parsing for both hand-drawn UIs and app screenshots, which we demonstrate within the context an interactive application for rapidly acquiring digital prototypes of user experience (UX) designs. © 2021 IEEE
+C3  - Proc IEEE Comput Soc Conf Comput Vision Pattern Recognit
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/CVPR46437.2021.01555
+SP  - 15804
+EP  - 15813
+LA  - English
+PB  - IEEE Computer Society
+SN  - 10636919 (ISSN); 9781665445092 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85123216048&doi=10.1109%2fCVPR46437.2021.01555&partnerID=40&md5=bf5f35aa4d05861a7f71a89956ea30f5
+DB  - Scopus
+Y2  - 2021/06/19/
+KW  - Co-occurrence relationships
+KW  - Component detection
+KW  - Digital devices
+KW  - Drawing (graphics)
+KW  - Hand-drawn sketches
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Learn+
+KW  - Mobile user interface
+KW  - Palmprint recognition
+KW  - Robust detection
+KW  - SCOPUS
+KW  - Screenshots
+KW  - User interface components
+KW  - User interface designs
+KW  - User interface layouts
+KW  - User interfaces
+ER  - 
+
+TY  - CONF
+TI  - Room Layout Estimation by Learning Depth Maps of Planes from 2D Layout Labels
+AU  - Zhang, W.
+AU  - Liu, Y.
+T2  - 2021 27th International Conference on Mechatronics and Machine Vision in Practice, M2VIP 2021
+AB  - Room layout estimation is a basic mission in understanding the indoor scene and has a wide range of applications. Specifically, the task of room layout estimation is to segment an indoor RGB image with semantic surface labels, i.e., ceiling, floor, and walls. A straightforward solution for the problem is to estimate the geometry of the dominant indoor planes. However, since the ground truth depth maps of the layout is not easy to obtain, research in this direction is rare. In this paper, we focus on the cuboid rooms and propose an effective learning framework that can learn the depth maps of planes from 2D layout labels without ground truth depth maps. We employ a deep network to learn the surface parameters, which can be used to produce depth maps of planes and layout results. Then we propose stereo supervision mechanism that encourages the generated layout to be consistent with the ground truth layout segmentation along Z axis and layout edge on the image plane simultaneously, so that the learned surface parameters and layout results are reasonable. Experimental results show that our method can produce high-quality layout estimates and corresponding depth maps on benchmark datasets. © 2021 IEEE.
+C3  - Int. Conf. Mechatronics Mach. Vis. Pract., M2VIP
+DA  - 2021///
+PY  - 2021
+DO  - 10.1109/M2VIP49856.2021.9665046
+SP  - 777
+EP  - 782
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781665431538 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85124793010&doi=10.1109%2fM2VIP49856.2021.9665046&partnerID=40&md5=ec6b34c581560641ff01edfde08c8012
+DB  - Scopus
+Y2  - 2021/11/26/
+KW  - Benchmarking
+KW  - Computer vision
+KW  - Depthmap
+KW  - Effective learning
+KW  - GEOMETRY
+KW  - Ground truth
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - High quality
+KW  - Image plane
+KW  - Learn+
+KW  - Learning frameworks
+KW  - RGB images
+KW  - SCENE
+KW  - SCOPUS
+KW  - Semantic Segmentation
+KW  - Semantics
+KW  - Stereo image processing
+KW  - Supervision mechanisms
+KW  - Surface parameter
+ER  - 
+
+TY  - CONF
+TI  - Self-Supervised Road Layout Parsing with Graph Auto-Encoding
+AU  - Lu, C.
+AU  - Dubbelman, G.
+T2  - 2022 IEEE Intelligent Vehicles Symposium, IV 2022
+AB  - Aiming for higher-level scene understanding, this work presents a neural network approach that takes a road-layout map in bird's-eye-view as input, and predicts a human-interpretable graph that represents the road's topological layout. Our approach elevates the understanding of road layouts from pixel level to the level of graphs. To achieve this goal, an image-graph-image auto-encoder is utilized. The network is designed to learn to regress the graph representation at its auto-encoder bottleneck. This learning is self-supervised by an image reconstruction loss, without needing any external manual annotations. We create a synthetic dataset containing common road layout patterns and use it for training of the auto-encoder in addition to the real-world Argoverse dataset. By using this additional synthetic dataset, which conceptually captures human knowledge of road layouts and makes this available to the network for training, we are able to stabilize and further improve the performance of topological road layout understanding on the real-world Argoverse dataset. The evaluation shows that our approach exhibits comparable performance to a strong fully-supervised baseline. © 2022 IEEE.
+C3  - IEEE Intell Veh Symp Proc
+DA  - 2022///
+PY  - 2022
+DO  - 10.1109/IV51971.2022.9827287
+VL  - 2022-June
+SP  - 842
+EP  - 851
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781665488211 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85135377781&doi=10.1109%2fIV51971.2022.9827287&partnerID=40&md5=ecfd22d28f85636b2e179839e48793d5
+DB  - Scopus
+Y2  - 2022/06/05/
+KW  - Auto encoders
+KW  - Bird's eye view
+KW  - Computer vision
+KW  - Encoding (symbols)
+KW  - Encodings
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image reconstruction
+KW  - Neural-networks
+KW  - Performance
+KW  - Pixel level
+KW  - Real-world
+KW  - Road layouts
+KW  - Roads and streets
+KW  - Scene understanding
+KW  - SCOPUS
+KW  - Signal encoding
+KW  - Synthetic datasets
+KW  - Topology
+KW  - VISION
+ER  - 
+
+TY  - CONF
+TI  - OPAD: An Optimized Policy-based Active Learning Framework for Document Content Analysis
+AU  - Shekhar, S.
+AU  - Prakash Reddy Guda, B.
+AU  - Chaubey, A.
+AU  - Jindal, I.
+AU  - Jain, A.
+T2  - 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, CVPRW 2022
+AB  - Documents are central to many business systems, and include forms, reports, contracts, invoices or purchase orders. The information in documents is typically in natural language, but can be organized in various layouts and formats. There have been recent spurt of interest in understanding document content with novel deep learning architectures. However, document understanding tasks need dense information annotations, which are costly to scale and generalize. Several active learning techniques have been proposed to reduce the overall budget of annotation while maintaining the performance of the underlying deep learning model. In this paper, we propose OPAD, a novel framework using reinforcement policy for active learning in content detection tasks for documents. The proposed framework learns the acquisition function to decide the samples to be selected while optimizing performance metrics that the tasks typically have. Furthermore, we extend to weak labelling scenarios to further reduce the cost of annotation significantly. We propose novel rewards to account for class imbalance and user feedback in the annotation interface, to improve the active learning method. We show superior performance of the proposed OPAD framework for active learning for various tasks related to document understanding like layout parsing, object detection and named entity recognition. Ablation studies for human feedback and class imbalance rewards are presented, along with a comparison of annotation times for different approaches. © 2022 IEEE.
+C3  - IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recogn. Workshops
+DA  - 2022///
+PY  - 2022
+DO  - 10.1109/CVPRW56347.2022.00320
+VL  - 2022-June
+SP  - 2825
+EP  - 2835
+LA  - English
+PB  - IEEE Computer Society
+SN  - 978-1-66548-739-9
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85137819057&doi=10.1109%2fCVPRW56347.2022.00320&partnerID=40&md5=4eceaffff6e78914a6437693887124d5
+AN  - WOS:000861612702113
+DB  - Scopus
+Y2  - 2022/06/19/
+KW  - Active Learning
+KW  - Budget control
+KW  - Business systems
+KW  - Class imbalance
+KW  - Content analysis
+KW  - Deep learning
+KW  - Document contents
+KW  - Document understanding
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Learning frameworks
+KW  - Learning systems
+KW  - Object detection
+KW  - Optimized policies
+KW  - Performance
+KW  - Policy-based
+KW  - Purchasing
+KW  - SCOPUS
+ER  - 
+
+TY  - JOUR
+TI  - Synthetic document generator for annotation-free layout recognition
+AU  - Raman, N.
+AU  - Shah, S.
+AU  - Veloso, M.
+T2  - Pattern Recognition
+AB  - Analyzing the layout of a document to identify headers, sections, tables, figures etc. is critical to understanding its content. Deep learning based approaches for detecting the layout structure of document images have been promising. However, these methods require a large number of annotated examples during training, which are both expensive and time consuming to obtain. We describe here a synthetic document generator that automatically produces realistic documents with labels for spatial positions, extents and categories of the layout elements. The proposed generative process treats every physical component of a document as a random variable and models their intrinsic dependencies using a Bayesian Network graph. Our hierarchical formulation using stochastic templates allow parameter sharing between documents for retaining broad themes and yet the distributional characteristics produces visually unique samples, thereby capturing complex and diverse layouts. We empirically illustrate that a deep layout detection model trained purely on the synthetic documents can match the performance of a model that uses real documents. © 2022 Elsevier Ltd
+DA  - 2022///
+PY  - 2022
+DO  - 10.1016/j.patcog.2022.108660
+VL  - 128
+J2  - Pattern Recogn.
+LA  - English
+SN  - 00313203 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85127197928&doi=10.1016%2fj.patcog.2022.108660&partnerID=40&md5=fe083de6fdf8e607e20729011e7b4d5f
+AN  - WOS:000790820100006
+DB  - Scopus
+KW  - Bayesia n networks
+KW  - Bayesian network
+KW  - Bayesian networks
+KW  - Deep learning
+KW  - Document images
+KW  - Free layouts
+KW  - Generative process
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image annotation
+KW  - Layout analysis
+KW  - Layout structure
+KW  - Learning-based approach
+KW  - Physical components
+KW  - SCOPUS
+KW  - Spatial positions
+KW  - Stochastic systems
+KW  - Synthetic image generation
+ER  - 
+
+TY  - JOUR
+TI  - Extracting text from scanned Arabic books: a large-scale benchmark dataset and a fine-tuned Faster-R-CNN model
+AU  - Elanwar, R.
+AU  - Qin, W.
+AU  - Betke, M.
+AU  - Wijaya, D.
+T2  - International Journal on Document Analysis and Recognition
+AB  - Datasets of documents in Arabic are urgently needed to promote computer vision and natural language processing research that addresses the specifics of the language. Unfortunately, publicly available Arabic datasets are limited in size and restricted to certain document domains. This paper presents the release of BE-Arabic-9K, a dataset of more than 9000 high-quality scanned images from over 700 Arabic books. Among these, 1500 images have been manually segmented into regions and labeled by their functionality. BE-Arabic-9K includes book pages with a wide variety of complex layouts and page contents, making it suitable for various document layout analysis and text recognition research tasks. The paper also presents a page layout segmentation and text extraction baseline model based on fine-tuned Faster R-CNN structure (FFRA). This baseline model yields cross-validation results with an average accuracy of 99.4% and F1 score of 99.1% for text versus non-text block classification on 1500 annotated images of BE-Arabic-9K. These results are remarkably better than those of the state-of-the-art Arabic book page segmentation system ECDP. FFRA also outperforms three other prior systems when tested on a competition benchmark dataset, making it an outstanding baseline model to challenge. © 2021, The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/s10032-021-00382-4
+VL  - 24
+IS  - 4
+SP  - 349
+EP  - 362
+J2  - Int. J. Doc. Anal. Recogn.
+LA  - English
+SN  - 14332833 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85117632510&doi=10.1007%2fs10032-021-00382-4&partnerID=40&md5=0300f16ad30c3d96f79b825ffb3032bd
+DB  - Scopus
+KW  - Benchmark datasets
+KW  - Character recognition
+KW  - Convolutional neural networks
+KW  - Cross validation
+KW  - Document layout analysis
+KW  - DOCUMENTS
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - IMAGES
+KW  - Large dataset
+KW  - LAYOUT ANALYSIS
+KW  - NAtural language processing
+KW  - Natural language processing systems
+KW  - Page segmentation
+KW  - SCOPUS
+KW  - SEGMENTATION
+KW  - State of the art
+KW  - Text block classification
+KW  - Text processing
+KW  - Text recognition
+ER  - 
+
+TY  - JOUR
+TI  - 3D Layout Estimation via Weakly Supervised Learning of Plane Parameters from 2D Segmentation
+AU  - Zhang, W.
+AU  - Zhang, Y.
+AU  - Song, R.
+AU  - Liu, Y.
+AU  - Zhang, W.
+T2  - IEEE Transactions on Image Processing
+AB  - The task of 3D layout estimation in an indoor scene is to predict the holistic 3D structural information of the scene from an RGB image. It is costly to obtain the ground truth 3D layout, and this issue severely restricts the learning based 3D layout estimation approaches. In this paper, we present a novel weakly supervised learning framework that is able to learn the 3D layout effectively with 2D layout segmentation mask as supervision. We employ a deep neural network to predict the plane parameters and camera intrinsic parameters in the image. Based on the predicted plane instances, the 3D layout as well as the corresponding depth map and 2D segmentation can be generated. The key objectives for learning meaningful plane parameters are the label consistency of layout segmentation and depth consistency of border pixels from adjacent planes, with which the ground truth 2D layout segmentation is able to supervise the learning of the 3D layout. We further incorporate 3D geometric reasoning and prior knowledge in the learning process to ensure that the learned 3D layout is realistic and reasonable. Experimental results show that our method can produce accurate 3D layout estimates by weakly supervised learning. © 1992-2012 IEEE.
+DA  - 2022///
+PY  - 2022
+DO  - 10.1109/TIP.2021.3131025
+VL  - 31
+SP  - 868
+EP  - 879
+J2  - IEEE Trans Image Process
+LA  - English
+SN  - 10577149 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85122074272&doi=10.1109%2fTIP.2021.3131025&partnerID=40&md5=594f7f3f1c04d419291928400b1b1d1d
+AN  - WOS:000739632300006
+DB  - Scopus
+KW  - 2D segmentation
+KW  - 3d layout estimation
+KW  - 3D layout estimation
+KW  - 3D layouts
+KW  - Cameras
+KW  - Cognition
+KW  - Computer vision
+KW  - Deep neural networks
+KW  - Estimation
+KW  - GEOMETRY
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Image segmentation
+KW  - INDOOR
+KW  - Layout
+KW  - monocular stereo vision
+KW  - Monocular stereo vision
+KW  - Parameter estimation
+KW  - Plane parameter
+KW  - plane parameters
+KW  - SCOPUS
+KW  - Solid modeling
+KW  - Solid modelling
+KW  - Stereo image processing
+KW  - Stereo vision
+KW  - Supervised learning
+KW  - Three dimensional computer graphics
+KW  - Three dimensional displays
+KW  - Three-dimensional display
+KW  - Three-dimensional displays
+KW  - weakly supervised learning
+KW  - Weakly supervised learning
+ER  - 
+
+TY  - JOUR
+TI  - Layout Segmentation and Description of Tibetan Document Images Based on Adaptive Run Length Smoothing Algorithm
+AU  - Chen, YY
+AU  - Wang, WL
+AU  - Liu, HM
+AU  - Cai, ZQ
+AU  - Zhao, PH
+T2  - LASER & OPTOELECTRONICS PROGRESS
+AB  - Layout segmentation is an important basic step in the process of document image analysis and recognition. In order to explore a suitable method for layout segmentation and description of Tibetan document images, a research method based on the adaptive run length smoothing algorithm is proposed. Firstly, according to the layout structure of Tibetan document images, K-means clustering analysis is used to get the run length threshold suitable for the layout, smooth the run length, find the connected component, and realize the layout segmentation. Then, according to the external contour characteristics of each layout element, the text area and nontext area are simply distinguished. Finally, the text area is recognized by a Tibetan text recognizer, and then the extensible markup language is used to record layout information and realize layout description. Experiments on Tibetan primary and secondary school teaching materials and stereotyped Tibetan document images show that this method can achieve good layout analysis results.
+DA  - 2021/07//undefined
+PY  - 2021
+DO  - 10.3788/L0P202158.1410006
+VL  - 58
+IS  - 14
+LA  - Chinese
+SN  - 1006-4125
+AN  - WOS:000686494700015
+KW  - adaptive run length smoothing
+KW  - HEMDIG - WOS
+KW  - image processing
+KW  - layout description
+KW  - layout segmentation
+KW  - Tibetan document image
+ER  - 
+
+TY  - JOUR
+TI  - Few-Shot Pixel-Precise Document Layout Segmentation via Dynamic Instance Generation and Local Thresholding
+AU  - De Nardin, A
+AU  - Zottin, S
+AU  - Piciarelli, C
+AU  - Colombi, E
+AU  - Foresti, GL
+T2  - INTERNATIONAL JOURNAL OF NEURAL SYSTEMS
+AB  - Over the years, the humanities community has increasingly requested the creation of artificial intelligence frameworks to help the study of cultural heritage. Document Layout segmentation, which aims at identifying the different structural components of a document page, is a particularly interesting task connected to this trend, specifically when it comes to handwritten texts. While there are many effective approaches to this problem, they all rely on large amounts of data for the training of the underlying models, which is rarely possible in a real-world scenario, as the process of producing the ground truth segmentation task with the required precision to the pixel level is a very time-consuming task and often requires a certain degree of domain knowledge regarding the documents at hand. For this reason, in this paper, we propose an effective few-shot learning framework for document layout segmentation relying on two novel components, namely a dynamic instance generation and a segmentation refinement module. This approach is able of achieving performances comparable to the current state of the art on the popular Diva-HisDB dataset, while relying on just a fraction of the available data.
+DA  - 2023/08/10/
+PY  - 2023
+DO  - 10.1142/S0129065723500521
+LA  - English
+SN  - 0129-0657
+AN  - WOS:001047104800001
+KW  - Document layout segmentation
+KW  - few-shot learning
+KW  - handwritten documents analysis
+KW  - HEMDIG - WOS
+KW  - image segmentation
+KW  - layout analysis
+ER  - 
+
+TY  - JOUR
+TI  - Sublinear information bottleneck based two-stage deep learning approach to genealogy layout recognition
+AU  - You, JN
+AU  - Wang, Q
+T2  - FRONTIERS IN NEUROSCIENCE
+AB  - As an important part of human cultural heritage, the recognition of genealogy layout is of great significance for genealogy research and preservation. This paper proposes a novel method for genealogy layout recognition using our introduced sublinear information bottleneck (SIB) and two-stage deep learning approach. We first proposed an SIB for extracting relevant features from the input image, and then uses the deep learning classifier SIB-ResNet and object detector SIB-YOLOv5 to identify and localize different components of the genealogy layout. The proposed method is evaluated on a dataset of genealogy images and achieves promising results, outperforming existing state-of-the-art methods. This work demonstrates the potential of using information bottleneck and deep learning object detection for genealogy layout recognition, which can have applications in genealogy research and preservation.
+DA  - 2023/06/30/
+PY  - 2023
+DO  - 10.3389/fnins.2023.1230786
+VL  - 17
+LA  - English
+SN  - 1662-453X
+AN  - WOS:001024946700001
+KW  - deep learning
+KW  - genealogy layout recognition
+KW  - HEMDIG - WOS
+KW  - ResNet
+KW  - sublinear information bottleneck
+KW  - YOLOv5 detector
+ER  - 
+
+TY  - JOUR
+TI  - Line-Level Layout Recognition of Historical Documents with Background Knowledge
+AU  - Fischer, N
+AU  - Hartelt, A
+AU  - Puppe, F
+T2  - ALGORITHMS
+AB  - Digitization and transcription of historic documents offer new research opportunities for humanists and are the topics of many edition projects. However, manual work is still required for the main phases of layout recognition and the subsequent optical character recognition (OCR) of early printed documents. This paper describes and evaluates how deep learning approaches recognize text lines and can be extended to layout recognition using background knowledge. The evaluation was performed on five corpora of early prints from the 15th and 16th Centuries, representing a variety of layout features. While the main text with standard layouts could be recognized in the correct reading order with a precision and recall of up to 99.9%, also complex layouts were recognized at a rate as high as 90% by using background knowledge, the full potential of which was revealed if many pages of the same source were transcribed.
+DA  - 2023/03//undefined
+PY  - 2023
+DO  - 10.3390/a16030136
+VL  - 16
+IS  - 3
+LA  - English
+SN  - 1999-4893
+AN  - WOS:000953084300001
+KW  - background knowledge
+KW  - baseline detection
+KW  - fully convolutional neural networks
+KW  - HEMDIG - WOS
+KW  - historical document analysis
+KW  - layout recognition
+KW  - text line detection
+ER  - 
+
+TY  - CONF
+TI  - Scribble Based Interactive Page Layout Segmentation Using Gabor Filter
+AU  - Kassis, M
+AU  - El-Sana, J
+AU  - IEEE
+T2  - PROCEEDINGS OF 2016 15TH INTERNATIONAL CONFERENCE ON FRONTIERS IN HANDWRITING RECOGNITION (ICFHR)
+AB  - This paper presents an interactive approach for fast and accurate page layout segmentation. It is a scribble based interactive segmentation approach, where the user draws scribbles on the various regions and the system performs page layout segmentation. The user can correct and refine the resulting segmentation by drawing new scribbles. To classify the various regions of the page, we apply a bank of Gabor filters, in several orientations and multiple frequencies, to capture the orientation, the stroke width, and size of the text. These properties also implicitly encode the writing style of the document. After combining the responses of the Gabor filter into a feature matrix, we classify various regions of the document by applying graph cuts, while taking into account the user made scribbles. The presented approach is very fast, easy to use, robust to user interaction, and provides accurate results.
+C3  - Ben Gurion University
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/ICFHR.2016.13
+SP  - 13
+EP  - 18
+LA  - English
+SN  - 2167-6445
+AN  - WOS:000400052400007
+KW  - CLASSIFICATION
+KW  - DOCUMENTS
+KW  - gabor filter
+KW  - HEMDIG - WOS
+KW  - IMAGE SEGMENTATION
+KW  - interactive system
+KW  - page segmentation
+KW  - scribble-based
+ER  - 
+
+TY  - CHAP
+TI  - Simple layout segmentation of gray-scale document images
+AU  - Suvichakorn, A
+AU  - Watcharabusaracum, S
+AU  - Sinthupinyo, W
+T2  - DOCUMENT ANALYSIS SYSTEM V, PROCEEDINGS
+A2  - Lopresti, EP
+A2  - Hu, J
+A2  - Kashi, R
+AB  - A simple yet effective layout segmentation of document images is proposed in this paper. First, n x n blocks are roughly labeled as background, line, text, images, graphics or mixed class. For blocks in mixed class, they are split into 4 sub-blocks and the process repeats until no mixed class is found. By exploiting Savitzky-Golay derivative filter in the classification, the computation of features is kept to the minimum. Next, the boundaries of each object are refined. The experimental results yields a satisfactory results as a pre-process prior to OCR.
+DA  - 2002///
+PY  - 2002
+VL  - 2423
+SP  - 245
+EP  - 248
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000187252700028
+KW  - HEMDIG - WOS
+ER  - 
+
+TY  - CONF
+TI  - GlassNage: Layout Recognition for Dynamic Content Retrieval in Multi-Section Digital Signage
+AU  - Mujibiya, A
+T2  - DISTRIBUTED, AMBIENT, AND PERVASIVE INTERACTIONS
+A2  - Streitz, N
+A2  - Markopoulos, P
+AB  - We report our approach to support dynamic content transfer from publicly available large display digital signage to users' private display, specifically Glass-like wearable devices. We aim to address issues concerning dynamic multimedia signage where the content are divided into several sections. This type of signage has become increasingly popular due to optimal content exposures. In contrast to prior research, our approach excludes computer vision based object recognition, and instead took an approach to identify how contents are being laid-out in a digital signage. We incorporate techniques to recognize basic layout features including corners, lines, edges, and line segments; which are obtained from the camera frame taken by the user using their own device. Consequently, these layout features are combined to generate signage layout map, which is then compared to pre-learned layout map for position detection and perspective correction using homography estimation. To grab a specific content, users are able to choose a section within the captured layout using the device's interface, which in turn creates a request to contents server to send respective content information based on a timestamp and a unique section ID. In this paper, we describe implementation details, report user study results, and conclude with discussion of our experiences in implementation as well as highlighting future work.
+C3  - Rakuten Group, Inc
+DA  - 2015///
+PY  - 2015
+DO  - 10.1007/978-3-319-20804-6_31
+VL  - 9189
+SP  - 337
+EP  - 348
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000363683500031
+KW  - Computer vision
+KW  - Digital signage
+KW  - HEMDIG - WOS
+KW  - Layout recognition
+KW  - Line segment
+KW  - Multi section
+KW  - Public display
+KW  - Public-to-private
+KW  - User study
+KW  - Visual features
+ER  - 
+
+TY  - CONF
+TI  - NCERT5K-IITRPR: A Benchmark Dataset for Non-textual Component Detection in School Books
+AU  - Kawoosa, HS
+AU  - Singh, M
+AU  - Joshi, MM
+AU  - Goyal, P
+T2  - DOCUMENT ANALYSIS SYSTEMS, DAS 2022
+A2  - Uchida, S
+A2  - Barney, E
+A2  - Eglin, V
+AB  - The STEM subjects books heavily rely on Non-textual Components (NTCs) such as charts, geometric figures, and equations to demonstrate the underlying complex concepts. However, the accessibility of STEM subjects for Blind and Visually Impaired (BVIP) students is a primary concern, especially in developing countries such as India. BVIP uses assistive technologies (ATs) like optical character recognition (OCR) and screen readers for reading/writing purposes. While parsing, such ATs skip NTCs and mainly rely on alternative texts to describe these visualization components. Integration of effective and automated document layout parsing frameworks for extracting data from non-textual components of digital documents are required with existing ATs for making these NTCs accessible. Although, the primary concern is the absence of an adequately annotated textbook dataset on which layout recognition and other vision-based frameworks can be trained. To improve the accessibility and automated parsing of such books, we introduce a new NCERT5K-IITRPR dataset of National Council of Educational Research and Training (NCERT) school books. Twenty-three annotated books covering more than 5000 pages from the eighth to twelve standards have been considered. The NCERT label objects are structurally different from the existing document layout analysis (DLA) dataset objects and contain diverse label categories. We benchmark the NCERT5K-IITRPR dataset with multiple object detection methods. A systematic analysis of detectors shows the label complexity and fine-tuning necessity of the NCERT5K-IITRPR dataset. We hope that our dataset helps in improving the accessibility of NCERT Books for BVIP students.
+C3  - Indian Institute of Technology System (IIT System)
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-031-06555-2_31
+VL  - 13237
+SP  - 461
+EP  - 475
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000870314500031
+KW  - Assistive reading
+KW  - Document layout analysis
+KW  - Graphical object detection
+KW  - HEMDIG - WOS
+KW  - NCERT books
+KW  - NCERT dataset
+ER  - 
+
+TY  - CONF
+TI  - DocBed: A Multi-Stage OCR Solution for Documents with Complex Layouts
+AU  - Zhu, WZ
+AU  - Sokhandan, N
+AU  - Yang, G
+AU  - Martin, S
+AU  - Sathyanarayana, S
+AU  - Assoc Advancement Artificial Intelligence
+T2  - THIRTY-SIXTH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE / THIRTY-FOURTH CONFERENCE ON INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE / TWELVETH SYMPOSIUM ON EDUCATIONAL ADVANCES IN ARTIFICIAL INTELLIGENCE
+AB  - Digitization of newspapers is of interest for many reasons including preservation of history, accessibility and search ability, etc. While digitization of documents such as scientific articles and magazines is prevalent in literature, one of the main challenges for digitization of newspaper lies in its complex layout (e.g. articles spanning multiple columns, text interrupted by images) analysis, which is necessary to preserve human read-order. This work provides a major breakthrough in the digitization of newspapers on three fronts: first, releasing a dataset of 3000 fully-annotated, real-world newspaper images from 21 different U.S. states representing an extensive variety of complex layouts for document layout analysis; second, proposing layout segmentation as a precursor to existing optical character recognition (OCR) engines, where multiple state-of-the-art image segmentation models and several post-processing methods are explored for document layout segmentation; third, providing a thorough and structured evaluation protocol for isolated layout segmentation and end-to-end OCR.
+DA  - 2022///
+PY  - 2022
+SP  - 12643
+EP  - 12649
+LA  - English
+SN  - 2159-5399
+AN  - WOS:000893639105084
+KW  - HEMDIG - WOS
+ER  - 
+
+TY  - CONF
+TI  - DocVisor: A Multi-purpose Web-Based Interactive Visualizer for Document Image Analytics
+AU  - Belagavi, K
+AU  - Tadimeti, P
+AU  - Sarvadevabhatla, RK
+T2  - DOCUMENT ANALYSIS AND RECOGNITION, ICDAR 2021, PT II
+A2  - Smith, EHB
+A2  - Pal, U
+AB  - The performance for many document-based problems (OCR, Document Layout Segmentation, etc.) is typically studied in terms of a single aggregate performance measure (Intersection-Over-Union, Character Error Rate, etc.). While useful, the aggregation is a trade-off between instance-level analysis of predictions which may shed better light on a particular approach's biases and performance characteristics. To enable a systematic understanding of instance-level predictions, we introduce DocVisor - a web-based multi-purpose visualization tool for analyzing the data and predictions related to various document image understanding problems. DocVisor provides support for visualizing data sorted using custom-specified performance metrics and display styles. It also supports the visualization of intermediate outputs (e.g., attention maps, coarse predictions) of the processing pipelines. This paper describes the appealing features of DocVisor and showcases its multi-purpose nature and general utility. We illustrate DocVisor's functionality for four popular document understanding tasks - document region layout segmentation, tabular data detection, weakly-supervised document region segmentation and optical character recognition. DocVisor is available as a documented public repository for use by the community.
+C3  - International Institute of Information Technology Hyderabad
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86159-9_14
+VL  - 12917
+SP  - 206
+EP  - 219
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000711885200014
+KW  - HEMDIG - WOS
+ER  - 
+
+TY  - JOUR
+TI  - 3D layout estimation of general rooms based on ordinal semantic segmentation
+AU  - Yao, H
+AU  - Miao, J
+AU  - Zhang, GX
+AU  - Chu, J
+T2  - IET COMPUTER VISION
+AB  - Room layout estimation aims to predict the location and range of layout planes of interior spaces. Previous works treat each layout plane as an independent individual without considering the ordinal relation between walls, resulting the loss of the wall planes and the lack of integrity. This paper proposes a novel two-branch neural networks model to estimate 3D layouts of cuboid and non-cuboid room types. The model embeds the ordinal relation between layout planes into the layout segmentation branch through an proposed ordinal classification loss function, and outputs both pixel-level layout segmentation maps and layout plane parameter maps. Then, the instance-level plane parameters of each layout plane are determined by using an instance-aware pooling layer. Finally, the sharpness of layout edges of the 2D layout semantic segmentation map is optimized by using an improved depth map intersection algorithm. Furthermore, we annotate a large-scale 3D room layout estimation dataset, InteriorNet-Layout, to obtain a steady model. Experiments on synthesized real-world datasets show that the proposed method achieves faster calculation while maintaining high accuracy. Code is available at .
+DA  - 2023/01/27/
+PY  - 2023
+DO  - 10.1049/cvi2.12149
+LA  - English
+SN  - 1751-9632
+AN  - WOS:000919010600001
+KW  - dataset
+KW  - depth estimation
+KW  - HEMDIG - WOS
+KW  - plane parameters
+KW  - room layout estimation
+KW  - semantic segmentation
+ER  - 
+
+TY  - CONF
+TI  - Extraction of relevant information from document images using measures of visual attention
+AU  - Maderlechner, G
+AU  - Schreyer, A
+AU  - Suda, P
+T2  - 15TH INTERNATIONAL CONFERENCE ON PATTERN RECOGNITION, VOL 4, PROCEEDINGS: APPLICATIONS, ROBOTICS SYSTEMS AND ARCHITECTURES
+A2  - Sanfeliu, A
+A2  - Villanueva, JJ
+A2  - Vanrell, M
+A2  - Alquezar, R
+A2  - Crowley, J
+A2  - Shirai, Y
+AB  - This paper describes an approach to attention based layout segmentation using general principles of the human visual perception to achieve this goal. The text is considered as texture in different resolution levels. A new measure of attractiveness is introduced. The segmentation is generic and not limited to specific document classes and models. The resulting regions of interest may be used for further interpretation. The overall speed of browsing and searching lar-ge volumes of scanned documents cart be increased considerably.
+C3  - Siemens AG
+DA  - 2000///
+PY  - 2000
+SP  - 385
+EP  - 388
+LA  - English
+SN  - 1051-4651
+AN  - WOS:000166815200087
+KW  - HEMDIG - WOS
+ER  - 
+
+TY  - CONF
+TI  - Layout Analysis and Content Classification in Digitized Books
+AU  - Corbelli, A
+AU  - Baraldi, L
+AU  - Balducci, F
+AU  - Grana, C
+AU  - Cucchiara, R
+T2  - DIGITAL LIBRARIES AND MULTIMEDIA ARCHIVES
+A2  - Agosti, M
+A2  - Bertini, M
+A2  - Ferilli, S
+A2  - Marinai, S
+A2  - Orio, N
+AB  - Automatic layout analysis has proven to be extremely important in the process of digitization of large amounts of documents. In this paper we present amixed approach to layout analysis, introducing a SVM-aided layout segmentation process and a classification process based on local and geometrical features. The final output of the automatic analysis algorithm is a complete and structured annotation in JSON format, containing the digitalized text aswell as all the references to the illustrations of the input page, and which can be used by visualization interfaces as well as annotation interfaces. We evaluate our algorithm on a large dataset built upon the first volume of the "Enciclopedia Treccani".
+C3  - Universita di Modena e Reggio Emilia
+DA  - 2017///
+PY  - 2017
+DO  - 10.1007/978-3-319-56300-8_14
+VL  - 701
+SP  - 153
+EP  - 165
+LA  - English
+SN  - 1865-0929
+AN  - WOS:000425872800014
+KW  - Annotation interfaces
+KW  - Content classification
+KW  - HEMDIG - WOS
+KW  - IMAGES
+KW  - Layout analysis
+KW  - LINES
+KW  - SEGMENTATION
+KW  - SVM
+ER  - 
+
+TY  - CONF
+TI  - The Diagonal Split: A Pre-segmentation Step for Page Layout Analysis and Classification
+AU  - Gordo, A
+AU  - Valveny, E
+T2  - PATTERN RECOGNITION AND IMAGE ANALYSIS, PROCEEDINGS
+A2  - Araujo, H
+A2  - Mendonca, AM
+A2  - Pinho, AJ
+A2  - Torres, MI
+AB  - Document classification is an important task in all the processes related to document storage and retrieval. In the case of complex documents, structural features are needed to achieve a correct classification. Unfortunately, physical layout analysis is error prone. In this paper we present a pre-segmentation step based on a divide & conquer strategy that can be used to improve the page segmentation results, independently of the segmentation algorithm used. This pre-segmentation step is evaluated in classification and retrieval using the selective CRLA algorithm for layout segmentation together with a clustering based on the voronoi area diagram, and tested on two different databases, MARC and Girona Archives.
+C3  - Centre de Visio per Computador (CVC)
+DA  - 2009///
+PY  - 2009
+VL  - 5524
+SP  - 290
+EP  - 297
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000268999700038
+KW  - HEMDIG - WOS
+ER  - 
+
+TY  - CONF
+TI  - Research on Dimension Adjustment Method of Variant Design
+AU  - Hou, BQ
+AU  - Li, XM
+AU  - Wang, K
+T2  - Proceedings of the 2016 International Conference on Engineering and Technology Innovations
+A2  - Yue, XG
+A2  - Cao, Y
+A2  - Habib, MM
+A2  - Boddhu, SK
+AB  - In order to study the problem of the dimension of the dimension of the model modified design. A geometric model for the layout of dimension dimension. Through the containment relationship between the dimensions of the relationship between the size of the resulting constraint relationship, on the basis of the creation of the size of the layout recognition algorithm, and the application validation. The size adaptive adjustment of the 3D variant design is realized.
+C3  - Guilin University of Electronic Technology
+DA  - 2016///
+PY  - 2016
+VL  - 43
+SP  - 122
+EP  - 126
+LA  - English
+SN  - 2352-5401
+AN  - WOS:000389243400023
+KW  - dimension dimension
+KW  - dimension layout
+KW  - HEMDIG - WOS
+KW  - size adjustment
+KW  - variant design
+ER  - 
+
+TY  - CONF
+TI  - Palmira: A Deep Deformable Network for Instance Segmentation of Dense and Uneven Layouts in Handwritten Manuscripts
+AU  - Sharan, SP
+AU  - Aitha, S
+AU  - Kumar, A
+AU  - Trivedi, A
+AU  - Augustine, A
+AU  - Sarvadevabhatla, RK
+T2  - DOCUMENT ANALYSIS AND RECOGNITION - ICDAR 2021, PT II
+A2  - Llados, J
+A2  - Lopresti, D
+A2  - Uchida, S
+AB  - Handwritten documents are often characterized by dense and uneven layout. Despite advances, standard deep network based approaches for semantic layout segmentation are not robust to complex deformations seen across semantic regions. This phenomenon is especially pronounced for the low-resource Indic palm-leaf manuscript domain. To address the issue, we first introduce Indiscapes2, a new large-scale diverse dataset of Indic manuscripts with semantic layout annotations. Indiscapes2 contains documents from four different historical collections and is 150% larger than its predecessor, Indiscapes. We also propose a novel deep network PALMIRA for robust, deformation-aware instance segmentation of regions in handwritten manuscripts. We also report Hausdorff distance and its variants as a boundary-aware performance measure. Our experiments demonstrate that PALMIRA provides robust layouts, outperforms strong baseline approaches and ablative variants. We also include qualitative results on Arabic, South-East Asian and Hebrew historical manuscripts to showcase the generalization capability of PALMIRA.
+C3  - International Institute of Information Technology Hyderabad
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86331-9_31
+VL  - 12822
+SP  - 477
+EP  - 491
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000770800600031
+KW  - Dataset
+KW  - Deformable convolutional network
+KW  - Document image segmentation
+KW  - HEMDIG - WOS
+KW  - Historical document analysis
+KW  - Instance segmentation
+ER  - 
+
+TY  - CONF
+TI  - Towards Document Panoptic Segmentation with Pinpoint Accuracy: Method and Evaluation
+AU  - Cao, RY
+AU  - Li, HW
+AU  - Zhou, GB
+AU  - Luo, P
+T2  - DOCUMENT ANALYSIS AND RECOGNITION - ICDAR 2021, PT II
+A2  - Llados, J
+A2  - Lopresti, D
+A2  - Uchida, S
+AB  - In this paper we study the task of document layout recognition for digital documents, requiring that the model should detect the exact physical object region without missing any text or containing any redundant text outside objects. It is the vital step to support high-quality information extraction, table understanding and knowledge base construction over the documents from various vertical domains (e.g. financial, legal, and government fields). Here, we consider digital documents, where characters and graphic elements are given with their exact texts, positions inside document pages, compared with image documents. Towards document layout recognition with pinpoint accuracy, we consider this problem as a document panoptic segmentation task, that each token in the document page must be assigned a class label and an instance id. Considering that two predicted objects may intersect under traditional visual panoptic segmentation method, like Mask R-CNN, however, document objects never intersect because most document pages follow manhattan layout. Therefore, we propose a novel framework, named document panoptic segmentation (DPS) model. It first splits the document page into column regions and groups tokens into line regions, then extracts the textual and visual features, and finally assigns class label and instance id to each line region. Additionally, we propose a novel metric based on the intersection over union (IoU) between the tokens contained in predicted and the ground-truth object, which is more suitable than metric based on the area IoU between predicted and the ground-truth bounding box. Finally, the empirical experiments based on PubLayNet, ArXiv and Financial datasets show that the proposed DPS model obtains 0.8833, 0.9205 and 0.8530 mAP scores on three datasets. The proposed model obtains great improvement on mAP score compared with Faster R-CNN and Mask R-CNN models.
+C3  - Chinese Academy of Sciences
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86331-9_1
+VL  - 12822
+SP  - 3
+EP  - 18
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000770800600001
+KW  - HEMDIG - WOS
+ER  - 
+
+TY  - CONF
+TI  - ICDAR 2021 Competition on Scientific Literature Parsing
+AU  - Yepes, AJ
+AU  - Zhong, P
+AU  - Burdick, D
+T2  - DOCUMENT ANALYSIS AND RECOGNITION, ICDAR 2021, PT IV
+A2  - Llados, J
+A2  - Lopresti, D
+A2  - Uchida, S
+AB  - Scientific literature contain important information related to cutting-edge innovations in diverse domains. Advances in natural language processing have been driving the fast development in automated information extraction from scientific literature. However, scientific literature is often available in unstructured PDF format. While PDF is great for preserving basic visual elements, such as characters, lines, shapes, etc., on a canvas for presentation to humans, automatic processing of the PDF format by machines presents many challenges. With over 2.5 trillion PDF documents in existence, these issues are prevalent in many other important application domains as well.
+A critical challenge for automated information extraction from scientific literature is that documents often contain content that is not in natural language, such as figures and tables. Nevertheless, such content usually illustrates key results, messages, or summarizations of the research. To obtain a comprehensive understanding of scientific literature, the automated system must be able to recognize the layout of the documents and parse the non-natural-language content into a machine readable format.
+Our ICDAR 2021 Scientific Literature Parsing Competition (ICDAR2021-SLP) aims to drive the advances specifically in document understanding. ICDAR2021-SLP leverages the PubLayNet and PubTab-Net datasets, which provide hundreds of thousands of training and evaluation examples. In Task A, Document Layout Recognition, submissions with the highest performance combine object detection and specialised solutions for the different categories. In Task B, Table Recognition, top submissions rely on methods to identify table components and post-processing methods to generate the table structure and content. Results from both tasks show an impressive performance and opens the possibility for high performance practical applications.
+C3  - University of Melbourne
+DA  - 2021///
+PY  - 2021
+DO  - 10.1007/978-3-030-86337-1_40
+VL  - 12824
+SP  - 605
+EP  - 617
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000711880100040
+KW  - Document layout understanding
+KW  - HEMDIG - WOS
+KW  - ICDAR competition
+KW  - Table recognition
+ER  - 
+

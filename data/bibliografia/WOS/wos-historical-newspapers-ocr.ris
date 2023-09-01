@@ -1,0 +1,677 @@
+TY  - JOUR
+TI  - Searchable Turkish OCRed historical newspaper collection 1928–1942
+AU  - Menhour, H.
+AU  - Şahin, H.B.
+AU  - Sarıkaya, R.N.
+AU  - Aktaş, M.
+AU  - Sağlam, R.
+AU  - Ekinci, E.
+AU  - Eken, S.
+T2  - Journal of Information Science
+AB  - The newspaper emerged as a distinct cultural form in early 17th-century Europe. It is bound up with the early modern period of history. Historical newspapers are of utmost importance to nations and its people, and researchers from different disciplines rely on these papers to improve our understanding of the past. In pursuit of satisfying this need, Istanbul University Head Office of Library and Documentation provides access to a big database of scanned historical newspapers. To take it another step further and make the documents more accessible, we need to run optical character recognition (OCR) and named entity recognition (NER) tasks on the whole database and index the results to allow for full-text search mechanism. We design and implement a system encompassing the whole pipeline starting from scrapping the dataset from the original website to providing a graphical user interface to run search queries, and it manages to do that successfully. Proposed system provides to search people, culture and security-related keywords and to visualise them. © The Author(s) 2021.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1177/01655515211000642
+VL  - 49
+IS  - 2
+SP  - 335
+EP  - 347
+J2  - J Inf Sci
+LA  - English
+SN  - 0165-5515
+AN  - WOS:000634018700001
+DB  - Scopus
+KW  - Data journalism
+KW  - Design and implements
+KW  - full-text search
+KW  - Full-text search
+KW  - Graphical user interfaces
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - Istanbul
+KW  - microservices
+KW  - named entity recognition
+KW  - Named entity recognition
+KW  - NAMED ENTITY RECOGNITION
+KW  - Natural language processing systems
+KW  - Newsprint
+KW  - Office buildings
+KW  - optical character recognition
+KW  - Optical character recognition
+KW  - Optical character recognition (OCR)
+KW  - SCOPUS
+KW  - Search queries
+KW  - SEGMENTATION
+KW  - Turkishs
+KW  - visualisation
+ER  - 
+
+TY  - CONF
+TI  - Making Europe's Historical Newspapers Searchable
+AU  - Neudecker, C.
+AU  - Antonacopoulos, A.
+T2  - 12th IAPR International Workshop on Document Analysis Systems, DAS 2016
+AB  - This paper provides a rare glimpse into the overall approach for the refinement, i.e. the enrichment of scanned historical newspapers with text and layout recognition, in the Europeana Newspapers project. Within three years, the project processed more than 10 million pages of historical newspapers from 12 national and major libraries to produce the largest open access and fully searchable text collection of digital historical newspapers in Europe. In this, a wide variety of legal, logistical, technical and other challenges were encountered. After introducing the background issues in newspaper digitization in Europe, the paper discusses the technical aspects of refinement in greater detail. It explains what decisions were taken in the design of the large-scale processing workflow to address these challenges, what were the results produced and what were identified as best practices. © 2016 IEEE.
+C3  - Proc. - IAPR Int. Workshop Doc. Anal. Syst., DAS
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/DAS.2016.83
+SP  - 405
+EP  - 410
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781509017928 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84979556437&doi=10.1109%2fDAS.2016.83&partnerID=40&md5=8f07aa6473046bc026f95a822340502c
+DB  - Scopus
+Y2  - 2016/04/11/
+L2  - https://ieeexplore.ieee.org/abstract/document/7490152?casa_token=CzzqyQTP5M8AAAAA:B_59bUIHZNePH7tD6xDjSWGV3vb_UAisj4piLTiDc1IjFEQkzc-jopJUCewxi5LGfDdvKoG2gam7
+KW  - Best practices
+KW  - Character recognition
+KW  - digital libraries
+KW  - Digital libraries
+KW  - Digitisation
+KW  - Electronic publishing
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - HEMDIG FRAMEWORK
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - large-scale digitisation
+KW  - Large-scale processing
+KW  - layout analysis
+KW  - Layout analysis
+KW  - newspapers
+KW  - Newsprint
+KW  - OCR
+KW  - OLR
+KW  - Open Access
+KW  - optical character recognition
+KW  - Optical character recognition
+KW  - SCOPUS
+KW  - Technical aspects
+KW  - Text collection
+ER  - 
+
+TY  - CONF
+TI  - Improving state-of-the-art OCR through high-precision document-specific modeling
+AU  - Kae, A.
+AU  - Huang, G.
+AU  - Doersch, C.
+AU  - Learned-Miller, E.
+T2  - 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 2010
+AB  - Optical character recognition (OCR) remains a difficult problem for noisy documents or documents not scanned at high resolution. Many current approaches rely on stored font models that are vulnerable to cases in which the document is noisy or is written in a font dissimilar to the stored fonts. We address these problems by learning character models directly from the document itself, rather than using pre-stored font models. This method has had some success in the past, but we are able to achieve substantial improvement in error reduction through a novel method for creating nearly error-free document-specific training data and building character appearance models from this data. In particular, we first use the state-of-the-art OCR system Tesseract to produce an initial translation. Then, our method identifies a subset of words that we have high confidence have been recognized correctly and uses this subset to bootstrap document-specific character models. We present theoretical justification that a word in the selected subset is very unlikely to be incorrectly recognized, and empirical results on a data set of difficult historical newspaper scans demonstrating that we make only two errors in 56 documents. We then relax the theoretical constraint in order to create a larger training set, and using document-specific character models generated from this data, we are able to reduce the error over properly segmented characters by 34.1% overall from the initial Tesseract translation. ©2010 IEEE.
+C1  - San Francisco, CA
+C3  - Proc IEEE Comput Soc Conf Comput Vision Pattern Recognit
+DA  - 2010///
+PY  - 2010
+DO  - 10.1109/CVPR.2010.5539867
+SP  - 1935
+EP  - 1942
+LA  - English
+SN  - 10636919 (ISSN); 9781424469840 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-77955987982&doi=10.1109%2fCVPR.2010.5539867&partnerID=40&md5=ae0c419734cdac7692fc9fcb27b380ea
+DB  - Scopus
+Y2  - 2010/06/13/
+KW  - Appearance models
+KW  - Character models
+KW  - Computational methods
+KW  - Computer vision
+KW  - Data sets
+KW  - Empirical results
+KW  - Error reduction
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - High confidence
+KW  - High resolution
+KW  - High-precision
+KW  - Historical newspapers
+KW  - Novel methods
+KW  - Optical character recognition
+KW  - SCOPUS
+KW  - Security of data
+KW  - Tesseract
+KW  - Training data
+KW  - Training sets
+ER  - 
+
+TY  - CONF
+TI  - A fast appearance-based full-text search method for historical newspaper images
+AU  - Terasawa, K.
+AU  - Shima, T.
+AU  - Kawashima, T.
+T2  - 11th International Conference on Document Analysis and Recognition, ICDAR 2011
+A4  - TC10 (Graph. Recogn.) TC11 (Read. Syst.) (IAPR); Chinese Academy of Sciences; NSFC; FUJITSU; Hanvon Technology
+AB  - This paper presents a fast appearance-based full-text search method for historical newspaper images. Since historical newspapers differ from recent newspapers in image quality, type fonts and language usages, optical character recognition (OCR) does not provide sufficient quality. Instead of OCR approach, we adopted appearance-based approach, that means we matched character to character with its shapes. Assuming proper character segmentation and proper feature description, full-text search problem is reduced to sequence matching problem of feature vector. To increase computational efficiency, we adopted pseudo-code expression called LSPC, which is a compact sketch of feature vector while retaining a good deal of its information. Experimental result showed that our method can retrieve a query string from a text of over eight million characters within a second. In addition, we predict that more sophisticated algorithm could be designed for LSPC. As an example, we established the Extended Boyer-Moore-Horspool algorithm that can reduce the computational cost further especially when the query string becomes longer. © 2011 IEEE.
+C1  - Beijing
+C3  - Proc. Int. Conf. Doc. Anal. Recognit.
+DA  - 2011///
+PY  - 2011
+DO  - 10.1109/ICDAR.2011.277
+SP  - 1379
+EP  - 1383
+LA  - English
+SN  - 15205363 (ISSN); 9780769545202 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-82355169321&doi=10.1109%2fICDAR.2011.277&partnerID=40&md5=f4fd6408346ced1de800b9ad01bb6b3c
+DB  - Scopus
+Y2  - 2011/09/18/
+KW  - Algorithms
+KW  - Appearance based
+KW  - Boyer-Moore-Horspool algorithm
+KW  - Character segmentation
+KW  - Codes (symbols)
+KW  - Computational costs
+KW  - Computational efficiency
+KW  - Feature description
+KW  - Feature vectors
+KW  - Full-text search
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical document images
+KW  - Historical documents
+KW  - Historical newspapers
+KW  - Image matching
+KW  - Image quality
+KW  - Locality-Sensitive Pseudo-Code
+KW  - Newsprint
+KW  - Optical character recognition
+KW  - Pseudo-code
+KW  - Query string
+KW  - SCOPUS
+KW  - Sequence matching
+KW  - string matching
+KW  - String matching
+KW  - word spotting
+KW  - Word Spotting
+ER  - 
+
+TY  - JOUR
+TI  - Bounding the probability of error for high precision optical character recognition
+AU  - Huang, G.B.
+AU  - Kae, A.
+AU  - Doersch, C.
+AU  - Learned-Miller, E.
+T2  - Journal of Machine Learning Research
+AB  - We consider a model for which it is important, early in processing, to estimate some variables with high precision, but perhaps at relatively low recall. If some variables can be identified with near certainty, they can be conditioned upon, allowing further inference to be done efficiently. Specifically, we consider optical character recognition (OCR) systems that can be bootstrapped by identifying a subset of correctly translated document words with very high precision. This "clean set" is subsequently used as document-specific training data. While OCR systems produce confidence measures for the identity of each letter or word, thresholding these values still produces a significant number of errors. We introduce a novel technique for identifying a set of correct words with very high precision. Rather than estimating posterior probabilities, we bound the probability that any given word is incorrect using an approximate worst case analysis. We give empirical results on a data set of difficult historical newspaper scans, demonstrating that our method for identifying correct words makes only two errors in 56 documents. Using document-specific character models generated from this data, we are able to reduce the error over properly segmented characters by 34.1% from an initial OCR system's translation.1 © 2012 Gary B. Huang, Andrew Kae, Carl Doersch and Erik Learned-Miller.
+DA  - 2012///
+PY  - 2012
+VL  - 13
+SP  - 363
+EP  - 387
+J2  - J. Mach. Learn. Res.
+LA  - English
+SN  - 15324435 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84857846731&partnerID=40&md5=dde2c8ca41053322491950ffc6c95211
+DB  - Scopus
+KW  - Character models
+KW  - computer vision
+KW  - Computer vision
+KW  - Confidence Measure
+KW  - Data sets
+KW  - document-specific modeling
+KW  - Document-specific modeling
+KW  - Errors
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - High precision
+KW  - Historical newspapers
+KW  - Novel techniques
+KW  - optical character recognition
+KW  - Optical character recognition
+KW  - Posterior probability
+KW  - Probability
+KW  - probability bounding
+KW  - Probability bounding
+KW  - Probability of errors
+KW  - SCOPUS
+KW  - Thresholding
+KW  - Training data
+KW  - Worst-case analysis
+ER  - 
+
+TY  - CONF
+TI  - "PlaIR": A system to provide full access to digitized newspaper archives
+AU  - Palfray, T.
+AU  - Nicolas, S.
+AU  - Paquet, T.
+AU  - Tranouez, P.
+T2  - Archiving 2012 - Preservation Strategies and Imaging Technologies for Cultural Heritage Institutions and Memory Organizations
+A4  - Society for Imaging Science and Technology (IS and T); MAM-A; Nationalmuseet
+AB  - This paper presents a platform dedicated to the analysis and the online consultation of historical newspaper archives. This platform has been designed to provide a user experience as intuitive as possible by using mature open source tools. All the features are implemented thanks to the Spring framework. To meet this goal, we created a system to display tiled high-resolution images operating without a plug-in but based on an open source solution called IIPImage. The platform also allows for full-text searches thanks to the Java search library Apache Lucene and displays the results in the form of newspaper articles. In addition, we established collaborative features to provide the users with the ability to correct the content automatically generated by our document processing workflow and accessed through the browsing platform. The system is able to store all the corrections of the users, by using the couple Hibernate/MySQL. The aim is to enable continuous improvement of both the content quality and the search accuracy, by exploiting the ability of the users to recognize significant errors, in order to enhance the digital objects representing the newspaper issues. The proposed system is designed to generate metadata describing the physical layout, but also the logical structure of newspaper documents. Our article segmentation analyses a newspaper issue and recognizes articles, even if they straddle more than one page or if they spread in a complex structure. The workflow can also consider as input data, the results of optical character recognition (OCR) engines in order to provide a textual indexation of the segmented articles. By using this system, we want to create a true and representative digital object using standard formats (i.e. METS / ALTO) and containing the logical description of the content, making easier reading and understanding by the users. ©2012 Society for Imaging Science and Technology.
+C1  - Copenhagen
+C3  - Arch. - Preserv. Strateg. Imaging Technol. Cult. Herit. Inst. Mem. Organ. - Final Program Proc.
+DA  - 2012///
+PY  - 2012
+SP  - 48
+EP  - 53
+LA  - English
+SN  - 9780892083008 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84876739050&partnerID=40&md5=58f35f22cb351eca4adb61ada6711027
+DB  - Scopus
+Y2  - 2012/06/12/
+KW  - Automatically generated
+KW  - Continuous improvements
+KW  - Document-processing
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - High resolution image
+KW  - Historical newspapers
+KW  - Imaging techniques
+KW  - Metadata
+KW  - Newsprint
+KW  - Open systems
+KW  - Open-source solutions
+KW  - Optical character recognition
+KW  - Optical character recognition engines
+KW  - SCOPUS
+KW  - Segmentation analysis
+KW  - Societies and institutions
+ER  - 
+
+TY  - CONF
+TI  - Character enhancement for historical newspapers printed using hot metal typesetting
+AU  - Konya, I.
+AU  - Eickeler, S.
+AU  - Seibert, C.
+T2  - 11th International Conference on Document Analysis and Recognition, ICDAR 2011
+A4  - TC10 (Graph. Recogn.) TC11 (Read. Syst.) (IAPR); Chinese Academy of Sciences; NSFC; FUJITSU; Hanvon Technology
+AB  - We propose a new method for an effective removal of the printing artifacts occurring in historical newspapers which are caused by problems in the hot metal typesetting, a widely used printing technique in the late 19th and early 20th century. Such artifacts typically appear as thin lines between single characters or glyphs and are in most cases connected to one of the neighboring characters. The quality of the optical character recognition (OCR) is heavily influenced by this type of printing artifacts. The proposed method is based on the detection of (near) vertical segments by means of directional single-connected chains (DSCC). In order to allow the robust processing of complex decorative fonts such as Fraktur, a set of rules is introduced. This allows us to successfully process prints exhibiting artifacts with a stroke width even higher than that of most thin characters stems. We evaluate our approach on a dataset consisting of old newspaper excerpts printed using Fraktur fonts. The recognition results on the enhanced images using two independent OCR engines (ABBYY Fine Reader and Tesseract) show significant improvements over the originals. © 2011 IEEE.
+C1  - Beijing
+C3  - Proc. Int. Conf. Doc. Anal. Recognit.
+DA  - 2011///
+PY  - 2011
+DO  - 10.1109/ICDAR.2011.190
+SP  - 936
+EP  - 940
+LA  - English
+SN  - 15205363 (ISSN); 9780769545202 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-82355168372&doi=10.1109%2fICDAR.2011.190&partnerID=40&md5=bf1ed4cf1a0ca788232b9e7813020465
+DB  - Scopus
+Y2  - 2011/09/18/
+KW  - 20th century
+KW  - character enhancement
+KW  - Data processing
+KW  - Data sets
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical documents
+KW  - Historical documents
+KW  - Historical newspapers
+KW  - Hot metal
+KW  - hot metal typesetting
+KW  - Newsprint
+KW  - OCR
+KW  - OCR engines
+KW  - Old newspapers
+KW  - Optical character recognition
+KW  - Printing techniques
+KW  - retro-digitization
+KW  - Robust processing
+KW  - SCOPUS
+KW  - Set of rules
+KW  - Tesseract
+KW  - Typesetting
+ER  - 
+
+TY  - JOUR
+TI  - Information retrieval from historical newspaper collections in highly inflectional languages: A query expansion approach
+AU  - Järvelin, A.
+AU  - Keskustalo, H.
+AU  - Sormunen, E.
+AU  - Saastamoinen, M.
+AU  - Kettunen, K.
+T2  - Journal of the Association for Information Science and Technology
+AB  - The aim of the study was to test whether query expansion by approximate string matching methods is beneficial in retrieval from historical newspaper collections in a language rich with compounds and inflectional forms (Finnish). First, approximate string matching methods were used to generate lists of index words most similar to contemporary query terms in a digitized newspaper collection from the 1800s. Top index word variants were categorized to estimate the appropriate query expansion ranges in the retrieval test. Second, the effectiveness of approximate string matching methods, automatically generated inflectional forms, and their combinations were measured in a Cranfield-style test. Finally, a detailed topic-level analysis of test results was conducted. In the index of historical newspaper collection the occurrences of a word typically spread to many linguistic and historical variants along with optical character recognition (OCR) errors. All query expansion methods improved the baseline results. Extensive expansion of around 30 variants for each query word was required to achieve the highest performance improvement. Query expansion based on approximate string matching was superior to using the inflectional forms of the query words, showing that coverage of the different types of variation is more important than precision in handling one type of variation. © 2015 ASIS&T
+DA  - 2016///
+PY  - 2016
+DO  - 10.1002/asi.23379
+VL  - 67
+IS  - 12
+SP  - 2928
+EP  - 2946
+J2  - J. Assoc. Soc. Inf. Sci. Technol.
+LA  - English
+SN  - 23301635 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84995514103&doi=10.1002%2fasi.23379&partnerID=40&md5=12fa38eeabf192ce98b1158889c02054
+DB  - Scopus
+KW  - Approximate string matching
+KW  - Automatic test pattern generation
+KW  - Automatically generated
+KW  - Baseline results
+KW  - Character recognition
+KW  - error
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical newspapers
+KW  - human
+KW  - human experiment
+KW  - information retrieval
+KW  - Information retrieval
+KW  - language
+KW  - MANAGEMENT
+KW  - N-GRAMS
+KW  - Newsprint
+KW  - Optical character recognition
+KW  - Optical character recognition (OCR)
+KW  - publication
+KW  - query expansion
+KW  - Query expansion
+KW  - query processing
+KW  - Query processing
+KW  - Query terms
+KW  - Query words
+KW  - recognition
+KW  - SCOPUS
+KW  - TEXT RETRIEVAL
+KW  - WORDS
+ER  - 
+
+TY  - CONF
+TI  - Retrieving and Combining Repeated Passages to Improve OCR
+AU  - Xu, S.
+AU  - Smith, D.
+T2  - 17th ACM/IEEE Joint Conference on Digital Libraries, JCDL 2017
+A4  - Elsevier; et al.; IEEE; Libraries Bloomington; University of Toronto Faculty of Information; University of Toronto Libraries
+AB  - We present a novel approach to improve the output of optical character recognition (OCR) systems by first detecting duplicate passages in their output and then performing consensus decoding combined with a language model. This approach is orthogonal to, and may be combined with, previously proposed methods for combining the output of different OCR systems on the same image or the output of the same OCR system on differently processed images of the same text. It may also be combined with methods to estimate the parameters of a noisy channel model of OCR errors. Additionally, the current method generalizes previous proposals for a simple majority- vote combination of known duplicated texts. On a corpus of historical newspapers, an annotated set of clusters has a baseline word error rate (WER) of 33%. A majority vote procedure reaches 23% on passages where one or more duplicates were found, and consensus decoding combined with a language model achieves 18% WER. In a separate experiment, newspapers were aligned to very widely reprinted texts such as State of the Union speeches, producing clusters with up to 58 witnesses. Beyond 20 witnesses, majority vote outperforms language model rescoring, though the gap between them is much less in this experiment. © 2017 IEEE.
+C3  - Proc. ACM IEEE Joint Conf. Digit. Libr.
+DA  - 2017///
+PY  - 2017
+DO  - 10.1109/JCDL.2017.7991587
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 15525996 (ISSN); 9781538638613 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85028025577&doi=10.1109%2fJCDL.2017.7991587&partnerID=40&md5=f9f4917706b39d9661899847fb81cc67
+DB  - Scopus
+Y2  - 2017/06/19/
+KW  - Character recognition
+KW  - Computational linguistics
+KW  - Decoding
+KW  - Digital libraries
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical newspapers
+KW  - Language model
+KW  - Majority vote
+KW  - Newsprint
+KW  - Noisy channel models
+KW  - Optical character recognition
+KW  - Optical character recognition (OCR)
+KW  - Processed images
+KW  - SCOPUS
+KW  - Simple majority
+KW  - Speech recognition
+KW  - Word error rate
+ER  - 
+
+TY  - CONF
+TI  - Extraction of distinctive keywords and articles from untranscribed historical newspaper images
+AU  - Ito, S.
+AU  - Terasawa, K.
+T2  - International Workshop on Advanced Imaging Technology, IWAIT 2020
+A2  - Lau P.Y.
+A2  - Shobri M.
+AB  - This paper proposes a novel approach to extract distinctive keywords from historical newspaper images without using character recognition. We converted an image of the text block on an entire newspaper page into a sequence of codes based on discretization of the feature vectors, an approach that eliminated the errors introduced by optical character recognition (OCR). This conversion makes it possible to analyze untranscribed newspaper images by using text-processing methods. We examined the daily occurrence of every tri-gram string, and extracted strings with a dense appearance as distinctive keywords. In addition, we highlighted articles that contain distinctive keywords as distinctive articles. The proposed method was evaluated on an archive of Japanese newspaper images published in the 19th century, and the results were promising. © 2020 SPIE CCC.
+C3  - Proc SPIE Int Soc Opt Eng
+DA  - 2020///
+PY  - 2020
+DO  - 10.1117/12.2566612
+VL  - 11515
+LA  - English
+PB  - SPIE
+SN  - 0277786X (ISSN); 9781510638358 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85086628923&doi=10.1117%2f12.2566612&partnerID=40&md5=d5438781affedd4d6c417b7097acab60
+DB  - Scopus
+Y2  - 2020/01/05/
+KW  - 19th century
+KW  - Discretizations
+KW  - Feature vectors
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical documents
+KW  - Historical documents
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - Imaging techniques
+KW  - keyword extraction
+KW  - Keyword extraction
+KW  - Newsprint
+KW  - Optical character recognition
+KW  - Optical character recognition (OCR)
+KW  - SCOPUS
+KW  - Text processing
+KW  - Tri grams
+ER  - 
+
+TY  - CONF
+TI  - Segmenting messy text: Detecting boundaries in text derived from historical newspaper images
+AU  - Anderson, C.
+AU  - Crone, P.
+T2  - 25th International Conference on Pattern Recognition, ICPR 2020
+AB  - Text segmentation, the task of dividing a document into sections, is often a prerequisite for performing additional natural language processing tasks. Existing text segmentation methods have typically been developed and tested using clean, narrative-style text with segments containing distinct topics. Here we consider a challenging text segmentation task: dividing newspaper marriage announcement lists into units of one announcement each. In many cases the information is not structured into sentences, and adjacent segments are not topically distinct from each other. In addition, the text of the announcements, which is derived from images of historical newspapers via optical character recognition, contains many typographical errors. As a result, these announcements are not amenable to segmentation with existing techniques. We present a novel deep learning-based model for segmenting such text and show that it significantly outperforms an existing state-of-the-art method on our task. © 2020 IEEE
+C3  - Proc. Int. Conf. Pattern Recognit.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1109/ICPR48806.2021.9413279
+SP  - 5543
+EP  - 5550
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 10514651 (ISSN); 9781728188089 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85110522850&doi=10.1109%2fICPR48806.2021.9413279&partnerID=40&md5=36c913ef41ad50aa0202f5d15965e617
+DB  - Scopus
+Y2  - 2021/01/10/
+KW  - deep learning
+KW  - Deep learning
+KW  - document analysis
+KW  - Document analysis
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical newspapers
+KW  - information extraction
+KW  - Information extraction
+KW  - Learning Based Models
+KW  - natural language processing
+KW  - Natural language processing
+KW  - NAtural language processing
+KW  - Natural language processing systems
+KW  - Newsprint
+KW  - Optical character recognition
+KW  - SCOPUS
+KW  - State-of-the-art methods
+KW  - text mining
+KW  - Text mining
+KW  - text segmentation
+KW  - Text segmentation
+KW  - Typographical errors
+ER  - 
+
+TY  - JOUR
+TI  - Visual domain knowledge-based multimodal zoning for textual region localization in noisy historical document images
+AU  - Pack, C.
+AU  - Soh, L.-K.
+AU  - Lorang, E.
+T2  - Journal of Electronic Imaging
+AB  - Document layout analysis, or zoning, is important for textual content analysis such as optical character recognition. Zoning document images such as digitized historical newspaper pages are challenging due to noise and quality of the document images. Recently, effective data-driven approaches, such as leveraging deep learning, have been proposed, albeit with the concern of requiring larger training data and thus incurring additional cost of ground truthing. We propose a zoning solution by incorporating a knowledge-driven document representation, gravity map, into a multimodal deep learning framework to reduce the amount of time and data required for training. We first generate a gravity map for each image, considering the centroid distance and area between a cell in a Voronoi tessellation and its content to encode visual domain knowledge of a zoning task. Second, we inject the gravity maps into a deep convolution neural network (DCNN) during training, as an additional modality to boost performance. We report on two investigations using two state-of-the-art DCNN architectures and three datasets: two sets of historical newspapers and a set of born-digital contemporary documents. Evaluations show that our solution achieved comparable segmentation accuracy using fewer training epochs and less training data compared to a naïve training scheme. © 2021 SPIE and IS&T.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1117/1.JEI.30.6.063028
+VL  - 30
+IS  - 6
+J2  - J. Electron. Imaging
+LA  - English
+SN  - 10179909 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85122680308&doi=10.1117%2f1.JEI.30.6.063028&partnerID=40&md5=41c5af1b2f0dcef5c9a6d42b754cee6e
+DB  - Scopus
+KW  - ALGORITHM
+KW  - Deep learning
+KW  - document image processing
+KW  - Document image processing
+KW  - Document images
+KW  - Domain knowledge
+KW  - Domain Knowledge
+KW  - Gravity maps
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical newspapers
+KW  - image analysis
+KW  - image decomposition
+KW  - Image decomposition
+KW  - image recognition
+KW  - Image recognition
+KW  - image segmentation
+KW  - Image segmentation
+KW  - Image-analysis
+KW  - Images segmentations
+KW  - Multi-modal
+KW  - Newsprint
+KW  - Optical character recognition
+KW  - Optical data processing
+KW  - SCOPUS
+KW  - SEGMENTATION
+KW  - Training data
+KW  - Zoning
+ER  - 
+
+TY  - JOUR
+TI  - Optical character recognition quality affects subjective user perception of historical newspaper clippings
+AU  - Kettunen, K
+AU  - Keskustalo, H
+AU  - Kumpulainen, S
+AU  - Paakkonen, T
+AU  - Rautiainen, J
+T2  - JOURNAL OF DOCUMENTATION
+AB  - PurposeThis study aims to identify user perception of different qualities of optical character recognition (OCR) in texts. The purpose of this paper is to study the effect of different quality OCR on users' subjective perception through an interactive information retrieval task with a collection of one digitized historical Finnish newspaper.Design/methodology/approachThis study is based on the simulated work task model used in interactive information retrieval. Thirty-two users made searches to an article collection of Finnish newspaper Uusi Suometar 1869-1918 which consists of ca. 1.45 million autosegmented articles. The article search database had two versions of each article with different quality OCR. Each user performed six pre-formulated and six self-formulated short queries and evaluated subjectively the top 10 results using a graded relevance scale of 0-3. Users were not informed about the OCR quality differences of the otherwise identical articles.FindingsThe main result of the study is that improved OCR quality affects subjective user perception of historical newspaper articles positively: higher relevance scores are given to better-quality texts.Originality/valueTo the best of the authors' knowledge, this simulated interactive work task experiment is the first one showing empirically that users' subjective relevance assessments are affected by a change in the quality of an optically read text.
+DA  - 2023/05/23/
+PY  - 2023
+DO  - 10.1108/JD-01-2023-0002
+VL  - 79
+IS  - 7
+SP  - 137
+EP  - 156
+LA  - English
+SN  - 0022-0418
+AN  - WOS:000998322900001
+KW  - Evaluation
+KW  - Finnish
+KW  - HEMDIG - WOS
+KW  - Historical newspapers
+KW  - INFORMATION-RETRIEVAL
+KW  - Interactive information retrieval
+KW  - OCR quality
+KW  - PAPER
+KW  - Simulated work task
+ER  - 
+
+TY  - CONF
+TI  - Keep, Change or Delete? Setting up a Low Resource OCR Post-correction Framework for a Digitized Old Finnish Newspaper Collection
+AU  - Kettunen, K
+T2  - DIGITAL LIBRARIES ON THE MOVE, IRCDL 2015
+A2  - Calvanese, D
+A2  - DeNart, D
+A2  - Tasso, C
+AB  - There has been a huge interest in digitization of both hand-written and printed historical material in the last 10-15 years and most probably this interest will only increase in the ongoing Digital Humanities era. As a result of the interest we have lots of digital historical document collections available and will have more of them in the future.
+The National Library of Finland has digitized a large proportion of the historical newspapers published in Finland between 1771 and 1910 [1-3]; the collection, Digi, can be reached at http://digi.kansalliskirjasto.fi/. This collection contains approximately 1.95 million pages in Finnish and Swedish, the Finnish part being about 2.385 billion words. In the output of the Optical Character Recognition (OCR) process, errors are common especially when the texts are printed in the Gothic (Fraktur, blackletter) typeface. The errors lower the usability of the corpus both from the point of view of human users as well as considering possible elaborated text mining applications. Automatic spell checking and correction of the data is also difficult due to the historical spelling variants and low OCR quality level of the material.
+This paper discusses the overall situation of the intended post-correction of the Digi content and evaluation of the correction. We shall present results of our post-correction trials, and discuss some aspects of methodology of evaluation. These are the first reported evaluation results of post-correction of the data and the experiences will be used in planning of the post-correction of the whole material.
+DA  - 2016///
+PY  - 2016
+DO  - 10.1007/978-3-319-41938-1_11
+VL  - 612
+SP  - 95
+EP  - 103
+LA  - English
+SN  - 1865-0929
+AN  - WOS:000389719300011
+KW  - Evaluation
+KW  - HEMDIG - WOS
+KW  - Historical newspaper collections
+KW  - OCR post-correction
+KW  - TEXT
+ER  - 
+
+TY  - CONF
+TI  - DuoSearch: A Novel Search Engine for Bulgarian Historical Documents
+AU  - Beshirov, A
+AU  - Hadzhieva, S
+AU  - Koychev, I
+AU  - Dobreva, M
+T2  - ADVANCES IN INFORMATION RETRIEVAL, PT II
+A2  - Hagen, M
+A2  - Verberne, S
+A2  - Macdonald, C
+A2  - Seifert, C
+A2  - Balog, K
+A2  - Norvag, K
+A2  - Setty, V
+AB  - Search in collections of digitised historical documents is hindered by a two-prong problem, orthographic variety and optical character recognition (OCR) mistakes. We present a new search engine for historical documents, DuoSearch, which uses ElasticSearch and machine learning methods based on deep neural networks to offer a solution to this problem. It was tested on a collection of historical newspapers in Bulgarian from the mid-19th to the mid-20th century. The system provides an interactive and intuitive interface for the end-users allowing them to enter search terms in modern Bulgarian and search across historical spellings. This is the first solution facilitating the use of digitised historical documents in Bulgarian.
+C3  - University of Sofia
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-030-99739-7_31
+VL  - 13186
+SP  - 265
+EP  - 269
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000787788000031
+KW  - BERT
+KW  - HEMDIG - WOS
+KW  - Historical newspapers search engine
+KW  - Orthographic variety
+KW  - Post-OCR text correction
+ER  - 
+
+TY  - CONF
+TI  - Understanding People Relationship: Analysis of Digitised Historical Newspaper Articles
+AU  - Torao-Pingi, S
+AU  - Nayak, R
+T2  - AI 2015: ADVANCES IN ARTIFICIAL INTELLIGENCE
+A2  - Pfahringer, B
+A2  - Renz, J
+AB  - The study of historical persons and their relationships gives an insight into the lives of people and the way society functioned in early times. Such information concerning Australian history can be gleaned from Trove's digitized collection of historical newspapers (1803-1954). This research aims to mine Trove's articles using closed and maximal association rules mining along with visualization tools to discover, conceptualize and understand the type, size and complexity of the notable relationships that existed between persons in historical Australia. Before the articles could be mined, they needed vigorous cleaning. Given the data's source, type and extraction methods, estimated word-error rates were at 50-75 %. Pre-processing efforts were aimed at reducing errors originating from optical character recognition (OCR), natural language processing and some co-referencing both within and between articles. Only after cleaning were the datasets able to return interesting associations at higher support thresholds.
+C3  - University of Papua New Guinea
+DA  - 2015///
+PY  - 2015
+DO  - 10.1007/978-3-319-26350-2_51
+VL  - 9457
+SP  - 572
+EP  - 588
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000367683000051
+KW  - Association rule mining
+KW  - HEMDIG - WOS
+KW  - Natural language processing
+KW  - OCR errors
+ER  - 
+
+TY  - CONF
+TI  - How to Improve Optical Character Recognition of Historical Finnish Newspapers Using Open Source Tesseract OCR Engine - Final Notes on Development and Evaluation
+AU  - Koistinen, M
+AU  - Kettunen, K
+AU  - Kervinen, J
+T2  - HUMAN LANGUAGE TECHNOLOGY. CHALLENGES FOR COMPUTER SCIENCE AND LINGUISTICS, LTC 2017
+A2  - Vetulani, Z
+A2  - Paroubek, P
+A2  - Kubis, M
+AB  - The current paper presents work that has been carried out in the National Library of Finland (NLF) to improve optical character recognition (OCR) quality of the historical Finnish newspaper collection 1771-1910. Evaluation results reported in the paper are based mainly on a 500 000 word sample of the Finnish language part of the whole collection. The sample has three different parallel parts: a manually corrected ground truth version, original OCR with ABBYY FineReader v. 7 or v. 8, and an ABBYY FineReader v. 11 re-OCRed version for comparison with Tesseract's OCR. Using this sample and its page image originals we have developed a re-OCRing procedure using the open source software package Tesseract v. 3.04.01. Our method achieved initially 27.48% improvement vs. ABBYY FineReader 7 or 8 and 9.16% improvement vs. ABBYY FineReader 11 on document level. On word level our method achieved 36.25% improvement vs. ABBYY FineReader 7 or 8 and 20.14% improvement vs. ABBYY FineReader 11. Our final precision and recall results on word level show clear improvement in the quality: recall is 76.0 and precision 92.0 in comparison to GT OCR. Other measures, such as recognizability of words with a morphological analyzer and character accuracy rate, show also steady improvement after re-OCRing.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1007/978-3-030-66527-2_2
+VL  - 12598
+SP  - 17
+EP  - 30
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000886643200002
+KW  - Evaluation
+KW  - Finnish
+KW  - HEMDIG - WOS
+KW  - Historical newspaper collections
+KW  - Optical character recognition
+KW  - POST-CORRECTION
+KW  - RETRIEVAL
+ER  - 
+
