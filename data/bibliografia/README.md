@@ -13,7 +13,7 @@ Ver #3
    - [x] OLR
    - [x] Projetos similares
 - [x] Organizar etiquetas
-- [ ] Criar biblioteca pública
+- [x] Criar biblioteca pública
 
 ### Levantamento bibliográfico no Scopus
 

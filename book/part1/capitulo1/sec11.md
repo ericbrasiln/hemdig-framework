@@ -32,7 +32,7 @@ Listo abaixo os parâmetros utilizados para cada busca, assim como o número de 
 
 ## Busca no Web of Science
 
-A busca no Web of Science foi realizada no dia 01/09/2023 para cada um dos parâmetros listados no item {ref}`par-wos`. Utilizamos a ferramenta de construção de busca avançada -- *Advanced Search Query Builder* -- e elaboramos a busca com os parâmetros apresentados no item {ref}`par-wos`. Para as três buscas realizadas, utilizamos nos campos *Title*, *Abstract* e *Author Keywords* os mesmo termos e expressões da busca realizada no Scopus.
+A busca no Web of Science foi realizada no dia 01/09/2023 para cada um dos parâmetros listados no item {ref}`par-wos`. Utilizamos a ferramenta de construção de busca avançada -- *Advanced Search Query Builder* -- e, para as três buscas realizadas, utilizamos nos campos *Title*, *Abstract* e *Author Keywords* os mesmo termos e expressões da busca realizada no Scopus.
 
 Os resultados de cada busca foram exportados no formato RIS, com a opção *Full Record* e posteriormente importados no Zotero.
 
@@ -70,11 +70,11 @@ Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG(pt)** com os r
 Print da biblioteca *História Digital* no Zotero.
 ```
 
-Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis na pasta [`bibliografia/SCOPUS/`](../../../data/bibliografia/SCOPUS) e [`bibliografia/WoS/`](../../../data/bibliografia/WOS) do repositório da pesquisa.
+Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis na pasta [`bibliografia/SCOPUS/`](../../../data/bibliografia/SCOPUS/README.md) e [`bibliografia/WoS/`](../../../data/bibliografia/WOS/README.md) do repositório da pesquisa.
 
 Os ficheiros `.bib` e `.ris` podem ser importados diretamente no Zotero, enquanto o `.csv` pode ser aberto em programas de tratamento e visualização de dados tabulares, como o *LibreOffice Calc* e *Excel*, e organizado de acordo com as necessidades do pesquisador.
 
-Além da busca nas bases Scopus e WoS, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e podem ser acessados na pasta [`bibliografia/`](../../../data/bibliografia/) do repositório da pesquisa.
+Além da busca nas bases Scopus e WoS, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e podem ser acessados na pasta [`bibliografia/`](../../../data/bibliografia/README.md) do repositório da pesquisa.
 
 
 [^1]: Ver [Issue #9](https://github.com/ericbrasiln/hemdig-framework/issues/9) no repositório da pesquisa.
