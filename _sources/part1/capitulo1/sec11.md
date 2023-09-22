@@ -1,6 +1,6 @@
 # 1.1. Levantamento bibliográfico nas bases Scopus e Web of Science
 
-No exemplo utilizado aqui, realizei levantamento bibliográfico na base Scopus[^1] e Web of Science, buscando trabalhos específicos sobre reconhecimento de caracteres e layout, assim como trabalhos sobre jornais históricos e interfaces de usuário.
+No exemplo utilizado aqui, realizei levantamento bibliográfico na base *Scopus*[^1] e *Web of Science*, buscando trabalhos específicos sobre reconhecimento de caracteres e layout, assim como trabalhos sobre jornais históricos e interfaces de usuário.
 
 O acesso a ambos os repositórios foi feito a partir da plataforma [Periódicos Capes](https://www-periodicos-capes-gov-br.ez373.periodicos.capes.gov.br), logado em minha conta institucional da Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB).
 
@@ -8,11 +8,11 @@ O acesso a ambos os repositórios foi feito a partir da plataforma [Periódicos 
 
 A busca foi realizada no dia 04/11/2020 para cada um dos parâmetros listados no item {ref}`par-scopus`.
 
-A opção foi buscar cada combinação de termos específicos nas categorias *Title*, *Abstract* e *Keywords* (*TITLE-ABS-KEY*). Utilizei o operador lógico *OR* para combinar termos similares e o operador *AND* para combinar termos de categorias diferentes. Em alguns casos utilizei o caractere * para buscar termos que poderiam ter pequenas variações, como o caso de *historical newspaper* e *historical newspapers*: ao utilizar o caractere * no final da palavra, a busca retornaria resultados que contivessem a palavra *newspaper* ou *newspapers*.
+A opção foi buscar cada combinação de termos específicos nas categorias *Title*, *Abstract* e *Keywords* (*TITLE-ABS-KEY*). Utilizei o operador lógico *OR* para combinar termos similares e o operador *AND* para combinar termos de categorias diferentes. Em alguns casos utilizei o caractere * para buscar termos que poderiam possuir pequenas variações, como o caso de *historical newspaper* e *historical newspapers*: ao utilizar o caractere * no final da palavra, a busca retornaria resultados que contivessem a palavra *newspaper* ou *newspapers*.
 
 Em seguida, os resultados foram exportados no formato RIS. Esse formato poder ser importado diretamente no Zotero, como veremos a seguir.
 
-O Scopus possui inúmeras possibilidades de filtros e opções de exportação. Para mais informações, consulte a [página de ajuda](https://service.elsevier.com/app/answers/detail/a_id/11423/c/10546/supporthub/scopus/kw/search/).
+O *Scopus* possui inúmeras possibilidades de filtros e opções de exportação. Para mais informações, consulte a [página de ajuda](https://service.elsevier.com/app/answers/detail/a_id/11423/c/10546/supporthub/scopus/kw/search/).
 
 (par-scopus)=
 ### Parâmetros utilizados no Scopus
@@ -32,11 +32,11 @@ Listo abaixo os parâmetros utilizados para cada busca, assim como o número de 
 
 ## Busca no Web of Science
 
-A busca no Web of Science foi realizada no dia 01/09/2023 para cada um dos parâmetros listados no item {ref}`par-wos`. Utilizamos a ferramenta de construção de busca avançada -- *Advanced Search Query Builder* -- e, para as três buscas realizadas, utilizamos nos campos *Title*, *Abstract* e *Author Keywords* os mesmo termos e expressões da busca realizada no Scopus.
+A busca no *Web of Science* foi realizada no dia 01/09/2023 para cada um dos parâmetros listados no item {ref}`par-wos`. Utilizamos a ferramenta de construção de busca avançada -- *Advanced Search Query Builder* -- e, para as três buscas realizadas, utilizamos nos campos *Title*, *Abstract* e *Author Keywords* os mesmo termos e expressões da busca realizada no *Scopus*.
 
 Os resultados de cada busca foram exportados no formato RIS, com a opção *Full Record* e posteriormente importados no Zotero.
 
-Assim como no Scopus, o WoS possuir variados filtros, parâmetros e opções de busca, exportação e análise dos resultados. Para mais informações sobre o Advanced Search Query Builder, consulte a [página de ajuda](https://webofscience.help.clarivate.com/Content/advanced-search.html).
+Assim como no *Scopus*, o *Web of Science* possui variados filtros, parâmetros e opções de busca, exportação e análise dos resultados. Para mais informações sobre o *Advanced Search Query Builder*, consulte a [página de ajuda](https://webofscience.help.clarivate.com/Content/advanced-search.html).
 
 (par-wos)=
 ### Parâmetros utilizados no Web of Science
@@ -70,11 +70,11 @@ Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG(pt)** com os r
 Print da biblioteca *História Digital* no Zotero.
 ```
 
-Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis na pasta [`bibliografia/SCOPUS/`](../../../data/bibliografia/SCOPUS/README.md) e [`bibliografia/WoS/`](../../../data/bibliografia/WOS/README.md) do repositório da pesquisa.
+Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis no diretório de dados da pesquisa: [Scopus](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/data/bibliografia/SCOPUS) e [Web of Science](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/data/bibliografia/WOS) do repositório da pesquisa.
 
 Os ficheiros `.bib` e `.ris` podem ser importados diretamente no Zotero, enquanto o `.csv` pode ser aberto em programas de tratamento e visualização de dados tabulares, como o *LibreOffice Calc* e *Excel*, e organizado de acordo com as necessidades do pesquisador.
 
-Além da busca nas bases Scopus e WoS, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e podem ser acessados na pasta [`bibliografia/`](../../../data/bibliografia/README.md) do repositório da pesquisa.
+Além da busca nas bases *Scopus* e *Web of Science*, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e também podem ser acessadas no diretório [bibliografia]](../../../data/bibliografia/README.md) no repositório da pesquisa.
 
 
 [^1]: Ver [Issue #9](https://github.com/ericbrasiln/hemdig-framework/issues/9) no repositório da pesquisa.

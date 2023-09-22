@@ -183,7 +183,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2ª fase - Crítica dos Acervos</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../part2/part2-intro.html">Em que consiste a segunda fase?</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../part2/capitulo4/cap4.html">4. Os casos de estudo: HDB, BND-PT e HML</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../part2/capitulo4/cap4.html">4. Os casos de estudo: Hemeroteca Digital Brasileira, Biblioteca Nacional Digital de Portugal e Hemeroteca Digital da Hemeroteca Municipal de Lisboa</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo4/sec41.html">4.1. Análise dos dados de periódicos da Hemeroteca Digital Brasileira da Biblioteca Nacional</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo4/sec42.html">4.2. Análise dos dados de periódicos da Biblioteca Nacional Digital de Portugal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../part2/capitulo4/sec43.html">4.3. Análise dos dados de periódicos da Hemeroteca Municipal de Lisboa</a></li>
@@ -498,6 +498,7 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicao-da-licenca-de-uso">Definição da licença de uso</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicao-dos-repositorios">Definição dos repositórios</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
 </ul>
             </nav>
         </div>
@@ -514,8 +515,8 @@ document.write(`
 <p>Além do levantamento bibliográfico e formação técnica mínima, como indicado nos capítulos <a class="reference internal" href="../capitulo1/cap1.html"><span class="doc std std-doc">1</span></a> e <a class="reference internal" href="../capitulo2/cap2.html"><span class="doc std std-doc">2</span></a>, é importante definirmos, mesmo que de forma geral e preliminar, o planejamento específico voltado para documentação, organização, preservação e licenciamento da pesquisa.</p>
 <section id="definicao-das-estrategias-de-documentacao">
 <h2>Definição das estratégias de documentação<a class="headerlink" href="#definicao-das-estrategias-de-documentacao" title="Permalink to this heading">#</a></h2>
-<p>A capacidade de preservar, recuperar, compartilhar e reutilizar os dados de uma pesquisa passa sobremaneira sobre a forma como esses dados são documentados.</p>
-<p>Segundo James Baker:</p>
+<p>A capacidade de preservar, recuperar, compartilhar e reutilizar os dados de uma pesquisa passa sobremaneira pela a forma como esses dados são documentados.</p>
+<p>Segundo James Baker <span id="id1">[<a class="reference internal" href="#id8" title="James Baker. Preservar os seus dados de investigação. The Programming Historian em português, January 2021. URL: https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao (visited on 2021-05-12), doi:10.46430/phpt0001.">Baker, 2021</a>]</span>:</p>
 <blockquote>
 <div><p>O propósito da documentação é capturar o processo da criação de dados, as alterações ocorridas e o conhecimento tácito associado.</p>
 </div></blockquote>
@@ -523,17 +524,32 @@ document.write(`
 <p>Alguns pontos gerais são importantes de serem avaliados:</p>
 <ol class="arabic simple">
 <li><p>escrever explicitamente os critérios e os padrões adotados.</p></li>
-<li><p>utilizar formatos de texto simples e multiplataforma</p></li>
-<li><p>incluir <code class="docutils literal notranslate"><span class="pre">README.md</span></code> ou <code class="docutils literal notranslate"><span class="pre">README.txt</span></code> em cada diretório explicitando seu conteúdo</p></li>
+<li><p>utilizar formatos de texto simples e multiplataforma, como <code class="docutils literal notranslate"><span class="pre">txt</span></code>, <code class="docutils literal notranslate"><span class="pre">md</span></code> e <code class="docutils literal notranslate"><span class="pre">csv</span></code>;</p></li>
+<li><p>incluir <code class="docutils literal notranslate"><span class="pre">README.md</span></code> ou <code class="docutils literal notranslate"><span class="pre">README.txt</span></code> em cada diretório explicitando seu conteúdo;</p></li>
 <li><p>padronizar nomeação de diretórios e ficheiros;</p></li>
 <li><p>pensar em formatos, padrões e convenções que sejam multiplataforma;</p></li>
-<li><p>registar suas decisões</p></li>
-<li><p>realizar a documentação de forma continuada, durante todo o processo de pesquisa.</p></li>
+<li><p>registar suas decisões;</p></li>
+<li><p>produzir a documentação de forma continuada, durante todo o processo de pesquisa.</p></li>
 </ol>
+<p>Sobre arquivos README, veja a documentação do <a class="reference external" href="https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">GitHub</a>. Aqui um exemplo de README explicando o conteúdo de um diretório: <a class="reference external" href="https://github.com/ericbrasiln/git-gh-workflow/blob/main/bibliography/README.md">README.md</a>.</p>
+<p>Imaginemos aqui um exemplo de estrutura de armazenamento de dados de um projeto de pesquisa.</p>
+<figure class="align-center" id="ex-ficheiro">
+<img alt="../../_images/ex_est_ficheiros.png" src="../../_images/ex_est_ficheiros.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Exemplo simples de estrutura de ficheiros e diretórios.</span><a class="headerlink" href="#ex-ficheiro" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Na imagem a seguir podemos ver a estrutura de diretórios e ficheiros utilizada nessa pesquisa:</p>
+<figure class="align-center" id="ex-hemdig">
+<img alt="../../_images/ex_est_hemdig.png" src="../../_images/ex_est_hemdig.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Estrutura de diretórios e ficheiros do repositório do HEMDIG(pt)</span><a class="headerlink" href="#ex-hemdig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <section id="sistema-de-controle-de-versoes">
 <h3>Sistema de controle de versões<a class="headerlink" href="#sistema-de-controle-de-versoes" title="Permalink to this heading">#</a></h3>
-<p>Uma das estratégias mais robustas de documentação e organização da pesquisa é a utilização de um sistema de controle de versões, como o Git. Apesar de possuírem uma curva de aprendizado mais acentuada, os SCVs são ferramentas poderosas para o controle das alterações e o registro das decisões e escolhas ao longo do processo de pesquisa.</p>
-<p>Em artigo recente publicado no Programming Historian, intitulado <em>Git</em>, explico o que é um SCV:</p>
+<p>Uma das estratégias mais robustas de documentação e organização da pesquisa é a utilização de um sistema de controle de versões, como o <a class="reference external" href="https://git-scm.com/">Git</a>. Apesar de possuírem uma curva de aprendizado mais acentuada, os SCVs são ferramentas poderosas para o controle das alterações e o registro das decisões e escolhas ao longo do processo de pesquisa.</p>
+<p>Em artigo recente publicado no <em>Programming Historian</em>, intitulado <em>Git como ferramenta metodológica em projetos de História (parte 1)</em>, explico o que é um SCV <span id="id2">[<a class="reference internal" href="#id12" title="Eric Brasil. Git como ferramenta metodológica em projetos de História (parte 1). The Programming Historian em português, 2023. doi:https://doi.org/10.46430/phpt0045.">Brasil, 2023</a>]</span>:</p>
 <blockquote>
 <div><p>Um SCV consiste em um sistema que registra as mudanças de um ficheiro ou conjunto de ficheiros ao longo do tempo, cada uma dessas mudanças é acompanhada de um conjunto de metadados (ou seja, informações sobre os dados), e te permite recuperar tanto esses dados quanto o estado em que se encontrava o seu projeto há época.</p>
 <p>É como se você possuísse uma máquina do tempo capaz de te levar de volta a qualquer ponto da história de mudanças da sua pesquisa.</p>
@@ -563,15 +579,15 @@ document.write(`
 </ol>
 <section id="zotero">
 <h3>Zotero<a class="headerlink" href="#zotero" title="Permalink to this heading">#</a></h3>
-<p>Como já indicamos no <a class="reference internal" href="../capitulo1/cap1.html"><span class="doc std std-doc">capitulo 1</span></a>, o Zotero é um software livre e gratuito, que permite a organização de referências bibliográficas. Desenvolvido por uma equipe liderada por historiadores/as, o Zotero é uma ferramenta já consolidada com milhares de usuários, possui muitos tutoriais e plugins para ampliar seus recursos.</p>
-<p>É possível inserir dados de muitas formas no Zotero, desde manualmente, até a importação em massa a partir de plataformas on-line e a partir de extensões em navegadores. Além disso, é possível integrá-lo ao seu editor de texto e ainda exportar dados para outros formatos, como CSV,BIB, RIS, etc.</p>
-<p>Assim, indicamos sua utilização para o gerenciamento daquilo que historiadores chamam de fontes secundárias, como livros, artigos, etc. Apesar de também ser possível utilizá-lo para armazenar e organizar fontes primárias, como documentos de arquivo, fotografias, etc., indicamos o uso do Tropy, que será apresentado a seguir, por se tratar de uma ferramenta desenvolvida especificamente para esse fim.</p>
+<p>Como já indicamos no <a class="reference internal" href="../capitulo1/cap1.html"><span class="doc std std-doc">capitulo 1</span></a>, o <em>Zotero</em> é um software livre e gratuito, que permite a organização de referências bibliográficas. Desenvolvido por uma equipe liderada por historiadores/as, o <em>Zotero</em> é uma ferramenta já consolidada com milhares de usuários, possui muitos tutoriais e plugins para ampliar seus recursos.</p>
+<p>É possível inserir dados de muitas formas no <em>Zotero</em>, desde manualmente, até a importação em massa a partir de plataformas on-line e a partir de extensões em navegadores. Além disso, é possível integrá-lo ao seu editor de texto e ainda exportar dados para outros formatos, como CSV,BIB, RIS, etc.</p>
+<p>Assim, indicamos sua utilização para o gerenciamento daquilo que historiadores chamam de fontes secundárias, como livros, artigos, etc. Apesar de também ser possível utilizá-lo para armazenar e organizar fontes primárias, como documentos de arquivo, fotografias, etc., indicamos o uso do <em>Tropy</em>, que será apresentado a seguir, por se tratar de uma ferramenta desenvolvida especificamente para esse fim.</p>
 </section>
 <section id="tropy">
 <h3>Tropy<a class="headerlink" href="#tropy" title="Permalink to this heading">#</a></h3>
-<p>Assim como o Zotero, o Tropy é um software livre e gratuito, que permite a organização de fotografias de documentos de arquivo, com a vantagem de permitir a anotação de metadados e a exportação de dados para outros formatos, como CSV e JSON e aceitar a importação de dados em uma ampla variedade de formatos.</p>
+<p>Assim como o <em>Zotero</em>, o <em>Tropy</em> é um software livre e gratuito, que permite a organização de fotografias de documentos de arquivo, com a vantagem de permitir a anotação de metadados e a exportação de dados para outros formatos, como CSV e JSON e aceitar a importação de dados em uma ampla variedade de formatos.</p>
 <p>Indicamos sua utilização como uma ferramenta de organização e documentação bastante prática, fácil de utilizar e desenvolvida pela mesma organização que desenvolveu o Zotero.</p>
-<p>Para saber mais sobre o Tropy, acesse: <a class="reference external" href="https://tropy.org/">https://tropy.org/</a></p>
+<p>Para saber mais sobre o <em>Tropy</em>, acesse: <a class="reference external" href="https://tropy.org/">https://tropy.org/</a></p>
 <p>Abaixo, podemos ver uma oficina ministrada por Anita Lucchesi, apresentando desde a instalação até a utilização do programa.</p>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
@@ -602,6 +618,22 @@ document.write(`
 <p>É importante ressaltar que parte significativa dos apontamentos feitos nessa seção não são exclusividade para pesquisas utilizando dados digitais. Pelo contrário, o cuidado e rigor metodológico na pesquisa histórica é um elemento formador da disciplina. Necessitamos, sem dúvida, incorporar outros elementos e ferramentas nesse processo, contudo, o mais importante é reforçar as práticas básicas de crítica e rigor metodológico que são a base de nossa disciplina.</p>
 <p>Ao utilizarmos acervos, ferramentas e métodos digitais, muitas vezes ficamos entre dois polos arriscados: de um lado, apenas emulamos práticas analógicas sobre dados digitais, deixando de refletir e aprofundar questões específicas, quase que naturalizando sua presença na prática da pesquisa, escrita e ensino; de outro lado, romantizamos as “novas tecnologias” e deixamos para trás as práticas e reflexões teórico-metodológicas que são distintivas da História.</p>
 <p>Aqui, busca um caminho de aproximação, justamente pensando na importância de adquirirmos conhecimentos técnicos atualizados e submeter-los à análise crítica e reflexão teórica.</p>
+</section>
+<hr class="docutils" />
+<section id="referencias">
+<h2>Referências<a class="headerlink" href="#referencias" title="Permalink to this heading">#</a></h2>
+<div class="docutils container" id="id3">
+<div role="list" class="citation-list">
+<div class="citation" id="id8" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">Bak21</a><span class="fn-bracket">]</span></span>
+<p>James Baker. Preservar os seus dados de investigação. <em>The Programming Historian em português</em>, January 2021. URL: <a class="reference external" href="https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao">https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao</a> (visited on 2021-05-12), <a class="reference external" href="https://doi.org/10.46430/phpt0001">doi:10.46430/phpt0001</a>.</p>
+</div>
+<div class="citation" id="id12" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">Bra23</a><span class="fn-bracket">]</span></span>
+<p>Eric Brasil. Git como ferramenta metodológica em projetos de História (parte 1). <em>The Programming Historian em português</em>, 2023. <a class="reference external" href="https://doi.org/https://doi.org/10.46430/phpt0045">doi:https://doi.org/10.46430/phpt0045</a>.</p>
+</div>
+</div>
+</div>
 </section>
 </section>
 
@@ -683,6 +715,7 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicao-da-licenca-de-uso">Definição da licença de uso</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicao-dos-repositorios">Definição dos repositórios</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
 </ul>
   </nav></div>
 
