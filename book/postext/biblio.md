@@ -3,6 +3,5 @@
 Página em construção.
 ```
 
-# Bibliografia
+# Bibliografia 
 
-Incluir bibliografia gerada com o Zotero.
