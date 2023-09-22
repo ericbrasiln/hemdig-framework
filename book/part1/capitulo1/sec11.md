@@ -70,7 +70,7 @@ Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG(pt)** com os r
 Print da biblioteca *História Digital* no Zotero.
 ```
 
-Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis no diretório de dados da pesquisa: [Scopus](../../../data/bibliografia/SCOPUS/) e [Web of Science](../../../data/bibliografia/WOS/) do repositório da pesquisa.
+Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis no diretório de dados da pesquisa: [Scopus](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/data/bibliografia/SCOPUS) e [Web of Science](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/data/bibliografia/WOS) do repositório da pesquisa.
 
 Os ficheiros `.bib` e `.ris` podem ser importados diretamente no Zotero, enquanto o `.csv` pode ser aberto em programas de tratamento e visualização de dados tabulares, como o *LibreOffice Calc* e *Excel*, e organizado de acordo com as necessidades do pesquisador.
 
