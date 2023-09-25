@@ -433,7 +433,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -449,6 +451,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -458,18 +468,37 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="danger admonition">
-<p class="admonition-title">Atenção</p>
-<p>Página em construção.</p>
-</div>
-<section class="tex2jax_ignore mathjax_ignore" id="scrapers-de-dados">
+  <section class="tex2jax_ignore mathjax_ignore" id="scrapers-de-dados">
 <h1>8. Scrapers de dados<a class="headerlink" href="#scrapers-de-dados" title="Permalink to this heading">#</a></h1>
-<p>Como coletar os dados de forma eficiente, precisa e controlada?</p>
-<ul class="simple">
-<li><p>APIs</p></li>
-<li><p>Dados abertos</p></li>
-<li><p>Scrapers específicos</p></li>
-</ul>
+<p>Para o desenvolvimento de pesquisas com métodos digitais, é necessário possuirmos formas eficientes, precisas e controladas de coletar dados remotamente. Para isso dependemos de fatores estruturais e políticos que muitas vezes escapam do controle do pesquisador individual.</p>
+<p>Primeiramente, é importante conhecer as políticas de dados abertos dos governos e instituições, para avaliar quais dados já estão disponíveis e como estão organizados, assim como conhecer as formas de acessá-los.</p>
+<p>Caso o repositório pesquisado possua uma página específica para download de dados em massa, o trabalho de pesquisa é sobremaneira otimizado.</p>
+<p>Outra forma de coletar dados é através de APIs, que são application programming interfaces, ou seja, interfaces de programação de aplicativos. As APIs representam uma forma automatizada de acessar dados de plataformas baseadas na web através de conjuntos de padrões de programação. Elas representam a forma mais eficiente para coletar dados, porém ainda são uma raridade nos repositórios dos arquivos públicos brasileiros e portugueses.</p>
+<p>Caso não tenhamos acesso aos dados através de APIs ou páginas para o download, precisamos desenvolver ferramentas de coleta específicas para cada repositório. Essas ferramentas são chamadas de scrapers, que são programas de computador que automatizam a coleta de dados de páginas da web. Ou seja, criar um programa para raspar os dados que precisamos diretamente da página da web pesquisada.</p>
+<blockquote>
+<div><p>A raspagem, dito de maneira bastante formal, é uma técnica importante para a coleta automatizada de dados on-line. É uma das práticas mais distintas associadas às formas atuais de pesquisa social digital, aquelas que são marcadas pelo surgimento da Internet e a nova onipresença dos dados digitais na vida social. Scrapers, para dizer de forma mais informal, são bits de código de software que possibilitam o download automático de dados da Web e a captura de algumas das grandes quantidades de dados sobre a vida social que estão disponíveis em plataformas on-line como Google, Twitter e Wikipédia. <span id="id1">[<a class="reference internal" href="#id20" title="Noortje Marres and Esther Weltevrede. Scraping the Social? Journal of Cultural Economy, 6(3):313–335, August 2013. Publisher: Routledge _eprint: https://doi.org/10.1080/17530350.2013.772070. URL: https://doi.org/10.1080/17530350.2013.772070 (visited on 2020-08-21), doi:10.1080/17530350.2013.772070.">Marres and Weltevrede, 2013</a>]</span></p>
+</div></blockquote>
+<p>Esta empreitada requer bastante conhecimento técnico e, por isso, vou apresentar nesse capítulo ferramentas específicas para os três repositórios que fazem parte desta pesquisa.</p>
+<p>É importante atentar para o seguinte:</p>
+<blockquote>
+<div><p>o web scraping não deve ser entendido apenas como uma técnica, mas também como uma maneira particular de lidar com a informação e o conhecimento. […] As escolhas e perguntas, interesses e abordagens do/a pesquisador/a determinam os critérios de coleta que serão implementados pelo programa. <span id="id2">[<a class="reference internal" href="#id17" title="Eric Brasil. pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História. História da Historiografia: International Journal of Theory and History of Historiography, 2022. doi:10.15848/hh.v15i40.1904.">Brasil, 2022</a>]</span></p>
+</div></blockquote>
+<hr class="docutils" />
+<section id="referencias">
+<h2>Referências<a class="headerlink" href="#referencias" title="Permalink to this heading">#</a></h2>
+<div class="docutils container" id="id3">
+<div role="list" class="citation-list">
+<div class="citation" id="id17" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">Bra22</a><span class="fn-bracket">]</span></span>
+<p>Eric Brasil. pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História. <em>História da Historiografia: International Journal of Theory and History of Historiography</em>, 2022. <a class="reference external" href="https://doi.org/10.15848/hh.v15i40.1904">doi:10.15848/hh.v15i40.1904</a>.</p>
+</div>
+<div class="citation" id="id20" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">MW13</a><span class="fn-bracket">]</span></span>
+<p>Noortje Marres and Esther Weltevrede. Scraping the Social? <em>Journal of Cultural Economy</em>, 6(3):313–335, August 2013. Publisher: Routledge _eprint: https://doi.org/10.1080/17530350.2013.772070. URL: <a class="reference external" href="https://doi.org/10.1080/17530350.2013.772070">https://doi.org/10.1080/17530350.2013.772070</a> (visited on 2020-08-21), <a class="reference external" href="https://doi.org/10.1080/17530350.2013.772070">doi:10.1080/17530350.2013.772070</a>.</p>
+</div>
+</div>
+</div>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -532,6 +561,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

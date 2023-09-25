@@ -531,7 +531,6 @@ document.write(`
 <span class="n">chrome_options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--disable-gpu&quot;</span><span class="p">)</span>
 <span class="n">chrome_options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--disable-extensions&quot;</span><span class="p">)</span>
 <span class="n">chrome_options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--no-sandbox&quot;</span><span class="p">)</span>
-<span class="c1"># chrome_options.add_argument(&quot;--start-maximized&quot;)</span>
 <span class="n">chrome_options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--window-size=1920,1080&quot;</span><span class="p">)</span>
 <span class="n">chrome_options</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36&quot;</span><span class="p">)</span>
 <span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Chrome</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">chrome_options</span><span class="p">)</span>
@@ -617,7 +616,6 @@ document.write(`
     <span class="n">countries_count</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="n">subjects_count</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="n">facets</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element</span><span class="p">(</span><span class="n">By</span><span class="o">.</span><span class="n">CSS_SELECTOR</span><span class="p">,</span><span class="s1">&#39;.show_facets&#39;</span><span class="p">)</span>
-    <span class="c1"># box = facets.find_element(By.CLASS_NAME, &#39;page_content p_right p_top facet&#39;)</span>
     <span class="n">rights</span> <span class="o">=</span> <span class="n">data_dict</span><span class="p">(</span><span class="n">facets</span><span class="p">,</span> <span class="s1">&#39;facet_Rights&#39;</span><span class="p">,</span> <span class="n">rights_count</span><span class="p">)</span>
     <span class="n">languages</span> <span class="o">=</span> <span class="n">data_dict</span><span class="p">(</span><span class="n">facets</span><span class="p">,</span> <span class="s1">&#39;facet_Language&#39;</span><span class="p">,</span> <span class="n">languages_count</span><span class="p">)</span>
     <span class="n">countries</span> <span class="o">=</span> <span class="n">data_dict</span><span class="p">(</span><span class="n">facets</span><span class="p">,</span> <span class="s1">&#39;facet_locationcountry&#39;</span><span class="p">,</span> <span class="n">countries_count</span><span class="p">)</span>

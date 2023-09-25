@@ -433,7 +433,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -449,6 +451,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -458,13 +468,42 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="danger admonition">
-<p class="admonition-title">Atenção</p>
-<p>Página em construção.</p>
-</div>
-<section class="tex2jax_ignore mathjax_ignore" id="relatorios-e-documentacao-das-buscas">
+  <section class="tex2jax_ignore mathjax_ignore" id="relatorios-e-documentacao-das-buscas">
 <h1>7. Relatórios e documentação das buscas<a class="headerlink" href="#relatorios-e-documentacao-das-buscas" title="Permalink to this heading">#</a></h1>
-<p>[Explicar a importância dessa etapa. Utilizar o que escrevi para o artigo da pyHDB]</p>
+<p>Como tenho defendido ao longo de todo esse material, a prática da pesquisa histórica – mas também de todas as ciências humanas – mediada por ferramentas, métodos, e técnicas digitais, que majoritariamente lida com dados digitais, exige a adoção de novas práticas de pesquisa e de novos procedimentos metodológicos. Sobretudo,  no que se refere ao registro e documentação das etapas, escolhas e decisões tomadas ao longo do processo.</p>
+<p>Concordo com Mats Fridlund e colaboradores, quando afirmar que:</p>
+<blockquote>
+<div><p>Os métodos de pesquisa digital criam demandas novas e às vezes mais rigorosas de precisão, pensamento metodológico, auto-organização e colaboração do que a pesquisa histórica tradicional. <span id="id1">[<a class="reference internal" href="#id20" title="Mats Fridlund, Mila Oiva, and Petri Paju, editors. Digital Histories: Emergent Approaches within the New Digital History. Helsinki University Press, Helsinki, December 2020. ISBN 978-952-369-020-2. URL: https://hup.fi/site/books/e/10.33134/HUP-5/ (visited on 2021-01-06), doi:10.33134/HUP-5.">Fridlund <em>et al.</em>, 2020</a>]</span></p>
+</div></blockquote>
+<p>Pois, como afirmei anteriormente,</p>
+<blockquote>
+<div><p>O registro desses procedimentos metodológicos é fundamental para a pesquisa, visto que a menor alteração em uma dessas múltiplas opções geraria resultados distintos. <span id="id2">[<a class="reference internal" href="#id19" title="Eric Brasil and Leonardo Fernandes Nascimento. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. Revista Estudos Históricos, 33(69):196–219, January 2020. URL: http://bibliotecadigital.fgv.br/ojs/index.php/reh/article/view/79933 (visited on 2020-02-04), doi:http://dx.doi.org/10.1590/S2178-14942020000100011.">Brasil and Nascimento, 2020</a>]</span></p>
+</div></blockquote>
+<p>Portanto, é fundamental ter sempre em mente que:</p>
+<blockquote>
+<div><p>as novas formas de realizar pesquisas em interfaces digitais de busca impactam, mediam e direcionam tanto a coleta e seleção das fontes quanto sua análise. Diante disso, é fundamental que o método histórico leve em consideração a aplicação de práticas de heurística digital coerentes tanto com as características das ferramentas e métodos utilizados, das fontes e ados trabalhados quanto com as reflexões teóricas básicas da disciplina histórica. <span id="id3">[<a class="reference internal" href="../capitulo8/cap8.html#id17" title="Eric Brasil. pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História. História da Historiografia: International Journal of Theory and History of Historiography, 2022. doi:10.15848/hh.v15i40.1904.">Brasil, 2022</a>]</span></p>
+</div></blockquote>
+<p>Partindo dessas questões, apresento no <a class="reference internal" href="sec71.html"><span class="doc std std-doc">tópico seguinte</span></a> um programa simples que visa gerar um relatório de busca para funcionar como auxiliar de pesquisa e documentação.</p>
+<hr class="docutils" />
+<section id="referencias">
+<h2>Referências<a class="headerlink" href="#referencias" title="Permalink to this heading">#</a></h2>
+<div class="docutils container" id="id4">
+<div role="list" class="citation-list">
+<div class="citation" id="id18" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">Bra22</a><span class="fn-bracket">]</span></span>
+<p>Eric Brasil. pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História. <em>História da Historiografia: International Journal of Theory and History of Historiography</em>, 2022. <a class="reference external" href="https://doi.org/10.15848/hh.v15i40.1904">doi:10.15848/hh.v15i40.1904</a>.</p>
+</div>
+<div class="citation" id="id19" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">BN20</a><span class="fn-bracket">]</span></span>
+<p>Eric Brasil and Leonardo Fernandes Nascimento. História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica. <em>Revista Estudos Históricos</em>, 33(69):196–219, January 2020. URL: <a class="reference external" href="http://bibliotecadigital.fgv.br/ojs/index.php/reh/article/view/79933">http://bibliotecadigital.fgv.br/ojs/index.php/reh/article/view/79933</a> (visited on 2020-02-04), <a class="reference external" href="https://doi.org/http://dx.doi.org/10.1590/S2178-14942020000100011">doi:http://dx.doi.org/10.1590/S2178-14942020000100011</a>.</p>
+</div>
+<div class="citation" id="id20" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">FOP20</a><span class="fn-bracket">]</span></span>
+<p>Mats Fridlund, Mila Oiva, and Petri Paju, editors. <em>Digital Histories: Emergent Approaches within the New Digital History</em>. Helsinki University Press, Helsinki, December 2020. ISBN 978-952-369-020-2. URL: <a class="reference external" href="https://hup.fi/site/books/e/10.33134/HUP-5/">https://hup.fi/site/books/e/10.33134/HUP-5/</a> (visited on 2021-01-06), <a class="reference external" href="https://doi.org/10.33134/HUP-5">doi:10.33134/HUP-5</a>.</p>
+</div>
+</div>
+</div>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -527,6 +566,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
