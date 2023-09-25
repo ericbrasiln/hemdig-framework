@@ -9,4 +9,4 @@ Explicar o histórico da pesquisa, falar sobre o versionamento, a organização 
 
 Apresentar o cronograma inicial e o projeto apresentado na Unilab.
 
-- [Cronograma](cronograma.md)
+- [Cronograma](https://github.com/ericbrasiln/hemdig-framework/blob/main/cronograma.md)
