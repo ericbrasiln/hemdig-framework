@@ -1,8 +1,3 @@
-```{admonition} Atenção
-:class: danger
-Página em construção.
-```
-
 # 8. Scrapers de dados
 
 Para o desenvolvimento de pesquisas com métodos digitais, é necessário possuirmos formas eficientes, precisas e controladas de coletar dados remotamente. Para isso dependemos de fatores estruturais e políticos que muitas vezes escapam do controle do pesquisador individual.

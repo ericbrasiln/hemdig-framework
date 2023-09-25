@@ -1,8 +1,3 @@
-```{admonition} Atenção
-:class: danger
-Página em construção.
-```
-
 # 7. Relatórios e documentação das buscas
 
 Como tenho defendido ao longo de todo esse material, a prática da pesquisa histórica -- mas também de todas as ciências humanas -- mediada por ferramentas, métodos, e técnicas digitais, que majoritariamente lida com dados digitais, exige a adoção de novas práticas de pesquisa e de novos procedimentos metodológicos. Sobretudo,  no que se refere ao registro e documentação das etapas, escolhas e decisões tomadas ao longo do processo.
