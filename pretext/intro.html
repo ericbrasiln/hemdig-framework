@@ -433,7 +433,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -449,6 +451,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estrutura-do-framework-e-organizacao-do-livro">Estrutura do framework e organização do livro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#como-utilizar-os-recursos-desse-livro">Como utilizar os recursos desse livro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#historico-versionamento-repositorio">Histórico, versionamento, repositório</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -464,8 +477,50 @@ document.write(`
 </div>
 <section class="tex2jax_ignore mathjax_ignore" id="introducao">
 <h1>Introdução<a class="headerlink" href="#introducao" title="Permalink to this heading">#</a></h1>
-<p>Esse livro busca organizar, explicar e apresentar de forma clara e concatenada uma proposta de framework, ou enquadramento de pesquisa, para projetos que utilizem como fontes jornais digitalizados, especificamente aqueles escritos em língua portuguesa, preservados e disponibilizados para consulta e busca pela Hemeroteca Digital Brasileira (HDB) da Biblioteca Nacional e a coleção de periódicos digitalizados da Biblioteca Digital de Portugal, da Biblioteca Nacional de Portugal.</p>
-<p>A proposta aqui apresentada é resultado da pesquisa de pós-doutorado desenvolvida no Instituto de História Contemporânea da Universidade Nova de Lisboa, no Laboratório de Humanidades Digitais, entre 2022 e 2023, sob a supervisão do Prof. Dr. Daniel Alves.</p>
+<p>Esse livro busca organizar, explicar e apresentar de forma clara e concatenada uma proposta de <em>framework</em>, ou enquadramento de pesquisa, para projetos que utilizem como fontes principais jornais históricos digitalizados, especificamente aqueles escritos em língua portuguesa, preservados e disponibilizados para consulta e busca pela Hemeroteca Digital Brasileira (HDB) da Biblioteca Nacional e a coleção de periódicos digitalizados da Biblioteca Digital de Portugal, da Biblioteca Nacional de Portugal e da Hemeroteca Digital da Hemeroteca Municipal de Lisboa.</p>
+<p>O material aqui apresentado é resultado da pesquisa de pós-doutorado desenvolvida no Instituto de História Contemporânea da Universidade Nova de Lisboa, no Laboratório de Humanidades Digitais, entre 2022 e 2023, sob a supervisão do Prof. Dr. Daniel Alves.</p>
+<section id="estrutura-do-framework-e-organizacao-do-livro">
+<h2>Estrutura do framework e organização do livro<a class="headerlink" href="#estrutura-do-framework-e-organizacao-do-livro" title="Permalink to this heading">#</a></h2>
+<p>O framework está organizado em cinco partes, e conta também com uma apresentação da estrutura da pesquisa, do histórico e versiohnamento do processo e uma explicação do repositório final dos dados. Ao final, o leitor encontrará as considerações finais, além de apêndices, bibliografia e página de links úteis.</p>
+</section>
+<section id="como-utilizar-os-recursos-desse-livro">
+<h2>Como utilizar os recursos desse livro<a class="headerlink" href="#como-utilizar-os-recursos-desse-livro" title="Permalink to this heading">#</a></h2>
+<p>Esse livro foi construído com o <em>Jupyter Book</em>, um projeto de código aberto que possibilita a elaboração e publicação de livros e documento “a partir de material computacional”<a class="footnote-reference brackets" href="#id19" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>. Com ele é possível combinar a escrita, através da sintaxe Markdown, com a execução de blocos de código e a exeibição dos seus resultados. Isso é possível pois ele é capaz de renderizar arquivos <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>, ou seja, <em>jupyter notebooks</em>, que são amplamento usados para análise de dados, visualização e ensino.</p>
+<p>Além disso, o <em>Jupyter Book</em> nos oferece uma série de recursos úteis após sua publicação online: além da visualição de texto, imagens e da execução de código e a apresentação de seus resultados, é possível realizar o download de cada página em diverentes formatos (.pdf, .md, .ipybn) e executar os <em>notebooks</em> através de plataformas em nuvem como Binder, Google Colab, Microsoft Azuere.</p>
+<p>Também permite uma ampla configuração de seu layout e a inclusão de notas, referências cruzadas, bibliografias e índices,  e conexão com serviços externos como o Github.</p>
+<p>Para mais informações sobre Jupyter Books ver <span id="id2">Walsh and Dombrowski [<a class="reference internal" href="#id10" title="Melanie Walsh and Quinn Dombrowski. Melaniewalsh/Intro-Cultural-Analytics: Version 1.1.0. August 2021. URL: https://zenodo.org/record/4411250 (visited on 2022-09-13), doi:10.5281/ZENODO.4411250.">2021</a>]</span> e sobre jupyter notebooks, ver <span id="id3">Dombrowski, Gniady, and Kloster [<a class="reference internal" href="#id12" title="Quinn Dombrowski, Tassie Gniady, and David Kloster. Introdução ao Jupyter Notebook. Programming Historian, December 2019. URL: https://programminghistorian.org/pt/licoes/introducao-jupyter-notebooks (visited on 2023-09-13).">2019</a>]</span>.</p>
+</section>
+<section id="historico-versionamento-repositorio">
+<h2>Histórico, versionamento, repositório<a class="headerlink" href="#historico-versionamento-repositorio" title="Permalink to this heading">#</a></h2>
+<p>Explicar o histórico da pesquisa, falar sobre o versionamento, a organização do repositório, etc.</p>
+<p>Apresentar o cronograma inicial e o projeto apresentado na Unilab.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/ericbrasiln/hemdig-framework/blob/main/cronograma.md">Cronograma</a></p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="referencias">
+<h2>Referências<a class="headerlink" href="#referencias" title="Permalink to this heading">#</a></h2>
+<div class="docutils container" id="id4">
+<div role="list" class="citation-list">
+<div class="citation" id="id12" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">DGK19</a><span class="fn-bracket">]</span></span>
+<p>Quinn Dombrowski, Tassie Gniady, and David Kloster. Introdução ao Jupyter Notebook. <em>Programming Historian</em>, December 2019. URL: <a class="reference external" href="https://programminghistorian.org/pt/licoes/introducao-jupyter-notebooks">https://programminghistorian.org/pt/licoes/introducao-jupyter-notebooks</a> (visited on 2023-09-13).</p>
+</div>
+<div class="citation" id="id10" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">WD21</a><span class="fn-bracket">]</span></span>
+<p>Melanie Walsh and Quinn Dombrowski. Melaniewalsh/Intro-Cultural-Analytics: Version 1.1.0. August 2021. URL: <a class="reference external" href="https://zenodo.org/record/4411250">https://zenodo.org/record/4411250</a> (visited on 2022-09-13), <a class="reference external" href="https://doi.org/10.5281/ZENODO.4411250">doi:10.5281/ZENODO.4411250</a>.</p>
+</div>
+</div>
+</div>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id19" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Executable Books Community. “Jupyter Book”. Zenodo, February 12, 2020. <a class="reference external" href="https://doi.org/10.5281/zenodo.4539666">https://doi.org/10.5281/zenodo.4539666</a>.</p>
+</aside>
+</aside>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -526,6 +581,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estrutura-do-framework-e-organizacao-do-livro">Estrutura do framework e organização do livro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#como-utilizar-os-recursos-desse-livro">Como utilizar os recursos desse livro</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#historico-versionamento-repositorio">Histórico, versionamento, repositório</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
