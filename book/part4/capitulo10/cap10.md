@@ -5,15 +5,13 @@ Página em construção.
 
 # 10. Reconhecimento ótico de caracteres
 
-- O que é?
-
 Chamamos de reconhecimento ótico de caracteres o processo computacional de aplicar um programa de computador para encontrar padrões de escrita em imagens e gerar um documento de texto como resultado. Esse processo é muito importante para as pesquisas históricas no geral, visto que parte significativa das fontes históricas utilizadas em nossas pesquisas ainda são constituídas por documentos escritos (impressões ou manuscritos) em papel. 
 
 Desde os anos 1990, vemos o crescimento acelerado de projetos de digitalização em massa de documentos históricos. É muito recorrente que os objeto digital oriundo desse processo de digitalização seja uma imagem estática em formatos variados.
 
 Entretanto, para que possamos aplicar técnicas e ferramentas digitais, sejam elas bem simples como a busca de um termo, ou mais  complexas como a aplicação de técnicas de processamento de linguagem natural ou modelagem de tópicos, precisamos transformar essas imagens em documentos de texto, onde os dados contidos nela possam ser estruturados de acordo com as metodologias e interesses das pesquisas.
 
-Para que isso seja possível, precisamos realizar o reconhecimento ótico de caracteres, ou *OCR* (optical character recognition), nesses conjuntos de imagens.
+Para que isso seja possível, precisamos realizar o reconhecimento ótico de caracteres, ou *OCR* (*optical character recognition*), nesses conjuntos de imagens.
 
 Portanto, essa é uma etapa fundamental para pesquisas com jornais históricos digitalizados. Entretanto, esse não é um processo simples e demanda muito conhecimento computacional, máquinas potentes, e investimento de tempo e capital.
 
