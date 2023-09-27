@@ -46,7 +46,6 @@ parts:
       - file: part4/capitulo10/cap10
         sections:
           - file: part4/capitulo10/sec101
-          - file: part4/capitulo10/sec102
       - file: part4/capitulo11/cap11
       - file: part4/capitulo12/cap12
         sections:
