@@ -3,8 +3,7 @@ root: index.ipynb
 parts:
   - caption: Apresentação da pesquisa
     chapters:
-      - file: pretext/intro
-      - file: pretext/estrutura
+      - file: pretext/como_usar
       - file: pretext/pesquisa
   - caption: 1ª fase - Planejamento e Preparação
     chapters:
