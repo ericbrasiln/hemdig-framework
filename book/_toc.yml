@@ -55,7 +55,6 @@ parts:
       - file: part4/capitulo13/cap13
         sections:
           - file: part4/capitulo13/sec131
-          - file: part4/capitulo13/sec132
   - caption: 5ª Fase - Revisão, preservação e publicação
     chapters:
       - file: part5/part5-intro
