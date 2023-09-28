@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>12. OCR com CLI &#8212; HEMDIG(pt) Framework</title>
+    <title>12. A) OCR com CLI &#8212; HEMDIG(pt) Framework</title>
   
   
   
@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="12.1. Tesseract" href="sec121.html" />
+    <link rel="next" title="12.1. Testando o OCR-D" href="sec121.html" />
     <link rel="prev" title="11. Lições do Programming Historian para Reconhecimento Ótico de Caracteres (OCR)" href="../capitulo11/cap11.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -163,8 +163,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apresentação da pesquisa</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../pretext/intro.html">Introdução</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../pretext/estrutura.html">Estrutura da pesquisa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pretext/como_usar.html">Como utilizar os recursos desse livro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../pretext/pesquisa.html">Histórico, versionamento, repositório</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">1ª fase - Planejamento e Preparação</span></p>
@@ -216,21 +215,18 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../part4-intro.html">Em que consiste a quarta fase?</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo10/cap10.html">10. Reconhecimento ótico de caracteres</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo10/sec101.html">10.1. Conceitos básicos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo10/sec102.html">10.2. Definição de estratégias: volume e qualidade dos dados</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo10/sec101.html">10.1. Definição de estratégias: volume e qualidade dos dados</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../capitulo11/cap11.html">11. Lições do Programming Historian para Reconhecimento Ótico de Caracteres (OCR)</a></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">12. OCR com CLI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="sec121.html">12.1. Tesseract</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sec122.html">12.2. OCR-D: Tutorial e testes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sec123.html">12.3. Testanto o Kraken</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sec124.html">12.4. Recomendações e conclusões</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">12. A) OCR com CLI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="sec121.html">12.1. Testando o OCR-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sec122.html">12.2. Testanto o Kraken</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sec123.html">12.3. Recomendações e conclusões</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo13/cap13.html">13. OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec131.html">13.1. Tutorial de uso do gImageReader</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec132.html">13.2. Recomendações e conclusões</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo13/cap13.html">13. B) OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec131.html">13.1. Testando o gImageReader</a></li>
 </ul>
 </li>
 </ul>
@@ -444,7 +440,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>12. OCR com CLI</h1>
+    <h1>12. A) OCR com CLI</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -458,10 +454,11 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="ocr-com-cli">
-<h1>12. OCR com CLI<a class="headerlink" href="#ocr-com-cli" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="a-ocr-com-cli">
+<h1>12. A) OCR com CLI<a class="headerlink" href="#a-ocr-com-cli" title="Permalink to this heading">#</a></h1>
 <p>Caso sua pesquisa demande o tratamento e análise de milhares de páginas digitalizadas de jornais históricos, o encaminhamento mais acertado é a utilização de interfaces de linha de comando que reúnam múltiplas ferramentas de tratamento e processamento de imagens, reconhecimento de layouts e caracteres.</p>
-<p>Nessa pesquisa, testamos e apresentamos o Tesseract, o Kraken e o OCR-D.</p>
+<p>Elas permitem a criação de workflows para automatizar o tratamento de imagens em massa e gerar datasets em formatos variados. Ao mesmo tempo, demandam alto investimento de tempo nessa elaboração.</p>
+<p>Nessa pesquisa, testamos e apresentamos o <a class="reference external" href="https://ocr-d.de/en/">OCR-D</a>, na <a class="reference internal" href="sec121.html"><span class="doc std std-doc">seção 12.1</span></a> e o <a class="reference external" href="https://kraken.re/4.3.0/index.html">Kraken</a>, na <a class="reference internal" href="sec122.html"><span class="doc std std-doc">seção 12.2</span></a>.</p>
 <p>Em função do tempo e dos objetivos da pesquisa, realizamos os testes com modelos pré-existentes.</p>
 <p>Nos tópicos seguintes, veremos a instalação, uso e avaliação dos resultados de cada uma delas.</p>
 <div class="toctree-wrapper compound">
@@ -513,7 +510,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">12.1. Tesseract</p>
+        <p class="prev-next-title">12.1. Testando o OCR-D</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

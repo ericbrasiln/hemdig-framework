@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introdução" href="pretext/intro.html" />
+    <link rel="next" title="Como utilizar os recursos desse livro" href="pretext/como_usar.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -162,8 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apresentação da pesquisa</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="pretext/intro.html">Introdução</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pretext/estrutura.html">Estrutura da pesquisa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pretext/como_usar.html">Como utilizar os recursos desse livro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pretext/pesquisa.html">Histórico, versionamento, repositório</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">1ª fase - Planejamento e Preparação</span></p>
@@ -215,21 +214,18 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="part4/part4-intro.html">Em que consiste a quarta fase?</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="part4/capitulo10/cap10.html">10. Reconhecimento ótico de caracteres</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo10/sec101.html">10.1. Conceitos básicos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo10/sec102.html">10.2. Definição de estratégias: volume e qualidade dos dados</a></li>
+<li class="toctree-l2"><a class="reference internal" href="part4/capitulo10/sec101.html">10.1. Definição de estratégias: volume e qualidade dos dados</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="part4/capitulo11/cap11.html">11. Lições do Programming Historian para Reconhecimento Ótico de Caracteres (OCR)</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="part4/capitulo12/cap12.html">12. OCR com CLI</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec121.html">12.1. Tesseract</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec122.html">12.2. OCR-D: Tutorial e testes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec123.html">12.3. Testanto o Kraken</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec124.html">12.4. Recomendações e conclusões</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="part4/capitulo12/cap12.html">12. A) OCR com CLI</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec121.html">12.1. Testando o OCR-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec122.html">12.2. Testanto o Kraken</a></li>
+<li class="toctree-l2"><a class="reference internal" href="part4/capitulo12/sec123.html">12.3. Recomendações e conclusões</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="part4/capitulo13/cap13.html">13. OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo13/sec131.html">13.1. Tutorial de uso do gImageReader</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part4/capitulo13/sec132.html">13.2. Recomendações e conclusões</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="part4/capitulo13/cap13.html">13. B) OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="part4/capitulo13/sec131.html">13.1. Testando o gImageReader</a></li>
 </ul>
 </li>
 </ul>
@@ -486,8 +482,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resumo">Resumo</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introducao">Introdução</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estrutura-do-framework-e-organizacao-do-livro">Estrutura do framework e organização do livro</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#diagrama-do-framework">Diagrama do framework</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estrutura-do-framework-e-organizacao-do-livro">Estrutura do framework e organização do livro</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indice">Índice</a><ul class="nav section-nav flex-column">
 </ul>
 </li>
 </ul>
@@ -512,7 +511,19 @@ document.write(`
 <hr class="docutils" />
 <p>Projeto da pesquisa de pós-doutorado de <a class="reference external" href="https://ericbrasiln.github.io">Eric Brasil</a> realizada no âmbito do <em>DH_Lab</em> (FSCH-NOVA) sob supervisão de Daniel Alves.</p>
 <p>Período de realização: <strong>outubro de 2022 a outubro de 2023</strong></p>
-<p><em>Resumo</em>: O objetivo do projeto é analisar a operação historiográfica relacionada ao processo de selecionar, recolher e organizar fontes primárias por meio de ferramentas e dados digitais. Terá como foco repositórios e interfaces gráficas que permitem o acesso a periódicos da imprensa de língua portuguesa digitalizados, com destaque para a Hemeroteca Digital Brasileira e a coleção de periódicos da Biblioteca Nacional Digital de Portugal. Como resultado pretende-se produzir um <em>framework</em> (enquadramento dos processos de pesquisa) digital que englobe as etapas da pesquisa histórica para esse tipo de fonte. O <em>framework</em> reunirá uma biblioteca de referências bibliográficas; ferramentas para registro metodológico e organização dos dados coletados; documentação e tutoriais dos acervos e suas interfaces gráficas, das ferramentas para reconhecimento ótico de caracteres e reconhecimento automatizado de layout voltados para documentos históricos.</p>
+<section id="resumo">
+<h2>Resumo<a class="headerlink" href="#resumo" title="Permalink to this heading">#</a></h2>
+<p>O objetivo do projeto é analisar a operação historiográfica relacionada ao processo de selecionar, recolher e organizar fontes primárias por meio de ferramentas e dados digitais. Terá como foco repositórios e interfaces gráficas que permitem o acesso a periódicos da imprensa de língua portuguesa digitalizados, com destaque para a Hemeroteca Digital Brasileira e a coleção de periódicos da Biblioteca Nacional Digital de Portugal. Como resultado pretende-se produzir um <em>framework</em> (enquadramento dos processos de pesquisa) digital que englobe as etapas da pesquisa histórica para esse tipo de fonte. O <em>framework</em> reunirá uma biblioteca de referências bibliográficas; ferramentas para registro metodológico e organização dos dados coletados; documentação e tutoriais dos acervos e suas interfaces gráficas, das ferramentas para reconhecimento ótico de caracteres e reconhecimento automatizado de layout voltados para documentos históricos.</p>
+</section>
+<section id="introducao">
+<h2>Introdução<a class="headerlink" href="#introducao" title="Permalink to this heading">#</a></h2>
+<p>Esse livro busca organizar, explicar e apresentar de forma clara e concatenada uma proposta de <em>framework</em>, ou enquadramento de pesquisa, para projetos que utilizem como fontes principais jornais históricos digitalizados, especificamente aqueles escritos em língua portuguesa, preservados e disponibilizados para consulta e busca pela Hemeroteca Digital Brasileira (HDB) da Biblioteca Nacional e a coleção de periódicos digitalizados da Biblioteca Digital de Portugal, da Biblioteca Nacional de Portugal e da Hemeroteca Digital da Hemeroteca Municipal de Lisboa.</p>
+<p>O material aqui apresentado é resultado da pesquisa de pós-doutorado desenvolvida no Instituto de História Contemporânea da Universidade Nova de Lisboa, no Laboratório de Humanidades Digitais, entre 2022 e 2023, sob a supervisão do Prof. Dr. Daniel Alves.</p>
+</section>
+<section id="estrutura-do-framework-e-organizacao-do-livro">
+<h2>Estrutura do framework e organização do livro<a class="headerlink" href="#estrutura-do-framework-e-organizacao-do-livro" title="Permalink to this heading">#</a></h2>
+<p>O framework está organizado em cinco partes, e conta também com uma apresentação da estrutura da pesquisa, do histórico e versionamento do processo e uma explicação do repositório final dos dados. Ao final, o leitor encontrará as considerações finais, além de apêndices, bibliografia e página de links úteis.</p>
+</section>
 <section id="diagrama-do-framework">
 <h2>Diagrama do framework<a class="headerlink" href="#diagrama-do-framework" title="Permalink to this heading">#</a></h2>
 <aside class="margin sidebar">
@@ -529,14 +540,12 @@ document.write(`
 </figcaption>
 </figure>
 </section>
-<section id="estrutura-do-framework-e-organizacao-do-livro">
-<h2>Estrutura do framework e organização do livro<a class="headerlink" href="#estrutura-do-framework-e-organizacao-do-livro" title="Permalink to this heading">#</a></h2>
-<p>O framework está organizado em cinco partes, e conta também com introdução e considerações finais, além de apêndices, bibliografia e página de links úteis.</p>
+<section id="indice">
+<h2>Índice<a class="headerlink" href="#indice" title="Permalink to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apresentação da pesquisa</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="pretext/intro.html">Introdução</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pretext/estrutura.html">Estrutura da pesquisa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pretext/como_usar.html">Como utilizar os recursos desse livro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pretext/pesquisa.html">Histórico, versionamento, repositório</a></li>
 </ul>
 </div>
@@ -573,8 +582,8 @@ document.write(`
 <li class="toctree-l1"><a class="reference internal" href="part4/part4-intro.html">Em que consiste a quarta fase?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part4/capitulo10/cap10.html">10. Reconhecimento ótico de caracteres</a></li>
 <li class="toctree-l1"><a class="reference internal" href="part4/capitulo11/cap11.html">11. Lições do Programming Historian para Reconhecimento Ótico de Caracteres (OCR)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part4/capitulo12/cap12.html">12. OCR com CLI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="part4/capitulo13/cap13.html">13. OCR com GUI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part4/capitulo12/cap12.html">12. A) OCR com CLI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="part4/capitulo13/cap13.html">13. B) OCR com GUI</a></li>
 </ul>
 </div>
 <div class="toctree-wrapper compound">
@@ -644,11 +653,11 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="right-next"
-       href="pretext/intro.html"
+       href="pretext/como_usar.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introdução</p>
+        <p class="prev-next-title">Como utilizar os recursos desse livro</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -670,8 +679,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#resumo">Resumo</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introducao">Introdução</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estrutura-do-framework-e-organizacao-do-livro">Estrutura do framework e organização do livro</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#diagrama-do-framework">Diagrama do framework</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estrutura-do-framework-e-organizacao-do-livro">Estrutura do framework e organização do livro</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#indice">Índice</a><ul class="nav section-nav flex-column">
 </ul>
 </li>
 </ul>

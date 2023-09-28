@@ -63,7 +63,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="10.1. Conceitos básicos" href="sec101.html" />
+    <link rel="next" title="10.1. Definição de estratégias: volume e qualidade dos dados" href="sec101.html" />
     <link rel="prev" title="Em que consiste a quarta fase?" href="../part4-intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -163,8 +163,7 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apresentação da pesquisa</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../pretext/intro.html">Introdução</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../pretext/estrutura.html">Estrutura da pesquisa</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pretext/como_usar.html">Como utilizar os recursos desse livro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../pretext/pesquisa.html">Histórico, versionamento, repositório</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">1ª fase - Planejamento e Preparação</span></p>
@@ -216,21 +215,18 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../part4-intro.html">Em que consiste a quarta fase?</a></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">10. Reconhecimento ótico de caracteres</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="sec101.html">10.1. Conceitos básicos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sec102.html">10.2. Definição de estratégias: volume e qualidade dos dados</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sec101.html">10.1. Definição de estratégias: volume e qualidade dos dados</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../capitulo11/cap11.html">11. Lições do Programming Historian para Reconhecimento Ótico de Caracteres (OCR)</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo12/cap12.html">12. OCR com CLI</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec121.html">12.1. Tesseract</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec122.html">12.2. OCR-D: Tutorial e testes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec123.html">12.3. Testanto o Kraken</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec124.html">12.4. Recomendações e conclusões</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo12/cap12.html">12. A) OCR com CLI</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec121.html">12.1. Testando o OCR-D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec122.html">12.2. Testanto o Kraken</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo12/sec123.html">12.3. Recomendações e conclusões</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo13/cap13.html">13. OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec131.html">13.1. Tutorial de uso do gImageReader</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec132.html">13.2. Recomendações e conclusões</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../capitulo13/cap13.html">13. B) OCR com GUI</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../capitulo13/sec131.html">13.1. Testando o gImageReader</a></li>
 </ul>
 </li>
 </ul>
@@ -464,11 +460,21 @@ document.write(`
 </div>
 <section class="tex2jax_ignore mathjax_ignore" id="reconhecimento-otico-de-caracteres">
 <h1>10. Reconhecimento ótico de caracteres<a class="headerlink" href="#reconhecimento-otico-de-caracteres" title="Permalink to this heading">#</a></h1>
+<p>Chamamos de reconhecimento ótico de caracteres o processo computacional de aplicar um programa de computador para encontrar padrões de escrita em imagens e gerar um documento de texto como resultado. Esse processo é muito importante para as pesquisas históricas no geral, visto que parte significativa das fontes históricas utilizadas em nossas pesquisas ainda são constituídas por documentos escritos (impressões ou manuscritos) em papel.</p>
+<p>Desde os anos 1990, vemos o crescimento acelerado de projetos de digitalização em massa de documentos históricos. É muito recorrente que os objeto digital oriundo desse processo de digitalização seja uma imagem estática em formatos variados.</p>
+<p>Entretanto, para que possamos aplicar técnicas e ferramentas digitais, sejam elas bem simples como a busca de um termo, ou mais  complexas como a aplicação de técnicas de processamento de linguagem natural ou modelagem de tópicos, precisamos transformar essas imagens em documentos de texto, onde os dados contidos nela possam ser estruturados de acordo com as metodologias e interesses das pesquisas.</p>
+<p>Para que isso seja possível, precisamos realizar o reconhecimento ótico de caracteres, ou <em>OCR</em> (<em>optical character recognition</em>), nesses conjuntos de imagens.</p>
+<p>Portanto, essa é uma etapa fundamental para pesquisas com jornais históricos digitalizados. Entretanto, esse não é um processo simples e demanda muito conhecimento computacional, máquinas potentes, e investimento de tempo e capital.</p>
+<p>Realizar esses processos de forma individualizada e sem acompanhamento de profissionais especializados muitas vezes se torna um desafio quase intransponível. O que é potencializado para o caso dos jornais históricos, pois eles agrupam características que impõem grandes entraves para o sucesso do OCR. Podemos listar alguns deles:</p>
 <ul class="simple">
-<li><p>O que é?</p></li>
-<li><p>Qual importância?</p></li>
-<li><p>Dificuldades específicas dos jornais históricos</p></li>
+<li><p>baixa qualidade da digitalização;</p></li>
+<li><p>fontes muito variadas e desconhecidas para o computador;</p></li>
+<li><p>layouts complexos, geralmente com grandes variações em uma mesma edição e com muitas colunas pouco claras;</p></li>
+<li><p>muitos “ruídos” na imagem, como rasgos, rasuras, manchas, anotações, cortes, etc;</p></li>
 </ul>
+<p>Neste <em>framework</em>, proponho uma avaliação prévia do conjunto de dados a ser trabalhado para embasar a escolha das estratégias de OCR aplicadas. Veremos comparativamente os resultados com ferramentas de linha de comando, a partir de modelos pré-treinados, e com ferramentas com interface gráfica de usuário.</p>
+<p>Vamos comparar páginas de periódicos distintos, com qualidades diversas, buscando apresentar as possibilidades de trabalho. Os testes foram realizados com o OCR-D e Kraken, ambos são programas que reúnem uma variedade de recursos para OCR e são interfaces de linha de comando; e com o gImageReader, um programa com interface gráfica que utiliza o <em>tesseract</em> para realizar OCR.</p>
+<p>Também apresento, no <a class="reference internal" href="../capitulo11/cap11.html"><span class="doc std std-doc">capítulo 11</span></a> uma lista comentada de lições do <em>The Programming Historian</em> relativas ao OCR que são úteis como opções alternativas de abordagem.</p>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -518,7 +524,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">10.1. Conceitos básicos</p>
+        <p class="prev-next-title">10.1. Definição de estratégias: volume e qualidade dos dados</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
