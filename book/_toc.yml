@@ -52,7 +52,6 @@ parts:
           - file: part4/capitulo12/sec121
           - file: part4/capitulo12/sec122
           - file: part4/capitulo12/sec123
-          - file: part4/capitulo12/sec124
       - file: part4/capitulo13/cap13
         sections:
           - file: part4/capitulo13/sec131
