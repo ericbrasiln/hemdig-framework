@@ -235,23 +235,19 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../../part5/part5-intro.html">Em que consiste a quinta fase?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../part5/capitulo14/cap14.html">14. Consolidação da documentação</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../part5/capitulo15/cap15.html">15. Revisão dos dados e metadados</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../part5/capitulo16/cap16.html">16. Publicação dos dados</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../part5/capitulo16/sec161.html">16.1. Github</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../part5/capitulo16/sec162.html">16.2. Zenodo</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../part5/capitulo16/cap16.html">16. Publicação dos dados</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Considerações Finais</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../postext/consideracoes_finais.html">Considerações finais</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../postext/biblio.html">Bibliografia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../postext/biblio.html">Referências Bibliográficas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../postext/links_uteis.html">Links Úteis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../postext/contatos.html">Contatos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../postext/agradecimentos.html">Agradecimentos</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Apêndices</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../apendices/apendices.html">Apêndices</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-11"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../apendices/apendices.html">Apêndices</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-10"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceA.html">A. Glossário</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceB.html">B. Dados dos acervos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../apendices/apendiceC.html">C. Dados das interfaces</a></li>
@@ -488,6 +484,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicao-das-estrategias-de-organizacao">Definição das estratégias de organização</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fair">FAIR</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zotero">Zotero</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tropy">Tropy</a></li>
 </ul>
@@ -509,6 +506,8 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="planejamento-da-pesquisa">
 <h1>3. Planejamento da pesquisa<a class="headerlink" href="#planejamento-da-pesquisa" title="Permalink to this heading">#</a></h1>
 <p>Além do levantamento bibliográfico e formação técnica mínima, como indicado nos capítulos <a class="reference internal" href="../capitulo1/cap1.html"><span class="doc std std-doc">1</span></a> e <a class="reference internal" href="../capitulo2/cap2.html"><span class="doc std std-doc">2</span></a>, é importante definirmos, mesmo que de forma geral e preliminar, o planejamento específico voltado para documentação, organização, preservação e licenciamento da pesquisa.</p>
+<p>Ou seja, é fundamental a elaboração de um plano de gerenciamento dos dados (DMP, do inglês <em>Data Management Plan</em>), que deve ser elaborado nessa primeira fase e atualizado ao longo do seu desenvolvimento.</p>
+<p>O Open Science Framework (OSF) possui um conjunto de documentação de suporte específicas sobre o tema, e podem ser acessadads <a class="reference external" href="https://help.osf.io/article/144-creating-a-data-management-plan-dmp-document">aqui</a>.</p>
 <section id="definicao-das-estrategias-de-documentacao">
 <h2>Definição das estratégias de documentação<a class="headerlink" href="#definicao-das-estrategias-de-documentacao" title="Permalink to this heading">#</a></h2>
 <p>A capacidade de preservar, recuperar, compartilhar e reutilizar os dados de uma pesquisa passa sobremaneira pela a forma como esses dados são documentados.</p>
@@ -573,6 +572,43 @@ document.write(`
 <li><p>Avaliar ferramentas de organização de dados e referências bibliográficas.</p></li>
 <li><p>Incluir decisões de organização na documentação.</p></li>
 </ol>
+<section id="fair">
+<h3>FAIR<a class="headerlink" href="#fair" title="Permalink to this heading">#</a></h3>
+<p>Uma outra filosofia que pode nos ajudar a pensar a organização dos dados é o FAIR. Do inglês <em>Findability, Accessibility, Interoperability, and Reuse</em> de dados digitais, o FAIR nos indica princípios que devem guiar a nossa elaboração de estratégias de organização e documentação de dados.</p>
+<p>Listo abaixo, de forma resumida, os princípios FAIR (que estão disponíveis <a class="reference external" href="https://www.go-fair.org/fair-principles/">aqui</a>):</p>
+<ol class="arabic">
+<li><p>Findable</p>
+<p>F1. (Meta)data are assigned a globally unique and persistent identifier</p>
+<p>F2. Data are described with rich metadata (defined by R1 below)</p>
+<p>F3. Metadata clearly and explicitly include the identifier of the data they describe</p>
+<p>F4. (Meta)data are registered or indexed in a searchable resource</p>
+</li>
+<li><p>Accessible</p>
+<p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> A1.1 The protocol is open, free, and universally implementable
+
+ A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
+</pre></div>
+</div>
+<p>A2. Metadata are accessible, even when the data are no longer available</p>
+</li>
+<li><p>Interoperable</p>
+<p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</p>
+<p>I2. (Meta)data use vocabularies that follow FAIR principles</p>
+<p>I3. (Meta)data include qualified references to other (meta)data</p>
+</li>
+<li><p>Reusable</p>
+<p>R1. (Meta)data are richly described with a plurality of accurate and relevant attributes</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> R1.1. (Meta)data are released with a clear and accessible data usage license
+
+ R1.2. (Meta)data are associated with detailed provenance
+
+ R1.3. (Meta)data meet domain-relevant community standards
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
 <section id="zotero">
 <h3>Zotero<a class="headerlink" href="#zotero" title="Permalink to this heading">#</a></h3>
 <p>Como já indicamos no <a class="reference internal" href="../capitulo1/cap1.html"><span class="doc std std-doc">capitulo 1</span></a>, o <em>Zotero</em> é um software livre e gratuito, que permite a organização de referências bibliográficas. Desenvolvido por uma equipe liderada por historiadores/as, o <em>Zotero</em> é uma ferramenta já consolidada com milhares de usuários, possui muitos tutoriais e plugins para ampliar seus recursos.</p>
@@ -705,6 +741,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicao-das-estrategias-de-organizacao">Definição das estratégias de organização</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#fair">FAIR</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#zotero">Zotero</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tropy">Tropy</a></li>
 </ul>
