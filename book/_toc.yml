@@ -61,9 +61,6 @@ parts:
       - file: part5/capitulo14/cap14
       - file: part5/capitulo15/cap15
       - file: part5/capitulo16/cap16
-        sections:
-          - file: part5/capitulo16/sec161
-          - file: part5/capitulo16/sec162
   - caption: Considerações Finais
     chapters:
       - file: postext/consideracoes_finais

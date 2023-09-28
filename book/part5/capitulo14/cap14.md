@@ -1,8 +1,3 @@
-```{admonition} Atenção
-:class: danger
-Página em construção.
-```
-
 # 14. Consolidação da documentação
 
 Por todo esse percurso, temos reforçado a necessidade da prática de documentar todas as decisões e escolhas de forma clara e recorrente.
@@ -13,6 +8,10 @@ Permite também a reprodutibilidade da pesquisa, sua avaliação e apresentaçã
 
 Propomos que na etapa final, seja realizada uma revisão detalhada da documentação produzida, padronizando seus ficheiros, revendo a escrita, fornecendo links e referências adequadas.
 
-Pensar na pratica do FAIR: https://www.go-fair.org/fair-principles/
+Lembrar que a documentação dever ser elaborara pensando em possibilitar que outros pesquisadores possam compreender e reproduzir a pesquisa. Portanto, seja o mais explicito e detalhista possível.
 
-*Findability, Accessibility, Interoperability, and Reuse of digital assets.*
+Reveja se todos os diretórios de sua pesquisa possuem um README.md, contendo uma descrição sumária do conteúdo do diretório, com links apontando para cada ficheiro ou subdiretório.
+
+Reveja se os ficheiros possuem cabeçalhos com metadados padronizados, como título, autor, data de criação, data de modificação, licença, entre outros.
+
+Reveja se os scripts possuem comentários que expliquem o que está sendo feito em cada linha de código.
