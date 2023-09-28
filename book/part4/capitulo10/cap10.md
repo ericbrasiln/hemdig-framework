@@ -25,3 +25,5 @@ Realizar esses processos de forma individualizada e sem acompanhamento de profis
 Neste *framework*, proponho uma avaliação prévia do conjunto de dados a ser trabalhado para embasar a escolha das estratégias de OCR aplicadas. Veremos comparativamente os resultados com ferramentas de linha de comando, a partir de modelos pré-treinados, e com ferramentas com interface gráfica de usuário.
 
 Vamos comparar páginas de periódicos distintos, com qualidades diversas, buscando apresentar as possibilidades de trabalho. Os testes foram realizados com o OCR-D e Kraken, ambos são programas que reúnem uma variedade de recursos para OCR e são interfaces de linha de comando; e com o gImageReader, um programa com interface gráfica que utiliza o *tesseract* para realizar OCR.
+
+Também apresento, no [capítulo 11](../capitulo11/cap11.ipynb) uma lista comentada de lições do *The Programming Historian* relativas ao OCR que são úteis como opções alternativas de abordagem.
