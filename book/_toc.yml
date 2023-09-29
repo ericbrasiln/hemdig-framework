@@ -65,9 +65,8 @@ parts:
     chapters:
       - file: postext/consideracoes_finais
       - file: postext/biblio
-      - file: postext/links_uteis
-      - file: postext/contatos
       - file: postext/agradecimentos
+      - file: postext/contatos
   - caption: Apêndices
     chapters:
       - file: apendices/apendices
