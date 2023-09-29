@@ -1,4 +1,3 @@
-
 # Referências Bibliográficas 
 
 >Obras citadas ao longo do livro.
