@@ -1,8 +1,3 @@
-```{admonition} Atenção
-:class: danger
-Página em construção.
-```
-
 # Histórico, versionamento, repositório
 
 ## Breve histórico da pesquisa
@@ -25,11 +20,16 @@ O cronograma da pesquisa está disponível [aqui](https://github.com/ericbrasiln
 
 ## Licença
 
-Toda a pesquisa utiliza ferramentas gratuitas e de código aberto. Os dados, códigos, visualizações estão licenciadas sob [Creative Commons Atribuição 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/), o que permite sua reutilização, cópia, alteração, expansão apra qualquer fim, mesmo que comercial, desde que os seguintes termos sejam seguindos:
+Toda a pesquisa utiliza ferramentas gratuitas e de código aberto. Os dados, códigos, visualizações estão licenciadas sob [Creative Commons Atribuição 4.0 Internacional CC BY-NC-SA 4.0 Deed ](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br), o que permite sua reutilização, cópia, alteração, expansão desde que os seguintes termos sejam seguindos:
 
->You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+>Atribuição - Você deve dar o crédito apropriado , prover um link para a licença e indicar se mudanças foram feitas . Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso. 
+>
+>NãoComercial - Você não pode usar o material para fins comerciais . 
+> CompartilhaIgual - Se você remixar, transformar, ou criar a partir do material, tem de distribuir as suas contribuições sob a mesma licença que o original.
+>
+>Sem restrições adicionais - Você não pode aplicar termos jurídicos ou medidas de caráter tecnológico que restrinjam legalmente outros de fazerem algo que a licença permita. 
 
-Para saber mais sobre a licença, veja o [link](https://creativecommons.org/licenses/by/4.0/).
+Para saber mais sobre a licença, veja o [link](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
 
 ## Versionamento
 

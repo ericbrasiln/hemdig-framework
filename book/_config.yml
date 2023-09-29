@@ -42,6 +42,7 @@ html:
   extra_navbar              : Powered by <a href="https://jupyterbook.org">Jupyter Book</a>  # Will be displayed underneath the left navbar.
   extra_footer              : 
     <div>
+    <img class="logo" alt="Logos das Instituições" src="https://raw.githubusercontent.com/ericbrasiln/hemdig-framework/31-jupyter-book/book/assets/images/friso-logos-full.png" />
     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>.
     </div>  # Will be displayed underneath the footer.
   google_analytics_id       : ""  # A GA id that can be used to track book views.
@@ -49,7 +50,7 @@ html:
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis              : false  # Enable hypothesis for commenting
-  announcement              : "⚠️ Esta versão é apenas um esboço. Não deve ser citada nem utilizada. ⚠️" # A banner announcement at the top of the site.
+  announcement              : "⚠️ Esta versão está na versão de revisão final. ⚠️" # A banner announcement at the top of the site.
 
 #######################################################################################
 # LaTeX-specific settings
@@ -66,7 +67,7 @@ launch_buttons:
   binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
   # jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   # thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
-  # colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
+  colab_url                 : "https://colab.research.google.com" # The URL of Google Colab (https://colab.research.google.com)
 
 repository:
   url                       : https://github.com/ericbrasiln/hemdig-framework  # The URL to your book's repository
