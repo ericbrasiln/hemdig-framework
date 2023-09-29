@@ -1,4 +1,4 @@
-# C. Ferramentas de análise de dados
+# D. Ferramentas de análise de dados
 
 Breve lista de sugestões de ferramentas de código aberto para análise de dados.
 
