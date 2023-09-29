@@ -111,7 +111,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
   <div class="bd-header-announcement container-fluid bd-header-announcement">
-    <div class="bd-header-announcement__content">⚠️ Esta versão é apenas um esboço. Não deve ser citada nem utilizada. ⚠️</div>
+    <div class="bd-header-announcement__content">⚠️ Esta versão está na versão de revisão final. ⚠️</div>
   </div>
 
   
@@ -447,6 +447,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opcoes">Opções</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
 </ul>
             </nav>
@@ -459,16 +460,58 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="danger admonition">
-<p class="admonition-title">Atenção</p>
-<p>Página em construção.</p>
-</div>
-<section class="tex2jax_ignore mathjax_ignore" id="como-utilizar-os-recursos-desse-livro">
+  <section class="tex2jax_ignore mathjax_ignore" id="como-utilizar-os-recursos-desse-livro">
 <h1>Como utilizar os recursos desse livro<a class="headerlink" href="#como-utilizar-os-recursos-desse-livro" title="Permalink to this heading">#</a></h1>
 <p>Esse livro foi construído com o <em>Jupyter Book</em>, um projeto de código aberto que possibilita a elaboração e publicação de livros e documento “a partir de material computacional”<a class="footnote-reference brackets" href="#id25" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>. Com ele é possível combinar a escrita, através da sintaxe Markdown, com a execução de blocos de código e a exibição dos seus resultados. Isso é possível pois ele é capaz de renderizar arquivos <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>, ou seja, <em>jupyter notebooks</em>, que são amplamente usados para análise de dados, visualização e ensino.</p>
 <p>Além disso, o <em>Jupyter Book</em> nos oferece uma série de recursos úteis após sua publicação online: além da visualização de texto, imagens e da execução de código e a apresentação de seus resultados, é possível realizar o download de cada página em diferentes formatos (.pdf, .md, .ipybn) e executar os <em>notebooks</em> através de plataformas em nuvem como Binder, Google Colab, Microsoft Azuere.</p>
 <p>Também permite uma ampla configuração de seu layout e a inclusão de notas, referências cruzadas, bibliografias e índices,  e conexão com serviços externos como o Github.</p>
 <p>Para mais informações sobre Jupyter Books ver <span id="id2">Walsh and Dombrowski [<a class="reference internal" href="#id15" title="Melanie Walsh and Quinn Dombrowski. Melaniewalsh/Intro-Cultural-Analytics: Version 1.1.0. August 2021. URL: https://zenodo.org/record/4411250 (visited on 2022-09-13), doi:10.5281/ZENODO.4411250.">2021</a>]</span> e sobre jupyter notebooks, ver <span id="id3">Dombrowski, Gniady, and Kloster [<a class="reference internal" href="#id17" title="Quinn Dombrowski, Tassie Gniady, and David Kloster. Introdução ao Jupyter Notebook. Programming Historian, December 2019. URL: https://programminghistorian.org/pt/licoes/introducao-jupyter-notebooks (visited on 2023-09-13).">2019</a>]</span>.</p>
+<section id="opcoes">
+<h2>Opções<a class="headerlink" href="#opcoes" title="Permalink to this heading">#</a></h2>
+<p>No menu superior direito, algumas opções estão disponíveis, dependendo di tipo de cada página.</p>
+<figure class="align-center" id="rocket">
+<a class="reference internal image-reference" href="../_images/rocket.png"><img alt="../_images/rocket.png" src="../_images/rocket.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Sempre que o ícone do foguete aparecer no alto da página, é possível executar os códigos presentes no notebook em serviços de nuvem. Aqui configuramos para que o Binder e o Google Colab apareçam como opções.</span><a class="headerlink" href="#rocket" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="octocat">
+<a class="reference internal image-reference" href="../_images/octocat.png"><img alt="../_images/octocat.png" src="../_images/octocat.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">O ícone do octocat, símbolo do Github, permite que você acesse o repositório do livro no Github, e também possa abrir <em>issues</em> diretamente na página em que você está.</span><a class="headerlink" href="#octocat" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="download">
+<a class="reference internal image-reference" href="../_images/download.png"><img alt="../_images/download.png" src="../_images/download.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Esse ícone permite visualizar as opções de download para a página em que você está.</span><a class="headerlink" href="#download" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="fscreen">
+<a class="reference internal image-reference" href="../_images/fscreen.png"><img alt="../_images/fscreen.png" src="../_images/fscreen.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Esse ícone permite que você coloque a página no modo <em>full screen</em>.</span><a class="headerlink" href="#fscreen" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="sun">
+<a class="reference internal image-reference" href="../_images/sun.png"><img alt="../_images/sun.png" src="../_images/sun.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Ícones para seleção de tema claro ou escuro.</span><a class="headerlink" href="#sun" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="search">
+<a class="reference internal image-reference" href="../_images/search.png"><img alt="../_images/search.png" src="../_images/search.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Ícone para pesquisa no livro.</span><a class="headerlink" href="#search" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="list">
+<a class="reference internal image-reference" href="../_images/list.png"><img alt="../_images/list.png" src="../_images/list.png" style="height: 50px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Mostra barra com tópicos da página</span><a class="headerlink" href="#list" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
 <hr class="docutils" />
 <section id="referencias">
 <h2>Referências<a class="headerlink" href="#referencias" title="Permalink to this heading">#</a></h2>
@@ -561,6 +604,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opcoes">Opções</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referencias">Referências</a></li>
 </ul>
   </nav></div>
@@ -599,7 +643,7 @@ By <a href="https://ericbrasiln.github.io/">Eric Brasil</a>
   <div class="footer-item">
     
 <div class="extra_footer">
-  <div> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>. </div>
+  <div> <img class="logo" alt="Logos das Instituições" src="https://raw.githubusercontent.com/ericbrasiln/hemdig-framework/31-jupyter-book/book/assets/images/friso-logos-full.png" /> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>. </div>
 </div>
   </div>
   

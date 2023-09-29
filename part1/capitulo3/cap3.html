@@ -111,7 +111,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
   <div class="bd-header-announcement container-fluid bd-header-announcement">
-    <div class="bd-header-announcement__content">⚠️ Esta versão é apenas um esboço. Não deve ser citada nem utilizada. ⚠️</div>
+    <div class="bd-header-announcement__content">⚠️ Esta versão está na versão de revisão final. ⚠️</div>
   </div>
 
   
@@ -320,6 +320,24 @@ const thebe_selector_output = ".output, .cell_output"
     <img src="../../_static/images/logo_binder.svg">
   </span>
 <span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/ericbrasiln/hemdig-framework/blob/main/book/part1/capitulo3/cap3.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch onColab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
 </a>
 </li>
       
@@ -532,14 +550,14 @@ document.write(`
 <figure class="align-center" id="ex-ficheiro">
 <img alt="../../_images/ex_est_ficheiros.png" src="../../_images/ex_est_ficheiros.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Exemplo simples de estrutura de ficheiros e diretórios.</span><a class="headerlink" href="#ex-ficheiro" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Exemplo simples de estrutura de ficheiros e diretórios.</span><a class="headerlink" href="#ex-ficheiro" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Na imagem a seguir podemos ver a estrutura de diretórios e ficheiros utilizada nessa pesquisa:</p>
 <figure class="align-center" id="ex-hemdig">
 <img alt="../../_images/ex_est_hemdig.png" src="../../_images/ex_est_hemdig.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Estrutura de diretórios e ficheiros do repositório do HEMDIG(pt)</span><a class="headerlink" href="#ex-hemdig" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">Estrutura de diretórios e ficheiros do repositório do HEMDIG(pt)</span><a class="headerlink" href="#ex-hemdig" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="sistema-de-controle-de-versoes">
@@ -577,36 +595,43 @@ document.write(`
 <h3>FAIR<a class="headerlink" href="#fair" title="Permalink to this heading">#</a></h3>
 <p>Uma outra filosofia que pode nos ajudar a pensar a organização dos dados é o FAIR. Do inglês <em>Findability, Accessibility, Interoperability, and Reuse</em> de dados digitais, o FAIR nos indica princípios que devem guiar a nossa elaboração de estratégias de organização e documentação de dados.</p>
 <p>Listo abaixo, de forma resumida, os princípios FAIR (que estão disponíveis <a class="reference external" href="https://www.go-fair.org/fair-principles/">aqui</a>):</p>
-<ol class="arabic">
+<ol class="arabic simple">
 <li><p>Findable</p>
-<p>F1. (Meta)data are assigned a globally unique and persistent identifier</p>
-<p>F2. Data are described with rich metadata (defined by R1 below)</p>
-<p>F3. Metadata clearly and explicitly include the identifier of the data they describe</p>
-<p>F4. (Meta)data are registered or indexed in a searchable resource</p>
+<ul class="simple">
+<li><p>F1. (Meta)data are assigned a globally unique and persistent identifier</p></li>
+<li><p>F2. Data are described with rich metadata (defined by R1 below)</p></li>
+<li><p>F3. Metadata clearly and explicitly include the identifier of the data they describe</p></li>
+<li><p>F4. (Meta)data are registered or indexed in a searchable resource</p></li>
+</ul>
 </li>
 <li><p>Accessible</p>
-<p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> A1.1 The protocol is open, free, and universally implementable
-
- A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
-</pre></div>
-</div>
-<p>A2. Metadata are accessible, even when the data are no longer available</p>
+<ul class="simple">
+<li><p>A1. (Meta)data are retrievable by their identifier using a standardised communications protocol</p>
+<ul>
+<li><p>A1.1 The protocol is open, free, and universally implementable</p></li>
+<li><p>A1.2 The protocol allows for an authentication and authorisation procedure, where necessary</p></li>
+</ul>
+</li>
+<li><p>A2. Metadata are accessible, even when the data are no longer available</p></li>
+</ul>
 </li>
 <li><p>Interoperable</p>
-<p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</p>
-<p>I2. (Meta)data use vocabularies that follow FAIR principles</p>
-<p>I3. (Meta)data include qualified references to other (meta)data</p>
+<ul class="simple">
+<li><p>I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</p></li>
+<li><p>I2. (Meta)data use vocabularies that follow FAIR principles</p></li>
+<li><p>I3. (Meta)data include qualified references to other (meta)data</p></li>
+</ul>
 </li>
 <li><p>Reusable</p>
-<p>R1. (Meta)data are richly described with a plurality of accurate and relevant attributes</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> R1.1. (Meta)data are released with a clear and accessible data usage license
-
- R1.2. (Meta)data are associated with detailed provenance
-
- R1.3. (Meta)data meet domain-relevant community standards
-</pre></div>
-</div>
+<ul class="simple">
+<li><p>R1. (Meta)data are richly described with a plurality of accurate and relevant attributes</p>
+<ul>
+<li><p>R1.1. (Meta)data are released with a clear and accessible data usage license</p></li>
+<li><p>R1.2. (Meta)data are associated with detailed provenance</p></li>
+<li><p>R1.3. (Meta)data meet domain-relevant community standards</p></li>
+</ul>
+</li>
+</ul>
 </li>
 </ol>
 </section>
@@ -787,7 +812,7 @@ By <a href="https://ericbrasiln.github.io/">Eric Brasil</a>
   <div class="footer-item">
     
 <div class="extra_footer">
-  <div> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>. </div>
+  <div> <img class="logo" alt="Logos das Instituições" src="https://raw.githubusercontent.com/ericbrasiln/hemdig-framework/31-jupyter-book/book/assets/images/friso-logos-full.png" /> <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Este livro está sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>. </div>
 </div>
   </div>
   
