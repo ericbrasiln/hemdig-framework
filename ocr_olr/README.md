@@ -8,9 +8,9 @@ Buscamos avaliar ferramentas de código aberto e gratuitas. Mas ao final, també
 
 Esse capítulo, portanto, está dividido da seguinte forma:
 
-- CLI: ferramentas de linha de comando, nomeadamente OCR-D e Kraken
-- GUI: ferramentas com interface gráfica de usuário, nomeadamente gImageReader
-- Lições do Programming Historian
+- [CLI](./CLI_testes/): ferramentas de linha de comando, nomeadamente OCR-D e Kraken
+- [GUI](./GUI_testes/): ferramentas com interface gráfica de usuário, nomeadamente gImageReader
+- [Lições do Programming Historian](./PH_lessons/ph.ipynb)
 
 Em cada um desses tópicos, apresentamos um conjuntos de tutoriais, documentação, testes e resultados obtidos.
 
