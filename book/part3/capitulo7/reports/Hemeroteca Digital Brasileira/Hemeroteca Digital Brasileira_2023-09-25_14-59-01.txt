@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+Dados gerais da pesquisa
+Nome do repositório: Hemeroteca Digital Brasileira
+URL do repositório: http://memoria.bn.br/hdb/periodico.aspx
+Nome do usuário: Eric Brasil
+Data: 2023-09-25
+Hora: 14:59:01
+--------------------------------------------------------------------------------
+Parâmetros da pesquisa
+Resumo da pesquisa: Exemplo para Hemdig(pt)
+Local: RJ
+Recorte temporal: 1910 - 1919
+Periódico pesquisado: Todos
+Termos pesquisados: "cordão carnavalesco"
+--------------------------------------------------------------------------------
+Resultados da pesquisa
+Link da página com resultados da busca: http://memoria.bn.br/DocReader/docmulti.aspx?bib=%5Bcache%5Ddrummond_3675006691793.DocLstX&pasta=ano%20191&pesq=%22cord%C3%A3o%20carnavalesco%22
+Número de ocorrências encontradas: 278

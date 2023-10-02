@@ -1,0 +1,333 @@
+TY  - JOUR
+TI  - Searchable Turkish OCRed historical newspaper collection 1928–1942
+AU  - Menhour, H.
+AU  - Şahin, H.B.
+AU  - Sarıkaya, R.N.
+AU  - Aktaş, M.
+AU  - Sağlam, R.
+AU  - Ekinci, E.
+AU  - Eken, S.
+T2  - Journal of Information Science
+AB  - The newspaper emerged as a distinct cultural form in early 17th-century Europe. It is bound up with the early modern period of history. Historical newspapers are of utmost importance to nations and its people, and researchers from different disciplines rely on these papers to improve our understanding of the past. In pursuit of satisfying this need, Istanbul University Head Office of Library and Documentation provides access to a big database of scanned historical newspapers. To take it another step further and make the documents more accessible, we need to run optical character recognition (OCR) and named entity recognition (NER) tasks on the whole database and index the results to allow for full-text search mechanism. We design and implement a system encompassing the whole pipeline starting from scrapping the dataset from the original website to providing a graphical user interface to run search queries, and it manages to do that successfully. Proposed system provides to search people, culture and security-related keywords and to visualise them. © The Author(s) 2021.
+DA  - 2021///
+PY  - 2021
+DO  - 10.1177/01655515211000642
+VL  - 49
+IS  - 2
+SP  - 335
+EP  - 347
+J2  - J Inf Sci
+LA  - English
+SN  - 0165-5515
+AN  - WOS:000634018700001
+DB  - Scopus
+KW  - Data journalism
+KW  - Design and implements
+KW  - full-text search
+KW  - Full-text search
+KW  - Graphical user interfaces
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - Istanbul
+KW  - microservices
+KW  - named entity recognition
+KW  - Named entity recognition
+KW  - NAMED ENTITY RECOGNITION
+KW  - Natural language processing systems
+KW  - Newsprint
+KW  - Office buildings
+KW  - optical character recognition
+KW  - Optical character recognition
+KW  - Optical character recognition (OCR)
+KW  - SCOPUS
+KW  - Search queries
+KW  - SEGMENTATION
+KW  - Turkishs
+KW  - visualisation
+ER  - 
+
+TY  - CONF
+TI  - Publishing historical texts on the semantic web - A case study
+AU  - Ahonen, E.
+AU  - Hyvönen, E.
+T2  - ICSC 2009 - 2009 IEEE International Conference on Semantic Computing
+AB  - Historical texts are an important component of cultural heritage, and are being digitized and published on the web in various portals for the researchers and the public. However, searching and linking them with related contents is challenging due to the non-structured text form, digitization errors, and the differences and variations between old and modern language, including historical names (e.g. places), used for querying. This paper addresses these issues by presenting an approach and a system for publishing old texts on the semantic web. As a case study, an existing historical newspaper archive on the web is considered. In our model, semantic metadata is added to the text using automated concept extraction methods. Search is implemented with semantic techniques, by creating a multi-faceted search interface for the text materials. Problems due to OCR errors and spelling variants are addressed with a fuzzy string matching algorithm trying to guess corresponding words in a lexicon, and giving suggestions for corrected word forms. References between texts in the library as well as links between the library and external knowledge sources are formed by using shared ontologies for semantic annotations. © 2009 IEEE.
+C1  - Berkeley, CA
+C3  - ICSC - IEEE Int. Conf. Semant. Comput.
+DA  - 2009///
+PY  - 2009
+DO  - 10.1109/ICSC.2009.9
+SP  - 167
+EP  - 173
+LA  - English
+SN  - 9780769538006 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-73449099947&doi=10.1109%2fICSC.2009.9&partnerID=40&md5=5d790750349018eb5f66c51e8566a384
+DB  - Scopus
+Y2  - 2009/09/14/
+KW  - AS-links
+KW  - automatic semantic annotation
+KW  - Automatic semantic annotation
+KW  - Concept extraction
+KW  - Cultural heritages
+KW  - Data communication systems
+KW  - Errors
+KW  - External knowledge
+KW  - Faceted search
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - Metadata
+KW  - Modern languages
+KW  - multi-faceted search
+KW  - Multi-faceted search
+KW  - Newsprint
+KW  - Ontology
+KW  - Related content
+KW  - Research
+KW  - SCOPUS
+KW  - Semantic annotations
+KW  - Semantic metadata
+KW  - Semantic Web
+KW  - Semantics
+KW  - Shared ontologies
+KW  - String matching algorithm
+KW  - Structured text
+KW  - Text materials
+ER  - 
+
+TY  - JOUR
+TI  - Impresso inspect and compare. Visual comparison of semantically enriched historical newspaper articles
+AU  - Düring, M.
+AU  - Kalyakin, R.
+AU  - Bunout, E.
+AU  - Guido, D.
+T2  - Information
+AB  - The automated enrichment of mass-digitised document collections using techniques such as text mining is becoming increasingly popular. Enriched collections offer new opportunities for interface design to allow data-driven and visualisation-based search, exploration and interpretation. Most such interfaces integrate close and distant reading and represent semantic, spatial, social or temporal relations, but often lack contrastive views. Inspect and Compare (I&C) contributes to the current state of the art in interface design for historical newspapers with highly versatile side-by-side comparisons of query results and curated article sets based on metadata and semantic enrichments. I&C takes search queries and pre-curated article sets as inputs and allows comparisons based on the distributions of newspaper titles, publication dates and automatically generated enrichments, such as language, article types, topics and named entities. Contrastive views of such data reveal patterns, help humanities scholars to improve search strategies and to facilitate a critical assessment of the overall data quality. I&C is part of the impresso interface for the exploration of digitised and semantically enriched historical newspapers. © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+DA  - 2021///
+PY  - 2021
+DO  - 10.3390/info12090348
+DP  - www.mdpi.com
+VL  - 12
+IS  - 9
+SP  - 348
+J2  - Information
+LA  - en
+SN  - 2078-2489
+UR  - https://www.mdpi.com/2078-2489/12/9/348
+AN  - WOS:000699625600001
+DB  - Scopus
+L2  - https://www.mdpi.com/2078-2489/12/9/348
+KW  - Automatically generated
+KW  - comparison
+KW  - Comparison
+KW  - Critical assessment
+KW  - data criticism
+KW  - Data criticism
+KW  - digital history
+KW  - Digital history
+KW  - digital humanities
+KW  - Digital humanities
+KW  - diverging bar charts
+KW  - Diverging bar charts
+KW  - Document collection
+KW  - GUI
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - HEMDIG FRAMEWORK
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - impresso project
+KW  - Interface states
+KW  - metadata
+KW  - Metadata
+KW  - Natural language processing systems
+KW  - newspapers
+KW  - Newsprint
+KW  - SCOPUS
+KW  - search
+KW  - Search
+KW  - Search strategies
+KW  - semantic enrichment
+KW  - Semantic enrichment
+KW  - Semantics
+KW  - small multiples
+KW  - Small multiples
+KW  - Temporal relation
+KW  - Text mining
+KW  - user interface
+KW  - User interface
+KW  - Visual comparison
+ER  - 
+
+TY  - JOUR
+TI  - Metadata categorization for identifying search patterns in a digital library
+AU  - Bogaard, T.
+AU  - Hollink, L.
+AU  - Wielemaker, J.
+AU  - van Ossenbruggen, J.
+AU  - Hardman, L.
+T2  - Journal of Documentation
+AB  - Purpose: For digital libraries, it is useful to understand how users search in a collection. Investigating search patterns can help them to improve the user interface, collection management and search algorithms. However, search patterns may vary widely in different parts of a collection. The purpose of this paper is to demonstrate how to identify these search patterns within a well-curated historical newspaper collection using the existing metadata. Design/methodology/approach: The authors analyzed search logs combined with metadata records describing the content of the collection, using this metadata to create subsets in the logs corresponding to different parts of the collection. Findings: The study shows that faceted search is more prevalent than non-faceted search in terms of number of unique queries, time spent, clicks and downloads. Distinct search patterns are observed in different parts of the collection, corresponding to historical periods, geographical regions or subject matter. Originality/value: First, this study provides deeper insights into search behavior at a fine granularity in a historical newspaper collection, by the inclusion of the metadata in the analysis. Second, it demonstrates how to use metadata categorization as a way to analyze distinct search patterns in a collection. © 2018, Emerald Publishing Limited.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1108/JD-06-2018-0087
+VL  - 75
+IS  - 2
+SP  - 270
+EP  - 286
+J2  - J. Doc.
+LA  - English
+SN  - 00220418 (ISSN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85058347193&doi=10.1108%2fJD-06-2018-0087&partnerID=40&md5=514ec6147487d5ad5d6a8723a7ee7792
+DB  - Scopus
+KW  - Archives
+KW  - BEHAVIOR
+KW  - Behaviour
+KW  - Case studies
+KW  - Digital libraries
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Library users
+KW  - Newspapers
+KW  - SCOPUS
+KW  - Searching
+KW  - USERS
+KW  - WEB
+ER  - 
+
+TY  - CONF
+TI  - Searching for old news: User interests and behavior within a national collection
+AU  - Bogaard, T.
+AU  - Hollink, L.
+AU  - Wielemaker, J.
+AU  - Hardman, L.
+AU  - Van Ossenbruggen, J.
+T2  - 4th ACM SIGIR Conference on Information Interaction and Retrieval, CHIIR 2019
+A4  - ACM Special Interest Group on Information Retrieval (SIGIR)
+AB  - Modeling user interests helps to improve system support or reine recommendations in Interactive Information Retrieval. The aim of this study is to identify user interests in diferent parts of an online collection and investigate the related search behavior. To do this, we propose to use the metadata of selected facets and clicked documents as features for clustering sessions identiied in user logs. We evaluate the session clusters by measuring their stability over a six-month period. We apply our approach to data from the National Library of the Netherlands, a typical digital library with a richly annotated historical newspaper collection and a faceted search interface. Our results show that users interested in speciic parts of the collection use diferent search techniques. We demonstrate that a metadata-based clustering helps to reveal and understand user interests in terms of the collection, and how search behavior is related to speciic parts within the collection. © 2019 Copyright held by the owner/author(s). Publication rights licensed to Association for Computing Machinery.
+C3  - CHIIR - Proc. Conf. Hum. Inf. Interact. Retr.
+DA  - 2019///
+PY  - 2019
+DO  - 10.1145/3295750.3298925
+SP  - 113
+EP  - 121
+LA  - English
+PB  - Association for Computing Machinery, Inc
+SN  - 9781450360258 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85063160125&doi=10.1145%2f3295750.3298925&partnerID=40&md5=857f63c88ae1801642705641646f6271
+DB  - Scopus
+Y2  - 2019/03/10/
+KW  - Behavioral research
+KW  - Clustering
+KW  - Digital libraries
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - Historical newspapers
+KW  - Interactive information retrieval
+KW  - Log analysis
+KW  - Metadata
+KW  - National libraries
+KW  - Online collection
+KW  - SCOPUS
+KW  - Search behavior
+KW  - Search engines
+KW  - User interest
+KW  - User interests
+KW  - VALIDATION
+KW  - WEB
+ER  - 
+
+TY  - CONF
+TI  - Allgemeine musikalische zeitung as a searchable online corpus
+AU  - Kampe, B.
+AU  - Duan, T.
+AU  - Hahn, U.
+T2  - 12th International Conference on Language Resources and Evaluation, LREC 2020
+A2  - Calzolari N.
+A2  - Bechet F.
+A2  - Blache P.
+A2  - Choukri K.
+A2  - Cieri C.
+A2  - Declerck T.
+A2  - Goggi S.
+A2  - Isahara H.
+A2  - Maegaard B.
+A2  - Mariani J.
+A2  - Mazo H.
+A2  - Moreno A.
+A2  - Odijk J.
+A2  - Piperidis S.
+A4  - Amazon AWS; Bertin; Lenovo; Ontotex; Vecsys; Vocapia
+AB  - The massive digitization efforts related to historical newspapers over the past decades have focused on mass media sources and ordinary people as their primary recipients. Much less attention has been paid to newspapers published for a more specialized audience, e.g., those aiming at scholarly or cultural exchange within intellectual communities much narrower in scope, such as newspapers devoted to music criticism, arts or philosophy. Only some few of these specialized newspapers have been digitized up until now, but they are usually not well curated in terms of digitization quality, data formatting, completeness, redundancy (de-duplication), supply of metadata, and, hence, searchability. This paper describes our approach to eliminate these drawbacks for a major German-language newspaper resource of the Romantic Age, the Allgemeine Musikalische Zeitung (General Music Gazette). We here focus on a workflow that copes with a posteriori digitization problems, inconsistent OCRing and index building for searchability. In addition, we provide a user-friendly graphic interface to empower content-centric access to this (and other) digital resource(s) adopting open-source software for the purpose of Web presentation. © European Language Resources Association (ELRA), licensed under CC-BY-NC
+C3  - LREC - Int. Conf. Lang. Resour. Eval., Conf. Proc.
+DA  - 2020///
+PY  - 2020
+SP  - 969
+EP  - 976
+LA  - English
+PB  - European Language Resources Association (ELRA)
+SN  - 9791095546344 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85096565747&partnerID=40&md5=a9d7c08460e1a45a2e5f87ca36619976
+DB  - Scopus
+Y2  - 2020/05/11/
+KW  - corpus compilation
+KW  - Corpus compilation
+KW  - Data formatting
+KW  - data integration
+KW  - Data integration
+KW  - Digital Humanities
+KW  - Digital resources
+KW  - German language
+KW  - Graphic interfaces
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG - WOS
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - Intellectual community
+KW  - Newsprint
+KW  - Open source software
+KW  - Open systems
+KW  - Ordinary people
+KW  - romanticism research
+KW  - Romanticism research
+KW  - SCOPUS
+KW  - User interfaces
+KW  - Web presentations
+ER  - 
+
+TY  - CONF
+TI  - DuoSearch: A Novel Search Engine for Bulgarian Historical Documents
+AU  - Beshirov, A
+AU  - Hadzhieva, S
+AU  - Koychev, I
+AU  - Dobreva, M
+T2  - ADVANCES IN INFORMATION RETRIEVAL, PT II
+A2  - Hagen, M
+A2  - Verberne, S
+A2  - Macdonald, C
+A2  - Seifert, C
+A2  - Balog, K
+A2  - Norvag, K
+A2  - Setty, V
+AB  - Search in collections of digitised historical documents is hindered by a two-prong problem, orthographic variety and optical character recognition (OCR) mistakes. We present a new search engine for historical documents, DuoSearch, which uses ElasticSearch and machine learning methods based on deep neural networks to offer a solution to this problem. It was tested on a collection of historical newspapers in Bulgarian from the mid-19th to the mid-20th century. The system provides an interactive and intuitive interface for the end-users allowing them to enter search terms in modern Bulgarian and search across historical spellings. This is the first solution facilitating the use of digitised historical documents in Bulgarian.
+C3  - University of Sofia
+DA  - 2022///
+PY  - 2022
+DO  - 10.1007/978-3-030-99739-7_31
+VL  - 13186
+SP  - 265
+EP  - 269
+LA  - English
+SN  - 0302-9743
+AN  - WOS:000787788000031
+KW  - BERT
+KW  - HEMDIG - WOS
+KW  - Historical newspapers search engine
+KW  - Orthographic variety
+KW  - Post-OCR text correction
+ER  - 
+

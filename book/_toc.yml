@@ -1,0 +1,78 @@
+format: jb-book
+root: index.ipynb
+parts:
+  - caption: Apresentação da pesquisa
+    chapters:
+      - file: pretext/como_usar
+      - file: pretext/pesquisa
+  - caption: 1ª fase - Planejamento e Preparação
+    chapters:
+      - file: part1/part1-intro
+      - file: part1/capitulo1/cap1
+        sections:
+          - file: part1/capitulo1/sec11
+      - file: part1/capitulo2/cap2
+        sections:
+          - file: part1/capitulo2/sec21
+      - file: part1/capitulo3/cap3
+  - caption: 2ª fase - Crítica dos Acervos
+    chapters:
+      - file: part2/part2-intro
+      - file: part2/capitulo4/cap4
+        sections:
+          - file: part2/capitulo4/sec41
+          - file: part2/capitulo4/sec42
+          - file: part2/capitulo4/sec43
+      - file: part2/capitulo5/cap5
+        sections:
+          - file: part2/capitulo5/sec51
+          - file: part2/capitulo5/sec52
+      - file: part2/capitulo6/cap6
+  - caption: 3ª fase - Coleta de dados
+    chapters:
+      - file: part3/part3-intro
+      - file: part3/capitulo7/cap7
+        sections:
+          - file: part3/capitulo7/sec71
+      - file: part3/capitulo8/cap8
+        sections:
+          - file: part3/capitulo8/sec81
+          - file: part3/capitulo8/sec82
+          - file: part3/capitulo8/sec83
+      - file: part3/capitulo9/cap9
+  - caption: 4ª fase - Tratamento dos dados
+    chapters:
+      - file: part4/part4-intro
+      - file: part4/capitulo10/cap10
+        sections:
+          - file: part4/capitulo10/sec101
+      - file: part4/capitulo11/cap11
+      - file: part4/capitulo12/cap12
+        sections:
+          - file: part4/capitulo12/sec121
+          - file: part4/capitulo12/sec122
+          - file: part4/capitulo12/sec123
+      - file: part4/capitulo13/cap13
+        sections:
+          - file: part4/capitulo13/sec131
+  - caption: 5ª Fase - Revisão, preservação e publicação
+    chapters:
+      - file: part5/part5-intro
+      - file: part5/capitulo14/cap14
+      - file: part5/capitulo15/cap15
+      - file: part5/capitulo16/cap16
+  - caption: Considerações Finais
+    chapters:
+      - file: postext/consideracoes_finais
+      - file: postext/biblio
+      - file: postext/agradecimentos
+      - file: postext/contatos
+  - caption: Apêndices
+    chapters:
+      - file: apendices/apendices
+        sections:
+          - file: apendices/apendiceA
+          - file: apendices/apendiceB
+          - file: apendices/apendiceC
+          - file: apendices/apendiceD
+          - file: apendices/apendiceE

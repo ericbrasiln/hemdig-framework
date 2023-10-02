@@ -1,0 +1,2149 @@
+TY  - CONF
+TI  - Making Europe's Historical Newspapers Searchable
+AU  - Neudecker, C.
+AU  - Antonacopoulos, A.
+T2  - 12th IAPR International Workshop on Document Analysis Systems, DAS 2016
+AB  - This paper provides a rare glimpse into the overall approach for the refinement, i.e. the enrichment of scanned historical newspapers with text and layout recognition, in the Europeana Newspapers project. Within three years, the project processed more than 10 million pages of historical newspapers from 12 national and major libraries to produce the largest open access and fully searchable text collection of digital historical newspapers in Europe. In this, a wide variety of legal, logistical, technical and other challenges were encountered. After introducing the background issues in newspaper digitization in Europe, the paper discusses the technical aspects of refinement in greater detail. It explains what decisions were taken in the design of the large-scale processing workflow to address these challenges, what were the results produced and what were identified as best practices. © 2016 IEEE.
+C3  - Proc. - IAPR Int. Workshop Doc. Anal. Syst., DAS
+DA  - 2016///
+PY  - 2016
+DO  - 10.1109/DAS.2016.83
+SP  - 405
+EP  - 410
+LA  - English
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 9781509017928 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84979556437&doi=10.1109%2fDAS.2016.83&partnerID=40&md5=8f07aa6473046bc026f95a822340502c
+DB  - Scopus
+Y2  - 2016/04/11/
+L2  - https://ieeexplore.ieee.org/abstract/document/7490152?casa_token=CzzqyQTP5M8AAAAA:B_59bUIHZNePH7tD6xDjSWGV3vb_UAisj4piLTiDc1IjFEQkzc-jopJUCewxi5LGfDdvKoG2gam7
+KW  - Best practices
+KW  - Character recognition
+KW  - digital libraries
+KW  - Digital libraries
+KW  - Digitisation
+KW  - Electronic publishing
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG FRAMEWORK
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - large-scale digitisation
+KW  - Large-scale processing
+KW  - layout analysis
+KW  - Layout analysis
+KW  - newspapers
+KW  - Newsprint
+KW  - OCR
+KW  - OLR
+KW  - Open Access
+KW  - optical character recognition
+KW  - Optical character recognition
+KW  - SCOPUS
+KW  - Technical aspects
+KW  - Text collection
+ER  - 
+
+TY  - CONF
+TI  - Large-scale refinement of digital historic newspapers with named entity recognition
+AU  - Neudecker, Clemens
+AU  - Wilms, Lotte
+AU  - Faber, Wille Jaan
+AU  - van Veen, Theo
+C3  - Proc IFLA Newspapers/GENLOC Pre-Conference Satellite Meeting
+DA  - 2014///
+PY  - 2014
+DP  - Google Scholar
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - OLR
+KW  - ALTO XML
+KW  - large-scale refinement
+KW  - NER
+ER  - 
+
+TY  - JOUR
+TI  - Impresso inspect and compare. Visual comparison of semantically enriched historical newspaper articles
+AU  - Düring, M.
+AU  - Kalyakin, R.
+AU  - Bunout, E.
+AU  - Guido, D.
+T2  - Information
+AB  - The automated enrichment of mass-digitised document collections using techniques such as text mining is becoming increasingly popular. Enriched collections offer new opportunities for interface design to allow data-driven and visualisation-based search, exploration and interpretation. Most such interfaces integrate close and distant reading and represent semantic, spatial, social or temporal relations, but often lack contrastive views. Inspect and Compare (I&C) contributes to the current state of the art in interface design for historical newspapers with highly versatile side-by-side comparisons of query results and curated article sets based on metadata and semantic enrichments. I&C takes search queries and pre-curated article sets as inputs and allows comparisons based on the distributions of newspaper titles, publication dates and automatically generated enrichments, such as language, article types, topics and named entities. Contrastive views of such data reveal patterns, help humanities scholars to improve search strategies and to facilitate a critical assessment of the overall data quality. I&C is part of the impresso interface for the exploration of digitised and semantically enriched historical newspapers. © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+DA  - 2021///
+PY  - 2021
+DO  - 10.3390/info12090348
+DP  - www.mdpi.com
+VL  - 12
+IS  - 9
+SP  - 348
+J2  - Information
+LA  - en
+SN  - 2078-2489
+UR  - https://www.mdpi.com/2078-2489/12/9/348
+DB  - Scopus
+L2  - https://www.mdpi.com/2078-2489/12/9/348
+KW  - Automatically generated
+KW  - comparison
+KW  - Comparison
+KW  - Critical assessment
+KW  - data criticism
+KW  - Data criticism
+KW  - digital history
+KW  - Digital history
+KW  - digital humanities
+KW  - Digital humanities
+KW  - diverging bar charts
+KW  - Diverging bar charts
+KW  - Document collection
+KW  - GUI
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG FRAMEWORK
+KW  - historical newspapers
+KW  - Historical newspapers
+KW  - impresso project
+KW  - Interface states
+KW  - metadata
+KW  - Metadata
+KW  - Natural language processing systems
+KW  - newspapers
+KW  - Newsprint
+KW  - SCOPUS
+KW  - search
+KW  - Search
+KW  - Search strategies
+KW  - semantic enrichment
+KW  - Semantic enrichment
+KW  - Semantics
+KW  - small multiples
+KW  - Small multiples
+KW  - Temporal relation
+KW  - Text mining
+KW  - user interface
+KW  - User interface
+KW  - Visual comparison
+ER  - 
+
+TY  - CONF
+TI  - From historical newspapers to machine-readable data: The origami OCR pipeline
+AU  - Liebl, B.
+AU  - Burghardt, M.
+T2  - 1st Workshop on Computational Humanities Research, CHR 2020
+A2  - Karsdorp F.
+A2  - McGillivray B.
+A2  - Nerghes A.
+A2  - Wevers M.
+AB  - While historical newspapers recently have gained a lot of attention in the digital humanities, transforming them into machine-readable data by means of OCR poses some major challenges. In order to address these challenges, we have developed an end-to-end OCR pipeline named Origami. This pipeline is part of a current project on the digitization and quantitative analysis of the German newspaper "Berliner Börsen-Zeitung"(BBZ), from 1872 to 1931. The Origami pipeline reuses existing open source OCR components and on top offers a new configurable architecture for layout detection, a simple table recognition, a two-stage X-Y cut for reading order detection, and a new robust implementation for document dewarping. In this paper we describe the different stages of the workflow and discuss how they meet the above-mentioned challenges posed by historical newspapers. © 2020 Copyright for this paper by its authors.
+C1  - Amsterdam
+C3  - CEUR Workshop Proc.
+DA  - 2020///
+PY  - 2020
+VL  - 2723
+SP  - 351
+EP  - 373
+LA  - en
+PB  - CEUR-WS
+SN  - 16130073 (ISSN)
+UR  - http://ceur-ws.org/Vol-2723/long20.pdf
+DB  - Scopus
+Y2  - 2020/11/18/
+KW  - Configurable architectures
+KW  - Current projects
+KW  - Deep neural networks
+KW  - Different stages
+KW  - Digital humanities
+KW  - digital tool
+KW  - End-to-end OCR
+KW  - German newspapers
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG FRAMEWORK
+KW  - Historical newspapers
+KW  - Humanities computing
+KW  - Layout detection
+KW  - Metadata
+KW  - newspapers
+KW  - Newsprint
+KW  - OCR
+KW  - OLR
+KW  - Order detections
+KW  - origami ocr pipeline
+KW  - Pipelines
+KW  - Readable data
+KW  - SCOPUS
+ER  - 
+
+TY  - CONF
+TI  - Europeana newspapers OCR workflow evaluation
+AU  - Pletschacher, S.
+AU  - Clausner, C.
+AU  - Antonacopoulos, A.
+T2  - 3rd International Workshop on Historical Document Imaging and Processing, HIP 2015
+A4  - FamilySearch
+AB  - This paper summarises the final performance evaluation results of the OCR workflow which was employed for large-scale production in the Europeana Newspapers project. It gives a detailed overview of how the involved software performed on a representative dataset of historical newspaper pages (for which ground truth was created) with regard to general text accuracy as well as layout-related factors which have an impact on how the material can be used in specific use scenarios. Specific types of errors are examined and evaluated in order to identify possible improvements related to the employed document image analysis and recognition methods. Moreover, alternatives to the standard production workflow are assessed to determine future directions and give advice on best practice related to OCR projects. © 2015 ACM.
+C3  - Proceedings of the 3rd international workshop on historical document imaging and processing
+DA  - 2015///
+PY  - 2015
+DO  - 10.1145/2809544.2809554
+SP  - 39
+EP  - 46
+LA  - English
+PB  - Association for Computing Machinery
+SN  - 9781450336024 (ISBN)
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85014883617&doi=10.1145%2f2809544.2809554&partnerID=40&md5=9106dbb1686730d5f3b8f2b30d737722
+DB  - Scopus
+Y2  - 2015/08/22/
+L2  - https://dl.acm.org/doi/abs/10.1145/2809544.2809554
+KW  - Document image analysis and recognition
+KW  - europeana
+KW  - evaluation
+KW  - Evaluation results
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG - SCOPUS
+KW  - HEMDIG FRAMEWORK
+KW  - Historical documents
+KW  - Historical newspapers
+KW  - History
+KW  - Image processing
+KW  - Large scale productions
+KW  - newspapers
+KW  - Newspapers
+KW  - Newsprint
+KW  - OCR
+KW  - Optical character recognition
+KW  - Performance evaluation
+KW  - Production workflows
+KW  - SCOPUS
+KW  - workflow
+ER  - 
+
+TY  - JOUR
+TI  - Digital interfaces of historical newspapers: opportunities, restrictions and recommendations
+AU  - Hechl, Stefan
+AU  - Langlais, Pierre-Carl
+AU  - Marjanen, Jani
+AU  - Oberbichler, Sarah
+AU  - Pfanzelter, Eva
+T2  - Journal of Data Mining & Digital Humanities
+AB  - Many libraries offer free access to digitised historical newspapers via user interfaces. After an initial period of search and filter options as the only features, the availability of more advanced tools and the desire for more options among users has ushered in a period of interface development. However, this raises a number of open questions and challenges. For example, how can we provide interfaces for different user groups? What tools should be available on interfaces and how can we avoid too much complexity? What tools are helpful and how can we improve usability? This paper will not provide definite answers to these questions, but it gives an insight into the difficulties, challenges and risks of using interfaces to investigate historical newspapers. More importantly, it provides ideas and recommendations for the improvement of user interfaces and digital tools.
+DA  - 2021///
+PY  - 2021
+DO  - 10.46298/jdmdh.6121
+DP  - jdmdh.episciences.org
+VL  - HistoInformatics
+IS  - jdmdh:6121
+LA  - en
+SN  - 2416-5999
+ST  - Digital interfaces of historical newspapers
+UR  - https://jdmdh.episciences.org/7069/pdf
+Y2  - 2022/03/19/01:45:58
+L2  - https://jdmdh.episciences.org/7069
+L4  - https://www.researchgate.net/publication/341926999_Digital_interfaces_of_historical_newspapers_opportunities_restrictions_and_recommendations
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - GUI
+KW  - topic modeling
+ER  - 
+
+TY  - JOUR
+TI  - Combining visual and textual features for semantic segmentation of historical newspapers
+AU  - Kaplan, Frédéric
+AU  - Oliveira, Sofia Ares
+AU  - Clematide, Simon
+AU  - Ehrmann, Maud
+AU  - Barman, Raphaël
+T2  - Journal of Data Mining & Digital Humanities
+AB  - The massive amounts of digitized historical documents acquired over the last decades naturally lend themselves to automatic processing and exploration. Research work seeking to automatically process facsimiles and extract information thereby are multiplying with, as a first essential step, document layout analysis. If the identification and categorization of segments of interest in document images have seen significant progress over the last years thanks to deep learning techniques, many challenges remain with, among others, the use of finer-grained segmentation typologies and the consideration of complex, heterogeneous documents such as historical newspapers. Besides, most approaches consider visual features only, ignoring textual signal. In this context, we introduce a multimodal approach for the semantic segmentation of historical newspapers that combines visual and textual features. Based on a series of experiments on diachronic Swiss and Luxembourgish newspapers, we investigate, among others, the predictive power of visual and textual features and their capacity to generalize across time and sources. Results show consistent improvement of multimodal models in comparison to a strong visual baseline, as well as better robustness to high material variance.
+DA  - 2021///
+PY  - 2021
+DO  - 10.46298/jdmdh.6107
+DP  - jdmdh.episciences.org
+VL  - HistoInformatics
+LA  - en
+UR  - https://jdmdh.episciences.org/7097/pdf
+Y2  - 2022/03/19/01:44:11
+L2  - https://jdmdh.episciences.org/7097
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - deep learning
+KW  - image segmentation
+KW  - semantic segmentation
+ER  - 
+
+TY  - JOUR
+TI  - Innovative Approaches of Historical Newspapers: Data Mining, Data Visualization, Semantic Enrichment
+AU  - Moreux, Jean-Philippe
+DA  - 2017///
+PY  - 2017
+DP  - Google Scholar
+ST  - Innovative Approaches of Historical Newspapers
+L2  - http://library.ifla.org/id/eprint/2076/
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OLR
+KW  - ALTO XML
+KW  - NER
+KW  - data visualisation
+KW  - data mining
+ER  - 
+
+TY  - CHAP
+TI  - A Multilingual Dataset for Named Entity Recognition, Entity Linking and Stance Detection in Historical Newspapers
+AU  - Hamdi, Ahmed
+AU  - Linhares Pontes, Elvys
+AU  - Boros, Emanuela
+AU  - Nguyen, Thi Tuyet Hai
+AU  - Hackl, Günter
+AU  - Moreno, Jose G.
+AU  - Doucet, Antoine
+T2  - Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval
+AB  - Named entity processing over historical texts is more and more being used due to the massive documents and archives being stored in digital libraries. However, due to the poor annotated resources of historical nature, information extraction performances fall behind those on contemporary texts. In this paper, we introduce the development of the NewsEye resource, a multilingual dataset for named entity recognition and linking enriched with stances towards named entities. The dataset is comprised of diachronic historical newspaper material published between 1850 and 1950 in French, German, Finnish, and Swedish. Such historical resource is essential in the context of developing and evaluating named entity processing systems. It evenly allows enhancing the performances of existing approaches on historical documents which enables adequate and efficient semantic indexing of historical documents on digital cultural heritage collections.
+CY  - New York, NY, USA
+DA  - 2021/07/11/
+PY  - 2021
+DP  - ACM Digital Library
+SP  - 2328
+EP  - 2334
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-8037-9
+UR  - https://doi.org/10.1145/3404835.3463255
+Y2  - 2022/03/18/
+KW  - named entity recognition
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - NER
+KW  - datasets
+KW  - diachronic historical newspapers
+KW  - entity linking
+KW  - multilingual
+KW  - newseye
+KW  - stance detection
+ER  - 
+
+TY  - JOUR
+TI  - Language resources for historical newspapers: the impresso collection
+AU  - Ehrmann, Maud
+AU  - Romanello, Matteo
+AU  - Clematide, Simon
+AU  - Ströbel, Phillip
+AU  - Barman, Raphaël
+DA  - 2020///
+PY  - 2020
+DP  - Google Scholar
+ST  - Language resources for historical newspapers
+L2  - https://www.zora.uzh.ch/id/eprint/191270/
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - impresso project
+KW  - multilingual
+KW  - NER
+KW  - newspapers
+KW  - OCR
+KW  - semantic annotation
+KW  - topic modeling
+ER  - 
+
+TY  - CONF
+TI  - The europeana newspapers–a gateway to european newspapers online
+AU  - Pekárek, Aleš
+AU  - Willems, Marieke
+C3  - Euro-Mediterranean Conference
+DA  - 2012///
+PY  - 2012
+DP  - Google Scholar
+SP  - 654
+EP  - 659
+PB  - Springer
+L2  - https://link.springer.com/chapter/10.1007/978-3-642-34234-9_68
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - OLR
+KW  - NER
+ER  - 
+
+TY  - CONF
+TI  - Data mining historical newspaper metadata
+AU  - Moreux, Jean-Philippe
+C3  - Proceedings of the IFLA International News Media Conference (04 2016). https://www. researchgate. net/publication/291833336_Data_Mining_Historical_Newspaper_Metadata
+DA  - 2016///
+PY  - 2016
+DP  - Google Scholar
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - OLR
+KW  - ALTO XML
+KW  - data visualization
+KW  - data mining
+ER  - 
+
+TY  - JOUR
+TI  - The challenge of making digitised European newspaper content available online
+AU  - Reilly, Susan
+DA  - 2013///
+PY  - 2013
+DP  - Google Scholar
+L2  - http://ifla-test.eprints-hosting.org/id/eprint/255/
+KW  - europeana
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+ER  - 
+
+TY  - RPRT
+TI  - Historical Newspaper Content Mining: Revisiting the impresso Project's Challenges in Text and Image Processing, Design and Historical Scholarship
+AU  - Ehrmann, Maud
+AU  - Bunout, Estelle
+AU  - Clematide, Simon
+AU  - Düring, Marten
+AU  - Fickers, Andreas
+AU  - Guido, Daniele
+AU  - Kalyakin, Roman
+AU  - Kaplan, Frédéric
+AU  - Romanello, Matteo
+AU  - Schroeder, Paul
+DA  - 2020///
+PY  - 2020
+DP  - Google Scholar
+PB  - ADHO
+ST  - Historical Newspaper Content Mining
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - impresso project
+KW  - image processing
+KW  - text processing
+ER  - 
+
+TY  - JOUR
+TI  - Integrated interdisciplinary workflows for research on historical newspapers: Perspectives from humanities scholars, computer scientists, and librarians
+AU  - Oberbichler, Sarah
+AU  - Boroş, Emanuela
+AU  - Doucet, Antoine
+AU  - Marjanen, Jani
+AU  - Pfanzelter, Eva
+AU  - Rautiainen, Juha
+AU  - Toivonen, Hannu
+AU  - Tolonen, Mikko
+T2  - Journal of the Association for Information Science and Technology
+AB  - This article considers the interdisciplinary opportunities and challenges of working with digital cultural heritage, such as digitized historical newspapers, and proposes an integrated digital hermeneutics workflow to combine purely disciplinary research approaches from computer science, humanities, and library work. Common interests and motivations of the above-mentioned disciplines have resulted in interdisciplinary projects and collaborations such as the NewsEye project, which is working on novel solutions on how digital heritage data is (re)searched, accessed, used, and analyzed. We argue that collaborations of different disciplines can benefit from a good understanding of the workflows and traditions of each of the disciplines involved but must find integrated approaches to successfully exploit the full potential of digitized sources. The paper is furthermore providing an insight into digital tools, methods, and hermeneutics in action, showing that integrated interdisciplinary research needs to build something in between the disciplines while respecting and understanding each other's expertise and expectations.
+DA  - 2022///
+PY  - 2022
+DO  - 10.1002/asi.24565
+DP  - Wiley Online Library
+VL  - 73
+IS  - 2
+SP  - 225
+EP  - 239
+LA  - en
+SN  - 2330-1643
+ST  - Integrated interdisciplinary workflows for research on historical newspapers
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/asi.24565
+Y2  - 2022/03/19/01:43:19
+L2  - https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/asi.24565
+KW  - HEMDIG - PROJETOS SIMILARES
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - workflow
+KW  - Interdisciplinary collaborations
+KW  - newseye
+ER  - 
+
+TY  - COMP
+TI  - analise_pyHDB
+AU  - Brasil, Eric
+AB  - Scripts para geração de gráficos a partir do dataset criado com a ferramenta pyHDB
+DA  - 2022/02/08/T04:52:48Z
+PY  - 2022
+DP  - GitHub
+LA  - Python
+UR  - https://github.com/ericbrasiln/analise_pyHDB
+Y2  - 2022/10/28/14:41:39
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - ENCYC
+TI  - Interface gráfica do utilizador
+T2  - Wikipédia, a enciclopédia livre
+AB  - Em informática, interface gráfica do utilizador (português europeu) ou usuário (português brasileiro) (abreviadamente, o acrônimo GUI, do inglês Graphical User Interface) é um tipo de interface do utilizador que permite a interação com dispositivos digitais por meio de elementos gráficos como ícones e outros indicadores visuais, em contraste a interface de linha de comando. Foi criada pela Xerox mas somente se tornou um produto com a Apple.A interação é feita geralmente com um mouse ou um teclado, com os quais o usuário é capaz de selecionar símbolos e manipulá-los de forma a obter algum resultado prático. Esses símbolos são designados de widgets e são agrupados em kits.
+Ambiente gráfico é um software feito para facilitar e tornar prática a utilização do computador por meio de representações visuais do sistema operacional.
+Para Windows temos apenas o ambiente gráfico padrão, nas versões Windows Vista e Windows 7 temos a chamada Windows Aero. Para GNU/Linux temos vários ambientes gráficos, entre eles, o KDE, Gnome, BlackBox, Xfce, LXDE, etc.. Há também a opção de não precisar usar ambientes gráficos. Para prover a funcionalidade do ambiente gráfico existem programas como X.org, XFree86.
+DA  - 2022/05/06/T18:33:08Z
+PY  - 2022
+DP  - Wikipedia
+LA  - pt
+UR  - https://pt.wikipedia.org/w/index.php?title=Interface_gr%C3%A1fica_do_utilizador&oldid=63533578
+Y2  - 2022/10/25/09:42:13
+L2  - https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador
+KW  - GUI
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - ENCYC
+TI  - Graphical user interface
+T2  - Wikipedia
+AB  - The GUI ( JEE-yoo-EYE or  GOO-ee), graphical user interface, is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based UIs, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of CLIs (command-line interfaces), which require commands to be typed on a computer keyboard.
+The actions in a GUI are usually performed through direct manipulation of the graphical elements. Beyond computers, GUIs are used in many handheld mobile devices such as MP3 players, portable media players, gaming devices, smartphones and smaller household, office and industrial controls. The term GUI tends not to be applied to other lower-display resolution types of interfaces, such as video games (where HUD (head-up display) is preferred), or not including flat screens like volumetric displays because the term is restricted to the scope of 2D display screens able to describe generic information, in the tradition of the computer science research at the Xerox Palo Alto Research Center.
+DA  - 2022/10/17/T13:53:14Z
+PY  - 2022
+DP  - Wikipedia
+LA  - en
+UR  - https://en.wikipedia.org/w/index.php?title=Graphical_user_interface&oldid=1116620039
+Y2  - 2022/10/25/09:41:22
+L2  - https://en.wikipedia.org/wiki/Graphical_user_interface
+KW  - GUI
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - Processing topical queries on images of historical newspaper pages
+AU  - Maia, José E. B.
+AU  - Sá, Gildácio J. de A.
+AB  - Historical newspapers are a source of research for the human and social sciences. However, these image collections are difficult to read by machine due to the low quality of the print, the lack of standardization of the pages in addition to the low quality photograph of some files. This paper presents the processing model of a topic navigation system in historical newspaper page images. The general procedure consists of four modules which are: segmentation of text sub-images and text extraction, preprocessing and representation, induced topic extraction and representation, and document viewing and retrieval interface. The algorithmic and technological approaches of each module are described and the initial test results about a collection covering a range of 28 years are presented.
+DA  - 2020///
+PY  - 2020
+DO  - 10.48550/ARXIV.2002.08500
+DP  - DOI.org (Datacite)
+UR  - https://arxiv.org/abs/2002.08500
+Y2  - 2022/08/12/13:42:18
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - NER
+KW  - image processing
+KW  - NLP
+ER  - 
+
+TY  - JOUR
+TI  - A Hemeroteca Digital Brasileira: Fontes E Possibilidades Para a Pesquisa Em História Da Educação
+AU  - Azevedo, Laís Paula de Medeiros Campos
+AU  - Pessoa, Lígia Silvia
+AU  - Neta, Olívia Morais de Medeiros
+T2  - Cenas Educacionais
+AB  - Resumo
+					A Hemeroteca Digital Brasileira vinculada à Fundação Biblioteca Nacional disponibiliza aos pesquisadores a consulta ao seu acervo digital de periódicos, jornais, revistas e outros documentos, de forma livre e gratuita. Este artigo objetiva apresentar e discutir a hemeroteca digital como fonte para a História da Educação potiguar, tendo como foco a investigação acerca do intelectual norte-rio-grandense Nestor dos Santos Lima. O artigo foi construído de modo a descrever o percurso de pesquisa realizado no portal. O recorte espaço-temporal investigado compreendeu os documentos não apenas no Rio Grande do Norte, mas em outros Estados no período de 1900 a 1930. Entre os jornais disponibilizados na Hemeroteca e que se constituíram enquanto resultados da pesquisa apontamos, por exemplo, “O Paiz” e o “Jornal do Comércio” do Rio de Janeiro, o “Correio Paulistano” de São Paulo e o “Diário de Pernambuco”. Para a realização da pesquisa, nos pautamos principalmente em Le Goff (1990), Certeau (1982), Zicman (1985) e Luca (2008). Ressaltamos a potencialidade da imprensa enquanto fonte para História da Educação e a necessidade da crítica ao documento que, muitas vezes se revela parcial e subjetivo, permeado por intencionalidades. Destacamos, sobretudo, a relevância da Hemeroteca Digital enquanto repositório de fontes para a História da Educação. Como possibilidades advindas da pesquisa na hemeroteca digital sobre Nestor Lima, apontamos os indícios da relação que o intelectual constrói com a imprensa, as sociabilidades apresentadas, além das marcas de sua atuação no campo educacional no Estado e sua repercussão nacional durante o período da Primeira República.
+DA  - 2019///
+PY  - 2019
+DP  - www.revistas.uneb.br
+VL  - 2
+SP  - 39
+EP  - 55
+LA  - pt
+SN  - 2595-4881
+ST  - A Hemeroteca Digital Brasileira
+UR  - https://www.revistas.uneb.br/index.php/cenaseducacionais/article/view/7361
+Y2  - 2022/05/17/00:52:26
+KW  - HDB
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+ER  - 
+
+TY  - JOUR
+TI  - PDFDataExtractor: A Tool for Reading Scientific Text and Interpreting Metadata from the Typeset Literature in the Portable Document Format
+AU  - Zhu, Miao
+AU  - Cole, Jacqueline M.
+T2  - Journal of Chemical Information and Modeling
+AB  - The layout of portable document format (PDF) files is constant to any screen, and the metadata therein are latent, compared to mark-up languages such as HTML and XML. No semantic tags are usually provided, and a PDF file is not designed to be edited or its data interpreted by software. However, data held in PDF files need to be extracted in order to comply with open-source data requirements that are now government-regulated. In the chemical domain, related chemical and property data also need to be found, and their correlations need to be exploited to enable data science in areas such as data-driven materials discovery. Such relationships may be realized using text-mining software such as the “chemistry-aware” natural-language-processing tool, ChemDataExtractor; however, this tool has limited data-extraction capabilities from PDF files. This study presents the PDFDataExtractor tool, which can act as a plug-in to ChemDataExtractor. It outperforms other PDF-extraction tools for the chemical literature by coupling its functionalities to the chemical-named entity-recognition capabilities of ChemDataExtractor. The intrinsic PDF-reading abilities of ChemDataExtractor are much improved. The system features a template-based architecture. This enables semantic information to be extracted from the PDF files of scientific articles in order to reconstruct the logical structure of articles. While other existing PDF-extracting tools focus on quantity mining, this template-based system is more focused on quality mining on different layouts. PDFDataExtractor outputs information in JSON and plain text, including the metadata of a PDF file, such as paper title, authors, affiliation, email, abstract, keywords, journal, year, document object identifier (DOI), reference, and issue number. With a self-created evaluation article set, PDFDataExtractor achieved promising precision for all key assessed metadata areas of the document text.
+DA  - 2022/04/11/
+PY  - 2022
+DO  - 10.1021/acs.jcim.1c01198
+DP  - ACS Publications
+VL  - 62
+IS  - 7
+SP  - 1633
+EP  - 1643
+J2  - J. Chem. Inf. Model.
+SN  - 1549-9596
+ST  - PDFDataExtractor
+UR  - https://doi.org/10.1021/acs.jcim.1c01198
+Y2  - 2022/05/05/19:16:37
+L2  - https://pubs.acs.org/doi/full/10.1021/acs.jcim.1c01198
+KW  - digital tool
+KW  - HEMDIG FRAMEWORK
+KW  - information retrieval
+KW  - PDF
+KW  - PDFDataExtractor
+ER  - 
+
+TY  - JOUR
+TI  - A Culture of non-citation: Assessing the digital impact of British History Online and the Early English Books Online Text Creation Partnership
+AU  - Blaney, Jonathan
+AU  - Siefring, Judith
+T2  - Digital Humanities Quarterly
+DA  - 2016/12/01/
+PY  - 2016
+VL  - 011
+IS  - 1
+J2  - DHQ
+SN  - 1938-4122
+ST  - A Culture of non-citation
+L2  - http://www.digitalhumanities.org/dhq/vol/11/1/000282/000282.html
+KW  - citation patterns
+KW  - digital libraries
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - Illusionary Order: Online Databases, Optical Character Recognition, and Canadian History, 1997–2010
+AU  - Milligan, Ian
+T2  - The Canadian Historical Review
+AB  - It all seems so orderly and comprehensive. Instead of firing up the micro-film reader to navigate the Globe and Mail or the Toronto Star, one needs only to log into online newspaper databases. A keyword search, for a particular event, person, or cultural phenomenon, brings up a list of research findings. Previously impossible research projects can now be attempted. This process has fundamentally reshaped Canadian historical scholarship. We can see this in Canadian history dissertations. In 1998, a year with 67 dissertations, the Toronto Star was cited 74 times. However it was cited 753 times in 2010, a year with 69 dissertations. Similar data appears in the Canadian Historical Review (CHR), a prestigious peer-reviewed journal. Databases are skewing our research. We are witnessing the application of commercial Optical Character Recognition (OCR) technology – originally and primarily designed for the efficient digitization of large reams of corporate and legal documents, conventionally formatted – to historical sources. The results are, unsurprisingly, a mixed bag. In this article, I make two arguments. Firstly, online historical databases have profoundly shaped Canadian historiography. In a shift that is rarely – if ever – made explicit, Canadian historians have profoundly reacted to the availability of online databases. Secondly, historians need to understand how OCR works, in order to bring a level of methodological rigor to their work that use these sources.
+	, 
+	  Ça paraît si bien classé, si complet. Au lieu d’allumer le lecteur de microfilms pour sillonner le Globe and Mail ou le Toronto Star, on a seulement besoin de se connecter aux bases de données en ligne des journaux. Pour tout événement, toute personne ou tout phénomène culturel, une recherche par mot clé génère une liste de résultats. Des projets de recherche autrefois impossibles sont maintenant lancés. La recherche de pointe en histoire au Canada a été radicalement transformée, et les thèses en histoire canadienne nous le prouvent. Les 67 thèses déposées en 1998 ont cité le Toronto Star 74 fois; les 69 thèses déposées en 2010 l’ont plutôt cité 753 fois. Des données semblables s’observent dans la Canadian Historical Review (CHR), une prestigieuse revue périodique à comité de lecture. Les bases de données biaisent la recherche. La technologie commerciale de reconnaissance de caractères, initialement et principalement conçue pour numériser efficacement d’énormes quantités de documents d’entreprise ou juridiques à la mise en forme conventionnelle, s’applique désormais aux sources en histoire avec, sans surprise, des résultats qui laissent parfois à désirer. Je défendrai deux idées dans cet article. Premièrement, les bases de données historiques en ligne ont profondément marqué l’historiographie canadienne. On admet peu, si tant est qu’on le fasse, à quel point les historiens canadiens ont investi les bases de données en ligne. Deuxièmement, les historiens doivent comprendre comment fonctionne la reconnaissance de caractères pour garantir la rigueur méthodologique de leurs travaux fondés sur ces sources.
+DA  - 2013///
+PY  - 2013
+DP  - Project MUSE
+VL  - 94
+IS  - 4
+SP  - 540
+EP  - 569
+SN  - 1710-1093
+ST  - Illusionary Order
+UR  - https://muse.jhu.edu/article/527016
+Y2  - 2022/04/27/12:03:48
+KW  - databases
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+ER  - 
+
+TY  - JOUR
+TI  - Computer-assisted layout of newspapers
+AU  - Kan, Hsin-Kuo
+AU  - Reintjes, J. Francis
+AU  - Knudson, Donald R.
+DA  - 1977///
+PY  - 1977
+DP  - Google Scholar
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - newspaper layout
+ER  - 
+
+TY  - CONF
+TI  - LayoutParser: A unified toolkit for deep learning based document image analysis
+AU  - Shen, Zejiang
+AU  - Zhang, Ruochen
+AU  - Dell, Melissa
+AU  - Lee, Benjamin Charles Germain
+AU  - Carlson, Jacob
+AU  - Li, Weining
+C3  - International Conference on Document Analysis and Recognition
+DA  - 2021///
+PY  - 2021
+DP  - Google Scholar
+SP  - 131
+EP  - 146
+PB  - Springer
+ST  - LayoutParser
+L2  - https://link.springer.com/chapter/10.1007/978-3-030-86549-8_9
+KW  - deep learning
+KW  - digital tool
+KW  - HEMDIG FRAMEWORK
+KW  - image analysis
+KW  - layout analysis
+KW  - OCR
+ER  - 
+
+TY  - CONF
+TI  - Automatic article extraction in old newspapers digitized collections
+AU  - Hebert, David
+AU  - Palfray, Thomas
+AU  - Nicolas, Stephane
+AU  - Tranouez, Pierrick
+AU  - Paquet, Thierry
+C3  - Proceedings of the First International Conference on Digital Access to Textual Cultural Heritage
+DA  - 2014///
+PY  - 2014
+DP  - Google Scholar
+SP  - 3
+EP  - 8
+L2  - https://dl.acm.org/doi/abs/10.1145/2595188.2595195?casa_token=7epbumWHbWYAAAAA:QaowVgpjh2XxNT_XdjAdzZKVeGfy0BTZMvEURos1BSoHO0gyhbFUQ-b61gShsMWjaV7Cqt1_983GFwk
+KW  - HEMDIG FRAMEWORK
+KW  - layout analysis
+KW  - newspapers
+KW  - OLR
+KW  - ALTO XML
+KW  - article segmentation
+KW  - image labelling
+ER  - 
+
+TY  - JOUR
+TI  - Building an efficient OCR system for historical documents with little training data
+AU  - Martínek, Jiří
+AU  - Lenc, Ladislav
+AU  - Král, Pavel
+T2  - Neural Computing and Applications
+AB  - As the number of digitized historical documents has increased rapidly during the last a few decades, it is necessary to provide efficient methods of information retrieval and knowledge extraction to make the data accessible. Such methods are dependent on optical character recognition (OCR) which converts the document images into textual representations. Nowadays, OCR methods are often not adapted to the historical domain; moreover, they usually need a significant amount of annotated documents. Therefore, this paper introduces a set of methods that allows performing an OCR on historical document images using only a small amount of real, manually annotated training data. The presented complete OCR system includes two main tasks: page layout analysis including text block and line segmentation and OCR. Our segmentation methods are based on fully convolutional networks, and the OCR approach utilizes recurrent neural networks. Both approaches are state of the art in the relevant fields. We have created a novel real dataset for OCR from Porta fontium portal. This corpus is freely available for research, and all proposed methods are evaluated on these data. We show that both the segmentation and OCR tasks are feasible with only a few annotated real data samples. The experiments aim at determining the best way how to achieve good performance with the given small set of data. We also demonstrate that obtained scores are comparable or even better than the scores of several state-of-the-art systems. To sum up, this paper shows a way how to create an efficient OCR system for historical documents with a need for only a little annotated training data.
+DA  - 2020/12/01/
+PY  - 2020
+DO  - 10.1007/s00521-020-04910-x
+DP  - Springer Link
+VL  - 32
+IS  - 23
+SP  - 17209
+EP  - 17227
+J2  - Neural Comput & Applic
+LA  - en
+SN  - 1433-3058
+UR  - https://doi.org/10.1007/s00521-020-04910-x
+Y2  - 2021/11/24/22:33:24
+KW  - HEMDIG FRAMEWORK
+KW  - OCR
+KW  - neural networks
+KW  - historical documents
+KW  - documentos históricos
+KW  - porta fontium
+ER  - 
+
+TY  - CONF
+TI  - Page Stream Segmentation with Convolutional Neural Nets Combining Textual and Visual Features
+AU  - Wiedemann, Gregor
+AU  - Heyer, Gerhard
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1581
+KW  - HEMDIG FRAMEWORK
+KW  - image labelling
+KW  - neural networks
+KW  - page segmentation
+ER  - 
+
+TY  - CONF
+TI  - Portuguese Named Entity Recognition using Conditional Random Fields and Local Grammars
+AU  - Pirovani, Juliana
+AU  - Oliveira, Elias
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018///
+PY  - 2018
+DP  - Google Scholar
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1705
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - digital tool
+KW  - harem
+KW  - portuguese
+ER  - 
+
+TY  - CONF
+TI  - Instance segmentation of newspaper elements using mask R-CNN
+AU  - Almutairi, Abdullah
+AU  - Almashan, Meshal
+C3  - 2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)
+DA  - 2019///
+PY  - 2019
+DP  - Google Scholar
+SP  - 1371
+EP  - 1375
+PB  - IEEE
+L2  - https://ieeexplore.ieee.org/abstract/document/8999273?casa_token=WUpX1kd4kGEAAAAA:EIAe5WK8Ul3VfH37WnD0LPmpIt81yoPnggAkbvkHQ1T_qwPMuYi2emNtNTfovLR4RhCqiLVzoJBc
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - semantic segmentation
+KW  - article segmentation
+ER  - 
+
+TY  - CONF
+TI  - Layout and analysis: finding text, titles, and photos in Digital Images of Newspaper pages
+AU  - Wieser, Johann
+AU  - Pinz, Axel
+C3  - Proceedings of 2nd International Conference on Document Analysis And Recognition (ICDAR'93)
+DA  - 1993///
+PY  - 1993
+DP  - Google Scholar
+SP  - 774
+EP  - 777
+PB  - IEEE
+ST  - Layout and analysis
+L2  - https://ieeexplore.ieee.org/abstract/document/395623?casa_token=WAX8k40Ib2EAAAAA:NswszJOFOq1tLOF10S7qtwNpZSsxo3cuQwy6lf1KwkhzCOY2_gDtHt68KU3y2T3Z_i8f12edhbWN
+KW  - HEMDIG FRAMEWORK
+KW  - layout analysis
+KW  - newspapers
+KW  - layout segmentation
+ER  - 
+
+TY  - JOUR
+TI  - How to improve optical character recognition of historical Finnish newspapers using open source Tesseract OCR engine
+AU  - Koistinen, Mika
+AU  - Kettunen, Kimmo
+AU  - Kervinen, Jukka
+T2  - Proc. of LTC
+DA  - 2017///
+PY  - 2017
+DP  - Google Scholar
+SP  - 279
+EP  - 283
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - tesseract
+ER  - 
+
+TY  - CONF
+TI  - The newspaper navigator dataset: extracting headlines and visual content from 16 million historic newspaper pages in chronicling America
+AU  - Lee, Benjamin Charles Germain
+AU  - Mears, Jaime
+AU  - Jakeway, Eileen
+AU  - Ferriter, Meghan
+AU  - Adams, Chris
+AU  - Yarasavage, Nathan
+AU  - Thomas, Deborah
+AU  - Zwaard, Kate
+AU  - Weld, Daniel S.
+C3  - Proceedings of the 29th ACM International Conference on Information & Knowledge Management
+DA  - 2020///
+PY  - 2020
+DP  - Google Scholar
+SP  - 3055
+EP  - 3062
+ST  - The newspaper navigator dataset
+L2  - https://dl.acm.org/doi/abs/10.1145/3340531.3412767
+KW  - HEMDIG FRAMEWORK
+KW  - image segmentation
+KW  - newspapers
+KW  - OCR
+ER  - 
+
+TY  - JOUR
+TI  - The newspaper navigator dataset: extracting and analyzing visual content from 16 million historic newspaper pages in chronicling America
+AU  - Lee, Benjamin Charles Germain
+AU  - Mears, Jaime
+AU  - Jakeway, Eileen
+AU  - Ferriter, Meghan
+AU  - Adams, Chris
+AU  - Yarasavage, Nathan
+AU  - Thomas, Deborah
+AU  - Zwaard, Kate
+AU  - Weld, Daniel S.
+T2  - arXiv preprint arXiv:2005.01583
+DA  - 2020///
+PY  - 2020
+DP  - Google Scholar
+ST  - The newspaper navigator dataset
+L2  - https://arxiv.org/abs/2005.01583
+KW  - HEMDIG FRAMEWORK
+KW  - image segmentation
+KW  - newspapers
+KW  - visual analysis tools
+ER  - 
+
+TY  - JOUR
+TI  - Exporting Finnish digitized historical newspaper contents for offline use
+AU  - Pääkkönen, Tuula
+AU  - Kervinen, Jukka
+AU  - Nivala, Asko
+AU  - Kettunen, Kimmo
+AU  - Mäkelä, Eetu
+T2  - D-Lib Magazine
+DA  - 2016///
+PY  - 2016
+DP  - Google Scholar
+VL  - 22
+IS  - 7/8
+SP  - 1
+EP  - 9
+L2  - https://dlib.org/dlib/july16/paakkonen/07paakkonen.print.html
+KW  - ALTO XML
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+ER  - 
+
+TY  - CONF
+TI  - A framework for text processing and supporting access to collections of digitized historical newspapers
+AU  - Allen, Robert B.
+AU  - Japzon, Andrea
+AU  - Achananuparp, Palakorn
+AU  - Lee, Ki Jung
+C3  - Symposium on Human Interface and the Management of Information
+DA  - 2007///
+PY  - 2007
+DP  - Google Scholar
+SP  - 235
+EP  - 244
+PB  - Springer
+L2  - https://link.springer.com/chapter/10.1007/978-3-540-73354-6_26
+KW  - framework
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - text processing
+ER  - 
+
+TY  - JOUR
+TI  - A data-driven approach to studying changing vocabularies in historical newspaper collections
+AU  - Hengchen, Simon
+AU  - Ros, Ruben
+AU  - Marjanen, Jani
+AU  - Tolonen, Mikko
+T2  - Digital Scholarship in the Humanities
+AB  - Nation and nationhood are among the most frequently studied concepts in the field of intellectual history. At the same time, the word ‘nation’ and its historical usage are very vague. The aim in this article was to develop a data-driven method using dependency parsing and neural word embeddings to clarify some of the vagueness in the evolution of this concept. To this end, we propose the following two-step method. First, using linguistic processing, we create a large set of words pertaining to the topic of nation. Second, we train diachronic word embeddings and use them to quantify the strength of the semantic similarity between these words and thereby create meaningful clusters, which are then aligned diachronically. To illustrate the robustness of the study across languages, time spans, as well as large datasets, we apply it to the entirety of five historical newspaper archives in Dutch, Swedish, Finnish, and English. To our knowledge, thus far there have been no large-scale comparative studies of this kind that purport to grasp long-term developments in as many as four different languages in a data-driven way. A particular strength of the method we describe in this article is that, by design, it is not limited to the study of nationhood, but rather expands beyond it to other research questions and is reusable in different contexts.
+DA  - 2021/10/01/
+PY  - 2021
+DO  - 10.1093/llc/fqab032
+DP  - Silverchair
+VL  - 36
+IS  - Supplement_2
+SP  - ii109
+EP  - ii126
+J2  - Digital Scholarship in the Humanities
+SN  - 2055-7671
+UR  - https://doi.org/10.1093/llc/fqab032
+Y2  - 2021/11/29/23:23:11
+L2  - https://academic.oup.com/dsh/article/36/Supplement_2/ii109/6421793#312158083
+KW  - data-driven method
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - word embedding
+ER  - 
+
+TY  - CONF
+TI  - Low-resource Post Processing of Noisy OCR Output for Historical Corpus Digitisation
+AU  - Richter, Caitlin
+AU  - Wickes, Matthew
+AU  - Beser, Deniz
+AU  - Marcus, Mitch
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1369
+KW  - faroese corpus
+KW  - HEMDIG FRAMEWORK
+KW  - OCR
+KW  - OCR error correction
+KW  - post processing
+ER  - 
+
+TY  - CONF
+TI  - C-HTS: A Concept-based Hierarchical Text Segmentation approach
+AU  - Bayomi, Mostafa
+AU  - Lawless, Séamus
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1241
+KW  - c-hts
+KW  - digital tool
+KW  - HEMDIG FRAMEWORK
+KW  - text segmentation
+KW  - wikipedia
+ER  - 
+
+TY  - CONF
+TI  - PDFdigest: an Adaptable Layout-Aware PDF-to-XML Textual Content Extractor for Scientific Articles
+AU  - Ferrés, Daniel
+AU  - Saggion, Horacio
+AU  - Ronzano, Francesco
+AU  - Bravo, Àlex
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1298
+KW  - digital tool
+KW  - HEMDIG FRAMEWORK
+KW  - layout segmentation
+KW  - OCR
+KW  - PDF
+KW  - pdfdigest
+KW  - text mining
+ER  - 
+
+TY  - CONF
+TI  - Academic-Industrial Perspective on the Development and Deployment of a Moderation System for a Newspaper Website
+AU  - Schabus, Dietmar
+AU  - Skowron, Marcin
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1253
+KW  - HEMDIG FRAMEWORK
+KW  - information retrieval
+KW  - newspapers
+KW  - NLP
+KW  - websites
+ER  - 
+
+TY  - CONF
+TI  - MOCCA: Measure of Confidence for Corpus Analysis - Automatic Reliability Check of Transcript and Automatic Segmentation
+AU  - Kisler, Thomas
+AU  - Schiel, Florian
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1281
+KW  - automatic segmentation
+KW  - clarin
+KW  - digital tool
+KW  - HEMDIG FRAMEWORK
+KW  - mocca
+ER  - 
+
+TY  - CONF
+TI  - Multilingual Word Segmentation: Training Many Language-Specific Tokenizers Smoothly Thanks to the Universal Dependencies Corpus
+AU  - Moreau, Erwan
+AU  - Vogel, Carl
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1180
+KW  - HEMDIG FRAMEWORK
+KW  - multilingual
+KW  - tokenization
+KW  - word segmentation
+ER  - 
+
+TY  - CONF
+TI  - Correction of OCR Word Segmentation Errors in Articles from the ACL Collection through Neural Machine Translation Methods
+AU  - Nastase, Vivi
+AU  - Hitschler, Julian
+C1  - Miyazaki, Japan
+C3  - Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)
+DA  - 2018/05//
+PY  - 2018
+PB  - European Language Resources Association (ELRA)
+UR  - https://aclanthology.org/L18-1113
+KW  - acl collection
+KW  - HEMDIG FRAMEWORK
+KW  - neural machine translation
+KW  - OCR
+KW  - OCR error correction
+KW  - word segmentation
+ER  - 
+
+TY  - BOOK
+TI  - The Politics of Mass Digitization
+AU  - Thylstrup, Nanna Bonde
+DA  - 2019///
+PY  - 2019
+DP  - Library Genesis
+ET  - Hardcover
+PB  - The MIT Press
+SN  - 978-0-262-03901-7
+UR  - http://gen.lib.rus.ec/book/index.php?md5=a12039dbff20746c39314db8cc459920
+Y2  - 2021/10/06/16:50:29
+KW  - europeana
+KW  - google books
+KW  - HEMDIG FRAMEWORK
+KW  - large-scale digitization
+ER  - 
+
+TY  - JOUR
+TI  - Cultural heritage as digital noise: nineteenth century newspapers in the digital archive
+AU  - Jarlbrink, Johan
+AU  - Snickars, Pelle
+T2  - Journal of Documentation
+AB  - Purpose
+              The purpose of this paper is to explore and analyze the digitized newspaper collection at the National Library of Sweden, focusing on cultural heritage as digital noise. In what specific ways are newspapers transformed in the digitization process? If the digitized document is not the same as the source document – is it still a historical record, or is it transformed into something else?
+            
+            
+              Design/methodology/approach
+              
+                The authors have analyzed the XML files from
+                Aftonbladet
+                1830 to 1862. The most frequent newspaper words not matching a high-quality references corpus were selected to zoom in on the noisiest part of the paper. The variety of the interpretations generated by optical character recognition (OCR) was examined, as well as texts generated by auto-segmentation. The authors have made a limited ethnographic study of the digitization process.
+              
+            
+            
+              Findings
+              
+                The research shows that the digital collection of
+                Aftonbladet
+                contains extreme amounts of noise: millions of misinterpreted words generated by OCR, and millions of texts re-edited by the auto-segmentation tool. How the tools work is mostly unknown to the staff involved in the digitization process? Sticking to any idea of a provenance chain is hence impossible, since many steps have been outsourced to unknown factors affecting the source document.
+              
+            
+            
+              Originality/value
+              The detail examination of digitally transformed newspapers is valuable to scholars depending on newspaper databases in their research. The paper also highlights the fact that libraries outsourcing digitization processes run the risk of losing control over the quality of their collections.
+DA  - 2017/10/12/
+PY  - 2017
+DO  - 10.1108/JD-09-2016-0106
+DP  - DOI.org (Crossref)
+VL  - 73
+IS  - 6
+SP  - 1228
+EP  - 1243
+J2  - JD
+LA  - en
+SN  - 0022-0418
+ST  - Cultural heritage as digital noise
+UR  - https://www.emerald.com/insight/content/doi/10.1108/JD-09-2016-0106/full/html
+Y2  - 2021/09/15/02:32:47
+KW  - article segmentation
+KW  - cultural heritage
+KW  - HEMDIG FRAMEWORK
+KW  - large-scale digitization
+KW  - newspapers
+KW  - OCR
+KW  - XML
+ER  - 
+
+TY  - CONF
+TI  - Historical Newspaper User Interfaces: A Review
+AU  - Ehrmann, Maud
+AU  - Bunout, Estelle
+AU  - Düring, Marten
+T2  - IFLA WLIC 2019
+AB  - After decades of large-scale digitization, many historical newspaper collections are just one click away via online portals developed and supported by various public or private stakeholders. Initially offering access to full text search and facsimiles visualization only, historic newspaper user interfaces are increasingly integrating advanced exploration features based on the application of text mining tools to digitized sources. As gateways to enriched material, such interfaces are however not neutral and play a fundamental role in how users perceive historical sources, understand potential biases of upstream processes and benefit from the opportunities of datafication. What features can be found in current interfaces, and to what degree do interfaces adopt novel technologies? This paper presents a survey of interfaces for digitized historical newspapers with the aim of mapping the current state of the art and identifying recent trends with regard to content presentation, enrichment and user interaction. We devised 6 interface assessment criteria and reviewed twenty-four interfaces based on ca. 140 predefined features.
+C1  - Athens, Greece
+C3  - Libraries: dialogue for change
+DA  - 2017///
+PY  - 2017
+DP  - library.ifla.org
+LA  - en
+ST  - Historical Newspaper User Interfaces
+UR  - http://library.ifla.org/id/eprint/2578/
+Y2  - 2021/09/14/02:56:53
+L2  - http://library.ifla.org/id/eprint/2578/
+KW  - GUI
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+ER  - 
+
+TY  - JOUR
+TI  - Preservar os seus dados de investigação
+AU  - Baker, James
+T2  - The Programming Historian em português
+A2  - Crymble, Adam
+A2  - Paulino, Joana Vieira
+A4  - Cavalcanti, Márcia T.
+AB  - Esta lição irá sugerir maneiras pelas quais os historiadores podem documentar e estruturar os seus dados de pesquisa, a fim de garantir que continuem sendo acessíveis no futuro.
+DA  - 2021/01/29/
+PY  - 2021
+DO  - 10.46430/phpt0001
+DP  - DOI.org (Crossref)
+IS  - 1
+LA  - pt
+SN  - 2753-9296
+UR  - https://programminghistorian.org/pt/licoes/preservar-os-seus-dados-de-investigacao
+Y2  - 2021/05/12/22:07:19
+KW  - HEMDIG FRAMEWORK
+KW  - data management
+ER  - 
+
+TY  - BOOK
+TI  - Named entity: History and future
+AU  - Sekine, Satoshi
+DA  - 2004///
+PY  - 2004
+DP  - Google Scholar
+ST  - Named entity
+L1  - https://ccc.inaoep.mx/~villasen/index_archivos/cursoTATII/EntidadesNombradas/Sekine-%20NEsHistory04.pdf
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+ER  - 
+
+TY  - CONF
+TI  - Hybrid Training Data for Historical Text OCR
+AU  - Martínek, J.
+AU  - Lenc, L.
+AU  - Král, P.
+AU  - Nicolaou, A.
+AU  - Christlein, V.
+T2  - 2019 International Conference on Document Analysis and Recognition (ICDAR)
+AB  - Current optical character recognition (OCR) systems commonly make use of recurrent neural networks (RNN) that process whole text lines. Such systems avoid the task of character segmentation necessary for character-based approaches. A disadvantage of this approach is a need of a large amount of annotated data. This can be solved by sing generated synthetic data instead of costly manually annotated ones. Unfortunately, such data is often not suitable for historical documents particularly for quality reasons. This work presents a hybrid approach for generating annotated data for OCR at a low cost. We first collect a small dataset of isolated characters from historical document images. Then, we generate historical looking text lines from the generated characters. Another contribution lies in the design and implementation of an OCR system based on a convolutional-LSTM network. We first pre-train this system on hybrid data. Afterwards, the network is fine-tuned with real printed text lines. We demonstrate that this training strategy is efficient for obtaining state-of-the-art results. We also show that the score of the proposed system is comparable or even better in comparison to several state-of-the-art systems.
+C3  - 2019 International Conference on Document Analysis and Recognition (ICDAR)
+DA  - 2019/09//
+PY  - 2019
+DO  - 10.1109/ICDAR.2019.00096
+DP  - IEEE Xplore
+SP  - 565
+EP  - 570
+L2  - https://ieeexplore.ieee.org/abstract/document/8978139?casa_token=E6nP_pyI7PQAAAAA:UZiZ2xTeOHCwFZRvxWEAoQUOTcEZtylajRvcTNoaK0WhURGXL6dtvf-Z3YIn8XxOegawIwzW8kZo
+KW  - annotated data
+KW  - character segmentation
+KW  - character-based approaches
+KW  - CNN, Hybrid Training, Historical Documents, LSTM, Neural Networks, OCR
+KW  - convolutional-LSTM network
+KW  - document image processing
+KW  - generated characters
+KW  - HEMDIG FRAMEWORK
+KW  - historical document images
+KW  - historical documents
+KW  - historical looking text lines
+KW  - historical text OCR
+KW  - history
+KW  - hybrid data
+KW  - Hybrid power systems
+KW  - hybrid training data
+KW  - image segmentation
+KW  - Image segmentation
+KW  - isolated characters
+KW  - learning (artificial intelligence)
+KW  - natural language processing
+KW  - neural networks
+KW  - OCR
+KW  - OCR system
+KW  - optical character recognition
+KW  - Optical character recognition software
+KW  - optical character recognition systems
+KW  - printed text lines
+KW  - quality reasons
+KW  - recurrent neural nets
+KW  - recurrent neural networks
+KW  - Recurrent neural networks
+KW  - text analysis
+KW  - Text recognition
+KW  - Tools
+KW  - Training
+KW  - training strategy
+ER  - 
+
+TY  - JOUR
+TI  - Portuguese Named Entity Recognition using BERT-CRF
+AU  - Souza, Fábio
+AU  - Nogueira, Rodrigo
+AU  - Lotufo, Roberto
+T2  - arXiv:1909.10649 [cs]
+AB  - Recent advances in language representation using neural networks have made it viable to transfer the learned internal states of a trained model to downstream natural language processing tasks, such as named entity recognition (NER) and question answering. It has been shown that the leverage of pre-trained language models improves the overall performance on many tasks and is highly beneficial when labeled data is scarce. In this work, we train Portuguese BERT models and employ a BERT-CRF architecture to the NER task on the Portuguese language, combining the transfer capabilities of BERT with the structured predictions of CRF. We explore feature-based and fine-tuning training strategies for the BERT model. Our fine-tuning approach obtains new state-of-the-art results on the HAREM I dataset, improving the F1-score by 1 point on the selective scenario (5 NE classes) and by 4 points on the total scenario (10 NE classes).
+DA  - 2020/02/27/
+PY  - 2020
+DP  - arXiv.org
+UR  - http://arxiv.org/abs/1909.10649
+Y2  - 2020/11/09/15:58:43
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - BERT
+KW  - machine learning
+KW  - information retrieval
+KW  - portuguese
+ER  - 
+
+TY  - BOOK
+TI  - Pesquisando plataformas online: conceitos e métodos
+AU  - d’Andréa, Carlos Frederico de Brito
+AB  - A obra visa introduzir os Estudos de Plataforma, um campo de estudos que, desde o início da década de 2010, discute as especificidades políticas e materiais das mídias sociais e de outras plataformas online. Datificação, 
+algoritmos, governança e os modelos de negócio das plataformas são algumas das dimensões sintetizadas no livro. De modo didático, o autor apresenta um conjunto de leituras e de experimentações metodológicas conduzidas com um diversificado grupo de colaboradoras(es) no país e no exterior.
+DA  - 2020///
+PY  - 2020
+DP  - repositorio.ufba.br
+LA  - pt_BR
+PB  - EDUFBA
+SN  - 9786556300092
+ST  - Pesquisando plataformas online
+UR  - http://repositorio.ufba.br/ri/handle/ri/32043
+Y2  - 2020/10/02/16:36:20
+L2  - https://repositorio.ufba.br/ri/handle/ri/32043
+KW  - HEMDIG FRAMEWORK
+KW  - plataforms
+ER  - 
+
+TY  - CONF
+TI  - Applying Deep Neural Networks to Named Entity Recognition in Portuguese Texts
+AU  - Fernandes, Ivo
+AU  - Cardoso, Henrique Lopes
+AU  - Oliveira, Eugenio
+C3  - 2018 Fifth International Conference on Social Networks Analysis, Management and Security (SNAMS)
+DA  - 2018///
+PY  - 2018
+DP  - Google Scholar
+SP  - 284
+EP  - 289
+PB  - IEEE
+L2  - https://ieeexplore.ieee.org/abstract/document/8554782?casa_token=KLoHdO8lzlwAAAAA:VDg57X4ODDCb7DmDTMBrRPvcRWmmMGC4QXDb9zGYFOcoYjjOESNU3NIK5Xxurl5cjDwD2T6E_Z7V
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - portuguese
+KW  - deep neural networks
+ER  - 
+
+TY  - CONF
+TI  - Tree-structured named entity recognition on ocr data: Analysis, processing and results
+AU  - Dinarelli, Marco
+AU  - Rosset, Sophie
+DA  - 2012///
+PY  - 2012
+DP  - Google Scholar
+ST  - Tree-structured named entity recognition on ocr data
+L2  - https://hal.archives-ouvertes.fr/hal-01490004/
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - NER
+KW  - OCR error correction
+ER  - 
+
+TY  - CHAP
+TI  - A New Entity Extraction Model Based on Journalistic Brazilian Portuguese Language to Enhance Named Entity Recognition
+AU  - de Aquino Silva, Rogerio
+AU  - da Silva, Luana
+AU  - Dutra, Moisés Lima
+AU  - de Araujo, Gustavo Medeiros
+T2  - Data and Information in Online Environments
+A2  - Mugnaini, Rogério
+CY  - Cham
+DA  - 2020///
+PY  - 2020
+DP  - DOI.org (Crossref)
+VL  - 319
+SP  - 53
+EP  - 63
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-030-50071-9 978-3-030-50072-6
+UR  - http://link.springer.com/10.1007/978-3-030-50072-6_5
+Y2  - 2020/09/25/18:01:56
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - NLP
+KW  - portuguese
+KW  - brazilian portuguese
+KW  - entity extraction model
+ER  - 
+
+TY  - CHAP
+TI  - Improving Retrieval of Historical Content with Entity Linking
+AU  - De Wilde, Max
+T2  - New Trends in Databases and Information Systems
+A2  - Morzy, Tadeusz
+A2  - Valduriez, Patrick
+A2  - Bellatreche, Ladjel
+CY  - Cham
+DA  - 2015///
+PY  - 2015
+DP  - DOI.org (Crossref)
+VL  - 539
+SP  - 498
+EP  - 504
+LA  - en
+PB  - Springer International Publishing
+SN  - 978-3-319-23200-3 978-3-319-23201-0
+UR  - http://link.springer.com/10.1007/978-3-319-23201-0_50
+Y2  - 2020/09/25/17:53:14
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - entity linking
+ER  - 
+
+TY  - JOUR
+TI  - Recent named entity recognition and classification techniques: a systematic review
+AU  - Goyal, Archana
+AU  - Gupta, Vishal
+AU  - Kumar, Manish
+T2  - Computer Science Review
+DA  - 2018///
+PY  - 2018
+DP  - Google Scholar
+VL  - 29
+SP  - 21
+EP  - 43
+ST  - Recent named entity recognition and classification techniques
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+ER  - 
+
+TY  - JOUR
+TI  - Overview on the advance of the research on named entity recognition
+AU  - Huilin, Sun Zhen Wang
+T2  - Data Analysis and Knowledge Discovery
+DA  - 2010///
+PY  - 2010
+DP  - Google Scholar
+VL  - 26
+IS  - 6
+SP  - 42
+EP  - 47
+L1  - http://manu44.magtech.com.cn/Jwk_infotech_wk3/EN/article/downloadArticleFile.do?attachType=PDF&id=3231
+L2  - http://manu44.magtech.com.cn/Jwk_infotech_wk3/EN/abstract/abstract3231.shtml
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+ER  - 
+
+TY  - CONF
+TI  - Comparison of named entity recognition tools for raw OCR text.
+AU  - Rodriquez, Kepa Joseba
+AU  - Bryant, Mike
+AU  - Blanke, Tobias
+AU  - Luszczynska, Magdalena
+C3  - Konvens
+DA  - 2012///
+PY  - 2012
+DP  - Google Scholar
+SP  - 410
+EP  - 414
+KW  - HEMDIG FRAMEWORK
+KW  - OCR
+KW  - NER
+KW  - european holocaust research infrastructure
+ER  - 
+
+TY  - CONF
+TI  - Challenges of Mass OCR-isation of Medieval Latin Texts in a Resource-Limited Project
+AU  - Bon, Bruno
+AU  - Nowak, Krzysztof
+AU  - ra Vangone, Lau
+T3  - DATeCH2019
+AB  - This paper aims to present the first stage of the ANR project VELUM (Towards Innovative Ways of Visualising, Exploring and Linking Resources for Medieval Latin) which, by 2022, is intended to compile the largest representative corpus of Medieval Latin texts. The corpus, which is to comprise 150 millions tokens, is expected to provide selected texts from four centuries of Latin written production (from 800 to 1200 AD) from all across Europe. It will also cover a wide gamut of genres from theological texts to historiography, to documents and letters. In the first stage of the project, that started in the mid-2018, we are selecting the texts to be included in the corpus, basing on the metadata in the electronic database of Medieval Latin texts that is, at the moment, the largest scholarly-driven source of information of this kind available free on the Internet. Once selected, the texts are retrieved from existing collections and digital libraries. As early tests showed, less than a half of the texts already exist in interoperable formats such as TEI XML, or at least in a form that allows for easy conversion which does not require human intervention. This means that the bulk of the corpus texts has to be acquired from digital images of editions available on-line through OCR and post-processing. For both tasks, there now exists a broad range of efficient tools, and many sophisticated workflows were proposed in literature. However, the presented project is significantly limited when it comes to its resources, since one person is expected to work on controlling the process and improving OCR quality during a single year. In the presentation we would like, first, to demonstrate the workflow of the project which, at the moment, consists of the 1) image extraction from PDF files, 2) image cleaning, and its subsequent 3) OCR, followed by 4) the batch-correction of the OCR errors, and 5) the removal of the non-Latin text with a simple classifier. The tools we use are all free and open source, an important factor in a project which is low on resources but ambitious in its goals. The PDF extraction and conversion are performed with Linux 'convert' and 'pdfimages' commands. The output TIFFs are cleaned with the "ScanTailor", while the OCR is realised with "Tesseract". To save on time, the entire workflow is automated, with the human analyst verifying the quality of the output and mass-correcting OCR errors with the "Post Correction Tool". Apart from presenting the project and the workflow, the paper will discuss the challenges we have faced. One of the most problematic issues turned out to be the relatively disparate quality of the image files retrieved from online sources. Another factor that significantly hinders the automatic processing was the quality of text editions.
+C1  - New York, NY, USA
+C3  - Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage
+DA  - 2019/05/08/
+PY  - 2019
+DO  - 10.1145/3322905.3322925
+DP  - ACM Digital Library
+SP  - 81
+EP  - 85
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-7194-0
+UR  - https://doi.org/10.1145/3322905.3322925
+Y2  - 2021/01/04/
+KW  - HEMDIG FRAMEWORK
+KW  - OCR
+KW  - corpus
+KW  - image processing
+KW  - OCR error correction
+KW  - Latin
+KW  - velum project
+ER  - 
+
+TY  - JOUR
+TI  - Digital Archives: Democratizing the Doing of History · Digital Archiving Resources
+AU  - Bolick, Cheryl Mason
+T2  - International Journal of Social Education
+AB  - This article discusses the fact that prior to the digital revolution, only scholars could study primary sources. K-12 students and teachers were relegated to the little they could get to locally because they did not have the money needed to experience primary historical sources themselves. These limitations kept many students and teachers from getting excited about research. Digital archives, however, allow anyone access to primary sources in a nonlinear environment. Because of this, archivists should strive to create digital archives from a large variety of voices. In this way, the history classroom should be radically changed to foster historical inquiry and personal connections to historical content. The article discusses a study of pre-service teachers who engaged with digital archives. They found them useful for their future classrooms, especially since they often represented the marginalized groups not represented in the textbook.
+DA  - 2006///
+PY  - 2006
+VL  - 21
+IS  - 1
+SP  - 122
+EP  - 134
+UR  - https://dar.cah.ucf.edu/items/show/44
+Y2  - 2021/01/05/20:58:07
+L2  - https://dar.cah.ucf.edu/items/show/44
+KW  - digital archives
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - CONF
+TI  - anyOCR: An Open-Source OCR System for Historical Archives
+AU  - Bukhari, S. S.
+AU  - Kadi, A.
+AU  - Jouneh, M. A.
+AU  - Mir, F. M.
+AU  - Dengel, A.
+T2  - 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)
+AB  - Currently an intensive amount of research is going on in the field of digitizing historical archives for converting scanned document images into searchable full text. This paper presents the "anyOCR" system which mainly emphasize the techniques requires for digitizing a historical archive with high accuracy. It is an open-source system for the research community who can easily apply the anyOCR system for digitizing historical archives. The anyOCR system supports a complete document processing pipeline, which includes layout analysis, training OCR models and text line prediction, with an addition of intelligent and interactive layout and OCR error corrections web applications. The anyOCR system can also be used for contemporary document images containing diverse, simple to complex, layouts. This paper describes the current state of the anyOCR system, its architecture, as well as its major features. This paper also provides information about the availability, documentation, and tutorials of the anyOCR system.
+C3  - 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)
+DA  - 2017/11//
+PY  - 2017
+DO  - 10.1109/ICDAR.2017.58
+DP  - IEEE Xplore
+VL  - 01
+SP  - 305
+EP  - 310
+ST  - anyOCR
+L2  - https://ieeexplore.ieee.org/abstract/document/8269989?casa_token=o1pSCGaIgZ4AAAAA:q9ljKze0w_-qawp1DgECbSXjVpB2g37mDJBNW5-Wy-YZ3NOa8Z25ijwFo8R8XSJA_eluvXPvUa4S
+KW  - anyOCR system
+KW  - contemporary document images
+KW  - document image processing
+KW  - document processing pipeline
+KW  - End-To-End Document Image Processing
+KW  - error correction
+KW  - HEMDIG FRAMEWORK
+KW  - historical archives
+KW  - Historical Archives
+KW  - historical archives digitization
+KW  - history
+KW  - image processing
+KW  - Image segmentation
+KW  - Internet
+KW  - Layout
+KW  - layout analysis
+KW  - OCR
+KW  - OCR error corrections web applications
+KW  - OCR System
+KW  - open-source OCR system
+KW  - optical character recognition
+KW  - Optical character recognition software
+KW  - Particle separators
+KW  - Pipelines
+KW  - public domain software
+KW  - scanned document images
+KW  - searchable full text
+KW  - text line prediction
+KW  - Text recognition
+KW  - Training
+ER  - 
+
+TY  - CONF
+TI  - OCR-D: An end-to-end open source OCR framework for historical printed documents
+AU  - Neudecker, Clemens
+AU  - Baierer, Konstantin
+AU  - Federbusch, Maria
+AU  - Boenig, Matthias
+AU  - Würzner, Kay-Michael
+AU  - Hartmann, Volker
+AU  - Herrmann, Elisa
+T3  - DATeCH2019
+AB  - Various research projects were concerned with the development and adaptation of methods for OCR specifically for historical printed documents (cf. METAe [20], IMPACT [1], eMOP [9]). However, these initiatives have ended before the wide adoption of deep neural networks and, despite the various project's achievements, there remains a lack of OCR software that is a) comprehensive with regard to the challenges presented by the wide variety of historical documents and b) available as ready-to-use Free Software. The OCR-D project aims to rectify that. In this paper we introduce the background of OCR-D, the main challenges and shortcomings in the availability of open tools and resources for OCR of historical printed documents and discuss the various software modules and related components (repositories, workflows) that are being made available through OCR-D. Finally we provide an outlook to a number of remaining challenges that are not addressed by OCR-D and point out several examples for the positive community aspects arisen through the creation and sharing of open resources for historical German OCR.
+C1  - New York, NY, USA
+C3  - Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage
+DA  - 2019/05/08/
+PY  - 2019
+DO  - 10.1145/3322905.3322917
+DP  - ACM Digital Library
+SP  - 53
+EP  - 58
+PB  - Association for Computing Machinery
+SN  - 978-1-4503-7194-0
+ST  - OCR-D
+UR  - https://doi.org/10.1145/3322905.3322917
+Y2  - 2021/01/05/
+KW  - digital libraries
+KW  - digitization
+KW  - framework
+KW  - HEMDIG FRAMEWORK
+KW  - historical prints
+KW  - OCR
+KW  - ocr-d
+KW  - open source
+KW  - optical character recognition
+ER  - 
+
+TY  - JOUR
+TI  - A Survey on Optical Character Recognition System
+AU  - Islam, Noman
+AU  - Islam, Zeeshan
+AU  - Noor, Nazia
+T2  - arXiv:1710.05703 [cs]
+AB  - Optical Character Recognition (OCR) has been a topic of interest for many years. It is defined as the process of digitizing a document image into its constituent characters. Despite decades of intense research, developing OCR with capabilities comparable to that of human still remains an open challenge. Due to this challenging nature, researchers from industry and academic circles have directed their attentions towards Optical Character Recognition. Over the last few years, the number of academic laboratories and companies involved in research on Character Recognition has increased dramatically. This research aims at summarizing the research so far done in the field of OCR. It provides an overview of different aspects of OCR and discusses corresponding proposals aimed at resolving issues of OCR.
+DA  - 2017/10/03/
+PY  - 2017
+DP  - arXiv.org
+UR  - http://arxiv.org/abs/1710.05703
+Y2  - 2020/03/09/15:17:12
+L2  - https://arxiv.org/abs/1710.05703
+KW  - HEMDIG FRAMEWORK
+KW  - OCR
+KW  - image analysis
+KW  - survey
+ER  - 
+
+TY  - BOOK
+TI  - Optical Character Recognition Systems for Different Languages with Soft Computing
+AU  - Chaudhuri, Arindam
+AU  - Mandaviya, Krupa
+AU  - Badelia, Pratixa
+AU  - Ghosh (auth.), Soumya K.
+T2  - Studies in Fuzziness and Soft Computing 352
+DA  - 2017///
+PY  - 2017
+DP  - Library Genesis
+ET  - 1
+PB  - Springer International Publishing
+SN  - 978-3-319-50251-9
+Y2  - 2020/03/09/15:13:11
+KW  - HEMDIG FRAMEWORK
+KW  - OCR
+KW  - digital tool
+KW  - multilingual
+ER  - 
+
+TY  - BOOK
+TI  - Advances in Visual Computing: 12th International Symposium, ISVC 2016, Las Vegas, NV, USA, December 12-14, 2016, Proceedings, Part II
+AU  - Bebis, George
+AU  - Boyle, Richard
+AU  - Parvin, Bahram
+AU  - Koracin, Darko
+AU  - Porikli, Fatih
+AU  - Skaff, Sandra
+AU  - Entezari, Alireza
+AU  - Min, Jianyuan
+AU  - Iwai, Daisuke
+AU  - Sadagic, Amela
+AU  - Scheidegger, Carlos
+AU  - Isenberg (eds.), Tobias
+T2  - Lecture Notes in Computer Science 10073
+DA  - 2016///
+PY  - 2016
+DP  - Library Genesis
+ET  - 1
+PB  - Springer International Publishing
+SN  - 978-3-319-50831-3
+ST  - Advances in Visual Computing
+Y2  - 2020/03/09/15:16:24
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - História digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboração da pesquisa histórica.
+AU  - Brasil, Eric
+AU  - Nascimento, Leonardo Fernandes
+T2  - Revista Estudos Históricos
+AB  - O presente artigo pretende discutir o papel do uso de ferramentas digitais na pesquisa e na escrita da história, refletindo sobre as transformações e os desafios no modo de produção do conhecimento na prática de investigação da ciência histórica, abordando dois aspectos fundamentais: a) o progressivo uso de fontes de pesquisa provenientes de acervos ou repositórios digitais, por meio da análise da Hemeroteca Digital Brasileira (HDB) da Biblioteca Nacional (BN); e b) a maneira como os aplicativos de análises de dados qualitativos — CAQDAS, acrônimo do inglês computer assisted qualitative data analysis software — podem servir para minimizar os problemas e as limitações gerados pelo uso inadvertido e com pouco rigor metodológico das ferramentas digitais. Aqui, utilizaremos o programa Atlas.ti como exemplo. Concluímos que a busca e a análise digital transformam não apenas a pesquisa histórica, mas possibilitam novas perguntas, problemas e respostas, impactando tanto a teoria quanto o método da disciplina.
+DA  - 2020/01/01/
+PY  - 2020
+DO  - http://dx.doi.org/10.1590/S2178-14942020000100011
+DP  - bibliotecadigital.fgv.br
+VL  - 33
+IS  - 69
+SP  - 196
+EP  - 219
+LA  - pt
+SN  - 2178-1494
+ST  - História digital
+UR  - http://bibliotecadigital.fgv.br/ojs/index.php/reh/article/view/79933
+Y2  - 2020/02/04/01:35:31
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - Digital history
+KW  - História digital
+KW  - HDB
+KW  - Atlas.ti
+KW  - Brazilian Digital Newspaper Library
+KW  - Hemeroteca Digital Brasileira
+ER  - 
+
+TY  - BOOK
+TI  - Historic newspapers in the digital age: "search all about it!"
+AU  - Gooding, Paul
+T2  - Digital Research in the Arts and Humanities
+CN  - Z701.3.N48 G66 2017
+CY  - London ; New York
+DA  - 2017///
+PY  - 2017
+DP  - Library of Congress ISBN
+SP  - 200
+PB  - Routledge, Taylor & Francis Group
+SN  - 978-1-4724-6338-8
+ST  - Historic newspapers in the digital age
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - History
+KW  - Digitization
+KW  - English newspapers
+KW  - Library materials
+ER  - 
+
+TY  - JOUR
+TI  - Mass digitization and the garbage dump: The conflicting needs of quantitative and qualitative methods
+AU  - Gooding, P.
+T2  - Literary and Linguistic Computing
+DA  - 2013/09/01/
+PY  - 2013
+DO  - 10.1093/llc/fqs054
+DP  - DOI.org (Crossref)
+VL  - 28
+IS  - 3
+SP  - 425
+EP  - 431
+J2  - Literary and Linguistic Computing
+LA  - en
+SN  - 0268-1145, 1477-4615
+ST  - Mass digitization and the garbage dump
+UR  - https://academic.oup.com/dsh/article-lookup/doi/10.1093/llc/fqs054
+Y2  - 2020/01/27/17:05:59
+KW  - HEMDIG FRAMEWORK
+KW  - google books
+KW  - large-scale digitization
+KW  - cultural heritage
+ER  - 
+
+TY  - JOUR
+TI  - An Evaluation of DNN Architectures for Page Segmentation of Historical Newspapers
+AU  - Liebl, Bernhard
+AU  - Burghardt, Manuel
+T2  - arXiv:2004.07317 [cs]
+AB  - One important and particularly challenging step in the optical character recognition (OCR) of historical documents with complex layouts, such as newspapers, is the separation of text from non-text content (e.g. page borders or illustrations). This step is commonly referred to as page segmentation. While various rule-based algorithms have been proposed, the applicability of Deep Neural Networks (DNNs) for this task recently has gained a lot of attention. In this paper, we perform a systematic evaluation of 11 different published DNN backbone architectures and 9 different tiling and scaling configurations for separating text, tables or table column lines. We also show the influence of the number of labels and the number of training pages on the segmentation quality, which we measure using the Matthews Correlation Coefficient. Our results show that (depending on the task) Inception-ResNet-v2 and EfficientNet backbones work best, vertical tiling is generally preferable to other tiling approaches, and training data that comprises 30 to 40 pages will be sufficient most of the time.
+DA  - 2020/04/15/
+PY  - 2020
+DP  - arXiv.org
+LA  - en
+UR  - http://arxiv.org/abs/2004.07317
+Y2  - 2022/01/29/18:53:07
+L2  - https://arxiv.org/abs/2004.07317
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - page segmentation
+KW  - deep neural networks
+ER  - 
+
+TY  - JOUR
+TI  - Alts, Abbreviations, and AKAs: historical onomastic variation and automated named entity recognition
+AU  - Butler, James O.
+AU  - Donaldson, Christopher E.
+AU  - Taylor, Joanna E.
+AU  - Gregory, Ian N.
+T2  - Journal of Map & Geography Libraries
+DA  - 2017///
+PY  - 2017
+DP  - Google Scholar
+VL  - 13
+IS  - 1
+SP  - 58
+EP  - 81
+ST  - Alts, Abbreviations, and AKAs
+L2  - https://www.tandfonline.com/doi/full/10.1080/15420353.2017.1307304?casa_token=HJe4u5MN9EQAAAAA%3AUlhSRSAuJTXUzqitPMajenRLFtAKMOZ7SzmfvoX6rk4aIZ-dxt2yTJHPUPMPpFLhAxv47KJid2ubSt5I7w
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - gazetteers
+KW  - GIS
+ER  - 
+
+TY  - CONF
+TI  - Nested named entity recognition in historical archive text
+AU  - Byrne, Kate
+C3  - International Conference on Semantic Computing (ICSC 2007)
+DA  - 2007///
+PY  - 2007
+DP  - Google Scholar
+SP  - 589
+EP  - 596
+PB  - IEEE
+L2  - https://ieeexplore.ieee.org/abstract/document/4338398?casa_token=7IxduTbrk_cAAAAA:o9Ix18-R7J10yemWoYnu5Bw8foQlHKytdJAoyYZMpPfTTjwbUfGOkfojdPn-ktwRPO5tYPgKAbjy
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - relation extraction
+ER  - 
+
+TY  - CONF
+TI  - Named Entity Recognition for Digitised Historical Texts.
+AU  - Grover, Claire
+AU  - Givon, Sharon
+AU  - Tobin, Richard
+AU  - Ball, Julian
+C3  - LREC
+DA  - 2008///
+PY  - 2008
+DP  - Google Scholar
+L1  - http://www.research.ed.ac.uk/portal/files/18714582/Grover_Givon_ET_AL_Named_Entity_Recognition_for_Digitised_Historical_Texts.pdf
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+ER  - 
+
+TY  - CONF
+TI  - Building a large dictionary of abbreviations for named entity recognition in Portuguese historical corpora
+AU  - Vale, Oto
+AU  - Candido, Arnaldo
+AU  - Muniz, Marcelo
+AU  - Bengtson, Clarissa
+AU  - Cucatto, Lívia
+AU  - Almeida, Gladis
+AU  - Batista, Abner
+AU  - Parreira, Maria C.
+AU  - Biderman, Maria Tereza
+AU  - Aluísio, Sandra
+DA  - 2008///
+PY  - 2008
+DP  - Google Scholar
+L1  - https://hal.archives-ouvertes.fr/hal-01110200/document
+L2  - https://hal.archives-ouvertes.fr/hal-01110200/
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - portuguese
+ER  - 
+
+TY  - CONF
+TI  - An open corpus for named entity recognition in historic newspapers
+AU  - Neudecker, Clemens
+C3  - Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16)
+DA  - 2016///
+PY  - 2016
+DP  - Google Scholar
+SP  - 4348
+EP  - 4352
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - OCR
+KW  - NER
+ER  - 
+
+TY  - CONF
+TI  - Finding names in trove: named entity recognition for Australian historical newspapers
+AU  - Mac Kim, Sunghwan
+AU  - Cassidy, Steve
+C3  - Proceedings of the Australasian Language Technology Association Workshop 2015
+DA  - 2015///
+PY  - 2015
+DP  - Google Scholar
+SP  - 57
+EP  - 65
+ST  - Finding names in trove
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - NER
+KW  - LOD
+KW  - trove collection
+ER  - 
+
+TY  - JOUR
+TI  - Networks from archives: Reconstructing networks of official correspondence in the early modern Portuguese empire
+AU  - Błoch, Agata
+AU  - Vasques Filho, Demival
+AU  - Bojanowski, Michał
+T2  - Social Networks
+AB  - Historical archives provide invaluable insights into societies of the past, including social networks. However, the required amount of traditional archival work makes historical network studies usually small-scaled. We consider the problem of processing a large corpus of unstructured textual information to extract network data. The corpus consists of almost 170,000 documents of administrative correspondence of the Portuguese Empire, from 1610 to 1833, catalogued in the Portuguese Overseas Archives of Lisbon. Our contribution is twofold: the method and the result. Firstly, grounded in the review of manual, semi-manual and automatic methods of network data extraction from natural language corpora, we propose and demonstrate an approach using modern natural language processing algorithms. This approach tries to mimic traditional archivist’s coding practices and is applicable to large corpora of texts, for which manual coding is infeasible because of scale. We believe our approach is generic and adaptable to other substantive contexts, languages, and types of historical archives. Secondly, the dataset created is rich in additional information such as occupation, administrative affiliation, and geographical location of senders and recipients. We provide a preliminary network analysis suggesting that the dataset is an attractive material for historians and social network researchers for addressing research questions about the political and social evolution of the early modern Portuguese Empire, spanning the reign of seven Portuguese monarchs.
+DA  - 2020/09/24/
+PY  - 2020
+DO  - 10.1016/j.socnet.2020.08.008
+DP  - ScienceDirect
+J2  - Social Networks
+LA  - en
+SN  - 0378-8733
+ST  - Networks from archives
+UR  - http://www.sciencedirect.com/science/article/pii/S0378873320300769
+Y2  - 2020/09/25/16:35:39
+L2  - https://www.sciencedirect.com/science/article/abs/pii/S0378873320300769?via%3Dihub
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - Digital humanities
+KW  - Natural language processing
+KW  - NLP
+KW  - portuguese
+KW  - Colonial studies
+KW  - Correspondence networks
+KW  - Early modern letters
+KW  - Historical network research
+KW  - Portuguese empire
+ER  - 
+
+TY  - JOUR
+TI  - The myth of the new: mass digitization, distant reading, and the future of the book
+AU  - Gooding, Paul
+AU  - Terras, Melissa
+AU  - Warwick, Claire
+T2  - Literary and Linguistic Computing
+AB  - This article presents the theoretical background to a wider project that is attempting to increase our understanding of the impact and uses of large-scale digitization, being undertaken by the first author at University College London with the working title ‘What is the impact of large-scale digitization upon researchers and the information sector?’ It discusses the controversy surrounding the emergence of mass digitization: the creation and collection of huge resources containing millions of pages of textual cultural content. It demonstrates that the polarized nature of the literature about this technological development is far from unprecedented, and in fact can be traced through the theory of a number of varied fields: the debate surrounding mechanization and digital technologies, our understanding of the role of the sublime in modern representations of technology, the similarities between the sociology of city life and digital information overload, and the way in which innovations are diffused throughout society. It proposes that these theories explain why debates around technological innovation often become so hyperbolic, creating an almost mythological view of technological determination. It concludes that, as a result of the processes outlined in this theory, mass digitization has become stuck between two conflicting rhetorical movements, and that it is therefore necessary to begin working to increase our understanding of this technology and to move the debate onwards using evidence from the real world.
+DA  - 2013/12//
+PY  - 2013
+DO  - http://dx.doi.org/10.1093/llc/fqt051
+DP  - eprints.gla.ac.uk
+VL  - 28
+IS  - 4
+SP  - 629
+EP  - 639
+LA  - en
+SN  - 0268-1145
+ST  - The myth of the new
+UR  - http://eprints.gla.ac.uk/168419/
+Y2  - 2020/01/27/17:04:13
+KW  - HEMDIG FRAMEWORK
+KW  - large-scale digitization
+KW  - distant reading
+ER  - 
+
+TY  - JOUR
+TI  - Named Entity Recognition and Classification on Historical Documents: A Survey
+AU  - Ehrmann, Maud
+AU  - Hamdi, Ahmed
+AU  - Pontes, Elvys Linhares
+AU  - Romanello, Matteo
+AU  - Doucet, Antoine
+T2  - arXiv:2109.11406 [cs]
+AB  - After decades of massive digitisation, an unprecedented amount of historical documents is available in digital format, along with their machine-readable texts. While this represents a major step forward with respect to preservation and accessibility, it also opens up new opportunities in terms of content mining and the next fundamental challenge is to develop appropriate technologies to efficiently search, retrieve and explore information from this 'big data of the past'. Among semantic indexing opportunities, the recognition and classification of named entities are in great demand among humanities scholars. Yet, named entity recognition (NER) systems are heavily challenged with diverse, historical and noisy inputs. In this survey, we present the array of challenges posed by historical documents to NER, inventory existing resources, describe the main approaches deployed so far, and identify key priorities for future developments.
+DA  - 2021/09/23/
+PY  - 2021
+DP  - arXiv.org
+ST  - Named Entity Recognition and Classification on Historical Documents
+UR  - http://arxiv.org/abs/2109.11406
+Y2  - 2022/03/19/01:51:44
+L2  - https://arxiv.org/abs/2109.11406
+KW  - HEMDIG FRAMEWORK
+KW  - NER
+KW  - historical documents
+KW  - NLP
+ER  - 
+
+TY  - JOUR
+TI  - Interacting with digitised historical newspapers: understanding the use of digital surrogates as primary sources
+AU  - Late, Elina
+AU  - Kumpulainen, Sanna
+T2  - Journal of Documentation
+AB  - Purpose The paper examines academic historians' information interactions with material from digital historical-newspaper collections as the research process unfolds. Design/methodology/approach The study employed qualitative analysis from in-depth interviews with Finnish history scholars who use digitised historical newspapers as primary sources for their research. A model for task-based information interaction guided the collection and analysis of data. Findings The study revealed numerous information interactions within activities related to task-planning, the search process, selecting and working with the items and synthesis and reporting. The information interactions differ with the activities involved, which call for system support mechanisms specific to each activity type. Various activities feature information search, which is an essential research method for those using digital collections in the compilation and analysis of data. Furthermore, application of quantitative methods and multidisciplinary collaboration may be shaping culture in history research toward convergence with the research culture of the natural sciences. Originality/value For sustainable digital humanities infrastructure and digital collections, it is of great importance that system designers understand how the collections are accessed, why and their use in the real-world context. The study enriches understanding of the collections' utilisation and advances a theoretical framework for explicating task-based information interaction.
+DA  - 2021/01/01/
+PY  - 2021
+DO  - 10.1108/JD-04-2021-0078
+DP  - Emerald Insight
+VL  - 78
+IS  - 7
+SP  - 106
+EP  - 124
+SN  - 0022-0418
+ST  - Interacting with digitised historical newspapers
+UR  - https://doi.org/10.1108/JD-04-2021-0078
+Y2  - 2022/03/19/01:47:39
+KW  - Digital libraries
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - History
+KW  - Task analysis
+KW  - Behaviour
+KW  - Task based information interaction
+KW  - user studies
+ER  - 
+
+TY  - JOUR
+TI  - Topic-specific corpus building: A step towards a representative newspaper corpus on the topic of return migration using text mining methods
+AU  - Oberbichler, Sarah
+AU  - Pfanzelter, Eva
+T2  - Journal of Digital history
+AB  - Humanities researchers often encounter the problem that their specialized corpora, created by keyword searches, either contain documents that are irrelevant...
+DA  - 2021/10/18/
+PY  - 2021
+DO  - https://doi.org/10.1515/JDH-2021-1003?locatt=label:JDHFULL
+DP  - journalofdigitalhistory.org
+IS  - jdh001
+J2  - JDH
+LA  - En
+ST  - Topic-specific corpus building
+UR  - https://journalofdigitalhistory.org/en/article/4yxHGiqXYRbX
+Y2  - 2022/03/19/01:34:47
+KW  - HEMDIG FRAMEWORK
+KW  - newspapers
+KW  - text mining
+KW  - corpus building
+KW  - similarity
+ER  - 
+
+TY  - BOOK
+TI  - The Interface Effect
+AU  - Galloway, Alexander R.
+AB  - Interfaces are back, or perhaps they never left. The familiar Socratic conceit from the Phaedrus, of communication as the process of writing directly on the soul of the other, has returned to center stage in today's discussions of culture and media. Indeed Western thought has long construed media as a grand choice between two kinds of interfaces. Following the optimistic path, media seamlessly interface self and other in a transparent and immediate connection. But, following the pessimistic path, media are the obstacles to direct communion, disintegrating self and other into misunderstanding and contradiction. In other words, media interfaces are either clear or complicated, either beautiful or deceptive, either already known or endlessly interpretable. Recognizing the limits of either path, Galloway charts an alternative course by considering the interface as an autonomous zone of aesthetic activity, guided by its own logic and its own ends: the interface effect. Rather than praising user-friendly interfaces that work well, or castigating those that work poorly, this book considers the unworkable nature of all interfaces, from windows and doors to screens and keyboards. Considered allegorically, such thresholds do not so much tell the story of their own operations but beckon outward into the realm of social and political life, and in so doing ask a question to which the political interpretation of interfaces is the only coherent answer. Grounded in philosophy and cultural theory and driven by close readings of video games, software, television, painting, and other images, Galloway seeks to explain the logic of digital culture through an analysis of its most emblematic and ubiquitous manifestation –  the interface.
+CY  - Cambridge
+DA  - 2012/10/08/
+PY  - 2012
+DP  - Google Books
+SP  - 183
+LA  - en
+PB  - Polity
+SN  - 978-0-7456-6253-4
+L2  - https://books.google.com.br/books?id=lCd-zMDjKiYC
+KW  - Computers / Information Technology
+KW  - Computers / Social Aspects
+KW  - GUI
+KW  - HEMDIG FRAMEWORK
+KW  - Social Science / Media Studies
+ER  - 
+
+TY  - JOUR
+TI  - pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História
+AU  - Brasil, Eric
+T2  - História da Historiografia: International Journal of Theory and History of Historiography
+AB  - Esse artigo tem como objetivo analisar a relação entre ferramentas e interfaces de busca em repositórios de fontes digitais e a construção do conhecimento histórico na era digital. Para tanto, analiso a pyHDB:Ferramenta Heurística para a Hemeroteca Digital Brasileira da Biblioteca Nacional, caracterizando seus aspectos técnicos, metodológicos e heurísticos. Tal ferramenta é um programa de computador escrito com a linguagem de programação Python e utiliza técnicas de web scraping. Possui o objetivo de auxiliar pesquisadores no processo de construção e registro metodológico, criando relatórios, dados tabulares e datasets a partir dos parâmetros de busca definidos. Primeiramente, analiso de forma crítica os resultados originados pela interface gráfica da Hemeroteca Digital Brasileira. Em seguida, apresento detalhadamente a pyHDB, tanto seus aspectos éticos e técnicos quanto possibilidades analíticas, através de três exemplos de busca. Por fim, proponho algumas considerações finais acerca das vantagens do desenvolvimento e uso de ferramentas metodológicas digitais para a pesquisa histórica.
+DA  - 2022///
+PY  - 2022
+DO  - 10.15848/hh.v15i40.1904
+VL  - 15
+IS  - 40
+J2  - História da Historiografia
+LA  - pt-BR
+SN  - 1983-9928
+ST  - pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira
+KW  - data mining
+KW  - data visualization
+KW  - HDB
+KW  - HEMDIG FRAMEWORK
+KW  - Heurística
+KW  - História Digital
+KW  - Metodologia da história
+KW  - newspapers
+KW  - python
+ER  - 
+
+TY  - JOUR
+TI  - DocBed: A Multi-Stage OCR Solution for Documents with Complex Layouts
+AU  - Zhu, Wenzhen
+AU  - Sokhandan, Negin
+AU  - Yang, Guang
+AU  - Martin, Sujitha
+AU  - Sathyanarayana, Suchitra
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+AB  - Digitization of newspapers is of interest for many reasons including preservation of history, accessibility and search ability, etc. While digitization of documents such as scientific articles and magazines is prevalent in literature, one of the main challenges for digitization of newspaper lies in its complex layout (e.g. articles spanning multiple columns, text interrupted by images) analysis, which is necessary to preserve human read-order. This work provides a major breakthrough in the digitization of newspapers on three fronts: first, releasing a dataset of 3000 fully-annotated, real-world newspaper images from 21 different U.S. states representing an extensive variety of complex layouts for document layout analysis; second, proposing layout segmentation as a precursor to existing optical character recognition (OCR) engines, where multiple state-of-the-art image segmentation models and several post-processing methods are explored for document layout segmentation; third, providing a thorough and structured evaluation protocol for isolated layout segmentation and end-to-end OCR.
+DA  - 2022/06/28/
+PY  - 2022
+DO  - 10.1609/aaai.v36i11.21539
+DP  - ojs.aaai.org
+VL  - 36
+IS  - 11
+SP  - 12643
+EP  - 12649
+LA  - en
+SN  - 2374-3468
+ST  - DocBed
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/21539
+Y2  - 2023/05/29/18:40:48
+KW  - HEMDIG FRAMEWORK
+KW  - Historical Document Processing
+ER  - 
+
+TY  - JOUR
+TI  - Keeping it under lock and keywords: exploring new ways to open up the web archives with notebooks
+AU  - Talboom, Leontien
+AU  - Bell, Mark
+T2  - Archival Science
+AB  - The UK Government Web Archive (UKGWA) has been archiving government websites since 1996 and now holds regular snapshots of over 5000 sites. Currently, this material can be accessed through browsing or a simple keyword search interface on their website and has also been catalogued in The National Archives’ online catalogue, Discovery. However, the scale of the UKGWA exposes the limits of the current search interface, and there is no facility to understand the archive in aggregate. This article seeks to go beyond the simple keyword search by exploring the data sources available, from APIs to web crawling, for computational analysis of the UKGWA. The article is accompanied by two Python Notebooks which present examples of analysis using each data source. Notebooks lower the technical barriers for the reader to explore and interpret the UKGWA as data, while surfacing the challenges around making web material computationally accessible.
+DA  - 2022/09/01/
+PY  - 2022
+DO  - 10.1007/s10502-022-09391-6
+DP  - Springer Link
+VL  - 22
+IS  - 3
+SP  - 393
+EP  - 415
+J2  - Arch Sci
+LA  - en
+SN  - 1573-7500
+ST  - Keeping it under lock and keywords
+UR  - https://doi.org/10.1007/s10502-022-09391-6
+Y2  - 2023/05/30/13:37:50
+KW  - Access
+KW  - Computational archival science
+KW  - Digital archiving
+KW  - Finding aids
+KW  - HEMDIG FRAMEWORK
+KW  - Notebooks
+KW  - Web archives
+ER  - 
+
+TY  - ELEC
+TI  - The OCR-D project - OCR-D
+UR  - https://ocr-d.de/en/about.html
+Y2  - 2023/08/02/13:13:17
+L2  - https://ocr-d.de/en/about.html
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - Creating specialized corpora from digitized historical newspaper archives: An iterative bootstrapping approach
+AU  - Wilson Black, Joshua
+T2  - Digital Scholarship in the Humanities
+AB  - The availability of large digital archives of historical newspaper content has transformed the historical sciences. However, the scale of these archives can limit the direct application of advanced text processing methods. Even if it is computationally feasible to apply sophisticated language processing to an entire digital archive, if the material of interest is a small fraction of the archive, the results are unlikely to be useful. Methods for generating smaller specialized corpora from large archives are required to solve this problem. This article presents such a method for historical newspaper archives digitized using the METS/ALTO XML standard (Veridian Software, n.d.). The method is an ‘iterative bootstrapping’ approach in which candidate corpora are evaluated using text mining techniques, items are manually labelled, and Naïve Bayes text classifiers are trained and applied in order to produce new candidate corpora. The method is illustrated by a case study that investigates philosophical content, broadly construed, in pre-1900 English-language New Zealand newspapers. Extensive code is provided in Supplementary Materials.
+DA  - 2023/06/01/
+PY  - 2023
+DO  - 10.1093/llc/fqac079
+DP  - Silverchair
+VL  - 38
+IS  - 2
+SP  - 779
+EP  - 797
+J2  - Digital Scholarship in the Humanities
+SN  - 2055-7671
+ST  - Creating specialized corpora from digitized historical newspaper archives
+UR  - https://doi.org/10.1093/llc/fqac079
+Y2  - 2023/08/07/23:56:28
+L2  - https://academic.oup.com/dsh/article/38/2/779/6957053?login=false#407041846
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - Digital Technology and Practices of Humanities Research
+AU  - Dzhukaeva, M. A.
+AU  - Muslimova, M. I.
+AU  - Mamedova, G. B.
+T2  - SHS Web of Conferences
+AB  - Our world began with an image. A leaf falls from a tree and lands on the surface of the water, carried by ripples and whirlpools to a new place far removed from ins origin. There is he able to form new streams in calm water. This image is a metaphor, representing the interweaving of technology with the practices and values of humanities research, being both a point of intersection and a torrent of unexpected and predictable contingencies. Logical methods in the digital humanities lend themselves well to theory and documentation. At a level of a distinct set of defined statistical topics that can be generated using a software tool such as MALLET (Machine Learning for Language toolkit, a cross – platform topic modeling tool) rather that a set equivalent retrieved a linear normal reading process, representing the difference in degree. The methodological stake and consequences of the choice for the knowledge it creates are questioned, but taken into account and understood in scientific discussions. The falling leaf, getting into the wave, continues to move down, and the open frame of its fall can be lost, changing the path of the leaf. However, the leaf may later grow together, thus forming a barrier that affects further flows. Technology is sublimated into the fabric of scientific methods and the organization of the work of scientists is marked by a certain inevitability because of the methodological forces at work and because of the technologies that enable communication and interaction in the wide society.
+DA  - 2023///
+PY  - 2023
+DO  - 10.1051/shsconf/202317205001
+DP  - www.shs-conferences.org
+VL  - 172
+SP  - 05001
+J2  - SHS Web Conf.
+LA  - en
+SN  - 2261-2424
+UR  - https://www.shs-conferences.org/articles/shsconf/abs/2023/21/shsconf_shcms2023_05001/shsconf_shcms2023_05001.html
+Y2  - 2023/08/07/23:59:59
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - GEN
+TI  - impresso Text Reuse at Scale impresso Text Reuse at Scale. A Prototype Interface for the Exploration of Text Reuse Data in Semantically Enriched Historical Newspapers
+AU  - Düring, Marten
+AU  - Romanello, Matteo
+AU  - Ehrmann, Maud
+AU  - Beelen, Kaspar
+AU  - Guido, Daniele
+AU  - Deseure, Brecht
+AU  - Bunout, Estelle
+AU  - Keck, Jana
+AU  - Apostolopoulos, Petros
+DA  - 2023/07/25/
+PY  - 2023
+DP  - ResearchGate
+UR  - https://www.researchgate.net/publication/372588607_impresso_Text_Reuse_at_Scale_impresso_Text_Reuse_at_Scale_A_Prototype_Interface_for_the_Exploration_of_Text_Reuse_Data_in_Semantically_Enriched_Historical_Newspapers
+Y2  - 2023/08/07/
+L4  - https://www.researchgate.net/publication/372588607_impresso_Text_Reuse_at_Scale_impresso_Text_Reuse_at_Scale_A_Prototype_Interface_for_the_Exploration_of_Text_Reuse_Data_in_Semantically_Enriched_Historical_Newspapers
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - CHAP
+TI  - Contextualising Queries: Guidance for Research using Current Collections of Digitised Newspapers
+AU  - Bunout, Estelle
+T2  - Contextualising Queries: Guidance for Research using Current Collections of Digitised Newspapers
+AB  - Contextualising Queries: Guidance for Research using Current Collections of Digitised Newspapers was published in Digitised Newspapers – A New Eldorado for Historians? on page 275.
+DA  - 2022/12/31/
+PY  - 2022
+DP  - www.degruyter.com
+SP  - 275
+EP  - 300
+LA  - en
+PB  - De Gruyter Oldenbourg
+SN  - 978-3-11-072921-4
+ST  - Contextualising Queries
+UR  - https://www.degruyter.com/document/doi/10.1515/9783110729214-013/html
+Y2  - 2023/08/08/00:01:43
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - Toward a model for digital tool criticism: Reflection as integrative practice
+AU  - Koolen, Marijn
+AU  - van Gorp, Jasmijn
+AU  - van Ossenbruggen, Jacco
+T2  - Digital Scholarship in the Humanities
+AB  - In the past decade, an increasing set of digital tools has been developed with which digital sources can be selected, analyzed, and presented. Many tools go beyond key word search and perform different types of analysis, aggregation, mapping, and linking of data selections, which transforms materials and creates new perspectives, thereby changing the way scholars interact with and perceive their materials. These tools, together with the massive amount of digital and digitized data available for humanities research, put a strain on traditional humanities research methods. Currently, there is no established method of assessing the role of digital tools in the research trajectory of humanities scholars. There is no consensus on what questions researchers should ask themselves to evaluate digital sources beyond those of traditional analogue source criticism. This article aims to contribute to a better understanding of digital tools and the discussion of how to evaluate and incorporate them in research, based on findings from a digital tool criticism workshop held at the 2017 Digital Humanities Benelux conference. The overall goal of this article is to provide insight in the actual use and practice of digital tool criticism, offer a ready-made format for a workshop on digital tool criticism, give insight in aspects that play a role in digital tool criticism, propose an elaborate model for digital tool criticism that can be used as common ground for further conversations in the field, and finally, provide recommendations for future workshops, researchers, data custodians, and tool builders.
+DA  - 2019/06/01/
+PY  - 2019
+DO  - 10.1093/llc/fqy048
+DP  - Silverchair
+VL  - 34
+IS  - 2
+SP  - 368
+EP  - 385
+J2  - Digital Scholarship in the Humanities
+SN  - 2055-7671
+ST  - Toward a model for digital tool criticism
+UR  - https://doi.org/10.1093/llc/fqy048
+Y2  - 2023/08/08/00:05:09
+L2  - https://academic.oup.com/dsh/article-abstract/34/2/368/5127711?redirectedFrom=fulltext&login=false
+KW  - HEMDIG FRAMEWORK
+ER  - 
+
+TY  - JOUR
+TI  - Historical Newspaper User Interfaces: A Review
+AU  - Ehrmann, Maud
+AB  - After decades of large-scale digitization, many historical newspaper collections are just one click away via online portals developed and supported by various public or private stakeholders. Initially offering access to full text search and facsimiles visualization only, historic newspaper user interfaces are increasingly integrating advanced exploration features based on the application of text mining tools to digitized sources. As gateways to enriched material, such interfaces are however not neutral and play a fundamental role in how users perceive historical sources, understand potential biases of upstream processes and benefit from the opportunities of datafication. What features can be found in current interfaces, and to what degree do interfaces adopt novel technologies? This paper presents a survey of interfaces for digitized historical newspapers with the aim of mapping the current state of the art and identifying recent trends with regard to content presentation, enrichment and user interaction. We devised 6 interface assessment criteria and reviewed twenty-four interfaces based on ca. 140 predefined features.
+DP  - Zotero
+LA  - en
+L1  - https://library.ifla.org/id/eprint/2578/1/085-ehrmann-en.pdf
+KW  - HEMDIG FRAMEWORK
+ER  - 
+

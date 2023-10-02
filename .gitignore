@@ -2,13 +2,13 @@
 .vscode/
 
 # ignore report files from 'ferramentas-metodologias/'
-ferramentas-metodologicas/relatorios/reports/
-
-# ignore raw data file from hdb
-repositorios/BND-BR/data/exp_per_marcxml.xml
+ferramentas_metodologicas/relatorios/reports/
 
 # json files from 'ferramentas-metodologicas/scrapers/BND-PT/'
-ferramentas-metodologicas/scrapers/BND-PT/data/
+ferramentas-metodologicas/scrapers/BND_PT/data/
+
+# book related files and build files
+book/_build/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
