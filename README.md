@@ -2,8 +2,7 @@
 
 **Métodos, ferramentas e hemerotecas digitais em português**
 
-[![DOI](https://zenodo.org/badge/555314052.svg)](https://zenodo.org/badge/latestdoi/555314052)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8397782.svg)](https://doi.org/10.5281/zenodo.8397782)
 
 Projeto da pesquisa de pós-doutorado de [Eric Brasil](https://ericbrasiln.github.io) realizada no âmbito do *DH_Lab* (FSCH-NOVA) sob supervisão de Daniel Alves.
 
@@ -29,7 +28,6 @@ O branch `main` reúne todos os dados do projeto, incluindo o código fonte do J
 - [Código fonte do Jupyter Book](./book/)
 - [Planilha com histórico de alterações](./log_main.csv)
 
-
 ## O livro
 
 Acessa a versão publicada em formato de livro com Jupyter Book em [https://ericbrasiln.github.io/hemdig-framework/](https://ericbrasiln.github.io/hemdig-framework/).
@@ -45,7 +43,7 @@ Ou no formato BibTeX:
 ```
 @book{Brasil_HEMDIG_pt_Framework_Metodos_2023,
 author = {Brasil, Eric},
-doi = {10.5281/zenodo.8397656},
+doi = {10.5281/zenodo.8397782},
 publisher = {Jupyter Book},
 title = {{HEMDIG(pt) Framework: Métodos, ferramentas e hemerotecas digitais em português}},
 url = {https://github.com/ericbrasiln/hemdig-framework/},
