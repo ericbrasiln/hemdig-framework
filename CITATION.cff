@@ -1,0 +1,22 @@
+cff-version: 1.1.0
+message: "Ao utilizar esse framework, por favor, cite como:"
+authors:
+  - family-names: Brasil
+    given-names: Eric
+    orcid: https://orcid.org/0000-0000-0000-0000
+title: "HEMDIG(pt) Framework: Métodos, ferramentas e hemerotecas digitais em português"
+version: v1.0.0
+date-released: 2023-10-02
+url: "https://github.com/ericbrasiln/hemdig-framework/"
+preferred-citation: 
+  type: "book"
+  authors:
+    - family-names: Brasil
+      given-names: Eric
+      orcid: https://orcid.org/0000-0000-0000-0000
+  title: "HEMDIG(pt) Framework: Métodos, ferramentas e hemerotecas digitais em português"
+  version: v1.0.0
+  doi: 10.5281/zenodo.8397656 
+  year: 2023
+  publisher: "Jupyter Book"
+  url: "https://github.com/ericbrasiln/hemdig-framework/"
