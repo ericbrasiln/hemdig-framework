@@ -40,4 +40,4 @@ Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/
 
 ### Outras imagens
 
-Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/book/assets/images)
+Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/main/book/assets/images)

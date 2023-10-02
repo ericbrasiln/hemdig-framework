@@ -70,11 +70,11 @@ Ao acessar a biblioteca, você poderá encontrar a pasta **HEMDIG(pt)** com os r
 Print da biblioteca *História Digital* no Zotero.
 ```
 
-Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis no diretório de dados da pesquisa: [Scopus](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/data/bibliografia/SCOPUS) e [Web of Science](https://github.com/ericbrasiln/hemdig-framework/tree/31-jupyter-book/data/bibliografia/WOS) do repositório da pesquisa.
+Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada resultado de busca, disponíveis no diretório de dados da pesquisa: [Scopus](https://github.com/ericbrasiln/hemdig-framework/tree/main/data/bibliografia/SCOPUS) e [Web of Science](https://github.com/ericbrasiln/hemdig-framework/tree/main/data/bibliografia/WOS) do repositório da pesquisa.
 
 Os ficheiros `.bib` e `.ris` podem ser importados diretamente no Zotero, enquanto o `.csv` pode ser aberto em programas de tratamento e visualização de dados tabulares, como o *LibreOffice Calc* e *Excel*, e organizado de acordo com as necessidades do pesquisador.
 
-Além da busca nas bases *Scopus* e *Web of Science*, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e também podem ser acessadas no diretório [bibliografia](../../../data/bibliografia/README.md) no repositório da pesquisa.
+Além da busca nas bases *Scopus* e *Web of Science*, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e também podem ser acessadas no diretório [bibliografia](https://github.com/ericbrasiln/hemdig-framework/tree/main/data/bibliografia) no repositório da pesquisa.
 
 
 [^1]: Ver [Issue #9](https://github.com/ericbrasiln/hemdig-framework/issues/9) no repositório da pesquisa.
