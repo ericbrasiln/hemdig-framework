@@ -7,7 +7,6 @@ Nesse ponto é muito indicado que se respeito os princípios de [FAIR](https://w
 - [ ] os diretórios de dados estão organizados e padronizados;
 - [ ] os dados estão organizados corretamente nestes diretórios;
 - [ ] os dados estão devidamente documentados;
-- [ ] cada dado possui um identificador único capaz de localizá-lo;
 - [ ] os dados possuem metadados ricos e padronizados;
 - [ ] é possível pesquisar e encontrar os dados;
 
