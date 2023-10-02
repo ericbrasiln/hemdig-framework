@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8397782.svg)](https://doi.org/10.5281/zenodo.8397782)
 
-Projeto da pesquisa de pós-doutorado de [Eric Brasil](https://ericbrasiln.github.io) realizada no âmbito do *DH_Lab* (FSCH-NOVA) sob supervisão de Daniel Alves.
+Projeto da pesquisa de pós-doutorado de [Eric Brasil](https://ericbrasiln.github.io) realizada no âmbito do *Lab_HD* (NOVA FCSH) sob supervisão de Daniel Alves.
 
 Instituto de História Contemporânea[^ihc], Faculdade de Ciências Sociais e Humanas da Universidade NOVA de Lisboa / IN2PAST — Laboratório Associado para a Investigação e Inovação em Património, Artes, Sustentabilidade e Território
 

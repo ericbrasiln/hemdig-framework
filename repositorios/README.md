@@ -8,7 +8,7 @@ Em coerência com os objetivos gerais, a análise foi realizada a partir das int
 
 ### BND-PT
 
-Primeiramente, busquei coletar e tratar dados gerais sobre cada acervo. Essa tarefa se mostrou complexa, visto que cada uma das três interfaces apresentar diferentes níveis de detalhamento e de acesso aos dados. No caso da *BND-PT*, encontramos dados abertos organizados para todo o acervo digitalizado e disponibilizado publicamente. Os dados estão organizados e disponíveis em múltiplos formatos, e contém informações detalhadas sobre as características do acervo, inclusive com detalhamento sobre as licenças de acesso, ano, autoria, editora, local, entre outros.
+Primeiramente, busquei coletar e tratar dados gerais sobre cada acervo. Essa tarefa se mostrou complexa, visto que cada uma das três interfaces apresenta diferentes níveis de detalhamento e de acesso aos dados. No caso da *BND-PT*, encontramos dados abertos organizados para todo o acervo digitalizado e disponibilizado publicamente. Os dados estão organizados e disponíveis em múltiplos formatos, e contém informações detalhadas sobre as características do acervo, inclusive com detalhamento sobre as licenças de acesso, ano, autoria, editora, local, entre outros.
 
 Dessa forma, foi possível desenvolver análises mais profundas e apresentar visualizações mais robustas sobre o acervo da *BND-PT*, como pode ser visto [aqui](./BND_PT/escopo.ipynb)
 
@@ -28,7 +28,7 @@ Por conseguinte, não foi possível realizar análises detalhadas de forma ison�
 
 ## Avaliação crítica das Interfaces
 
-Realizei uma avaliação crítica de aspectos variados das interfaces gráficas de cada um dos acervos, a partir de metodologia de proposto por Ehrmann, Bunout e Düring[^1]. Foi desenvolvido um formulário amplo, com seis critérios de avaliação subdividido em 125 itens.
+Realizei uma avaliação crítica de aspectos variados das interfaces gráficas de cada um dos acervos, a partir de metodologia de proposta por Ehrmann, Bunout e Düring[^1]. Foi desenvolvido um formulário amplo, com seis critérios de avaliação subdividido em 125 itens.
 
 O formulário foi aplicado a cada uma das interfaces, e os resultados foram organizados em formato `csv`.
 
