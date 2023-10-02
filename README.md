@@ -29,6 +29,25 @@ O branch `main` reúne todos os dados do projeto, incluindo o código fonte do J
 - [Código fonte do Jupyter Book](./book/)
 - [Planilha com histórico de alterações](./log_main.csv)
 
+Acessa a versão publicada em formato de livro com Jupyter Book em [https://ericbrasiln.github.io/hemdig-framework/](https://ericbrasiln.github.io/hemdig-framework/).
+
+Ao utilizar os dados deste repositório ou do livro, por favor cite a fonte da seguinte forma:
+
+> Brasil, E. (2023). HEMDIG(pt) Framework: Métodos, ferramentas e hemerotecas digitais em português (Version v1.0.0). Jupyter Book. https://doi.org/10.5281/zenodo.8397656
+
+Ou no formato BibTeX:
+
+```
+@book{Brasil_HEMDIG_pt_Framework_Metodos_2023,
+author = {Brasil, Eric},
+doi = {10.5281/zenodo.8397656},
+publisher = {Jupyter Book},
+title = {{HEMDIG(pt) Framework: Métodos, ferramentas e hemerotecas digitais em português}},
+url = {https://github.com/ericbrasiln/hemdig-framework/},
+year = {2023}
+}
+```
+
 ![Logos](./book/assets/images/friso-logos-full.png)
 
 ---
