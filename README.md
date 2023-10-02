@@ -13,7 +13,7 @@ Instituto de História Contemporânea[^ihc], Faculdade de Ciências Sociais e Hu
 
 Período de realização: **outubro de 2022 a outubro de 2023**
 
-*Resumo*: O objetivo do projeto é analisar a operação historiográfica relacionada ao processo de selecionar, recolher e organizar fontes primárias por meio de ferramentas e dados digitais. Terá como foco repositórios e interfaces gráficas que permitem o acesso a periódicos da imprensa de língua portuguesa digitalizados, com destaque para a Hemeroteca Digital Brasileira e a coleção de periódicos da Biblioteca Nacional Digital de Portugal. Como resultado pretende-se produzir um *framework* (enquadramento dos processos de pesquisa) digital que englobe as etapas da pesquisa histórica para esse tipo de fonte. O *framework* reunirá uma biblioteca de referências bibliográficas; ferramentas para registro metodológico e organização dos dados coletados; documentação e tutoriais dos acervos e suas interfaces gráficas, das ferramentas para reconhecimento ótico de caracteres e reconhecimento automatizado de layout voltados para documentos históricos.
+*Resumo*: O objetivo do projeto é analisar a operação historiográfica relacionada ao processo de selecionar, recolher e organizar fontes primárias por meio de ferramentas e dados digitais. Tem como foco repositórios e interfaces gráficas que permitem o acesso a periódicos da imprensa de língua portuguesa digitalizados, com destaque para a Hemeroteca Digital Brasileira e a coleção de periódicos da Biblioteca Nacional Digital de Portugal. Como resultado apresentamos o HEMDIG(pt) framework, um (enquadramento dos processos de pesquisa digital englobando as etapas da pesquisa histórica para esse tipo de fonte. O HEMDIG(pt) reúne uma biblioteca de referências bibliográficas; ferramentas para registro metodológico e organização dos dados coletados; aanálise e documentação dos acervos e suas interfaces gráficas; avaliação e tutoriais das ferramentas para reconhecimento ótico de caracteres e reconhecimento automatizado de layout voltados para documentos históricos.
 
 O branch `main` reúne todos os dados do projeto, incluindo o código fonte do Jupyter Book. O branch `gh-pages` reúne apenas os arquivos necessários para a publicação do Jupyter Book no GitHub Pages.
 
@@ -29,7 +29,12 @@ O branch `main` reúne todos os dados do projeto, incluindo o código fonte do J
 - [Código fonte do Jupyter Book](./book/)
 - [Planilha com histórico de alterações](./log_main.csv)
 
+
+## O livro
+
 Acessa a versão publicada em formato de livro com Jupyter Book em [https://ericbrasiln.github.io/hemdig-framework/](https://ericbrasiln.github.io/hemdig-framework/).
+
+## Como citar
 
 Ao utilizar os dados deste repositório ou do livro, por favor cite a fonte da seguinte forma:
 
@@ -47,6 +52,7 @@ url = {https://github.com/ericbrasiln/hemdig-framework/},
 year = {2023}
 }
 ```
+---
 
 ![Logos](./book/assets/images/friso-logos-full.png)
 
