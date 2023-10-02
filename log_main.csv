@@ -1,4 +1,11 @@
-hash,author,date,title,description
+hash, author, date, message, description
+628291f,Eric Brasil,2023-10-02,"pequenas correções ortográficas",""
+8220dd6,Eric Brasil,2023-10-02,"up doi e citação",""
+9f5c73f,Eric Brasil,2023-10-02,"upd do doi.",""
+1bdd5d4,Eric Brasil,2023-10-02,"atualização do resumo",""
+5442c4f,Eric Brasil,2023-10-02,"info do zenodo + DOI",""
+4f29a1b,Eric Brasil,2023-10-02,"versão atualizada do csv de log.","Gerado com o comando `git log --pretty=format:'%h,%an,%as,"%s","%b"' > log_main.csv`
+"
 bd2d30e,Eric Brasil,2023-10-02,"Merge branch 'main' of https://github.com/ericbrasiln/hemdig-framework",""
 d94ae16,Eric Brasil,2023-10-02,"atualização do link para o banner de logos",""
 e1ffedf,Eric Brasil,2023-10-02,"Essa linha é o título do commit (50 caracteres)","Texto descritivo do commit (tem início após um linha em branco após do título).
