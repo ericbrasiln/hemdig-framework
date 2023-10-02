@@ -1,8 +1,3 @@
-```{admonition} Atenção
-:class: danger
-Página em construção.
-```
-
 # Considerações finais
 
 Essa pesquisa possibilitou um profundo mergulho nos dados de jornais digitalizados de dois dos mais importantes acervos de língua portuguesa, preservados nas bibliotecas Nacionais do brasil e de Portugal. A partir da análise desses acervos foi possível gerar visualizações e organizar dados sobre o conjunto de jornais digitalizados e disponibilizados por essas instituições. Esses resultados abrem a possibilidade para o desenvolvimento de inúmeras outras pesquisas e publicações nos próximos anos.

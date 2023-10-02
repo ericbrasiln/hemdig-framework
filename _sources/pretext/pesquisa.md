@@ -9,7 +9,7 @@ formação, publicações e pesquisas. A primeira etapa da parceria se concretiz
 com a participação no corpo editorial da revista *The Programming Historian*.
 Em seguida, realizei um período de atuação direta na revista, como parte de uma
 licença para capacitação, o que gerou uma série de produtos ligados ao processo
-editorial e a publicação de uma lição inédita em português (ver {cite:ts}``).
+editorial e a publicação de uma lição inédita em português (ver {cite:ts}`brasil_git_2023`).
 
 A partir de outubro de 2022, iniciei a pesquisa sobre as Hemerotecas digitais
 de jornais históricos em língua portuguesa.
@@ -20,12 +20,13 @@ O cronograma da pesquisa está disponível [aqui](https://github.com/ericbrasiln
 
 ## Licença
 
-Toda a pesquisa utiliza ferramentas gratuitas e de código aberto. Os dados, códigos, visualizações estão licenciadas sob [Creative Commons Atribuição 4.0 Internacional CC BY-NC-SA 4.0 Deed ](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br), o que permite sua reutilização, cópia, alteração, expansão desde que os seguintes termos sejam seguindos:
+Toda a pesquisa utiliza ferramentas gratuitas e de código aberto. Os dados, códigos, visualizações estão licenciadas sob [Creative Commons Atribuição 4.0 Internacional CC BY-NC-SA 4.0 Deed ](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br), o que permite sua reutilização, cópia, alteração, expansão desde que os seguintes termos sejam seguidos:
 
->Atribuição - Você deve dar o crédito apropriado , prover um link para a licença e indicar se mudanças foram feitas . Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso. 
+>Atribuição - Você deve dar o crédito apropriado, prover um link para a licença e indicar se mudanças foram feitas . Você deve fazê-lo em qualquer circunstância razoável, mas de nenhuma maneira que sugira que o licenciante apoia você ou o seu uso. 
 >
->NãoComercial - Você não pode usar o material para fins comerciais . 
-> CompartilhaIgual - Se você remixar, transformar, ou criar a partir do material, tem de distribuir as suas contribuições sob a mesma licença que o original.
+>Não Comercial - Você não pode usar o material para fins comerciais . 
+>
+> Compartilha Igual - Se você remixar, transformar, ou criar a partir do material, tem de distribuir as suas contribuições sob a mesma licença que o original.
 >
 >Sem restrições adicionais - Você não pode aplicar termos jurídicos ou medidas de caráter tecnológico que restrinjam legalmente outros de fazerem algo que a licença permita. 
 

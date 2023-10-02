@@ -74,7 +74,7 @@ Também foram gerados ficheiros `.bib`, `.ris` e `.csv` com os dados de cada res
 
 Os ficheiros `.bib` e `.ris` podem ser importados diretamente no Zotero, enquanto o `.csv` pode ser aberto em programas de tratamento e visualização de dados tabulares, como o *LibreOffice Calc* e *Excel*, e organizado de acordo com as necessidades do pesquisador.
 
-Além da busca nas bases *Scopus* e *Web of Science*, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e também podem ser acessadas no diretório [bibliografia]](../../../data/bibliografia/README.md) no repositório da pesquisa.
+Além da busca nas bases *Scopus* e *Web of Science*, foram incorporadas à lista de referências trabalhos utilizados como referências mais gerais sobre o tema, e também podem ser acessadas no diretório [bibliografia](../../../data/bibliografia/README.md) no repositório da pesquisa.
 
 
 [^1]: Ver [Issue #9](https://github.com/ericbrasiln/hemdig-framework/issues/9) no repositório da pesquisa.

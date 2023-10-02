@@ -10,6 +10,11 @@ Para mais informações sobre Jupyter Books ver {cite:ts}`walsh_melaniewalshintr
 
 [^1]: Executable Books Community. “Jupyter Book”. Zenodo, February 12, 2020. https://doi.org/10.5281/zenodo.4539666.
 
+```{admonition} Nota
+:class: note
+Para melhor aproveitamento de todos os recursos, recomendo que você acesse esse livro em um computador e utilize o tema claro.
+```
+
 ## Opções 
 
 No menu superior direito, algumas opções estão disponíveis, dependendo di tipo de cada página.

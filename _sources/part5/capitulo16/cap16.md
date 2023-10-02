@@ -6,9 +6,7 @@ Nesse capítulo vamos apresentar duas opções: o Github e o Zenodo. Eles possue
 
 ## 16.1. Github
 
-O que é?
-
-O GitHub é uma plataforma de hospedagem de códigos-fonte que utiliza o Git como sistema de controle de versões. Porém, mais doq eu isso, ele também é uma espécie de rede social de programadores e pesquisadores que utilizam dados e ferramentas digitais em suas pesquisas. 
+O [GitHub](https://github.com/) é uma plataforma de hospedagem de códigos-fonte que utiliza o Git como sistema de controle de versões. Porém, mais doq eu isso, ele também é uma espécie de rede social de programadores e pesquisadores que utilizam dados e ferramentas digitais em suas pesquisas. 
 
 Ao criar repositórios no GitHub, você pode armazenar, compartilhar e colaborar em projetos de código aberto com outras pessoas. Também funciona como um repositório remoto para suas pesquisas, permitindo que você mantenha uma cópia de segurança de seus dados e os compartilhe com outras pessoas.
 
@@ -20,12 +18,11 @@ As desvantagens recaem sobre o fato de o Github possuir limites para o tamanho d
 
 ## 16.2. Zenodo
 
-O Zenodo é um repositório confiável criado e mantido pelo CERN, que permite a publicação de dados e códigos de forma gratuita. Ele gera identificadores digitais (DOI) para cada publicação, permitindo a citação dos dados. Ele também permite a integração com o Github, facilitando a publicação de dados e códigos.
+O [Zenodo](https://zenodo.org/) é um repositório confiável criado e mantido pelo CERN, que permite a publicação de dados e códigos de forma gratuita. Ele gera identificadores digitais (DOI) para cada publicação, permitindo a citação dos dados. Ele também permite a integração com o Github, facilitando a publicação de dados e códigos.
 
 O Zenodo realiza controle de versões, e gera um novo DOI para cada alteração realizada em seu repositório. Isso permite que você possa citar versões específicas de seus dados, e garante maior transparência e controle sobre as alterações realizadas.
 
 É possível criar comunidades, manter dados abertos ou fechados, acessar estatísticas entre outras funcionalidades.
-
 
 ## 16.3. Open Science Framework
 
