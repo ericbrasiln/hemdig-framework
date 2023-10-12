@@ -48,11 +48,11 @@ Tudo isso está organizado e disponível online em um livro digital, publicado e
 
 ## Metodologia
 
-A pesquisa foi desenvolvida no Laboratório de Humanidades Digitais da Universidade Nova de Lisboa, e contou com a supervisão do professor Daniel Alves. A pesquisa foi organizada conforme o cronograma apresentado acima e suas etapas serão descritas a seguir. Mas antes, é importante ressalte que toda a pesquisa foi realizada utilizando ferramentas e programas de código aberto e livres e todos os dados, resultados e produtos foram disponibilizados online, com licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional.
+A pesquisa foi desenvolvida no Laboratório de Humanidades Digitais da Universidade Nova de Lisboa, e contou com a supervisão do professor Daniel Alves. A pesquisa foi organizada conforme o cronograma apresentado acima e suas etapas serão descritas a seguir. Mas antes, é importante ressalte que toda a pesquisa foi realizada utilizando ferramentas e programas de código aberto e livres e todos os dados, resultados e produtos foram disponibilizados online, com licença [Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional](https://github.com/ericbrasiln/hemdig-framework/blob/main/LICENSE.md).
 
 ### Git e Github
 
-Além disso todas as etapas de realização da pesquisa foram controladas e registradas através do sistema de controle de versões Git e utilizei o Github como repositório remoto para armazenamento do histórico de alterações e compartilhamento dos dados e resultados. É possível acessar todos os dados de alterações da pesquisa através do arquivo [log_main.csv](../log_main.csv).
+Além disso todas as etapas de realização da pesquisa foram controladas e registradas através do sistema de controle de versões Git e utilizei o Github como repositório remoto para armazenamento do histórico de alterações e compartilhamento dos dados e resultados. É possível acessar todos os dados de alterações da pesquisa através do arquivo [log_main.csv](https://github.com/ericbrasiln/hemdig-framework/blob/main/log_main.csv).
 
 Para gerenciar as tarefas e atividades da pesquisa, utilizei a funcionalidade Projects do Github, criando quadros Kanban para organizar as tarefas em listas de pendências, em andamento e concluídas. É possível acessar a página da pesquisa através do link [https://github.com/users/ericbrasiln/projects/6](https://github.com/users/ericbrasiln/projects/6). A utilização do Github para gerenciar as tarefas da pesquisa possibilitou o registro de todas as atividades, o acompanhamento do progresso ao longo do tempo e visualizações gráficas do andamento da pesquisa. Foram criados *milestones* para etapas chave da pesquisa, que reuniram conjuntos de *issues* e *pull requests* relacionados a cada etapa. É possível acessar a lista de *milestones* [aqui](https://github.com/ericbrasiln/hemdig-framework/milestones?state=closed) e todas as *issues* [aqui](https://github.com/ericbrasiln/hemdig-framework/issues). Para melhor organização das *issues*, foram criados *labels* para identificar as tarefas relacionadas a cada etapa da pesquisa. É possível acessar a lista de *labels* [aqui](https://github.com/ericbrasiln/hemdig-framework/labels).
 
@@ -88,6 +88,99 @@ O *HEMFIG(pt)* também oferece ferramentas de coleta de dados e geradores de rel
 
 Por fim, a pesquisa também gerou uma série de indicações sobre registro e preservação dos dados assim como a criação de uma bibliografia especializada bastante atualizada e bem organizada para acesso público.
 
+Esse repositório foi armazenado no Zenodo e um DOI foi gerado: [10.5281/zenodo.8397782](https://doi.org/10.5281/zenodo.8397782).
+
 Assim, o produto final da pesquisa se mostra rico para todos e todas que tem interesse em pesquisar jornais históricos digitalizadas em língua portuguesa. Mas não apenas isso, pois possibilita reflexões sobre o próprio caráter da pesquisa histórica em ambientes digitais, suas possibilidades e limites.
 
 Nos aspectos profissionais, esse período de estágio de pós-doutoramento, possibilitou a ampliação de um rede de colaborações no campo d história Digital, permitiu que eu avançasse na formação técnica, sobretudo com a linguagem de programação Python; realizasse eventos, palestra e oficinas e gerasse novas publicações.
+
+### Dados dos acervos
+
+Lista com os dados dos acervos utilizados no projeto (com links para os diretórios).
+
+#### Hemeroteca Digital Brasileira
+
+- [XML dos dados brutos](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndbr/exp_per_marcxml.xml)
+- [CSV com dados de periódicos digitalizados em 2019](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndbr/bnd-br_periodicos_2019.csv) - também disponível na página da BND-BR.
+- [CSV com dados de periódicos digitalizados em 2020](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndbr/bnd-br_periodicos_2020.csv) - também disponível na página da BND-BR.
+- [CSV dos dados filtrados, contendo as colunas "title", "subtitle", "place", "period", "publisher", "periodicity", "language"](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndbr/complete_data.csv)
+- [CSV do dataframe final tratado](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndbr/dataframe_hdb.csv)
+- [CSV de periódicos por décadas](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndbr/periodicos_dec.csv)
+
+#### Biblioteca Nacional Digital de Portugal
+
+- [CSV bruto com dados gerais](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndpt/bnd-pt.csv) - também disponível na página da BND-PT.
+- [CSV bruto apenas com dados de obras em domínio público](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/bndpt/bnd-pt_livre.csv) - também disponível na página da BND-PT.
+
+
+#### Hemeroteca Digital da Hemeroteca Municipal de Lisboa
+
+- [CSV bruto com os dados coletados da HML](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/hml/hemeroteca_lisboa.csv)
+- [CSV com dados de localidades bruto](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/hml/locais_hemeroteca_lisboa_raw.csv)
+- [CSV com dados de localidades tratado](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/hml/locais_hemeroteca_lisboa.csv)
+
+### Dados das interfaces
+
+Lista com os dados das interfaces dos acervos utilizados no projeto (com links para os diretórios).
+
+- [Formulário geral de dados básicos](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/avaliacao_interfaces/form_geral.csv)
+- [Formulário de revisão das interfaces - modelo *impresso Review*](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/avaliacao_interfaces/InterfaceReview-pt-2023.csv)
+- [Formulário de mapeamento geral com base dos critérios de alto nível - modelo *impresso Review*](https://github.com/ericbrasiln/hemdig-framework/blob/main/data/avaliacao_interfaces/InterfaceReview-pt-2023-mapping.tsv)
+
+### Gráficos, visualizações e imagens
+
+Lista dos gráficos e visualizações gerados no projeto.
+
+#### Hemeroteca Digital Brasileira
+
+Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/main/repositorios/BND-BR/charts)
+
+#### Biblioteca Nacional Digital de Portugal
+
+Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/main/repositorios/BND-PT/charts).
+
+#### Visualizações  das análises das interfaces gráficas - método *impresso Review*
+
+Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/main/repositorios/AVA_INTERFACES/impresso_review_method/charts)
+
+#### Imagens utilizadas nos testes de OCR
+
+Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/main/ocr_olr/imgs)
+
+### Imagens utilizadas no livro
+
+#### Diagramas
+
+- [Diagrama geral](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png)
+- [Diagrama da 1ª fase](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/1fase_mermaid-diagram-2023-08-21-171600.png)
+- [Diagrama da 2ª fase](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/2fase_mermaid-diagram-2023-08-21-172523.png)
+- [Diagrama da 3ª fase](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/3fase_mermaid-diagram-2023-08-21-173800.png)
+- [Diagrama da 4ª fase](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/4fase_mermaid-diagram-2023-08-21-225902.png)
+- [Diagrama da 5ª fase](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/5fase_mermaid-diagram-2023-08-21-225829.png)
+
+#### Logos
+
+- [PNG, Grande, fundo branco](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/logos/logo-lg-white.png)
+- [PNG, Grande, fundo preto](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/logos/logo-lg-black.png)
+- [PNG, Pequeno, fundo branco](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/logos/logo-sm-white.png)
+- [PNG, Pequeno, fundo preto](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/logos/logo-sm-black.png)
+- [SVG, Grande, fundo transparente](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/logos/logo-lg.svg)
+- [SVG, Pequeno, fundo transparente](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/logos/logo-sm.svg)
+
+#### Outras imagens
+
+Acesse [aqui o diretório](https://github.com/ericbrasiln/hemdig-framework/tree/main/book/assets/images)
+
+### Ferramentas
+
+- [Relatórios Metodológicos para Pesquisa em Interfaces Gráficas de Periódicos Digitalizados](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo7/cap7.html)
+- [Scraper para a Biblioteca Digital de Portugal.](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo8/sec82.html).
+- [Scraper para o site da Hemeroteca Digital de Lisboa](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo8/sec83.html).
+- [pyHDB - Coleta de metadados e acervos da HDB](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo8/sec81.html).
+
+### Tutoriais e testes de OCR
+
+- [OCR-D](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo12/sec121.html).
+- [Kraken](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo12/sec122.html).
+- [gImageReader](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo13/cap13.html).
+- [Tutoriais do Programming Historian](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo11/cap11.html).
