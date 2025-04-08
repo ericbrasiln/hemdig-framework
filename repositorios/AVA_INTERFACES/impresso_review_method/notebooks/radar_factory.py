@@ -112,7 +112,8 @@ def build_single_radar(labels, values, title, grid, figure_title, output_type):
     if figure_title is None:
         plt.show()
     else:
-        plt.savefig(f'../charts/{figure_title}.{output_type}', format=f'{output_type}')
+        plt.savefig(f'../charts/{figure_title}.{output_type}',
+                    format=output_type, dpi=600, bbox_inches='tight')
 
 
 def build_single_radar_free(labels, values, title, figure_title,output_type):
@@ -130,7 +131,8 @@ def build_single_radar_free(labels, values, title, figure_title,output_type):
     if figure_title is None:
         plt.show()
     else:
-        plt.savefig(f'../charts/{figure_title}.{output_type}', format=f'{output_type}')
+        plt.savefig(f'../charts/{figure_title}.{output_type}',
+                    format=output_type, dpi=600, bbox_inches='tight')
 
 
 def build_multiple_radar(labels, values, titles, figure_title, output_type):
@@ -150,4 +152,5 @@ def build_multiple_radar(labels, values, titles, figure_title, output_type):
     if figure_title is None:
         plt.show()
     else:
-        plt.savefig(f'../charts/{figure_title}.{output_type}', format=f'{output_type}')
+        plt.savefig(f'../charts/{figure_title}.{output_type}',
+                    format=output_type, dpi=600, bbox_inches='tight')
